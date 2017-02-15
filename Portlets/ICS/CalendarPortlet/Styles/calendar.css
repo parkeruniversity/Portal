@@ -1,0 +1,861 @@
+﻿.calendar-portlet {
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+#calendar {
+    padding: 2em 0 2em 0;
+}
+
+.calendar-portlet h4 {
+    background: transparent;
+    color: #333;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.calendar-portlet h5 {
+    background: transparent;
+    color: #0B4981;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom-width: 0;
+}
+
+.calendar-portlet button:focus {
+    outline: 0;
+}
+ 
+.calendar-portlet .simple-popup {
+    background-color: grey;
+    width: 380px;
+    position: absolute;
+    z-index: 2;
+}
+
+.calendar-portlet .noBreak {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.calendar-portlet .ember-action-link,
+.calendar-portlet a:link,
+.calendar-portlet a:visited {
+    text-decoration: underline;
+    color: #3B87AE;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding-left: 0;
+}
+
+.calendar-portlet .fc-more {
+    color: #3B87AE;
+}
+
+.calendar-portlet .fc-prev-button.fc-button.fc-state-default.fc-corner-left,
+.calendar-portlet .fc-today-button.fc-button.fc-state-default,
+.calendar-portlet .fc-next-button.fc-button.fc-state-default.fc-corner-right {
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+}
+
+.calendar-portlet .fc-today-button.fc-button.fc-state-default {
+    text-transform: capitalize;
+}
+
+.calendar-portlet .fc-center h2 {
+    font-size: 1.5em;
+}
+
+.calendar-portlet .fc-icon:after {
+    margin: 0 0;
+}
+
+.calendar-portlet .fc-month-button.fc-button.fc-state-default.fc-corner-left,
+.calendar-portlet .fc-agendaWeek-button.fc-button.fc-state-default,
+.calendar-portlet .fc-agendaDay-button.fc-button.fc-state-default,
+.calendar-portlet .fc-list-button.fc-button.fc-state-default.fc-corner-right {
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    box-shadow: none;
+    color: #3B87AE;
+    text-decoration: underline;
+}
+
+    .calendar-portlet .fc-month-button.fc-button.fc-state-default.fc-corner-left.fc-state-active,
+    .calendar-portlet .fc-agendaWeek-button.fc-button.fc-state-default.fc-state-active,
+    .calendar-portlet .fc-agendaDay-button.fc-button.fc-state-default.fc-state-active,
+    .calendar-portlet .fc-list-button.fc-button.fc-state-default.fc-corner-right.fc-state-active {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+.calendar-portlet .main-view-header {
+    padding: 1em 0 3em 0;
+}
+
+.calendar-portlet .main-view-left-column {
+    float: left;
+}
+
+.calendar-portlet .main-view-right-column {
+    float: right;
+}
+
+.date-range-container {
+    color: #3B87AE;
+    cursor: pointer;
+}
+
+.date-range-container span {
+    text-decoration: underline;
+}
+
+.calendar-portlet .glyphicon.glyphicon-calendar.date-range {
+    font-size: 2em;
+}
+
+.calendar-portlet .add-event-button-container,
+.calendar-portlet .add-calendar-button-container {
+    display: inline;
+    padding: 0 .25em 0 .25em;
+}
+
+.calendar-portlet .included-calendars-container {
+    display: inline;
+}
+
+.calendar-portlet .enabled-calendar.my-calendar {
+    color: #DB7972;
+}
+
+.calendar-portlet .centered {
+    text-align: center;
+}
+
+.calendar-portlet .centered.simple-modal-button {
+    padding-top: .5em;
+}
+
+.calendar-portlet .float-right {
+    float: right;
+}
+
+.calendar-portlet .simple-modal-section {
+    padding-bottom: 2em;
+    padding: 1em;
+}
+.calendar-portlet .ui-dialog .ui-dialog-content {
+   padding: .5em 5px
+}
+
+.calendar-portlet .validation-error-container {
+    display: inline-flex;
+    padding: .5em 1em .5em .5em;
+    margin: 1em 0 1em 0;
+    border-radius: 4px;
+    background-color: #FCF7F7;
+    border: 1px solid #D40614;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+.calendar-portlet .error-icon {
+    color: #D40614;
+    padding-right: .5em;
+    padding-top: .2em;
+}
+
+
+
+.calendar-portlet .label {
+    color: #808080;
+    padding-bottom: .5em;
+}
+
+.calendar-portlet input, .calendar-portlet textarea {
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+.calendar-portlet .large-label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.calendar-portlet .eventInfo-content,
+.calendar-portlet .ui-dialog {
+    min-width: 400px;
+    max-width: 600px;
+}
+
+
+.calendar-portlet .simple-modal .ui-dialog-title,.calendar-portlet .eventInfo-content .title,.calendar-portlet #quick-add-event-placeholder  .title {
+    font-size: 18px;
+    color: #777273;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.calendar-portlet .simple-modal .content,.calendar-portlet .eventInfo-content .content
+{
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 10px;
+}
+
+.calendar-portlet .simple-modal .footer,.calendar-portlet .eventInfo-content .footer {
+    width: 100%;
+    background: transparent;
+    font-weight: normal;
+}
+
+.calendar-portlet .form-container {
+    margin-top: 20px;
+    max-width: 1000px;
+}
+
+.calendar-portlet .add-event-what {
+    display: inline-block;
+    padding-bottom: 2em;
+}
+
+.calendar-portlet .form-fields-container {
+    border-left: 1px #DDDDDD solid;
+    padding-left: .5em;
+}
+
+.calendar-portlet .add-event-when, .calendar-portlet .add-event-where {
+    display: inline-block;
+    padding-bottom: 2em;
+}
+
+.calendar-portlet button.delete {
+    border: 1px solid #D43F3A;
+    background-color: #D9534F;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.calendar-portlet a.save,
+.calendar-portlet a:link.save,
+.calendar-portlet button.save {
+    border: 1px solid #305D74;
+    background-color: #3B87AE;
+    color: #FFFFFF;
+    background-image: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.calendar-portlet a.register,
+.calendar-portlet a:link.register,
+.calendar-portlet button.register {
+    border: 1px solid #4cae4c;
+    background-color: #5cb85c;
+    color: #FFFFFF;
+    background-image: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    float:right;
+}
+
+.calendar-portlet a.back-to-calendar,
+.calendar-portlet a:link.back-to-calendar,
+.calendar-portlet button.back-to-calendar {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    background-image: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    float:right;
+    margin-right:1em;
+}
+
+.calendar-portlet .exi-campus-address {
+    font-size: .8em; 
+    color: #777;
+}
+
+.calendar-portlet .exi-event-title {
+    font-size: 1.5em;
+}
+
+.calendar-portlet .text-danger {
+    color: #a94442;
+}
+
+.calendar-portlet .text-bold {
+    font-weight: bold;
+}
+
+.calendar-portlet .section, .calendar-portlet .add-event-calendar, .calendar-portlet .add-event-start-date,
+.calendar-portlet .add-event-end-date, .calendar-portlet .add-event-recurrence {
+    padding-bottom: 1em;
+}
+
+.calendar-portlet .form-row {
+    display: inline;
+    width: 100%;
+    clear: both;
+}
+
+.calendar-portlet .form-label-container {
+    display: inline-block;
+    width: 10%;
+    max-width: 120px;
+    float: left;
+    text-align: right;
+    padding-right: .5em;
+}
+
+.calendar-portlet .form-field-container {
+    display: inline-block;
+    width: 80%;
+    padding-bottom: 2em;
+}
+
+    .calendar-portlet .form-field-container.save-button {
+        /*float: right;
+    width: 82%;*/
+    }
+
+.calendar-portlet .add-event-save-button-container {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.calendar-portlet .date-picker-field {
+    background-image: url(./../../../UI/Common/images/PortletImages/Icons/16/calendar.png);
+    background-attachment: scroll;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.calendar-portlet .calendar-icon {
+    color: #3a87ad;
+}
+
+.calendar-portlet .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.calendar-portlet .caret.time-picker {
+    margin-left: -1.5em;
+}
+
+.calendar-portlet .truncateSmall {
+    display: inline-block;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: text-bottom;
+}
+
+.calendar-portlet .truncateMedium {
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: text-bottom;
+}
+
+.calendar-portlet .main-view .calendar-list-view .truncateMedium {
+    margin-right: 10px;
+}
+
+.calendar-portlet .truncateLarge {
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    line-height: 20px;
+}
+
+.calendar-portlet .truncateLarge.description {
+    overflow-y: auto;
+    white-space: normal;
+    max-height: 100px;
+}
+
+.calendar-portlet #included-calendars-description-placeholder .truncateLarge.description {
+    overflow-y: hidden;
+    max-height: 400px;
+}
+
+.calendar-portlet #included-calendars-placeholder .glyphicon-info-sign {
+    cursor: default;
+}
+
+.calendar-portlet .calendar-list-view {
+    margin-top: -30px;
+}
+
+.calendar-portlet .default-view a.save,
+.calendar-portlet .default-view button,
+.calendar-portlet .view-event-view .eventInfo,
+.calendar-portlet .retrieve {
+    margin-left: 10px;
+}
+
+.calendar-portlet .default-view .calendar-list-view {
+    margin-top: 0;
+}
+
+.calendar-portlet .default-view .more {
+    margin-top: 10px;
+
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+    display: inline;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0;
+    padding-left: 8px;
+}
+
+.right-addon .glyphicon {
+    right: 0;
+    padding-right: 8px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.calendar-portlet .disabled-text {
+    margin: 10px 0 0 30px;
+}
+
+.calendar-portlet span.disabled-text{
+    margin: 0 0 0 30px;
+    display: inline-block;
+    max-width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.calendar-portlet .included-calendars-table {
+    border-spacing: 6px 10px;
+}
+
+    .calendar-portlet .included-calendars-table td {
+        padding: 0 6px 0 6px;
+    }
+
+.calendar-portlet .included-calendars-column {
+    border-left: solid 1px #CCC;
+}
+
+.calendar-portlet .disabled-calendar {
+    color: #CCC;
+    text-decoration: none;
+}
+
+.calendar-portlet .enabled-calendar {
+    color: #3B87AE;
+    text-decoration: none;
+}
+
+.calendar-portlet .included-calendars-open-icon {
+    vertical-align: middle;
+    color: #3B87AE;
+}
+
+.calendar-portlet .included-calendars-link {
+    display: inline;
+}
+
+.calendar-portlet .included-calendars {
+    cursor: pointer;
+}
+
+.calendar-portlet .horizontal-rule {
+    border-top: 1px;
+    border-color: #CCC;
+}
+
+.calendar-portlet .included-calendars-close {
+    float: right;
+}
+
+.calendar-portlet .calendar-list-view a,
+.calendar-portlet .calendar-list-view .location {
+    padding-left: 10px;
+}
+
+.calendar-portlet .calendar-list-view .date a {
+    padding-left: 0;
+}
+
+.calendar-portlet .calendar-list-view .date {
+    display: inline-block;
+    width: 120px;
+    white-space: nowrap;
+}
+
+.calendar-portlet .calendar-list-view .hours {
+    display: inline-block;
+    width: 155px;
+    white-space: nowrap;
+}
+
+.calendar-portlet .calendar-list-view .info {
+    display: inline-block;
+}
+
+.calendar-portlet .calendar-list-view .last {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.calendar-portlet .fc-state-disabled {
+    cursor: default;
+}
+
+.calendar-portlet .hiddenPopup {
+    display: none;
+}
+
+.calendar-portlet .qtip {
+    max-width: none;
+    font-size: inherit;
+}
+
+.select2-results__option {
+    overflow-y: hidden;
+    /*width: auto;*/
+}
+
+.recurrence-container {
+    display: inline;
+}
+
+.recurrence-container.hidden {
+    display: none;
+}
+
+.calendar-portlet.select-descriptive-text {
+     color: #808080;
+    width: 100%;
+}
+
+.select2-results__option.select2-results__option--highlighted .calendar-portlet.select-descriptive-text {
+    color: #FFFFFF;
+}
+
+.select2.select2-container {
+    width: auto !important;
+}
+
+#select2-intervalSelect-results{
+    border-top: 1px solid #aaa;
+    min-width: 140px;
+}
+
+#select2-frequencySelect-results{
+    border-top: 1px solid #aaa;
+    min-width: 305px;
+}
+
+#select2-daysOfWeekForWeekFrequencySelect-results {
+    border-top: 1px solid #aaa;
+    min-width: 130px;
+}
+
+#select2-dayOfMonthForYearSelect-results {
+    border-top: 1px solid #aaa;
+    min-width: 60px;
+}
+
+#select2-dayOfMonthSelect-results {
+    border-top: 1px solid #aaa;
+    min-width: 70px;
+}
+
+#select2-monthSelect-results {
+    border-top: 1px solid #aaa;
+    min-width: 120px;
+}
+
+#frequencySelect {
+    min-width: 200px;
+}
+
+.calendar-portlet #everyNumberInput {
+    width: 3em;
+    padding: 4px 4px 4px 8px;
+    vertical-align: bottom;
+}
+
+.calendar-portlet input[type="number"]::-webkit-outer-spin-button,
+.calendar-portlet input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.calendar-portlet input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.calendar-portlet .select-days-of-week {
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.calendar-portlet .select-days-of-week.not-selected {
+    color: #CCC;
+}
+
+.calendar-portlet .select-days-of-week.selected {
+    background-color: #FFF;
+    color: #333;
+    font-weight: bold;
+}
+
+.calendar-portlet .select-days-of-week-days-container, .calendar-portlet .select-days-of-week-buttons-container {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.calendar-portlet .select-days-of-week-buttons-container .button, .calendar-portlet .select-days-of-week-buttons-container .link {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.calendar-portlet .edit-recurring-event-button-container {
+    padding-bottom: .5em;
+}
+
+.calendar-portlet .edit-recurring-event-option-container {
+    padding-bottom: 2em;
+}
+
+.calendar-portlet .edit-recurring-event-close {
+    float: right;
+}
+
+.calendar-portlet .fc-event  .fc-bg {
+    opacity: 0;
+}
+
+.calendar-portlet .fc-event {
+    border: 1px solid #619FBD;
+}
+
+/*Calendar ToolTip styles 
+* Relies on QTip2 styles 
+*/
+
+.calendar-portlet #eventInfo-placeholder .qtip-icon .ui-icon,
+.calendar-portlet #quick-add-event-placeholder .qtip-icon .ui-icon {
+    font: normal bold 15px/15px Tahoma, sans-serif;
+}
+.calendar-portlet #eventInfo-placeholder .qtip-close,
+.calendar-portlet #quick-add-event-placeholder  .qtip-close {
+    right: 5px;
+    top: 5px;
+    border: none;
+}
+.calendar-portlet  #eventInfo-placeholder .qtip-default .qtip-icon,
+.calendar-portlet #quick-add-event-placeholder .qtip-default .qtip-icon {
+    background: none;
+}
+/*End of Calendar ToolTip styles*/
+
+/*Calendar event info styles */
+.calendar-portlet #eventInfo-placeholder a:link {
+    display: block;
+    padding-top: 15px;
+}
+.calendar-portlet #eventInfo-placeholder .content {
+    padding: 0px 10px;
+    max-height: 200px;
+}
+.calendar-portlet #eventInfo-placeholder .footer {
+    margin: 10px;
+    padding-bottom: 5px;
+}
+.calendar-portlet #eventInfo-placeholder .title,.calendar-portlet #quick-add-event-placeholder  .title {
+   padding: 10px 10px 15px 10px;
+   word-wrap: break-word;
+   line-height: 20px;
+   color: #777273;
+   font-size: 16px;
+   margin-top: 5px;
+   display: block;
+}
+.calendar-portlet #eventInfo-placeholder .qtip-content,.calendar-portlet #quick-add-event-placeholder .qtip-content  {
+    padding: 0;
+}
+.calendar-portlet #eventInfo-placeholder .close-info{
+   padding: 10px;
+   margin-right: 5%;
+}
+.calendar-portlet #quick-add-event-placeholder .close-info {
+   padding: 10px;
+}
+.calendar-portlet #quick-add-event-placeholder .eventInfo {
+    padding: 0 10px 0 10px;
+    margin-right: 50px;
+}
+.calendar-portlet #quick-add-event-placeholder .eventTitle {
+   margin: 15px 0 20px 0;
+}
+.calendar-portlet #quick-add-event-placeholder .ember-action-link.close-info {
+    float: right;
+}
+.calendar-portlet #quick-add-event-placeholder .eventRelatedActions .ember-view {
+    margin-left: 10px;
+}
+.calendar-portlet #quick-add-event-placeholder .eventRelatedActions{
+    padding: 10px 0 5px 10px;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 10px;
+}
+.calendar-portlet #quick-add-event-placeholder .dataPrefix {
+    color: #777273;
+}
+.calendar-portlet #quick-add-event-placeholder .title {
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #E5E5E5;
+    display: block;
+    font-weight: bold;
+}
+.calendar-portlet #quick-add-event-placeholder .eventInfo  .eventSchedulingInfo {
+        margin-bottom: 10px;
+}
+.calendar-portlet #quick-add-event-placeholder .eventInfo  .eventSchedulingInfo .child {
+    position: relative; 
+    float: left;
+    margin-right: 5px;
+}
+
+.calendar-portlet .clearfix {
+    overflow: auto;
+}
+.calendar-portlet #quick-add-event-placeholder .eventInfo .eventTitleInput {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 45px;
+}
+.calendar-portlet #quick-add-event-placeholder .eventInfo .eventTitleInput input {
+    width: 100%;
+    box-sizing: border-box;   
+}
+.calendar-portlet #quick-add-event-placeholder .eventInfo .eventTitle >.dataPrefix {
+    float: left;
+    padding-top: 5px;
+}
+
+
+@media (max-width: 981px) {
+    .calendar-portlet #quick-add-event-placeholder .eventSchedulingInfo.dayView {
+        min-height: 70px;
+        min-width: 350px;
+    }
+    .calendar-portlet #quick-add-event-placeholder .eventSchedulingInfo.dayView .whenPrefix {
+    padding-top: 9px;
+}
+}
+@media (min-width: 981px) {
+    .calendar-portlet #quick-add-event-placeholder .eventSchedulingInfo.dayView {
+        min-height: 50px;
+        min-width: 350px;
+    }
+    .calendar-portlet #quick-add-event-placeholder .eventSchedulingInfo.dayView .whenPrefix {
+    padding-top: 5px;
+}
+}
+
+.calendar-portlet #quick-add-event-placeholder .eventSchedulingInfo.dayView .endTime {
+    margin-top: 5px;
+}
+.calendar-portlet #quick-add-event-placeholder .eventSchedulingInfo.monthView {
+    min-width: 500px;
+}
+.ui-timepicker-wrapper.quick-add-timepicker {
+    z-index: 99999999999;
+}
+.calendar-portlet   #quick-add-event-placeholder .validation-error-container {
+    max-width: 250px;
+}
+#included-calendars-placeholder .qtip-content {
+    padding: 5px 9px 10px 9px;
+}
+/*End of Calendar ToolTip styles*/
+
+.calendar-portlet .async-loading {
+    padding: 20px 0 20px 25px;
+    color: #666;
+    background: #ffffff url(../../../../ui/common/images/PortletImages/Icons/ajax_loader_large.gif) no-repeat 35px center;
+    width: 140px;
+    margin: auto;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+}
+
+.calendar-portlet .externalCalendarName {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.calendar-portlet .externalCalendarNameTextBox {
+    padding: 5px 10px 5px 10px ;
+}

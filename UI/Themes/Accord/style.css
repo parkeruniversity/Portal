@@ -1,0 +1,1848 @@
+/*
+JICS Theme - Accord
+Copyright Jenzabar, Inc
+*/
+/* =Body
+------------------------------------------*/
+html {
+}
+body {
+	background: #F8F8F8;
+	color: #333;
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	line-height: 150%;
+}
+body * {
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	line-height: 150%;
+}
+/* =Headings
+------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	color: #0a3872;
+	cursor: default;
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+}
+/* =Text Elements
+------------------------------------------*/
+p {
+	color: #434141;
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	font-size: 90%;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+a:link, a:visited {
+	color: #0A3772;
+	outline: none;
+	text-decoration: none;
+}
+a:focus, a:hover {
+	text-decoration: underline;
+}
+a.imageAndText span {
+	text-decoration:none;
+}
+a:hover.imageAndText span {
+	text-decoration:underline;
+}
+blockquote {
+	border-left: 3px solid #0A3772;
+	color: #0A3772;
+	font-style: italic;
+	margin: 20px 0px;
+	padding-left: 40px;
+}
+blockquote p {
+	color: #0A3772;
+	font-style: italic;
+}
+strong {
+}
+em, dfn {
+}
+dfn {
+}
+sup, sub {
+}
+abbr, acronym {
+}
+address {
+}
+del {
+}
+pre {
+}
+pre, code, tt {
+}
+/* =Lists
+------------------------------------------*/
+li ul, li ol {
+}
+ul, ol {
+	/*color: #0A3772; */
+	line-height: 110%;
+	list-style-position: inside;
+	list-style: square; }
+ul {
+}
+dl {
+}
+dl dt {
+}
+dd {
+}
+/* =Tables
+------------------------------------------*/
+table {
+}
+th {
+}
+th, td, caption {
+}
+tfoot {
+}
+caption {
+}
+/* =Forms
+------------------------------------------*/
+label {
+}
+fieldset {
+}
+legend {
+}
+textarea {
+}
+/* =Header
+------------------------------------------*/
+#siteWrapper {
+}
+.accessibility {
+}
+#masthead {
+	background: #0A3772;
+	border-bottom: 1px solid #072E5F;
+	height: 70px;
+	overflow: hidden;
+	width: 100%;
+}
+#masthead h1 {
+	background: none;
+	margin: 0 auto;
+	width: auto;
+	max-width: 1200px;
+	min-width: 960px;
+	display: block;
+}
+#masthead h1 a {
+	background: url(images/JenzabarLogo.png) 0 0 no-repeat;
+	display: block;
+	height: 40px!important;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 400px;
+	z-index: 999;
+}
+#headerTabs {
+	background: #0A3772;
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px;
+	min-width: 960px;
+}
+#headerTabs ul {
+	margin: 0 0 0 -5px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 40px;
+	white-space: nowrap;
+	max-width: 1150px;
+	min-width: 910px;
+	z-index: 990;
+}
+#headerTabs ul li {
+	background: none;
+	border: none;
+	float: left;
+	list-style: none;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+#headerTabs ul li.firstTab {
+	margin: 0;
+}
+#headerTabs ul li a {
+	color: #7DA5C8;
+	display: block;
+	font: bold 14px Arial;
+	letter-spacing: 0;
+	margin: 0;
+	outline: none;
+	padding: 5px 10px 2px 10px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
+#headerTabs ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#headerTabs ul li.selected {
+	background: none;
+	padding: 0;
+}
+#headerTabs ul li.selected a {
+	color: #fff;
+	padding: 3px 6px 2px 6px;
+}
+#headerTabs ul li.selected a:hover {
+	color: #fff;
+}
+#more {
+	color: #7DA5C8;
+	cursor: pointer;
+	font: bold 14px Arial;
+	letter-spacing: 0;
+	margin: 0 0 0 0;
+	outline: none;
+	padding: 5px 10px 2px 10px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	top: 74px;
+	z-index: 999;
+}
+#moreList {
+	background: #0A3772;
+	position: absolute;
+	z-index: 999;
+	width: 200px!important;
+	max-width: 200px!important;
+	min-width: 200px!important;
+	padding: 10px 0 0 0!important;
+	display: none;
+	cursor: pointer;
+	text-decoration: none;
+	margin: -20px 0 0 -150px!important;
+ //margin: -20px 0 0 -190px!important;
+}
+#moreList li {
+	background: none;
+	border: none;
+	display: block;
+	width: 100%;
+	clear:both;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+#moreList li a {
+	margin: 0;
+	text-align: right!important;
+	padding: 10px 17px 10px 5px!important;
+	white-space: nowrap!important;
+	display: block!important;
+	width:180px!important;
+	float: right!important;
+}
+#moreList li a:hover {
+	color:#ffffff;
+	margin: 0;
+}
+#moreList li.selected a, a#more.moreSelected {
+	color: #ffffff!important;
+}
+/* =TargetedMessage
+------------------------------------------*/
+#TargetedMessage {
+	background: #114FA0 url(images/BillboardOverlay.png) top repeat-x;
+	border-bottom: 1px solid #00285b;
+	border-top: 1px solid #2159a2;
+	color: #fff;
+	margin: 37px 0 0 0;
+	overflow: hidden;
+}
+#TargetedMessage .wysiwygtext {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 960px;
+	padding: 10px 0 10px 20px;
+}
+#TargetedMessage img {
+	display: block;
+	margin: 0 auto;
+}
+/* =Breadcrumbs
+------------------------------------------*/
+#mainCrumbs {
+	background: #f8f6f6 url(images/BreadcrumbOverlay.png) top repeat-x;
+	border-bottom: 1px solid #eae9e9;
+	border-top: 1px solid #fff;
+	clear: both;
+	color: #0A3872;
+	font-size: 87.5%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#mainCrumbs a:hover {
+}
+#youAreHere {
+	padding: 0;
+}
+.crumbs {
+	display: block;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 960px;
+	padding: 5px 0 5px 20px;
+}
+.crumbs a, .crumbs a:link, .crumbs a:visited {
+	color: #0A3872;
+	text-decoration: none;
+}
+.crumbs a:focus, .crumbs a:hover {
+	color: #00f;
+	text-decoration: underline;
+}
+/* =WelcomeBack
+------------------------------------------*/
+#welcomeBackBar {
+	background: none;
+	height: 24px;
+	margin: -62px auto 32px auto;
+	max-width: 1200px;
+	min-width: 960px;
+	text-align: right;
+}
+#userLogin, #userWelcome {
+	position: relative;
+}
+#userLogin label {
+}
+#userName {
+	padding: 2px 4px;
+	width: 100px;
+}
+#password {
+	padding: 2px 4px;
+	width: 100px;
+}
+#btnLogin {
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #d2d2d2;
+	height: 19px!important;
+	margin: 2px 0 0 0;
+	padding: 2px 6px 6px 6px;
+}
+#btnLogin:hover, #btnLogin:focus {
+	background: #060;
+	color: #fff;
+	cursor: pointer;
+}
+#lnkForgot {
+	color: #fff!important;
+}
+#accountInfo {
+}
+#logout {
+}
+/* =MainLayout
+------------------------------------------*/
+#MAINFORM {
+	padding: 0;
+}
+#mainLayout {
+	margin: 0 auto;
+	width: auto;
+	max-width: 1200px;
+	min-height: 480px;
+	min-width: 960px!important;
+	padding: 0;
+}
+/* =Sidebar
+------------------------------------------*/
+#sideBar {
+	float: left;
+	margin: 10px 1% 0 0;
+	padding: 0 10px 0 0;
+	width: 17%;
+}
+#sideBar ul {
+	color: #0a3872;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	margin: 0 0 0 15px;
+    *margin: 0 0 0 0px;
+	padding: 0;
+}
+#sideBar ul li {
+	background: none;
+}
+#sideBar a {
+	color: #15508B
+}
+#sideBar a:focus, #sideBar a:hover {
+}
+#sideBar img {
+	float: right;
+	height: 16px;
+	margin: 0;
+	padding: 0;
+	width: 16px;
+}
+#sideBar .sidebar-icon {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+#sideBar .sidebar-icon-search, .e404 input.sidebar-icon-search {
+	background: url(images/magnifier.png) no-repeat;
+	border: none;
+	float: right;
+	height: 24px;
+	margin: 0px 0px 0px 20px;
+	width: 24px;
+}
+#manageLinks li {
+	clear: both;
+	display: block!important;
+	border-top: 1px solid #d2d2d2!important;
+	width:100%;
+ *width:95%;
+	padding: 2px 0;
+}
+#manageLinks .manageContext a, #manageLinks .manageContext a:link, #manageLinks .manageContext a:visited {
+	background: url(/ics/ui/common/images/portletimages/icons/16/folder_add.png) 100% 2px no-repeat!important;
+	display: block;
+	font-style: normal;
+	margin: 0!important;
+	padding: 0 10% 2px 8%;
+ *padding:0 0 0 5%;
+	width: 80%;
+ *width:86%;
+}
+#manageLinks li.manageGroup {
+	border-top: 1px solid #d2d2d2!important;
+	padding: 8px 0;
+ *padding:0;
+}
+#manageLinks .manageGroup a, #manageLinks .manageGroup a:link, #manageLinks .manageGroup a:visited {
+	background: url(/ics/ui/common/images/portletimages/icons/16/group_edit.png) 100% 2px no-repeat!important;
+	display: block;
+	font-style: normal;
+	margin: 0!important;
+	padding: 0 10% 2px 8%;
+ *padding:0 0 0 5%;
+	width: 80%;
+ *width:86%;
+}
+#manageLinks .usageStats a, #manageLinks .usageStats a:link, #manageLinks .usageStats a:visited {
+	background: url(/ics/ui/common/images/portletimages/icons/16/chart_bar.png) 100% 2px no-repeat!important;
+	display: block;
+	font-style: normal;
+	margin: 0!important;
+	padding: 0 10% 2px 8%;
+ *padding: 0 0 0 5%;
+	width: 80%;
+ *width:86%;
+}
+#sideBar #subContexts a {
+	background: transparent url(/ics/ui/common/images/portletimages/icons/16/folder.png) 5% 5px no-repeat;
+	color: #15508B;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 110%;
+	padding: 5px 0 5px 17%;
+	font-size: 117.65%!important;
+}
+#sideBar #subContexts li {
+	font-weight: normal;
+	width: 100%;
+	display: block;
+}
+#sideBar #otherPages a, #sideBar #otherPages a:link, #sideBar #otherPages a:visited {
+	background: transparent url(/ics/ui/common/images/portletimages/icons/16/page_white.png) 5px 0 no-repeat;
+	color: #15508B;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	line-height: 110%;
+	padding-left: 24px;
+}
+/* =ThisContext
+------------------------------------------*/
+#sideBar div.sideSection, #sideBar div#quickLinks {
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background: #EEEDED;
+	border-radius: 4px;
+	border: 1px solid #d2d2d2;
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 0 10px 0!important;
+	padding-bottom: 10px;
+	width: 100%;
+}
+#sideBar div.sideSection h2, #sideBar div#quickLinks h3 {
+	background: none;
+	border-bottom: 1px solid #15508B;
+	color: #0A3772;
+	font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	margin: 5px 5%;
+	padding: 0;
+}
+#sideBar div.sideSection h2 a {
+	background: none;
+	color: #0A3772;
+	font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 110%;
+}
+#sideBar div.sideSection ul {
+	margin-left: 0!important;
+}
+#sideBar li {
+	position: relative!important;
+}
+#thisContext ul li a {
+	float: left;
+	width: 100%;
+}
+#contextPages li {
+	border: none;
+	clear: both;
+	margin: 0 5%;
+	padding: 5px 0;
+}
+#contextPages li a {
+	display: block;
+	padding: 0 0 0 4%;
+	text-decoration: none;
+	font-size: 117.65%;
+}
+#contextPages li a:hover {
+	background-color: none;
+}
+#contextPages li.currentPage {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-left: 5%;
+ //margin-left: -2.5%;
+	background: #d2d2d2;
+	display: block;
+	min-height: 20px;
+	padding: 0 .5% 0 0;
+}
+#contextPages li.currentPage a {
+	width: auto;
+}
+.currentPage #pagePortlets {
+	margin: 0;
+	padding: 0;
+}
+#pagePortlets li {
+	border: none;
+	list-style-type: none;
+	text-indent: 0;
+	padding: 0;
+}
+#contextPages #pagePortlets li a {
+	clear: both;
+	color: #333333;
+	float: none;
+	padding: 4px 0;
+	text-decoration: none;
+}
+#contextPages #pagePortlets li a:hover {
+	text-decoration: underline;
+}
+#contextPages #pagePortlets li a.selected {
+	background: none;
+	font-weight: bold;
+}
+#contextPages #pagePortlets li a.selected:hover {
+	background: #d2d2d2;
+	text-decoration: underline;
+}
+#pagePortlets {
+}
+#pagePortlets li {
+}
+#xpndPrtlts {
+	background: url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_plus.png) 2px 2px no-repeat;
+	display: block;
+	float: right!important;
+	height: 16px!important;
+	overflow: hidden!important;
+	text-indent: 1000px;
+	width: 16px!important;
+}
+#xpndPrtlts.expanded {
+	background: url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_minus.png) 2px 2px no-repeat;
+}
+#sideBar li.addPage {
+	background: none;
+	width: 100%!important;
+	margin: 0 0 20px 0;
+}
+#sideBar .addPage a, #sideBar .addPage a:link, #sideBar .addPage a:visited {
+	background: url(/ics/ui/common/images/portletimages/icons/16/page_add.png) 93% 0 no-repeat!important;
+	font-style: normal;
+	font-size: 100%;
+	padding: 0 10%;
+ *padding: 0 0 0 5%;
+	width: 80%;
+ *width: 84%;
+}
+/* =QuickLinks
+------------------------------------------*/
+#sideBar div#quickLinks {
+}
+#quickLinks h3 {
+}
+#sideBar #globalLinks {
+}
+#sideBar #globalLinks li {
+	padding: 0 2.5% 0 2.5%;
+   *padding: 0 2.5% 0 10%;
+	display: block;
+}
+#sideBar .globalLinks li {
+	padding: 0 2.5% 0;
+   *padding: 0 2.5% 0 10%;
+	display: block;
+}
+.globalLinks img {
+	display: none!important;
+}
+#sideBar #globalLinks li a, #sideBar .globalLinks li a {
+	color: #333;
+	display: block;
+	margin: 0;
+	font-size: 100%!important;
+	background-position: 95% 4px;
+	background-repeat: no-repeat;
+	width: 90%;
+	padding:5px 10% 5px 0;
+   *padding:2px 0 0 0;
+	line-height: 120%;
+}
+#sideBar #globalLinks li a:hover, #sideBar .globalLinks li a:hover {
+	text-decoration: underline;
+}
+#quicklinks ul li
+{
+	float:none;!IMPORTANT;
+}
+#quickLinks a {
+	color: #333!important;
+}
+#quickLinks dl dt, #quickLinks dl:link, #quickLinks dl dt:visited {
+	color: #15508B!important;
+}
+#quickLinks dl#myPages a {
+	float: none;
+}
+#quickLinks dl.closed dt {
+	background: url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_plus.png) 98% 3px no-repeat;
+	margin: 0 2% 0 3%;
+	padding: 0 0 0 5%;
+}
+#quickLinks dl.open dt {
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	-webkit-border-radius: 2px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	background: #d2d2d2 url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_minus.png) 98% 3px no-repeat!important;
+	margin: 0 2% 0 3%;
+	padding: 0 0 0 5%;
+}
+#quickLinks dl.open ul {
+	
+	background: #d2d2d2;
+	margin: -1px 0 0 -1%;
+	padding: 0;
+	width: 99%;
+}
+#quickLinks dl.open ul li {
+	display: block;
+	margin: 0;
+	padding: 4px 0 2px 6%;
+
+}
+#quickLinks dl.open ul li a {
+	display: block;
+
+}
+/* =MainContent
+------------------------------------------*/
+#mainContent {
+}
+/* =Feature
+------------------------------------------*/
+#errorMessage {
+	color: #424242;
+	background: #ffebe8;
+	display: block!important;
+	font-weight: bold;
+	line-height: 2;
+	margin: 0 auto!important;
+	padding: 0 5%!important;
+ *padding:0;
+/* width: 90%*
+  Can't set width for IE 7 and below- shows the div at all times, uncomment when we no longer need IE7 and below. */
+}
+#feature {
+}
+#feature .portlet {
+}
+#feature .portlet .pHead {
+}
+#feature .portlet .pHead h3 {
+}
+#feature .portlet .pHead h3 a {
+}
+#feature .portlet .pHead h3 a:focus, #feature .portlet .pHead h3 a:hover {
+}
+#feature .portlet .pContent {
+}
+#feature .portlet .pContent .pSection {
+}
+#feature .portlet .pContent .ccSection {
+}
+/* =PageTitle
+------------------------------------------*/
+#pageTitle {
+}
+#pageTitle h2 {
+}
+#pageTitle h2 #contextName {
+	color: #333;
+}
+#pageTitle h2 #pageName {
+}
+#pageTitle h2 a {
+}
+#pageTitle h2 a:focus, #pageTitle h2 a:hover {
+}
+#pageTitleButtons {
+//margin: 0 0 -20px 0;
+}
+#pageTitleButtons .editPage, #pageTitleButtons .printPage {
+}
+#pageTitleButtons .editPage a {
+}
+#pageTitleButtons .printPage a {
+}
+#pageTitleButtons img {
+}
+#printModeButtons {
+}
+#printModeButtons a {
+}
+#printModeButtons input {
+}
+#btnExitPrintMode img{
+    float:none !important;
+}
+/* =PortletGrid
+------------------------------------------*/
+#PORTLETGRID {
+	clear: both;
+	padding: 0;
+	width: 100%;
+}
+#portlets {
+	float: left;
+	margin: 8px 0;
+  //margin: 3px 0;
+	padding: 0;
+	width: 80%;
+}
+/* =Portlet
+------------------------------------------*/
+.portlet {
+	background: none;
+	border: none;
+	margin: 0 0 3% 0;
+}
+.pHead {
+	background: none;
+	border-bottom: 1px solid #d2d2d2;
+}
+.pHead h3 {
+	 height: auto;
+}
+.portlet div.pHead h3 a {
+	color: #0A3772;
+	font-size: 110%;
+	text-decoration: none;
+}
+.pHead h3 a:focus, .pHead a:hover {
+}
+.pHead .a {
+}
+.pHead img {
+}
+.pShortcut {
+}
+.pShortcut a {
+}
+.pShortcut a:focus, .pShortcut a:hover {
+}
+.pContent {
+}
+.pFieldHint {
+}
+.pFoot {
+}
+.pFoot .crumbs {
+}
+.pFoot .crumbs a {
+}
+/* =Portlet:Toolbar
+------------------------------------------*/
+.pToolbar {
+}
+.pToolbar .menu {
+}
+.pToolbar ul {
+}
+.pToolbar ul li {
+}
+.pToolbar li.off a, .pToolbar li.off a:focus, .pToolbar li.off a:hover, .pToolbar li.off a.active, .pToolbar .pTool li.off a:focus, .pToolbar .pTool li.off a:hover, .pToolbar .pTool li.off a.active {
+}
+.pToolbar li ul {
+}
+.pToolbar a {
+}
+.pToolbar a:focus, .pToolbar a:hover, .pToolbar a.active, .pToolbar .pTool a:focus, .pToolbar .pTool a:hover, .pToolbar .pTool a.active {
+}
+.pToolbar .menu a {
+}
+.pToolbar .menu a.hasKids {
+}
+.pTool {
+}
+.pTool a:focus, .pTool a:hover, .pTool a.active {
+}
+/* =Portlet:Content
+------------------------------------------*/
+.wysiwygtext ul li,
+ .pSection.ccSection ul li, .postBody ul li,
+ .pSection.ccSection ol li, .pSection ol li {  margin: 0 5px; padding: 0 5px;  }
+
+.wysiwygtext ol ul li, .pSection.ccSection ol ul li, .pSection ol ul li { list-style: disc outside none; }
+
+.wysiwygtext ul ,.psection.ccSection ul, .psection.ccSection ol, .psection ol {margin: 0.5em 1.5em;}
+
+/* =Portlet:Content Tabs
+------------------------------------------*/
+.contentTabs {
+}
+.contentTabs ul {
+}
+.contentTabs li {
+}
+.contentTabs li a {
+}
+.contentTabs li a:focus, .contentTabs li a:hover {
+}
+.contentTabs li.selected {
+}
+.contentTabs li.selected a {
+}
+.contentTabs li.selected a:focus, .contentTabs li.selected a:hover {
+}
+.tabbox {
+}
+.scrollAll {
+}
+/* =Portlet:Navigation
+------------------------------------------*/
+.portletnavtabs {
+}
+.portletSectionJump {
+}
+.portletSectionJump dt {
+}
+.portletSectionJump dd {
+}
+.portletSectionJump dd.selected {
+}
+.portletSectionJump dd a {
+}
+.portletSectionJump dd.selected a {
+}
+.portletSectionJump dd a:focus, .portletSectionJump dd a:hover {
+}
+.portletSectionJump dd.selected a:focus, .portletSectionJump dd.selected a:hover {
+}
+/* =Footer
+------------------------------------------*/
+#foot {
+	background: none;
+	border-top: 1px solid #d2d2d2;
+	border: none;
+	text-align: center;
+}
+#foot a {
+	color: #0A3772;
+}
+#foot a:focus, #foot a:hover {
+}
+#copyright {
+	margin: -16px auto 0 auto;
+	max-width: 1200px;
+	min-width: 960px;
+	text-align: right;
+}
+#policies {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 960px;
+	text-align: left;
+}
+/* =Messages
+------------------------------------------*/
+.hint {
+}
+.largehint {
+}
+.notice {
+}
+.note {
+}
+.info {
+}
+.download {
+}
+.working {
+}
+.loading {
+}
+.feedbackMessage {
+}
+.feedbackError {
+}
+.PortletError {
+}
+.ApplicationError {
+}
+#errorMessage {
+}
+.errorMessage {
+}
+.alert, .notFound {
+}
+.notFound p, .notFound p a {
+}
+.fieldHint {
+}
+.oops {
+}
+.oops h6 {
+}
+.oops pre {
+}
+/* =Messages:ASP.NET Compile Errors
+------------------------------------------*/
+.compileError {
+}
+.compileError p {
+}
+.compileError b {
+}
+.compileError H1 {
+}
+.compileError H2 {
+}
+.compileError pre {
+}
+.compileError .marker {
+}
+.compileError .version {
+}
+.compileError .error {
+}
+.compileError .expandable {
+}
+/* =Misc
+------------------------------------------*/
+.alt {
+}
+.highlighted {
+}
+.selected {
+}
+.WhiteLinks {
+}
+.linkBorder {
+}
+.hiddenText {
+}
+/* =Controls:Multi-File Upload
+------------------------------------------*/
+.multiUp p {
+}
+.multiUp table {
+}
+.multiUp table thead {
+}
+.multiUp th {
+}
+.multiUp table tfoot {
+}
+.multiUp table tfoot a {
+}
+/* =Controls:Calendar
+------------------------------------------*/
+.cal {
+}
+ .cal . {
+}
+.cal span {
+}
+.cal img {
+}
+.cal iframe {
+}
+.cal .time {
+}
+.cal select {
+}
+ul.dayOfWeek, ul.dayOfWeek li {
+}
+#calSideBar {
+	background: none;
+}
+#calSideBar li {
+	background: none;
+	clear: both;
+	display: block;
+	margin: 10px 0;
+}
+#calSideBar h3 {
+	background: none;
+	border-bottom: 1px solid #d2d2d2;
+	text-align: left;
+}
+#calSideBar hr {
+	border-bottom: 1px solid #d2d2d2;
+	border: none;
+	padding: 0;
+}
+#calEventListView p {
+ font-weight: bold;
+ padding: 0 10px;
+}
+#calWeekView a, #calDayView a, #calMonthView a, #calEventListView a {
+	display: block;
+	font-weight: normal;
+	padding: 0 10px 10px 10px;
+	text-decoration: none!important;
+}
+#calWeekView a:hover, #calDayView a:hover, #calMonthView a:hover, #calEventListView a:hover {
+	text-decoration: underline!important;
+}
+#calWeekView table {
+	border: none;
+}
+#calWeekView td {
+	border: none;
+	padding: 5px;
+	width: 50%;
+}
+#calEventListView a {
+	padding: 0 0 10px 0;
+}
+.calDayNumber {
+	background: #CEDBE9;
+}
+.calBlankDay {
+	background: none!important;
+}
+#calMonthView ul, #calMonthView li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+.evHeader a {
+	border-bottom: 1px solid #d2d2d2;
+	padding-bottom: 0!important;
+}
+.hourHead, .allDayHead {
+	border: none!important;
+	padding: 10px;
+}
+.allDay {
+	-khtml-border-radius: 4px!important;
+	-moz-border-radius: 4px!important;
+	-o-border-radius: 4px!important;
+	-webkit-border-radius: 4px!important;
+	background: #CEDBE9;
+	border-radius: 4px!important;
+	border: none!important;
+}
+.allDay a {
+	font-size: 80%;
+}
+.topHour {
+	border-top-color: #333333!important;
+}
+.bottomHour {
+	border-bottom-color: #333333!important;
+}
+#calHeader a {
+	display: inline!important;
+}
+#calDefaultView a {
+	padding: 0
+}
+#calDefaultView {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #ccc;
+	padding: 3px;
+}
+ table[id*=calMain], #pg0_V_calMain {
+ background: none!important;
+ border: none!important;
+}
+td.calDayStyle {
+	background: none;
+	padding: 2px;
+}
+.calTitleStyle td {
+	background: none;
+}
+/* =Controls:Grouped Grid
+------------------------------------------*/
+.groupedGrid {
+}
+.groupedGrid thead, .groupedGrid .ghead, .header, .footer {
+}
+.groupedGrid th {
+}
+.groupedGrid td {
+}
+.groupedGrid tfoot, .subheader, .subfooter {
+}
+.groupedGrid tr.subGroup td {
+}
+.groupedGrid tr.subItem td {
+}
+.groupedGrid tr.subItem td td {
+}
+.groupedGrid th a {
+}
+.groupedGrid th a:focus, .groupedGrid th a:hover {
+}
+.groupedGrid tbody tr td.highlight {
+}
+.groupedGrid tbody tr.alt td.highlight {
+}
+.groupedGrid tbody tr.highlight {
+}
+.groupedGrid tbody tr td.alt {
+}
+.groupedGrid tbody tr.alt td.alt {
+}
+.groupedGrid thead tr th.highlight {
+}
+.groupedGrid .error {
+}
+.groupedGrid .disable {
+}
+.groupedGrid .disable td input {
+}
+.groupedGrid .disable td a {
+}
+/* =Controls:Date Range Edit
+------------------------------------------*/
+.dateRangeEdit label {
+}
+.dateRangeEdit .val {
+}
+.dateRangeEdit .start, .dateRangeEdit .end, .dateRangeEdit .action {
+}
+.dateRangeEdit .action {
+}
+.dateRangeEdit {
+}
+.dateRangeEdit .opt a {
+}
+.dateRangeEdit .opt a:focus, .dateRangeEdit .opt a:hover {
+}
+.dateRangeEdit .opt label {
+}
+.dateRangeEdit .opt label:hover {
+}
+/* =Controls:Tabbed Panel
+------------------------------------------*/
+.tabGroup {
+	margin: -1px 0 0 0;
+}
+.tabGroup ul.tabHeaders {
+	background: none!important;
+	border-bottom: 1px solid #d2d2d2;
+	height: 28px;
+	margin: -1px 0 10px 0;
+}
+.tabGroup ul.tabHeaders li {
+	border: none!important;
+	float: left;
+	padding: none!important;
+}
+.tabGroup ul.tabHeaders a {
+	background: none!important;
+	display: block;
+	font-size: 90%!important;
+	font-weight: normal!important;
+   	margin: 0!important;
+	padding: 5px 20px!important;
+}
+.tabGroup ul.tabHeaders a.selected {
+	background: #d2d2d2!important;
+}
+.tabGroup ul.tabHeaders a.selected:hover {
+	background: #d2d2d2!important;
+}
+.tabGroup ul.tabHeaders a:hover {
+	background: #d2d2d2!important;
+}
+.tabGroup .tabContent {
+}
+.reorder {
+}
+/* =Controls:Collapsible Panel
+------------------------------------------*/
+.cp {
+}
+.cpHead {
+}
+.cpHead input {
+}
+.cpContent {
+}
+.cpHeader {
+}
+.cpBody {
+}
+.cpLbl {
+}
+.cpTxt {
+}
+/* =Controls:Security Grid
+------------------------------------------*/
+.securityGrid {
+}
+.securityGrid h5 {
+}
+.securityGrid table {
+}
+.securityGrid table td {
+}
+.securityGrid table thead th {
+}
+.securityGrid table thead th.role {
+}
+.securityGrid table thead th.kids {
+}
+.securityGrid table th.admin {
+}
+.securityGrid table tbody th {
+}
+.securityGrid table tbody tr {
+}
+.securityGrid table tbody tr td {
+}
+.securityGrid table tbody tr td img {
+}
+.securityGrid table tbody td.admin {
+}
+.securityGrid table tbody .alt td.admin {
+}
+.securityGrid table tbody tr th {
+}
+.securityGrid table tbody tr th span.role {
+}
+.securityGrid table tbody tr th dl span.role {
+}
+.securityGrid table tbody dl {
+}
+.securityGrid table tbody dd {
+}
+.securityGrid p.addRole {
+}
+/* =Controls:Principal Selector Remix
+------------------------------------------*/
+.principalSelector {
+	width: 100%;
+}
+.principalSelector table {
+	width: 100%;
+}
+.psTitleCell {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.psCell {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+}
+/* =Controls:Role Selector
+------------------------------------------*/
+#tblContextRoleSelector {
+}
+.RoleColumn {
+}
+#ShowAllMyContexts {
+}
+#tblBaseRoleSelector {
+}
+#tblBaseRoleSelector .AllUsersCell {
+}
+#tblBaseRoleSelector .RoleColumn {
+}
+/* =Controls:User Selector
+------------------------------------------*/
+#tblUserSelector {
+}
+#tblUserSelector .ContextSelectCell {
+}
+#tblUserSelector .SearchCell {
+}
+#tblUserSelector .UserListCell {
+}
+#tblUserSelector .AddRemoveCell {
+}
+#tblUserSelector .AddRemoveButton {
+}
+#tblUserSelector .OkCancelCell {
+}
+#userSelectorCell {
+}
+#tblUserSelector .userlistTitleCell {
+}
+#tblUserSelector .UserSelectorListBox {
+}
+#tblUserSelector .LastNameTextBox {
+}
+#tblUserSelector .FirstNameTextBox {
+}
+/* =Controls:Content Box
+------------------------------------------*/
+.contentBox {
+}
+.contentBox h4 {
+}
+.contentbox .psection {
+}
+/* =Controls:Sideways Table
+------------------------------------------*/
+.sidewaysTable {
+}
+.sidewaysTable th {
+}
+.sidewaysTable th strong {
+}
+.sidewaysTable td {
+}
+/* =Controls:Order List box
+------------------------------------------*/
+.orderListBox td {
+}
+.orderListBox td#upButton {
+}
+.orderListBox td#downButton {
+}
+.pageNavigator {
+}
+.pageNavigator .prevPage {
+}
+.pageNavigator .nextPage {
+}
+.letterNavigator {
+}
+.letterNavigator table {
+}
+.letterSelector {
+}
+/* =Controls:Message Box
+------------------------------------------*/
+#messageBoxMask {
+}
+#messageBoxContainer {
+}
+#messageBoxInner {
+}
+#messageBoxTitle {
+}
+#messageBoxTitleControls {
+}
+#messageBoxText {
+}
+#messageBoxMainControls {
+}
+#keepWorkingBtn, #logoutBtn {
+}
+/* =Links
+------------------------------------------*/
+.link {
+	display: inline;
+}
+ a[id*=btn] img {
+float: left!important; /* remove generic 'add' icons */
+}
+ a[id*=lnk] img {
+display: none!important; /* remove generic 'add' icons */
+}
+/* Fix Add Coursework */
+.assignmentFormatMainDiv a[id*=lnk]
+{
+     background-position:10px 12px;
+     background-repeat:no-repeat;
+     padding: 10px 10px 10px 55px;
+}
+
+ a[id*=lnk], .TaskManager a[id*=lnkAddNewTask], .buttonBar a, tfoot a {
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+ color: #0A3872!important;
+	 /* Typically right-aligned */
+	margin: 2px 0 0 5px;
+ padding: 2px 24px 2px 2px;
+ text-decoration: none!important;
+
+}
+ a[id*=lnk]:hover, .buttonBar a:hover {
+ color: #000!important;
+ text-decoration: underline!important;
+}
+ .pSection a[id*=lnk] {
+ background-position: 0 50%;
+ background-repeat: no-repeat;
+ padding: 2px 2px 2px 24px; /* Typically left-aligned */
+}
+ a[id*=lnkAddEvent] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar_add.png);
+ float: right;
+}
+ a[id*=lnkFullSize] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png);
+}
+ a[id*=lnkAddBookmark] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/book_add.png);
+}
+ a[id*=lnkAddNewHandout] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/page_add.png);
+}
+ a[id*=lnkName] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/vcard.png);
+}
+ a[id*=lnkDept] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/group.png);
+}
+ a[id*=lnkAddDrop] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/page_refresh.png);
+}
+ a[id*=lnkAdd] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png);
+}
+ a[id*=lnkUpdate] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/application_go.png);
+}
+ a[id*=lnkAdvancedSearch] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/magnifier.png);
+}
+ a[id*=lnkAdvanceSearch] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/magnifier.png);
+ background-position: 0 0;
+ padding-left: 20px;
+}
+ a[id*=lnkSetup] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/wand.png);
+ background-position: 0 0;
+ padding-left: 20px;
+}
+ a[id*=ShowAllButton] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/comment.png);
+}
+ a[id*=lnkViewAll] {
+ background-image: none;
+ padding: 0!important;
+}
+ a[id*=lnkGoToMain] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/application_go.png);
+}
+ a[id*=lnkToMainView] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/application_go.png);
+}
+ a[id*=lnkGroupMembership] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/arrow_refresh.png);
+}
+ a[id*=lnkClear] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/bin.png);
+}
+ a[id*=lnkAdvSettings] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+}
+ a[id*=lnkFwkSettings] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+}
+ a[id*=lnkPortalAccount] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+}
+ a[id*=lnkReorder] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/arrow_switch.png);
+}
+ a[id*=lnkCreateItem] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png);
+}
+ input[id*=imbCreateItem] {
+display: none;
+}
+ a[id*=lnkViewDetails] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/magnifier.png);
+}
+ a[id*=lnkFacultySchedule] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png);
+}
+ a[id*=lnkLoadFromFile] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/drive_add.png);
+}
+ a[id*=lnkRemoteContent] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/link.png);
+}
+ a[id*=lnkCreateContent] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+}
+ a[id*=lnkEdit] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+ display: block;
+ height: 16px;
+ margin: -5px 5px 0 5px;
+}
+ .pHead a[id*=lnkEdit] {
+ overflow:hidden;  /* hide text - only show icon */
+ padding-left:16px !important;  /*padding takes care of the width*/
+ text-indent: 1000px;
+ width:0;
+ margin: -5px 0 0 0;
+}
+ a[id*=lnkAddNewTask] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png);
+ float: right;
+}
+ input[id*=imbAddNewTask] {
+display: none;
+}
+ div[id*=divEditOrAdd] {
+ display: none;
+ float: right;
+ margin: -2px 12px 0 0;
+ padding: 0;
+ width: 16px;
+}
+ img[id*=imgSubscribe], .newsAdminSection img[id*=imgAddPost], .newsAdminSection img[id*=imgSetup] {
+display: none;
+}
+ a[id*=Subscribe] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/rss.png);
+ background-position: 0 50%;
+ background-repeat: no-repeat;
+ padding-left: 24px;
+}
+ div[id*=AvailLinks] img {
+display: none;
+}
+ a[id*=Archive] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/clock.png);
+ background-position: 0 50%;
+ background-repeat: no-repeat;
+ padding-left: 24px;
+}
+a.help img {
+	display: none;
+}
+a.help {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/help.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	float: right;
+	margin: 0 5px;
+	padding: 8px 0 8px 16px;
+}
+ a img[src*='print.gif'] {
+display: none;
+}
+ a[href*="btnPrintView"] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/printer.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+ color: #0A3872!important;
+	 /* Typically right-aligned */
+	margin: 2px 0 0 5px;
+ padding: 2px 24px 2px 2px;
+ text-decoration: none!important;
+ white-space: nowrap;
+}
+}
+ a[href*=".pdf"] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_acrobat.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+ padding: 2px 20px 2px 2px;
+}
+ a[href*=".xls"], a[href*=".xlsx"] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_excel.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+ padding: 2px 20px 2px 2px;
+}
+ a[href*=".doc"], a[href*=".docx"] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_word.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+ padding: 2px 20px 2px 2px;
+}
+ a[href*=".ppt"], a[href*=".pptx"] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_powerpoint.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+ padding: 2px 20px 2px 2px;
+}
+.customize img {
+	display: none!important;
+}
+.customize {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/wrench.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	height: 16px;
+	margin: 0;
+	width: 16px;
+}
+#lnkCustomize {
+	_background: none;
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/page_edit.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	height: 16px;
+	margin: 0;
+	padding: 0 25px 0 25px;
+}
+ #sideBar a[href*="http://"], #sideBar a[href*="https://"] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/link.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+}
+ input[src*='edit.gif'] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+ background-position: 0 50%;
+ background-repeat: no-repeat;
+ height: 16px;
+ margin: 0 4px;
+ overflow: hidden;
+ padding: 2px 0 2px 16px;
+ width: 0;
+}
+ input[src*='delete.gif'] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/bin.png);
+ background-position: 0 50%;
+ background-repeat: no-repeat;
+ height: 16px;
+ margin: 0 4px;
+ overflow: hidden;
+ padding: 2px 0 2px 16px;
+ width: 0;
+}
+ a img[src*='add.gif'] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png);
+ background-position: 0 50%;
+ background-repeat: no-repeat;
+ height: 16px;
+ margin: 0 4px;
+ overflow: hidden;
+ padding: 2px 0 2px 16px;
+ width: 0;
+}
+ a[href*="courseCopy"] {
+ background-position: 95% 50%;
+ background-repeat: no-repeat;
+ padding: 0;
+}
+ a[id*=lbThemes] img {
+display: none!important;
+}
+ a[id*=lbThemes] {
+ background: url(/ics/ui/common/images/portletimages/icons/16/pencil.png) 0 50% no-repeat;
+ margin: 2px 0 0 5px;
+ padding: 2px 0 2px 24px;
+}
+ a[id*=BrowseGroups] {
+background: url(/ics/ui/common/images/portletimages/icons/16/group.png) 0 50% no-repeat;
+ margin: 2px 0 0 0;
+ padding: 2px 0 2px 24px;
+}
+ a[id*=CreateNewGroup] {
+background: url(/ics/ui/common/images/portletimages/icons/16/group_add.png) 0 50% no-repeat;
+ margin: 2px 0 0 0;
+ padding: 2px 0 2px 24px;
+}
+ a[id*=lnkAddBookmark] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/link_add.png);
+}
+ a[id*=lnkAddEvent] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/date_add.png);
+}
+ a[id*=lnkDeleteEvent] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/date_delete.png);
+}
+ a[id*=lnkBackToCal] {
+background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png);
+}
+ a[id*=lnkAddCalendar] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar_add.png);
+ background-position: 0 50%;
+ display: block;
+ margin-left: 0;
+ padding-left: 20px;
+}
+ a[id*=lnkBrowseShared] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png);
+ background-position: 0 50%;
+ display: block;
+ margin-left: 0;
+ padding-left: 20px;
+}
+ a[id*=lnkManage] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar_edit.png);
+ background-position: 0 50%;
+ display: block;
+ margin-left: 0;
+ padding-left: 20px;
+}
+ a[id*=lnkExport] {
+ background-image: url(/ics/ui/common/images/portletimages/icons/16/date_go.png);
+ background-position: 0 50%;
+ display: block;
+ margin-left: 0;
+ padding-left: 20px;
+}
+ span[id*=lblRedirect] {
+ float: left;
+}
+ a[id*=lnkEditRedirect] {
+ float: left;
+ margin: 0 0 0 10px;
+ //margin: -10px 0 0 10px;
+}
+.pSection>div,
+.pSection p,
+.pSection .hint,
+.pSection table {
+  margin-bottom: 10px;
+  }
+.pSection ul,
+.pSection ol {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  }
+.pActions {
+	background: #ddd;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+.pActionsTransp {
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+.pActionsTransp input, .pActionsTransp input {
+	margin: 0 .5em;
+}
+.buttonBar {
+	background: none;
+	padding: 5px;
+}
+.buttonBarCentered {
+	background: none;
+	padding: 5px;
+	text-align: center;
+}
+.CuteEditorFrame {
+	display: block;
+}
+.slideshow {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+.DialogWindow_Background {
+	display: none;
+}
+
+/* Search welcomebackbar fixes*/
+
+#masthead{
+	height: 96px;
+}
+
+#welcomeBackBar #userLogin,
+#welcomeBackBar #userWelcome 
+{
+	float: right;
+}
+
+#welcomeBackBar .searchControls {
+	float: none;
+}
+
+#welcomeBackBar {
+	margin: -92px auto 12px auto;
+	height: auto;
+}
+
+#headerTabs ul {
+	position: inherit;
+}
+
+

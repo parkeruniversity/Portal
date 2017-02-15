@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="ToolConsumer.asmx.cs" Class="Jenzabar.ICS.Web.Portlets.LearningToolsPortlet.ToolConsumer" %>

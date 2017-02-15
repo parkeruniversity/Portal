@@ -1,0 +1,5 @@
+﻿.keywordSearch { text-align:right; padding:5px 10px; }
+.memberStatus { font-weight: bold; font-style: italic; text-transform: lowercase; }
+.closedStatus { font-style: italic; }
+.fieldNote { text-decoration: italics; margin: 0px 10px; }
+fieldset table td { padding-top:0.5em; }

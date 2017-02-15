@@ -1,0 +1,63 @@
+/*GridView*/
+.GLAccountLookup .GLGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.GLAccountLookup .GLGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color: #fff;
+}
+
+.GLAccountLookup .GLGridView th, .GLGridViewHeader th 
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color:#D4D4D4;
+    color:#464646;    
+}  
+
+.GLAccountLookup tr.GLGridViewFooter td
+{
+    font-size:12px;
+    background-color:#D4D4D4;
+}  
+
+.GLAccountLookup .GLGridViewHeader a 
+{ 
+    color:#464646;    
+    margin-right: 5px;
+}
+
+.GLAccountLookup .GLGridView th.GLCentered  
+{
+    text-align:center;
+}
+
+.GLAccountLookup tr.alt td    
+{
+    background-color: #efefef;   
+}  
+/*END GridView*/
+
+.GLAccountLookupPortlet_AccountOverBudget
+{
+	color: Red
+}
+
+.GLAccountLookupPortlet_AccountUnderBudget
+{
+	color: Black
+}
+
+.GLAccountLookup .GLFloatLeft 
+{      
+    float: left;
+}
+
+.GLAccountLookup .GLMarginRight{
+    margin-right:5px;
+}

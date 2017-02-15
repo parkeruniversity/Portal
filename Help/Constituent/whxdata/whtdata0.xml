@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<tocdata>
+<book name="Welcome to CRM Constituent" url="default_1.htm" >
+  <item name="Title and copyright" url="default_1.htm" />
+  <item name="Overview" url="Overview.htm" />
+</book>
+<book name="Portlets" >
+  <item name="Constituent Search" url="Constituent_Search.htm" />
+  <item name="Online Giving" url="Online_Giving.htm" />
+  <item name="Contribution History" url="Contribution_History.htm" />
+</book>
+
+</tocdata>

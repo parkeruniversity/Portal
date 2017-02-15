@@ -1,0 +1,192 @@
+﻿
+<div data-id="DIV_main">
+	<div data-id="DIV_analytics" style="display:none; margin:10px;">
+		<div style="padding-top:20px; padding-bottom:20px;">
+			<table cellpadding="0px" cellspacing="0px">
+				<tbody>
+					<tr>
+						<td rowspan="2" style="padding-right:7px;">
+							<img src="" alt="" data-src="PortletImages/icons/icon_usage_32.png" />
+						</td>
+						<td data-globalization="TXT_CWK_TEST_ANALYSIS" class="MainHeader"></td>
+					</tr>
+					<tr>
+						<td>
+							<span data-globalization="TXT_FOR"></span>
+							<span data-id="SPN_assignment_name"></span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="float:right; margin-right:5px; padding:10px; border:Solid 2px Blue;">
+				<div style="width:360px;">
+					<table cellpadding="0px" cellspacing="0px">
+						<tr>
+							<td>
+								<img src="" alt="" data-src="PortletImages/icons/icon_help_32.gif" />
+							</td>
+							<td class="HelpHeader" data-globalization="TXT_CWK_TEST_ANALYSIS_HELP"></td>
+						</tr>
+					</table>
+					<p />
+                    <span data-globalization="FMT_CWK_READ_ABOUT_ANALYTICS">
+                        <a data-id="LNK_view_basics" href="javascript:" data-globalization="TXT_ANALYSIS_BASICS"></a>
+                    </span>
+					<p />
+                    <span data-globalization="FMT_CWK_REVIEW_CUSTOMIZE_SETTINGS">
+                        <a data-id="LNK_view_settings" href="javascript:" data-globalization="TXT_WARNING_SETTINGS"></a>
+                    </span>
+                    <p />
+				</div>
+			</div>
+		</div>
+		<div class="SectionBottomMargin">
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<img src="" alt="" data-src="PortletImages/icons/icon_usage_16.png" />
+						</td>
+						<td class="Header" data-globalization="TXT_SUMMARY_INFO"></td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="margin-left:25px;">
+				<table cellpadding="0px" cellspacing="3px">
+					<colgroup>
+						<col class="MainLabels" /><!--does not work for Safari, ...-->
+					</colgroup>
+					<tbody>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_TOTAL_STUDENTS:"></td>
+							<td data-bound="GetTestTimeSummary().Students"></td>
+						</tr>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_AVERAGE_TIME_USED:"></td>
+							<td data-bound="GetTestTimeSummary().Average" data-bound_binder="JCSL.lang.time.round('%1');"></td>
+						</tr>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_FASTEST_TIME:"></td>
+							<td>
+								<span data-bound="GetTestTimeSummary().Low" data-bound_binder="JCSL.lang.time.round('%1');"></span>
+								<span class="StudentLink">(</span><span data-bound="'Time,Low'" data-bound_binder="student_link"></span><span>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_SLOWEST_TIME:"></td>
+							<td>
+								<span data-bound="GetTestTimeSummary().High" data-bound_binder="JCSL.lang.time.round('%1');"></span>
+								<span class="StudentLink">(</span><span data-bound="'Time,High'" data-bound_binder="student_link"></span><span>)</span>
+							</td>
+						</tr>
+						<tr style="height:20px;">
+						</tr>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_AVERAGE_SCORE:"></td>
+							<td>
+								<span data-bound="GetTestGradeSummary().Average" data-bound_binder="(JCSL.lang.math.round(parseFloat(%1), .01) + '%');" style="margin-right:10px;"></span>
+								<span>(</span></sppan><span data-bound="GetTestGradeSummary().AveragePoints" data-bound_binder="JCSL.lang.math.precision(%1, .01);"></span><span>/</span><span data-bound="GetTestGradeSummary().TotalPoints"></span><span>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_MEDIAN_SCORE:"></td>
+							<td data-bound="GetTestGradeSummary().Median" data-bound_binder="(JCSL.lang.math.round(parseFloat(%1), .01) + '%');"></td>
+						</tr>									
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_MODE:"></td>
+							<td data-bound="GetTestGradeSummary().Mode" data-bound_binder="format_mode"></td>
+						</tr>									
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_HIGH_SCORE:"></td>
+							<td>
+								<span data-bound="GetTestGradeSummary().High" data-bound_binder="(JCSL.lang.math.round(parseFloat(%1), .01) + '%');"></span>
+								<span class="StudentLink">(</span><span data-bound="'Grade,High'" data-bound_binder="student_link"></span><span>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_LOW_SCORE:"></td>
+							<td>
+								<span data-bound="GetTestGradeSummary().Low" data-bound_binder="(JCSL.lang.math.round(parseFloat(%1), .01) + '%');"></span>
+								<span class="StudentLink">(</span><span data-bound="'Grade,Low'" data-bound_binder="student_link"></span><span>)</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="MainLabels" data-globalization="TXT_SCORE_DISTRIBUTION:"></td>
+							<td data-control="ScoreDistribution" data-id="TTD_score_distribution"></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align:left;">
+								<span data-bound="GetTestCustomSummary()" data-field_link="id"></span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="SectionBottomMargin">
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<img src="" alt="" data-src="PortletImages/icons/icon_usage_16.png" />
+						</td>
+						<td class="Header" data-globalization="TXT_CHARTS"></td>
+					</tr>
+				</tbody>
+			</table>
+			<table cellpadding="0px" cellspacing="0px">
+				<tbody>
+					<tr>
+						<td>
+							<div id="DIV_chart_grade_distribution" class="MainCharts"></div>
+						</td>
+						<td>
+							<div id="DIV_chart_question_difficulty_distribution" class="MainCharts"></div>
+						</td>
+						<td>
+							<div id="DIV_chart_average_score_by_performance_group" class="MainCharts"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div>
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<img src="" alt="" data-src="PortletImages/icons/icon_usage_16.png" />
+						</td>
+						<td class="Header" data-globalization="TXT_ITEM_ANALYSIS"></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="SubHeader" data-globalization="TXT_OVERALL"></div>
+			<table cellpadding="0px" cellspacing="3px">
+				<colgroup>
+					<col style="width:220px; text-align:right" />
+					<col style="padding-left:17px;" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<td class="MainLabels" data-globalization="TXT_CWK_AVERAGE_DIFFICULTY_RATING:"></td>
+						<td data-bound="GetTestQuestionSummary().AverageDifficultyRating" data-bound_binder="JCSL.lang.math.round(parseFloat(%1), .01)"></td>
+					</tr>
+					<tr>
+						<td class="MainLabels" data-globalization="TXT_CWK_AVERAGE_DISCRIMINATION_INDEX:"></td>
+						<td data-bound="GetTestQuestionSummary().AverageDiscriminationIndex" data-bound_binder="JCSL.lang.math.round(parseFloat(%1), .01)"></td>
+					</tr>
+					<tr>
+						<td class="MainLabels" data-globalization="TXT_COURSEWORK_PERFORMANCE_GROUPS:"></td>
+						<td>
+							<a data-id="LNK_view_groups" href="javascript:" data-globalization="LBL_VIEW"></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="SubHeader" data-globalization="TXT_FULL_DETAILS"></div>
+			<div data-id="DIV_questions_tabs" data-control="JCSL.ui.controls.Tabs"></div>			
+		</div>
+	</div>
+</div>	
+<div data-id="DIV_InfoAndConfig" style="display:none; margin:10px"></div>

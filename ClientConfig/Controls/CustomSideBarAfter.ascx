@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CustomSideBarAfter.ascx.cs" Inherits="Jenzabar.Portal.Web.ClientConfig.Controls.CustomSideBarAfter" %>

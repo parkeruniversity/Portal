@@ -1,0 +1,101 @@
+﻿
+<table cellpadding="3px" cellspacing="0px" class="groupedGrid" style="border-collapse:collapse;">
+	<colgroup>
+		<col class="groupedGrid_VerticalHeader"/>
+	</colgroup>
+	<thead>
+		<tr>
+			<td colspan="2">
+				<table cellpadding="0px" cellspacing="0px" style="width:100%">
+					<tbody>
+						<tr>
+							<td style="text-align:left;" data-field_name="title_analysis"></td>
+							<td style="text-align:right; padding-right:10px;" data-id="TTD_view_detail"></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align:right; vertical-align:top;" data-globalization="TXT_DIFFICULTY_RATING:"></td>
+			<td>
+				<span data-bound="DifficultyRating" data-bound_binder="JCSL.lang.math.precision(%1, .01);" style="font-weight:bold; margin-right:5px;"></span>
+				<span data-bound="DifficultyRatingLevel" data-bound_binder="bind_difficulty_rating_level"></span>
+				<div data-detail_view="true" style="display:none;">
+					<table data-id="TBL_difficulty_ratings">
+                        <tbody>
+						    <tr>
+							    <td>
+								    <span data-globalization="-TXT_HIGH_PERFORMERS:">&nbsp;</span>
+								    <span style="font-weight:bold;" data-bound="'high'" data-bound_binder="bind_group_difficulty_rating"></span>
+							    </td>
+						    </tr>
+						    <tr data-id="TTD_difficulty_rating_middle">
+							    <td>
+								    <span data-globalization="-TXT_MIDDLE_GROUP:">&nbsp;</span>
+								    <span style="font-weight:bold;" data-bound="'middle'" data-bound_binder="bind_group_difficulty_rating"></span>
+							    </td>
+						    </tr>
+						    <tr>
+							    <td>
+								    <span data-globalization="-TXT_LOW_PERFORMERS:">&nbsp;</span>
+								    <span style="font-weight:bold;" data-bound="'low'" data-bound_binder="bind_group_difficulty_rating"></span>
+							    </td>
+						    </tr>
+                        </tbody>
+					</table>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:right; vertical-align:top;" data-globalization="TXT_DISCRIMINATION_INDEX:"></td>
+			<td>
+				<span data-bound="DiscriminationIndex" data-bound_binder="((%1 == null) ? '0.00' : JCSL.lang.math.precision(%1, .01));" style="font-weight:bold; margin-right:5px;"></span>
+				<span data-bound="DiscriminationIndexLevel" data-bound_binder="bind_discrimination_level"></span><span data_globalization="+TXT_DISCRIMINATION">&nbsp;</span>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:right; vertical-align:top;" data-globalization="TXT_DISTRACTOR_ANALYSIS:"></td>
+			<td>
+				<span data-bound="DistractorAnalysisLevel" data-bound_binder="bind_distractor_level"></span>
+                <span data-globalization="TXT_DISTRACTOR_PERFORMANCE"></span>
+                <table data-id="TBL_distractor" cellpadding="3px" style="display:none; margin:10px; font-size:80%;">
+                    <thead>                    
+                        <tr class="groupedGrid">
+                            <td></td>
+                            <td data-globalization="TXT_OVERALL"></td>
+                            <td data-globalization="TXT_HIGH" style="font-weight:normal;"></td>
+                            <td data-globalization="TXT_LOW" style="font-weight:normal;"></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-id="TTD_distractor_template_row"><td></td><td></td><td></td><td></td></tr>
+                    </tbody>
+                </table>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:right; vertical-align:top;" data-globalization="TXT_AVERAGE_SCORE:"></td>
+			<td>
+				<span style="font-weight:bold;">
+					<span data-bound="AveragePoints" data-bound_binder="JCSL.lang.math.precision(%1, .01);"></span><span>/</span><span data-bound="TotalPoints"></span>
+				</span>
+				<span data-globalization="+TXT_POINTS" data-globalization_case="lower">&nbsp;</span>
+				<div data-id="DIV_chart_score_distribution" style="display:none; border:1px solid Black; width:200px; height:130px;"></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:right; vertical-align:top;" data-globalization="TXT_MORE_DETAILS:"></td>
+			<td>
+				<span data-id="SPN_view_detail"></span>
+				<span data-id="SPN_view_detail_text" data-globalization="TXT_EXPAND"></span>
+				<span data-id="SPN_view_detail_extra_text" data-globalization="TXT_FOR_MORE_DETAILS"></span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" data-bound_field_name="CustomText" style="background-color:White;"></td>
+		</tr>															
+	</tbody>
+</table>

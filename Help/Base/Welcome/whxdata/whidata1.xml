@@ -1,0 +1,91 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<indexdata>
+<key name="public groups" >
+  <key name="accepting an invitation to" >
+    <topic name="Accepting an invitation" url="Campus_Groups/Cgp_Accepting_an_invitation.htm" />
+  </key>
+  <key name="browsing" >
+    <topic name="Browsing groups" url="Campus_Groups/Cgp_Browsing_groups.htm" />
+  </key>
+  <key name="joining" >
+    <topic name="Joining a group" url="Campus_Groups/Cgp_Joining_a_group.htm" />
+  </key>
+  <key name="versus private" >
+    <topic name="Attributes of a group" url="Campus_Groups/Cgp_Attributes_of_a_group.htm" />
+  </key>
+</key>
+<key name="Readings portlet" >
+  <topic name="Readings" url="Readings.htm" />
+  <key name="creating a reading" >
+    <topic name="Creating a reading" url="Readings/Rdg_Creating_a_reading.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Readings/Rdg_Setting_preferences.htm" />
+  </key>
+</key>
+<key name="replying to" >
+  <key name="a Bulletin Boards message" >
+    <topic name="Replying to a message" url="Bulletin_Boards/Bul_Replying_to_a_message.htm" />
+  </key>
+  <key name="a Forums post" >
+    <topic name="About the reply options" url="Forums/Fms_About_the_reply_options.htm" />
+    <topic name="Adding a reply" url="Forums/Fms_Adding_a_reply.htm" />
+  </key>
+</key>
+<key name="RSS News Reader portlet" >
+  <topic name="RSS News Reader" url="RSS_News_Reader.htm" />
+  <key name="creating a category" >
+    <topic name="Creating a category" url="RSS_News_Reader/Rss_Creating_a_category.htm" />
+  </key>
+  <key name="subscribing to a feed" >
+    <topic name="Subscribing to a feed" url="RSS_News_Reader/Rss_Subscribing_to_a_feed.htm" />
+  </key>
+</key>
+<key name="sending mail through Group Directory" >
+  <topic name="Sending e-mail" url="Group_Directory/Gdr_Sending_e-mail.htm" />
+</key>
+<key name="setting preferences" >
+  <key name="in the Bulletin Boards portlet" >
+    <topic name="Setting preferences" url="Bulletin_Boards/Bul_Setting_preferences.htm" />
+  </key>
+  <key name="in the Calendar portlet" >
+    <topic name="Setting preferences" url="Calendar/Cal_Setting_preferences.htm" />
+  </key>
+  <key name="in the Group Directory portlet" >
+    <topic name="Setting preferences" url="Group_Directory/Gdr_Setting_preferences.htm" />
+  </key>
+  <key name="in the Handouts portlet" >
+    <topic name="Setting preferences" url="Handouts/Hdo_Setting_preferences.htm" />
+  </key>
+  <key name="in the Readings portlet" >
+    <topic name="Setting preferences" url="Readings/Rdg_Setting_preferences.htm" />
+  </key>
+  <key name="in the Task Manager portlet" >
+    <topic name="Setting preferences" url="Task_Manager/Tkm_Setting_preferences.htm" />
+  </key>
+</key>
+<key name="subscribing to" >
+  <key name="a Blog portlet" >
+    <topic name="Subscribing to a blog" url="Blog/Blg_Subscribing_to_a_blog.htm" />
+  </key>
+  <key name="a Calendar portlet" >
+    <topic name="Subscribing to calendars" url="Calendar/Cal_Subscribing_to_calendars.htm" />
+  </key>
+  <key name="a Forums portlet" >
+    <topic name="Managing subscriptions" url="Forums/Fms_Managing_subscriptions.htm" />
+  </key>
+</key>
+<key name="subscribing to: an RSS feed" >
+  <topic name="Subscribing to a feed" url="RSS_News_Reader/Rss_Subscribing_to_a_feed.htm" />
+</key>
+<key name="Task Manager portlet" >
+  <topic name="Task Manager" url="Task_Manager.htm" />
+  <key name="creating a task" >
+    <topic name="Creating a task" url="Task_Manager/Tkm_Creating_a_task.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Task_Manager/Tkm_Setting_preferences.htm" />
+  </key>
+</key>
+
+</indexdata>

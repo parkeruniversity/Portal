@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Chart.aspx.cs" Inherits="Jenzabar.Portal.Web.UI.Pages.Chart.Chart" %>

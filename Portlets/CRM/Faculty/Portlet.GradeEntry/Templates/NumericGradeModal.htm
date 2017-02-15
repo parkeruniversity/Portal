@@ -1,0 +1,29 @@
+﻿<div id="numericGradePlugin" title="{{modalLabels.numericGradeTitle}}" style="overflow: visible;">
+    <div class="GE">
+        <div class="numericGradeContainer">
+            <div class="formItem">
+                    <label for="studentName" class="BoldText">{{modalLabels.studentName}}</label>
+                    <label id="studentName" style="padding-left: 1.5em">{{studentName}}</label>
+            </div>
+            <br />
+            <div class="formItem">
+                <span>{{modalLabels.numericGradeText}}</span>
+            </div>
+            <br />
+
+            <div class="formItem">
+                <label for="numericGrade" class="BoldText">{{modalLabels.numericGradeLabel}}</label><br />
+                <input type="text" id="numericGrade" value="{{numericGrade}}" />
+            </div>
+            <br />
+
+            <div class="ClearLeft"></div>
+            <br />
+
+            <div class='formButtons textAlignCenter'>
+                <button id="modalSubmitItem" type="button" class="btn InfoButton submitAction" data-numericgrade="true">{{modalLabels.save}}</button>
+                <button id="modalCancel" type="button" class="btn cancelAction" data-numericgrade="true">{{modalLabels.cancel}}</button>
+            </div>
+        </div>
+    </div>
+</div>

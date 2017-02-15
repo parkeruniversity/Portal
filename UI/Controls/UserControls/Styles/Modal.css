@@ -1,0 +1,52 @@
+﻿/* Modal Popup Control */
+.modalDiv{
+    max-width: 500px;
+    max-height: 95%;
+    overflow: auto;
+    z-index: 8001 !important;
+}
+.modalPopup{
+    z-index: 8000 !important;
+}
+#modalHeading .modalHeadingImg{
+}
+#modalHeading{
+}
+#innerModal{
+    max-width:500px;
+}
+#modalButtons{
+    margin:5px;
+    padding:5px;
+}
+
+
+/* Special Styling required for unique eLearning popups */
+
+.CourseworkPortlet .uploadFilePanelHeader{
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px 4px 0px 0px;
+    outline: 0;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.35);
+    margin: 10px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+
+.CourseworkPortlet .uploadFilePanelHeader + table{
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 0px 0px 4px 4px;
+    outline: 0;
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    margin: 10px;
+    border-top: 0px;
+    margin-top: 0px;
+}
+
+.CourseworkPortlet .uploadFilePanelHeader > .closeIcon{
+    cursor: pointer;
+}

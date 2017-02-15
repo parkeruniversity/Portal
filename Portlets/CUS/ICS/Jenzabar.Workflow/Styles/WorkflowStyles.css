@@ -1,0 +1,262 @@
+﻿.pt_JenzabarWorkflow .pSection ul {
+    margin-top: 0px;
+}
+.pt_JenzabarWorkflow a[href], .pt_JenzabarWorkflow .pSection a[id*=lnk] {
+    padding-left: 0px;
+}
+.pt_JenzabarWorkflow a[id*=lnkAdd] {
+    background-image: none;
+}
+.pt_JenzabarWorkflow .cssmenu{ height:37px; display:block; padding:0; margin:20px auto;  border:1px solid; border-radius:5px; } 
+.pt_JenzabarWorkflow .cssmenu > ul {list-style:inside none; padding:0; margin:0;} 
+.pt_JenzabarWorkflow .cssmenu > ul > li {list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative;} 
+.pt_JenzabarWorkflow .cssmenu > ul > li > a{ outline:none; display:block; position:relative; padding:12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); } 
+.pt_JenzabarWorkflow .cssmenu > ul > li > a[id*=lnk]{ outline:none; display:block;color: #ffffff!important; position:relative; padding:12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); } 
+.pt_JenzabarWorkflow .cssmenu > ul > li:first-child > a{border-radius:5px 0 0 5px;} 
+.pt_JenzabarWorkflow .cssmenu > ul > li > a:after{ content:''; position:absolute; border-right:1px solid; top:-1px; bottom:-1px; right:-2px; z-index:99; } 
+.pt_JenzabarWorkflow .cssmenu ul li.has-sub:hover > a:after{top:0; bottom:0;} 
+.pt_JenzabarWorkflow .cssmenu > ul > li.has-sub > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; } 
+.pt_JenzabarWorkflow .cssmenu > ul > li.has-sub:hover > a:before{top:19px;} 
+.pt_JenzabarWorkflow .cssmenu ul li.has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px; z-index:999; } 
+.pt_JenzabarWorkflow .cssmenu ul li.has-sub:hover > ul, .cssmenu ul li.has-sub:hover > div{display:block;} 
+.pt_JenzabarWorkflow .cssmenu ul li.has-sub > a:hover{background:#3f3f3f; border-color:#3f3f3f;} 
+.pt_JenzabarWorkflow .cssmenu ul li > ul, .cssmenu ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0; background:#3f3f3f; border-radius:0 0 5px 5px; z-index:999; } 
+.pt_JenzabarWorkflow .cssmenu ul li > ul{width:200px;} 
+.pt_JenzabarWorkflow .cssmenu ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;} 
+.pt_JenzabarWorkflow .cssmenu ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff!important; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+.pt_JenzabarWorkflow .cssmenu ul li > ul li a[id*=lnk]{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff!important; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+
+.pt_JenzabarWorkflow .cssmenu, .cssmenu > ul > li > ul > li a:hover{ background:#3e698c; background:-moz-linear-gradient(top,  #3e698c 0%, #30576e 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e698c), color-stop(100%,#30576e)); background:-webkit-linear-gradient(top,  #3e698c 0%,#30576e 100%); background:-o-linear-gradient(top, #3e698c 0%,#30576e 100%); background:-ms-linear-gradient(top, #3e698c 0%,#30576e 100%); background:linear-gradient(top,  #3e698c 0%,#30576e 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e698c', endColorstr='#30576e',GradientType=0 ); } 
+.pt_JenzabarWorkflow .cssmenu{border-color:#1b313d;} 
+.pt_JenzabarWorkflow .cssmenu > ul > li > a{border-right:1px solid #1b313d; color:#fff;} 
+.pt_JenzabarWorkflow .cssmenu > ul > li > a:after{border-color:#6696bd;} 
+.pt_JenzabarWorkflow .cssmenu > ul > li > a:hover{background:#436f93;} 
+.pt_JenzabarWorkflow .center
+{
+    margin:0px auto;
+}
+.pt_JenzabarWorkflow .auto-style1
+{
+    width: 128px;
+}
+.pt_JenzabarWorkflow .StageLinks
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.pt_JenzabarWorkflow .AdminTrackRow
+{
+    min-height:30px;
+    border:1px dashed black;
+    padding-left:15px;
+    padding-top:15px;
+    position:relative;
+}
+.pt_JenzabarWorkflow .AdminTrackRow input[type=image]
+{
+    position: relative;
+    top:3px;
+    right: 3px;
+    height: 25px;
+    outline: thin solid lightgray;
+    padding: 3px;
+}
+.pt_JenzabarWorkflow .SortStages .AdminTrackRow input[type=image] {
+    height:16px;
+    right:15px;
+    top:2px;
+}
+.pt_JenzabarWorkflow .RowTemplate
+{
+    width:98%;
+    min-height:30px;
+    border:1px dashed #B2B2B2;
+    padding:3px;
+    margin:2px;
+    position:relative;
+}
+.pt_JenzabarWorkflow .AltRowTemplate
+{
+    width:98%;
+    min-height:30px;
+    background-color: #EFEFEF;
+    border:1px dashed #B2B2B2;
+    padding:3px;
+    margin:2px;
+    position:relative;
+}
+.pt_JenzabarWorkflow div.dragHandle
+{
+    width:12px;
+    height:80%;
+    background-color:#DEDEDE;
+    background-image: url(/ICS/ui/common/images/PortletImages/Icons/drag-handle.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border:1px outset gray;
+    cursor:move;
+    position:absolute;
+    left:0px;
+    margin-right:14px;
+       
+}
+.pt_JenzabarWorkflow div.ruleDragHandle
+{
+    width:12px;
+    height:98%;
+    background-color:#DEDEDE;
+    background-image: url(/ICS/ui/common/images/PortletImages/Icons/drag-handle.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border:1px outset gray;
+    cursor:move;
+    left:0px;
+       
+}
+.pt_JenzabarWorkflow div.taskDragHandle
+{
+    width:12px;
+    height:80%;
+    background-color:#DEDEDE;
+    background-image: url(/ICS/ui/common/images/PortletImages/Icons/drag-handle.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border:1px outset gray;
+    cursor:move;
+    left:0px;
+    margin-right:14px;
+       
+}
+.pt_JenzabarWorkflow .element table 
+{
+    margin-left:13px;
+}
+.pt_JenzabarWorkflow div.editHandle
+{
+    width:12px;
+    height:100%;
+    background-color:#DEDEDE;
+    background-image: url(/ICS/ui/common/images/PortletImages/Icons/edit.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border:1px outset gray;
+    cursor:pointer;
+    position:absolute;
+    left:0px;
+    margin-right:14px;
+       
+}
+.pt_JenzabarWorkflow div.editDiv
+{
+    float:left;
+    margin-right:5px;
+    position:absolute;
+    height: 100%;
+}
+.pt_JenzabarWorkflow div.commandDiv
+{
+    float:left;
+    margin-right:5px;
+    position:absolute;
+    height: 100%;
+}
+.pt_JenzabarWorkflow div.ruleCommandDiv
+{
+    height: 100%;
+}
+.pt_JenzabarWorkflow div.taskCommandDiv
+{
+    float:left;
+    margin-right:5px;
+    height: 100%;
+}
+.pt_JenzabarWorkflow .Add, .StaticApprover, .DynamicApprover {
+    display:none;
+}
+.pt_JenzabarWorkflow #tabs-3 ul li, #tabs-2 ul li {
+    display:inline-block;
+    width:100px;
+}
+.pt_JenzabarWorkflow #tabs-2 ul li a{
+    display:inline-block;
+    width:100px;
+}
+.pt_JenzabarWorkflow #tabs-3 label {
+    display:inline-block;
+    width:90px;
+}
+.pt_JenzabarWorkflow #tabs-3 input[type=text], #tabs-3 select {
+    width:125px;
+}
+.pt_JenzabarWorkflow #itemTabs label {
+    width:150px;
+    display:inline-block;
+}
+.pt_JenzabarWorkflow #itemTabs ul li span {
+    width:150px;
+    display:inline-block;
+}
+.pt_JenzabarWorkflow .TrackLinks
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.pt_JenzabarWorkflow .required 
+{
+    border-color: Red;
+    background-color: Pink;
+}
+.pt_JenzabarWorkflow .reqIndicator 
+{
+    color: Red;
+    float:left;
+    margin-right:5px;
+}
+.pt_JenzabarWorkflow .AdminLinks
+{
+    width:66%;
+    border:1px solid #B2B2B2;
+    padding:3px;
+    background-color:#EFEFEF;
+}
+.pt_JenzabarWorkflow .ApproverLinks li
+{
+    display: inline-block!important;
+    width: 100px;
+}
+.jwf-email-panel input[type=text], .jwf-email-panel select
+{
+    width:100%;
+}
+.jwf-scheduled-email table
+{
+    width:100%;
+}
+.jwf-scheduled-email input[type=text]
+{
+    width:35px;
+}
+.jwf-settings-tabs
+{
+    min-height: 360px;
+}
+.jwf-settings-tabs [role=tabpanel]
+{
+    min-height: 295px;
+    overflow-y:scroll;
+}
+.jwf-track-settings .center, .jwf-stage-settings .center 
+{
+    text-align:center;
+}
+.jwf-track-settings input[type=text]
+{
+    width:100%;
+}
+.jwf-track-settings textarea
+{
+    width: 100%;
+    height: 150px;
+}

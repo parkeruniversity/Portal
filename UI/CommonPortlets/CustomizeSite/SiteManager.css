@@ -1,0 +1,164 @@
+#divTitleLinkButtons 
+{
+	float:left;
+	text-align:left;
+	padding:0px;
+	margin:0px;
+}
+
+#tblShowMessage th
+{
+	text-align:right;
+}
+
+#divTitleDropdown
+{
+	text-align:right;
+	padding:0px;
+	margin:0px;
+}
+
+.MessageDetails p
+{
+	margin:0px;
+	padding:0px;
+}
+
+.radioButton
+{
+	vertical-align:text-top;
+}
+
+.SiteManager .option
+{
+	margin-bottom: 0px;
+}
+
+.SiteManager .option table
+{
+	margin-bottom: 0px;
+}
+
+.SiteManager .subOption
+{
+	margin-left: 25px;
+}
+
+.SiteManager .subOption table
+{
+	margin-bottom: 0px;
+}
+
+#tblShowMessage #ButtonCell { padding-top:20px; border-top:#ccc 1px solid; padding-left:10px;}
+#tblShowMessage tr { padding:5px 0px 5px 0px; }
+#tblShowMessage th { padding-left:20px; }
+#tblShowMessage td { padding-left:10px; }
+#ContentCell {height:15px;}
+#tblShowMessage #TargetedMessage {margin-left:0px;}
+#tblAddEditMessage th { padding-left:20px; vertical-align:top; white-space:nowrap; }
+#tblAddEditMessage td { padding-left:10px; white-space:nowrap;  }
+
+/* Start of Theme Styles */
+.themeAdmin .currentThemeContainer
+{
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.themeAdmin h5
+{
+	margin-top: 0px;
+}
+
+.themeAdmin h6
+{
+	color: #0054a7;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: Transparent;
+    margin: 5px 0px 3px 0px;
+    padding: 0px;
+}
+
+
+.themeAdmin .theme 
+{
+	padding: 2px 5px 2px 5px;
+	border-bottom: dashed 1px #7c7c7c;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.themeAdmin .currentTheme 
+{
+    background-color: #D6E2FB;
+    border: solid 1px #BBBBBB;
+    float:left;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.themeAdmin .addTheme 
+{
+	padding-left: 10px;
+	padding-bottom: 10px;
+    background-color: #F3F3F3;
+    border: solid 1px #0054A7;
+    margin-left: 63%;
+    width: 35%;
+}
+
+.themeAdmin .author
+{
+	margin-bottom: 3px;
+    font-style: italic;
+}
+
+.themeAdmin .desc
+{
+	margin-bottom: 10px;
+}
+
+.themeAdmin .link
+{
+	margin-bottom: 5px;
+}
+
+.themeAdmin .thumbnail
+{
+	float: left;
+	width: 154px;
+	height: 108px; 
+	margin: 5px 15px 5px 2px;
+	overflow: hidden;
+}
+
+.themeAdmin .thumbnail img
+{
+	border: solid 1px #000000;
+	width: 150px;
+	height: auto; 
+}
+
+.themeAdmin .links li
+{
+	display: inline;
+	margin-right: 10px;
+}
+
+.themeAdmin dl
+{
+	margin-left: 20px;
+}
+/* End of Theme Styles */
+
+.versionInfoHint
+{
+	margin-left: 50px;
+	width: 200px;
+}
+
+.versionInfoHint p
+{
+	margin: 5px 0px 5px 0px; 
+}

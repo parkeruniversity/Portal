@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="" id="DropCourse">
+	<xs:element name="DropCourse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ValidationsText" type="xs:string" minOccurs="0"/>
+				<xs:element name="CourseInfo" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ERPStudentCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="ErrorText" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+
+[1][ 2][3]_[4].ext
+
+1:	L - Loading
+	R - Refresh
+
+2:	image id (two characters, ex: 01)
+
+3:	image variation
+
+4:	color name or hex code

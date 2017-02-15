@@ -1,0 +1,297 @@
+# START - [CRM] InitiateContactPortlet
+dn: CN=[CRM] InitiateContactPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: vp0ZNx6s7UG/KnhOhitoJQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Initiate Contact
+jenzabar-ICSNET-PortletPath:
+ Portlet.InitiateContact,Jenzabar.CRM.Candidate.Web.Portlets.InitiateContactPortlet.InitiateContactPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] InitiateContactPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] InitiateContactPortlet
+
+# START - [CRM] AdmissionsStatus
+dn: CN=[CRM] AdmissionsStatus,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: bxx/FLEN7Uij5AGbuL5fDA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Admissions Status
+jenzabar-ICSNET-PortletPath: Portlet.AdmissionsStatus,Jenzabar.CRM.Candidate.Web.Portlets.AdmissionsStatusPortlet.AdmissionsStatusPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] AdmissionsStatus,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] AdmissionsStatus
+
+# START - [CRM] FolderItems
+dn: CN=[CRM] FolderItems,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: 4RvenvyVHUemhVqIhQWHJA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Folder Items
+jenzabar-ICSNET-PortletPath: Portlet.FolderItems,Jenzabar.CRM.Candidate.Web.Portlets.FolderItemsPortlet.FolderItemsPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] FolderItems,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] FolderItems
+
+# START - [CRM] AcademicInformationPortlet
+dn: CN=[CRM] AcademicInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: GQwVRn/xu0+pDwFFYvMRMQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Academic Information
+jenzabar-ICSNET-PortletPath:
+ Portlet.AcademicInformation,Jenzabar.CRM.Student.Web.Portlets.AcademicInformationPortlet.AcademicInformationPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] AcademicInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] AcademicInformationPortlet
+
+# START - [CRM] PaymentsPortlet
+dn: CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: HT2qkjTyPEiWGVb2SlsXDQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Payment Administration
+jenzabar-ICSNET-PortletPath:
+ Portlet.Payments,Jenzabar.CRM.Common.Web.Portlets.PaymentsPortlet.PaymentsPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] PaymentsPortlet
+
+# START - [ICS] HelpfulLinksPortlet
+dn: CN=[ICS] HelpfulLinksPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: 3j8Vq+dBuk63JnY0TwW2Yg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Helpful Links
+jenzabar-ICSNET-PortletPath:
+ Portlet.Bookmark,Jenzabar.ICS.Web.Portlets.BookmarkPortlet.BookmarkPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=ICS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[ICS] HelpfulLinksPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [ICS] HelpfulLinksPortlet
+
+
+# START - DivisionMajorAssignment
+dn: CN=[CRM] DivisionMajorAssignmentPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: tB+KvnfJFECb3rh18lsBAg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Division and Major Assignment Portlet
+jenzabar-ICSNET-PortletPath:
+ Portlet.DivisionMajorAssignment,Jenzabar.CRM.Candidate.Web.Portlets.DivisionMajorAssignmentPortlet.DivisionMajorAssignmentPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] DivisionMajorAssignmentPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - DivisionMajorAssignment
+
+# START - ApplyForAdmissions
+dn: CN=[CRM] ApplyForAdmissions,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: EUVPStuowke0StOeNGNiEQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Apply For Admissions
+jenzabar-ICSNET-PortletPath: Portlet.FormBuilder,Jenzabar.CRM.Common.Web.Portlets.FormBuilderPortlet.FormBuilderPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] ApplyForAdmissions,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - ApplyForAdmissions
+
+# START - MakeAnInquiry
+dn: CN=[CRM] MakeAnInquiry,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: Day4fG05IEepQw704jLwTQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Make an Inquiry
+jenzabar-ICSNET-PortletPath: Portlet.FormBuilder,Jenzabar.CRM.Common.Web.Portlets.FormBuilderPortlet.FormBuilderPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] MakeAnInquiry,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - MakeAnInquiry
+
+# START - DivisionMajorAssignment
+dn: CN=[CRM] DivisionMajorAssignmentPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: tB+KvnfJFECb3rh18lsBAg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Division and Major Assignment
+jenzabar-ICSNET-PortletPath:
+ Portlet.DivisionMajorAssignment,Jenzabar.CRM.Candidate.Web.Portlets.DivisionMajorAssignmentPortlet.DivisionMajorAssignmentPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] DivisionMajorAssignmentPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - DivisionMajorAssignment
+
+
+# START - Major Exploration and What If Scenarios
+dn: CN=[CRM] MajorExplorationandWhatIf,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: UjFZowUOnE+jgQf+dpt85g==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Major Exploration and What If Scenarios
+jenzabar-ICSNET-PortletPath: Portlet.MajorExplorationandWhatIf,Jenzabar.CRM.Student.Web.Portlets.MajorExplorationandWhatIfPortlet.MajorExplorationandWhatIfPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] MajorExplorationandWhatIf,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Major Exploration and What If Scenarios
+
+
+# START - Course Schedules
+dn: CN=[CRM] CourseSchedules,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: DtwPYO6UVEKHZ5OtbnwIiA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Course Schedules
+jenzabar-ICSNET-PortletPath: Portlet.CourseSchedules,Jenzabar.CRM.Student.Web.Portlets.CourseSchedulesPortlet.CourseSchedulesPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] CourseSchedules,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Course Schedules
+
+
+# START - Apply Online
+dn: CN=[CRM] ApplyOnline,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: m1k+WPeZrkiHXYTn9Q0sxQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Apply Online 2.0
+jenzabar-ICSNET-PortletPath: Portlet.ApplyOnline,Jenzabar.CRM.Candidate.Web.Portlets.ApplyOnline.ApplyOnlinePortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] ApplyOnline,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Apply Online
+
+
+# START - Make an Inquiry
+dn: CN=[CRM] MakeInquiry,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: krtZNeQ8hUKUxxi+8RngOg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Make an Inquiry 2.0
+jenzabar-ICSNET-PortletPath: Portlet.MakeInquiry,Jenzabar.CRM.Candidate.Web.Portlets.MakeInquiry.MakeInquiryPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] MakeInquiry,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Make an Inquiry
+

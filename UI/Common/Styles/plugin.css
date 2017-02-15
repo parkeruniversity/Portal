@@ -1,0 +1,376 @@
+﻿/***  PEOPLE CHOOSER START ***/ 
+.pc-autocomplete {
+    width: 200px;
+}
+.pc-filter {
+    margin-bottom: 20px;
+}
+.pc-filterbox {
+    border: 1px solid #CDCDCD;
+    padding: 2px;
+    width: 250px;
+}
+.pc-selectable-header, .pc-selected-header, .pc-filter-txt, .pc-contextChooser {
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 4px;
+}
+.pc-contextChooser {
+    margin-bottom: 10px;
+}
+.pc-contextChooser input {
+    margin-left: 10px;
+}
+div.pc-item {
+    padding: 2px 24px 2px 2px;
+    margin: 2px 0;
+    min-height: 50px;
+    position: relative;
+}
+div.pc-item img {
+    float: left;
+    height: 45px;
+    width: 45px;
+}
+i.pc-fa {
+    float: left;
+    margin-left: -18px;
+    margin-top: 3px;
+}
+div.pc-item div {
+    margin-left: 50px;
+    line-height: 13px;
+}
+span.pc-itemId {
+    color:#808080;
+    display: block;
+    font-size: 11px;
+}
+div.pc-name strong {
+    display: block;
+    color: #000;
+}
+div.pc-name .pc-me {
+    display: inline-block;
+    color: #000;
+}
+span.pc-itemRoles {
+    display: block;
+    color:#808080;
+    font-size:10px;
+}
+span.pc-details {
+    display: block;
+    color:#000;
+    font-size:10px;
+}
+.pc-selectable div.pc-item, .pc-selected div.pc-item {
+    margin: 3px;
+    padding: 4px 2px 4px 25px;
+    border: 1px solid #FFF;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    position: relative;
+}
+.pc-selectable div.pc-item i.fa,.pc-selected div.pc-item i.fa  {
+    color: gray;
+}
+.pc-selected div.pc-item i.pc-fa-selected,
+.ui-autocomplete.pc-autocomplete-menu .ui-menu-item.ui-state-focus .pc-fa-selected {
+    position: absolute;
+    z-index: 101;
+    top: 32px;
+    font-size: 14px;
+    margin-left: 30px;
+    color: #A7CE01;
+    display: block;
+}
+.pc-selectable div.pc-item img.pc-itemImg, 
+.pc-selectable div.pc-item i.pc-fa-selected, 
+.ui-autocomplete.pc-autocomplete-menu .ui-menu-item .pc-fa-selected  {
+    display: none;
+}
+.pc-selectable div.pc-item div {
+    margin-left: 0px;
+}
+.pc-selected div.pc-item{
+    clear: both;
+    min-height: 47px;
+}
+.pc-selected div.pc-item img.pc-itemImg {
+    position: absolute;
+}
+.pc-selectable,  .pc-selected {
+    min-width: 250px;
+}
+.pc-selection-area {
+    border: 1px solid #CDCDCD;
+    height: 250px;
+    overflow-y: auto;
+}
+.pc-selectable-wrapper {
+    float: left;
+    width: 48.5%;
+}
+.pc-selected-wrapper {
+    margin-left: 51.5%;
+    width: auto;
+}
+.pc-selectable input[type='image'],  .pc-selected input[type='image'] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1000;
+}
+.pc-selectable span.pc-itemId {
+    display: inline;
+    margin-left: 5px;
+}
+.pc-selectable div.pc-item:hover,  .pc-selected div.pc-item:hover{
+    border: 1px solid #e7d937;
+    background-color: #ffffe5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pc-selected div.pc-item:hover {
+    background-image: none;
+    border: 1px solid #D4D4D4;
+    background-color: #ECECEC;
+}
+.pc-selectable div.pc-item:hover i.pc-fa{
+    color: #A7CE01;
+}
+.pc-selected div.pc-item:hover i.pc-fa, .pc-removeAll i.fa {
+    color: #DD0600;
+}
+.pc-selectable div.pc-item:hover strong,  .pc-selected div.pc-item:hover strong {
+    text-decoration: underline;
+}
+.pc-action {
+    clear: both;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.pc-prev,.pc-more, .pc-removeAll {
+    text-decoration: underline;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.pc-prev.pc-disabled, .pc-more.pc-disabled {
+    color: #909090;
+    text-decoration: none;
+}
+.pc-autocomplete.ui-autocomplete-input {
+    padding-right: 20px;
+}
+.peoplechooser i.fa-search {
+    right: -17px;
+    margin-left: -17px;
+    color: #909090;
+}
+.pc-watermark {
+    color: #909090;
+    font-style: italic;
+}
+.ui-autocomplete.pc-autocomplete-menu  {
+    max-height: 200px;
+    max-width: 350px;
+    min-width: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    -moz-box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    padding-right: 5px;
+}
+.ui-autocomplete.pc-autocomplete-menu .ui-menu-item {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.ui-autocomplete.pc-autocomplete-menu .ui-menu-item.ui-state-focus {
+    background: 0;
+    border: 1px solid #e7d937;
+    background-color: #ffffe5;
+    display: block;
+    cursor: pointer;
+    box-shadow: none;
+}
+.pc-loading{
+    overflow: hidden;
+    padding: 25px 0;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    width: 200px;
+    margin-left:-60px;
+    margin-top:-50px;
+    font-family: Trebuchet MS;
+    font-size: medium;
+    font-weight: bold;    -moz-border-radius: 6px;
+    -webkit-border-radius: 6x;
+    border-radius: 6px 6px 6px 6px;
+    -moz-box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=45,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=135,strength=4) progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=225,strength=4) progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=315,strength=3);
+}
+.pc-loading img{
+    vertical-align: middle;
+    margin-right: 6px;
+}
+/***  PEOPLE CHOOSER END ***/ 
+
+/***  ROLE CHOOSER START ***/
+.rc-context {
+    margin: 30px 0 5px;
+}
+.rc-context:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.rc-context-name {
+    font-size: 1.4em;
+}
+.rc-context-description {
+    color: #808080;
+}
+.rc-context-everyone {
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.rc-container label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.rc-container label.rc-disabled-selector {
+    text-decoration: none;
+    cursor: default;
+}
+.rc-container li {
+    margin: 0 0 8px;
+}
+.rc-selectors {
+    background-color: #FAFAFA;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    clear: both;
+    padding: 15px 15px 30px;
+}
+.rc-first-column {
+    float: left;
+    width: 48.5%;
+}
+.rc-second-column {
+    margin-left: 51.5%;
+    width: auto;
+}
+.rc-guest-selector {
+    float: right;
+}
+.rc-mycourses { 
+    font-size: 1.1em;
+    text-decoration: underline;
+    padding: 10px 0;
+}
+.rc-mycourses:hover {
+    cursor: pointer;
+}
+.rc-actions {
+    margin: 10px 0;
+    text-align: center;
+}
+.rc-actions button {
+    margin-right: 15px;
+}
+/***  ROLE CHOOSER END ***/
+
+/*** TIME PICKER START ***/
+
+.ui-timepicker-wrapper {
+	overflow-y: auto;
+	height: 150px;
+	width: 6.5em;
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	box-shadow:0 5px 10px rgba(0,0,0,0.2);
+	outline: none;
+	z-index: 10001;
+	margin: 0;
+}
+
+.ui-timepicker-wrapper.ui-timepicker-with-duration {
+	width: 13em;
+}
+
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-30,
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-60 {
+	width: 11em;
+}
+
+.ui-timepicker-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ui-timepicker-duration {
+	margin-left: 5px; color: #888;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-duration {
+	color: #888;
+}
+
+.ui-timepicker-list li {
+	padding: 3px 0 3px 5px;
+	cursor: pointer;
+	white-space: nowrap;
+	color: #000;
+	list-style: none;
+	margin: 0;
+}
+
+.ui-timepicker-list:hover .ui-timepicker-selected {
+	background: #fff; color: #000;
+}
+
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+	background: #1980EC; color: #fff;
+}
+
+li.ui-timepicker-selected .ui-timepicker-duration,
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+	color: #ccc;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled,
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	color: #888;
+	cursor: default;
+}
+
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+	background: #f2f2f2;
+}
+/*** TIME PICKER END ***/
+
+/*** FILE CHOOSER START ***/
+.file-chooser .chosen-file-name {
+	margin-left: 10px;
+}
+/*** FILE CHOOSER END ***/

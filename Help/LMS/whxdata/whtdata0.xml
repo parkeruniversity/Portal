@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<tocdata>
+<book name="Welcome" url="welcome_1.htm" >
+  <item name="Overview" url="welcome/wlc_overview.htm" />
+  <item name="Key terms" url="welcome/wlc_key_terms.htm" />
+  <item name="For more information" url="welcome/wlc_for_more_information.htm" />
+  <item name="Legal disclaimer" url="welcome/wlc_legal_disclaimer.htm" />
+</book>
+<book name="eRacer portlets" url="eracer_portlets.htm" >
+  <item name="About This Course" url="about_this_course.htm" />
+  <book name="All My Courses" url="all_my_courses.htm" >
+    <item name="Understanding the main view" url="all_my_courses/amc_understanding_the_main_view.htm" />
+    <item name="Customizing your view" url="all_my_courses/amc_customizing_your_view.htm" />
+    <item name="Adding 'All My Courses'" url="all_my_courses/amc_adding_all_my_courses.htm" />
+  </book>
+  <item name="Attendance" url="attendance_portlet.htm" />
+  <item name="Course Information" url="course_information_portlet.htm" />
+  <item name="Course Search" url="course_search_portlet.htm" />
+  <item name="Course Syllabus" url="course_syllabus.htm" />
+  <item name="Coursemates" url="coursemates.htm" />
+  <item name="Coursework" url="coursework_portlet.htm" />
+  <item name="Downloadable Version" url="downloadable_version.htm" />
+  <item name="Gradebook" url="gradebook_portlet.htm" />
+</book>
+
+</tocdata>

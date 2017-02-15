@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<tocdata>
+<book name="Welcome to Staff 1.6" >
+  <item name="Title and copyright" url="default_1.htm" />
+  <item name="Overview" url="crm_staff_overview.htm" />
+</book>
+<book name="Working with requisitions" >
+  <item name="The Requisition Entry portlet" url="requisition_entry.htm" />
+  <item name="Entering requisitions" url="entering_requisitions.htm" />
+  <item name="Using the GL Account Selection screen" url="using_the_gl_account_selection_screen.htm" />
+  <item name="Checking the status of a requisition" url="monitoring_requisitions.htm" />
+</book>
+<book name="Approving items" >
+  <item name="The Item Approval portlet" url="item_approval.htm" />
+  <item name="Approving and declining items" url="approving_and_decline_requisitions.htm" />
+  <item name="Sorting items that require approval" url="sorting_requisitions_that_require_approval.htm" />
+</book>
+<book name="Reviewing GL account data" >
+  <item name="The GL Account Lookup portlet" url="gl_account_lookup.htm" />
+  <item name="Looking up account data" url="about_the_gl_account_lookup_portlet.htm" />
+  <item name="Submitting search criteria" url="submitting_search_criteria.htm" />
+  <item name="Working with the account summary" url="understandingaccountsummary.htm" />
+</book>
+<book name="Logging your time and reviewing payroll data" >
+  <item name="The Employee Information portlet" url="staff_portlet.htm" />
+  <item name="The Timecard Portlet" url="timecard.htm" />
+</book>
+<book name="Approving and submitting timecard data" >
+  <item name="The Timecard Approval portlet" url="the_timecard_approval_portlet.htm" />
+</book>
+
+</tocdata>

@@ -1,0 +1,75 @@
+﻿.Timecard .tcMainDisplay ul.CDLegendList>li>span
+{
+	float: left;
+}
+
+.Timecard .tcMainDisplay .CDBoldText
+{
+	padding: 10px 10px 0px 10px;
+	display: block;
+}
+
+.Timecard .tcMainDisplay .CDBoldText img
+{
+	float: right;
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+
+.Timecard .tcMainDisplay .CDLegendTable
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.Timecard .tcSettings ul.tcWeek
+{
+	width: 40em;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 20px;
+	white-space: nowrap;
+}
+
+.Timecard .tcSettings ul.tcWeek>li
+{
+	width: 40em;
+	display: block;
+	float: left;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.Timecard .tcSettings ul.tcWeek>li.tcLabel>div
+{
+	width: 5em;
+	height: 2em;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Timecard .tcSettings ul.tcWeek>li input
+{
+	margin: 0px;
+	padding: 0px;
+	width: 1em;
+	height: 1em;
+}
+
+.Timecard .tcSettings ul.tcWeek>li>div
+{
+	height: 3em;
+	width: 5em;
+	display: block;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+}

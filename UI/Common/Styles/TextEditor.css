@@ -1,0 +1,27 @@
+﻿div.mce-panel {
+	background: none #F0F0F0;
+}
+
+.teLimitExceeded {
+	border-color: red;
+}
+.chatBody {
+    padding-top: 8px;
+}
+.teLimitMsg, .pSection .teLimitMsg {
+	color: red;
+	margin: 5px 5px;
+}
+
+.mce-path > div {
+	visibility: hidden;
+}
+
+.teSimpleLayout .mce-path {
+	display: none;
+}
+
+#DIV_cfl_document_disabler,
+#DIV_cfl_document_disabler + div {
+	display: none;
+}

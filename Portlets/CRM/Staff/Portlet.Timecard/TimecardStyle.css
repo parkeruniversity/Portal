@@ -1,0 +1,351 @@
+﻿
+.Timecard .tcBoxes
+{
+	padding: 10px;
+}
+
+.Timecard .contentBox h4
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 100%;
+}
+
+.Timecard .contentBox .pSection
+{
+	font-size: 80%;
+}
+
+h4 .headerFunctions img
+{
+	padding-left: 10px;
+}
+
+/* MAIN PAGE STYLES */
+
+.pSection .tcMainDisplay table,
+.pSection .tcMainDisplay ul
+{
+	margin: 0px 0px 0px 0px;
+}
+
+table.tcMainDisplay>tr>td,
+table.tcMainDisplay>tbody>tr>td
+{
+	height: 100%;
+	vertical-align: top;
+	border-right: solid 1px #C3C3C3;
+}
+
+.Timecard .tcMainDisplay
+{
+	border: solid 1px #C3C3C3;
+	margin: 10px;
+	background-color: #EFEFEF;
+	border-right: none;
+}
+
+.Timecard .tcMainDisplay ul.CDLegendList>li
+{
+	clear: both;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+.Timecard .tcMainDisplay ul.CDLegendList>li>img
+{
+	margin: 5px;
+	float: left;
+}
+
+.Timecard .tcMainDisplay ul.CDLegendList>li>span
+{
+	display: block;
+	padding-top: 7px;
+}
+
+.Timecard .tcMainDisplay ul.CDLegend li>img
+{
+	float: left;
+}
+
+.Timecard .tcMainDisplay .CDBoldText
+{
+	font-size: 80%;
+	text-align: left;
+	font-weight: normal;
+}
+
+.Timecard .tcMainDisplay .CDMainTable
+{
+	background-color: #C9C9C9;
+	padding: 10px 5px 10px 5px;
+	margin: 0px;
+	border: 0px;
+}
+
+.Timecard .tcMainDisplay .CDCalendarTable
+{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.Timecard .tcMainDisplay .CDLegendTable
+{
+	width: 100%;
+	border: none;
+	background-color: inherit;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.Timecard .tcMainDisplay .CDMainTable .CDLegendTable
+{
+	background-color: #E2E2E2;
+	padding-top: inherit;
+	padding-bottom: inherit;
+}
+
+.Timecard .tcMainDisplay .tcMainHeader
+{
+	padding: 5px;
+	height: 15px;
+	background-color: #E2E2E2;
+}
+
+.Timecard .tcMainDisplay .tcMainHeader
+{
+	text-align:right;
+}
+
+.Timecard .tcMainDisplay .CDCalendarTable img
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.Timecard .tcMainDisplay .tcTotals
+{
+	padding: 10px 20px 10px 20px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Timecard .tcMainDisplay .tcValidationSummary
+{
+	max-width: 700px;
+}
+
+.Timecard .tcMainDisplay .tcValidationSummary li
+{
+	list-style: disc;
+	margin-left: 15px;
+}
+
+.Timecard .tcCalendarTitle
+{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	margin: 0px 20px;
+	padding: 0px 20px;
+}
+
+.Timecard .tcMainDisplay .tcPreviousButton
+{
+	float: left;
+}
+
+.Timecard .tcMainDisplay .tcNextButton
+{
+	float: right;
+}
+
+.tcMarkFinalConfirm
+{
+	max-width: 400px;
+}
+
+.tcMarkFinalConfirm>ul>li
+{
+	font-size: 80%;
+	padding: 10px;
+	margin: 0px;
+}
+
+.tcMarkFinalConfirm>ul>li.tcButtons
+{
+	font-size: 100%;
+}
+
+/* OTHER STYLES */
+
+.Timecard .tcMorePositionsLink
+{
+	float: right;
+}
+
+.Timecard .tcControlHighlight
+{
+	border: solid 2px #1879BE;
+}
+
+.Timecard .tcTotalsNote
+{
+	display: block;
+	padding: 20px 10px;
+	font-size: 80%;
+	max-width: 250px;
+	color: Red;
+}
+
+.Timecard .tcTotalsNote .tcContact
+{
+	padding-top: 10px;
+}
+
+.Timecard .tcFinalizeDisplay
+{
+	display: block;
+	padding: 10px;
+	clear: both;
+}
+
+.Timecard .tcFinalizeDisplay>*
+{
+	float: left;
+	padding-bottom: 10px;
+	font-size: 80%;
+}
+
+.Timecard .tcFinalizeDisplay>img
+{
+	padding-right: 5px;
+}
+
+.Timecard .tcManagerCommentsDisplay
+{
+	border: solid 2px #1851AD;
+	background: #EFEFEF;
+	max-width: 800px;
+}
+
+.Timecard .tcAllPayPeriods
+{
+	float: left;
+	padding: 0px 15px 0px 15px;
+}
+
+.Timecard .tcAllPayPeriods.tcRight
+{
+	padding-left: 75px;
+}
+
+/* SETTINGS SCREEN */
+
+.Timecard .tcSettings .tcDataEntry
+{
+	display: table;
+	margin: 20px auto 20px auto;
+	border-collapse: collapse;
+}
+
+.Timecard .tcSettings .tcDataEntry .tcLabel
+{
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+.Timecard .tcSettings .tcViewSelect
+{
+	font-size: 80%;
+}
+
+.Timecard .tcSettings ul.tcViewSelect
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.Timecard .tcSettings ul.tcViewSelect li
+{
+	margin: 50px;
+	display: inline;
+}
+
+.Timecard .tcSettings .tcViewSelect img
+{
+	padding: 0px 2px;
+	vertical-align: middle;
+}
+
+.Timecard .tcSettings ul.tcWeek>li.tcLabel
+{
+	font-weight: bold;
+}
+
+.Timecard .tcSettings ul.tcWeek>li.tcLabel>*
+{
+	padding: 5px;
+}
+
+.Timecard .tcSettings ul.tcWeek>li
+{
+	display: table-row;
+	margin: 0px;
+}
+
+.Timecard .tcSettings ul.tcWeek>li>*
+{
+	display: table-cell;
+	padding: 10px;
+	border: solid 1px gray;
+	margin: 0px;
+	text-align: center;
+}
+
+.Timecard .tcSettings ul.tcWeek>li>* input
+{
+	padding: 0px;
+}
+
+.Timecard .tcAuxButtonBar
+{
+	border-top: dashed 1px #C4C4C4;
+	background: #EFEFEF;
+	display: table;
+	margin: 10px auto 0px auto;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.Timecard .tcAuxButtonBar input
+{
+	margin: 10px;
+	padding: 3px 10px;
+	font-size: 80%;
+}
+
+.Timecard .tcAuxButtonBar input.tcEnhanced
+{
+	font-weight: bold;
+}
+
+.Timecard .tcWrap
+{
+    white-space:normal;
+}
+
+.Timecard .tcErrorText 
+{
+    color:red;
+    font-size:12px;
+}
+
+.Timecard .tcMarginRight
+{
+    margin-right: 5px;    
+}

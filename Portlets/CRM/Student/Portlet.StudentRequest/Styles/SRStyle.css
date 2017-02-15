@@ -1,0 +1,30 @@
+﻿.StudentRequest .GrayBordered { background-color: #EFEFEF; border: 1px solid #B2B2B2; padding: 10px;   }
+.StudentRequest .BlueBordered { background-color: #EFEFEF; border: 1px solid #0034A5; padding: 10px;   }
+.StudentRequest .WhiteBordered { border: 1px solid #B2B2B2; padding: 10px }
+.StudentRequest .YellowBordered { background-color: #FFFFE7; border: 1px solid #0034A5; padding: 10px;   }
+.StudentRequest .RedErrorText { color: #AD0000; }
+.StudentRequest .TableBorder { border: 1px solid #B2B2B2;   }
+.StudentRequest .Bullet { list-style-type: disc;}
+.StudentRequest .BorderLeftBottom { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2 }
+.StudentRequest .BorderLeftBottomINALT { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#DDDDDD; }
+.StudentRequest .BorderLeftBottomIN { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#EAEAEA; }
+.StudentRequest .BorderLeftBottomSE { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#DEDFDE; }
+.StudentRequest .BorderTopLeftBottomRight { background-color:#C0C0C0; border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; border-top:1px solid #B2B2B2; border-right: 1px solid #B2B2B2 }
+.StudentRequest .BorderLeftRightBottom { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2 }
+.StudentRequest .BorderLeftRightBottomSE { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2; background-color:#DEDFDE; }
+.StudentRequest .BorderLeftRightBottomIN { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2; background-color:#EAEAEA; }
+.StudentRequest .BorderLeftRightBottomINALT { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2; background-color:#DDDDDD; }
+.StudentRequest .BorderLeftRightTop { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-top:1px solid #B2B2B2 }
+.StudentRequest .BorderLeft { border-left:1px solid #B2B2B2;  }
+.StudentRequest .BorderLeftSU { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#D6E2F8; }
+.StudentRequest .BorderLeftIN { border-left:1px solid #B2B2B2; background-color:#EAEAEA; }
+.StudentRequest .BorderLeftRight { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; }
+.StudentRequest .BorderLeftRightIN { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; background-color:#EAEAEA; }
+.StudentRequest #Layer2 {position:absolute; width: 200px; z-index:2;border-right: 1px solid #C3C3C3;border-left: 1px solid #C3C3C3;  background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible;}
+.StudentRequest .GrayBase {border: 1px solid #C3C3C3; background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible; padding: .45em; padding/*\**/: 2em; /*IE8 hack */}
+.StudentRequest .GrayBorderBottom {border-top: 1px solid #C3C3C3; border-bottom: 1px solid #C3C3C3;}
+.StudentRequest .GrayBorderSides {border: 1px solid #C3C3C3;}
+.StudentRequest .AdminScreen {font-size: 85%;}
+.StudentRequest .Activate {font-size: 120%;}
+.StudentRequest .underline{border-bottom: solid 1px #999999;}
+.StudentRequest .QuestionColumnWidth {width: 30%;}

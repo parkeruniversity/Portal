@@ -1,0 +1,20 @@
+
+.CourseAuthorization ul.horizontal li
+{
+	display: inline;
+	margin-right: 10px;
+}
+
+.CourseAuthorization ul.highlighted
+{
+	background-color: #dddddd;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+.CourseAuthorization .warningText
+{
+	font-weight: bold;
+	color: Red;
+}
+

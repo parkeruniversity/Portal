@@ -1,0 +1,3 @@
+<%@ Register TagPrefix="cust" tagname="ReorderPortlets" src="~/UI/CommonPortlets/CustomizePage/Content/ReorderPortlets.ascx" %>
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="ReorderSidebarPortletLinks.ascx.cs" Inherits="Jenzabar.Portal.Web.UI.CommonPortlets.CustomizePage.Content.ReorderSidebarPortletLinks" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>
+<div><cust:ReorderPortlets id="ctlReorderPortlets" runat="server" Visible="True" /></div>

@@ -1,0 +1,2275 @@
+<LayoutManager xmlns="http://www.jenzabar.net/welcometab.xsd">
+	<!--
+	***************************************
+	Welcome and Base 
+	***************************************
+	-->
+	<!-- Welcome Context -->
+	<Content>
+		<Name>Welcome</Name>
+		<FriendlyName>Welcome</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Welcome Tab Default Page-->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction to Jenzabar Internet Campus Solution</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Welcome Tab Overview Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>15EBECA1-1835-4775-8559-E9BACB8405A6</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Base Context -->
+	<Content>
+		<Name>Base</Name>
+		<FriendlyName>Base</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Base Context Default Page-->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction to Base Portlets</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Base Context Overview Portlet on Default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>9A601830-15AA-41C8-8CA9-4965BF4D176E</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Groups Page (in Base Context)-->
+	<Content>
+		<Name>Groups</Name>
+		<FriendlyName>Groups</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Groups,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Groups Overview Portlet on Groups page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Groups,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Groups,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>605264F8-8D71-4018-B264-CF5C679B5B63</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Campus Groups Portlet on Groups Page in Base Context -->
+	<Content>
+		<Name>[ICS] CampusGroupPortlet</Name>
+		<FriendlyName>Campus Groups</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Campus Groups,CN=Groups,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Groups,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Group Directory Portlet on Groups Page in Base Context -->
+	<Content>
+		<Name>[ICS] GroupDirectoryPortlet</Name>
+		<FriendlyName>Group Directory</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Group Directory,CN=Groups,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Groups,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Communication and Personal Organization Page (in Base Context)-->
+	<Content>
+		<Name>Communication and Personal Organization</Name>
+		<FriendlyName>Communication and Personal Organization</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- People Connections Overview Portlet on Communication and Personal Organization Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>91A3D60C-6347-486C-B113-97A2BE10EE80</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Announcements Portlet on Communication and Personal Organization Page -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Announcements</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Announcements,CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Bulletin Boards Portlet on Communication and Personal Organization Page -->
+	<Content>
+		<Name>[ICS] BulletinBoards</Name>
+		<FriendlyName>Bulletin Boards</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Bulletin Boards,CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Calendar portlet on Communication and Personal Organization Page -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Calendar,CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>4</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Chat portlet on Communication and Personal Organization Page -->
+	<Content>
+		<Name>[ICS] ChatPortlet</Name>
+		<FriendlyName>Chat</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Chat,CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>5</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Forums portlet on Communication and Personal Organization Page -->
+	<Content>
+		<Name>[ICS] ForumPortlet</Name>
+		<FriendlyName>Forums</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Forums,CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>6</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Task Manager portlet on Communication and Personal Organization Page -->
+	<Content>
+		<Name>[ICS] TaskManagerPortlet</Name>
+		<FriendlyName>Task Manager</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Task Manager,CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Communication and Personal Organization,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>7</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Content Page (in Base Context)-->
+	<Content>
+		<Name>Content</Name>
+		<FriendlyName>Content</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Custom Content portlet on Content Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>CF3E26D0-A881-4059-9EC5-C93B4EB5B575</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Custom Content portlet on Content Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Custom Content</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Custom Content,CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks portlet on Content Page -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Bookmarks</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Bookmarks,CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Handouts portlet on Content Page -->
+	<Content>
+		<Name>[ICS] HandoutPortlet</Name>
+		<FriendlyName>Handouts</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Handouts,CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Content,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>4</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Other Features Page (in Base Context)-->
+	<Content>
+		<Name>Other Features</Name>
+		<FriendlyName>Other Features</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Other Features,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Custom Content portlet on Miscellaneous Application Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Other Features,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Features,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>00DBA444-9EE0-440B-98C4-8FC69DC6D0DB</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Site Administration Page (in Base Context)-->
+	<Content>
+		<Name>Site Administration</Name>
+		<FriendlyName>Site Administration</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Site Administration,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Managing the Site portlet on Site Administration Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Site Administration,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Site Administration,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>AFA02079-EC00-48C3-93D2-FBACCFD129E0</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Data Import Transactions portlet on Site Administration Page -->
+	<Content>
+		<Name>[ICS] DataImportTransactionsPortlet</Name>
+		<FriendlyName>Data Import Transactions</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Data Import Transactions,CN=Site Administration,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Site Administration,OU=Pages,CN=Base,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	CRM Admissions Officer 
+	***************************************
+	-->
+	<!-- CRM Context -->
+	<Content>
+		<Name>CRM</Name>
+		<FriendlyName>CRM</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in CRM Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction To Constituent Relationship Modules</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on CRM Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>39164E8F-B26F-442E-9BBE-ADC7931CC759</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Admissions Officer Context -->
+	<Content>
+		<Name>Admissions Officer</Name>
+		<FriendlyName>Admissions Officer</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in Admissions Officer Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>What is CRM Admissions Officer?</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on Default Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>D75D56E5-1ED0-48D3-A2C7-AA940BC18A4A</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Administrators page in Admissions Officer Context -->
+	<Content>
+		<Name>Administrators</Name>
+		<FriendlyName>Administrators</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Administrators,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Admissions Officer And Counselor Assignments Portlet on Administrators Page -->
+	<Content>
+		<Name>[CRM] CounselorAssignmentPortlet</Name>
+		<FriendlyName>Admissions Officer And Counselor Assignments</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Admissions Officer And Counselor Assignments,CN=Administrators,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Administrators,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Officers/ Counselors page in Admissions Officer Context -->
+	<Content>
+		<Name>Officers Counselors</Name>
+		<FriendlyName>Officers/Counselors</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- View Candidate Portlet on Officers/Counselors Page -->
+	<Content>
+		<Name>[CRM] ViewCandidatePortlet</Name>
+		<FriendlyName>View Candidate</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=View Candidate,CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Admissions Status Portlet on Officers/ Counselors Page -->
+	<Content>
+		<Name>[CRM] AdmissionsStatus</Name>
+		<FriendlyName>Admissions Status</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Admissions Status,CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Folder Items Portlet on Officers/ Counselors Page -->
+	<Content>
+		<Name>[CRM] FolderItems</Name>
+		<FriendlyName>Folder Items</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Folder Items,CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Make an Inquiry Portlet on Officers/ Counselors Page -->
+	<Content>
+		<Name>[CRM] MakeAnInquiry</Name>
+		<FriendlyName>Make an Inquiry</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Make an Inquiry,CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>4</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- View Activity Portlet on Officers/ Counselors Page -->
+	<Content>
+		<Name>[CRM] ViewActivityPortlet</Name>
+		<FriendlyName>View Activity</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=View Activity,CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- View Activity Portlet on Officers/ Counselors Page -->
+	<Content>
+		<Name>[ICS] TravelAssistantPortlet</Name>
+		<FriendlyName>Travel Assistant</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Travel Assistant,CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Officers Counselors,OU=Pages,CN=Admissions Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	CRM Advancement Officer 
+	***************************************
+	-->
+	<!-- CRM Context -->
+	<Content>
+		<Name>CRM</Name>
+		<FriendlyName>CRM</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in CRM Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction To Constituent Relationship Modules</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on CRM Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>39164E8F-B26F-442E-9BBE-ADC7931CC759</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advancement Officer Context -->
+	<Content>
+		<Name>Advancement Officer</Name>
+		<FriendlyName>Advancement Officer</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advancement Officer Default Page -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>What is CRM Advancement Officer?</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advancement Officer Overview Portlet on Default Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>E4CFC7D6-A12D-44C7-A2E6-285ACCF41E1A</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advancement Officers Page -->
+	<Content>
+		<Name>Advancement Officers</Name>
+		<FriendlyName>Advancement Officers</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Relationship Management Portlet on Officers page -->
+	<Content>
+		<Name>[CRM] RelationshipManagementPortlet</Name>
+		<FriendlyName>Relationship Management</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Relationship Management,CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Campaign Management Portlet on Officers page -->
+	<Content>
+		<Name>[CRM] CampaignManagementPortlet</Name>
+		<FriendlyName>Campaign Management</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Campaign Management,CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Stewardship and Grants Management Portlet on Officers page -->
+	<Content>
+		<Name>[CRM] StewardshipManagementPortlet</Name>
+		<FriendlyName>Stewardship and Grants Management</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Stewardship and Grants Management,CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Planned Giving Portlet on Officers page -->
+	<Content>
+		<Name>[CRM] PlannedGivingPortlet</Name>
+		<FriendlyName>Planned Giving</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Planned Giving,CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advancement Officers,OU=Pages,CN=Advancement Officer,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>ADVO</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	CRM Candidate 
+	***************************************
+	-->
+	<!-- CRM Context -->
+	<Content>
+		<Name>CRM</Name>
+		<FriendlyName>CRM</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in CRM Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction To Constituent Relationship Modules</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on CRM Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>39164E8F-B26F-442E-9BBE-ADC7931CC759</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Candidate Context -->
+	<Content>
+		<Name>Candidate</Name>
+		<FriendlyName>Candidate</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page on Candidate Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>What is CRM Candidate?</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Candidate Overview on Default Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>E66977FA-EAA5-4725-AFE3-496193431361</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Administrators Page on Candidate Context -->
+	<Content>
+		<Name>Administrators</Name>
+		<FriendlyName>Administrators</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Administrators,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Account Notification Portlet on Administrators Page -->
+	<Content>
+		<Name>[CRM] AccountNotificationPortlet</Name>
+		<FriendlyName>Account Notification</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Account Notification,CN=Administrators,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Administrators,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Payment Administration Portlet on Administrators Page -->
+	<Content>
+		<Name>[CRM] PaymentsPortlet</Name>
+		<FriendlyName>Payment Administration</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Payment Administration,CN=Administrators,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Administrators,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Division and Major Assignment Portlet on Administrators Page -->
+	<Content>
+		<Name>[CRM] DivisionMajorAssignmentPortlet</Name>
+		<FriendlyName>Division and Major Assignment</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Division and Major Assignment,CN=Administrators,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Administrators,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Candidates Page on Candidate Context -->
+	<Content>
+		<Name>Candidates</Name>
+		<FriendlyName>Candidates</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Apply For Admissions Portlet on Candidates Page -->
+	<Content>
+		<Name>[CRM] ApplyForAdmissions</Name>
+		<FriendlyName>Apply For Admissions</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Apply For Admissions,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Folder Items Portlet on Candidates Page -->
+	<Content>
+		<Name>[CRM] FolderItems</Name>
+		<FriendlyName>Folder Items</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Folder Items,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Admissions Status Portlet on Candidates Page -->
+	<Content>
+		<Name>[CRM] AdmissionsStatus</Name>
+		<FriendlyName>Admissions Status</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Admissions Status,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Initiate Contact Portlet on Candidates Page -->
+	<Content>
+		<Name>[CRM] InitiateContactPortlet</Name>
+		<FriendlyName>Initiate Contact</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Initiate Contact,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>4</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Major Exploration and What If Scenarios Portlet on Candidates Page -->
+	<Content>
+		<Name>[CRM] MajorExplorationandWhatIf</Name>
+		<FriendlyName>Major Exploration and What If Scenarios</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Major Exploration and What If Scenarios,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course Schedules Portlet on Candidates Page -->
+	<Content>
+		<Name>[CRM] CourseSchedules</Name>
+		<FriendlyName>Course Schedules</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Schedules,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Academic Information Portlet on Candidates Page -->
+	<Content>
+		<Name>[CRM] AcademicInformationPortlet</Name>
+		<FriendlyName>Academic Information</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Academic Information,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Helpful Links Portlet on Candidates Page -->
+	<Content>
+		<Name>[ICS] HelpfulLinksPortlet</Name>
+		<FriendlyName>Helpful Links</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Helpful Links,CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Candidates,OU=Pages,CN=Candidate,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>4</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	CRM Constituent 
+	***************************************
+	-->
+	<!-- CRM Context -->
+	<Content>
+		<Name>CRM</Name>
+		<FriendlyName>CRM</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in CRM Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction To Constituent Relationship Modules</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on CRM Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>39164E8F-B26F-442E-9BBE-ADC7931CC759</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Constituent context -->
+	<Content>
+		<Name>Constituent</Name>
+		<FriendlyName>Constituent</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in Constituent context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>What is CRM Constituent?</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet in Constituent default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>456ADEF7-B33D-4584-8788-019610AA34AE</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Constituents Page in Constituent context -->
+	<Content>
+		<Name>Constituents</Name>
+		<FriendlyName>Constituents</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Constituents,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Constituent Search Portlet on Officers page -->
+	<Content>
+		<Name>[CRM] ConstituentSearchPortlet</Name>
+		<FriendlyName>Constituent Search</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Constituent Search,CN=Constituents,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Constituents,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Contribution History Portlet on Constituents page -->
+	<Content>
+		<Name>[CRM] ContributionHistoryPortlet</Name>
+		<FriendlyName>Contribution History</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Contribution History,CN=Constituents,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Constituents,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Online Giving Portlet on Constituents page -->
+	<Content>
+		<Name>[CRM] OnlineGivingPortlet</Name>
+		<FriendlyName>Online Giving</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Online Giving,CN=Constituents,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Constituents,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advancement Administrators Page in Constituent context -->
+	<Content>
+		<Name>Advancement Administrators</Name>
+		<FriendlyName>Advancement Administrators</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Advancement Administrators,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Payment Administration Portlet on Advancement Administrators Page -->
+	<Content>
+		<Name>[CRM] PaymentsPortlet</Name>
+		<FriendlyName>Payment Administration</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Payment Administration,CN=Advancement Administrators,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advancement Administrators,OU=Pages,CN=Constituent,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>CNST</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	CRM Faculty 
+	***************************************
+	-->
+	<!-- CRM Context -->
+	<Content>
+		<Name>CRM</Name>
+		<FriendlyName>CRM</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in CRM Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction To Constituent Relationship Modules</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on CRM Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>39164E8F-B26F-442E-9BBE-ADC7931CC759</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Faculty context -->
+	<Content>
+		<Name>Faculty</Name>
+		<FriendlyName>Faculty</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in Faculty context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>What is CRM Faculty?</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet in Faculty default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>11E62C7D-66B6-41C2-A640-61E542C6AB8C</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advisors Page in Faculty context -->
+	<Content>
+		<Name>Advisors</Name>
+		<FriendlyName>Advisors</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Advisors,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advisee Roster portlet in Advisors page -->
+	<Content>
+		<Name>[CRM] AdviseeRoster</Name>
+		<FriendlyName>Advisee Roster</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Advisee Roster,CN=Advisors,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisors,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advisee Roster portlet in Advisors page -->
+	<Content>
+		<Name>[CRM] AdvisorMeetingsPortlet</Name>
+		<FriendlyName>Advisor Meetings</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Advisor Meetings,CN=Advisors,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisors,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Faculty Page in Faculty context -->
+	<Content>
+		<Name>Faculty</Name>
+		<FriendlyName>Faculty</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course Schedules portlet in Faculty page -->
+	<Content>
+		<Name>[CRM] CourseSchedules</Name>
+		<FriendlyName>Course Schedules</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Schedules,CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Facility Schedules portlet in Faculty page -->
+	<Content>
+		<Name>[CRM] FacilitiesSchedule</Name>
+		<FriendlyName>Facility Schedules</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Facility Schedules,CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Student Schedule portlet in Faculty page -->
+	<Content>
+		<Name>[CRM] StudentSchedule</Name>
+		<FriendlyName>Student Schedule</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Student Schedule,CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course Authorization portlet in Faculty page -->
+	<Content>
+		<Name>[CRM] CourseAuthorizationPortlet</Name>
+		<FriendlyName>Course Authorization</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Authorization,CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Faculty Course Control portlet in Faculty page -->
+	<Content>
+		<Name>[CRM] FacultyCourseControlPortlet</Name>
+		<FriendlyName>Faculty Course Control</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Faculty Course Control,CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Grade Entry portlet in Faculty page -->
+	<Content>
+		<Name>[CRM] GradeEntryPortlet</Name>
+		<FriendlyName>Grade Entry</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Grade Entry,CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Faculty,OU=Pages,CN=Faculty,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>FACT</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	CRM Staff 
+	***************************************
+	-->
+	<!-- CRM Context -->
+	<Content>
+		<Name>CRM</Name>
+		<FriendlyName>CRM</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in CRM Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction To Constituent Relationship Modules</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on CRM Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>39164E8F-B26F-442E-9BBE-ADC7931CC759</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Staff Context -->
+	<Content>
+		<Name>Staff</Name>
+		<FriendlyName>Staff</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in Staff Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>What is CRM Staff?</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Staff Overview on Default Page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>690AD687-B657-45BB-8DA3-A80213F9AEBA</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Staff Role Page in Staff Context -->
+	<Content>
+		<Name>Staff</Name>
+		<FriendlyName>Staff</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Employee Information on Staff Role Page -->
+	<Content>
+		<Name>[CRM] EmployeeInformationPortlet</Name>
+		<FriendlyName>Employee Information</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Employee Information,CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Item Approval portlet on Staff Role Page -->
+	<Content>
+		<Name>[CRM] ItemApprovalPortlet</Name>
+		<FriendlyName>Item Approval</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Item Approval,CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- GL Account Lookup portlet on Staff Role Page -->
+	<Content>
+		<Name>[CRM] GLAccountLookupPortlet</Name>
+		<FriendlyName>GL Account Lookup</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=GL Account Lookup,CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Timecard Portlet on Staff Role Page -->
+	<Content>
+		<Name>[CRM] TimecardPortlet</Name>
+		<FriendlyName>Timecard</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Timecard,CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Requisition Entry Portlet on Staff Role Page -->
+	<Content>
+		<Name>[CRM] RequisitionEntryPortlet</Name>
+		<FriendlyName>Requisition Entry</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Requisition Entry,CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Staff,OU=Pages,CN=Staff,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>STAF</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	CRM Student 
+	***************************************
+	-->
+	<!-- CRM Context -->
+	<Content>
+		<Name>CRM</Name>
+		<FriendlyName>CRM</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in CRM Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction To Constituent Relationship Modules</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on CRM Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>39164E8F-B26F-442E-9BBE-ADC7931CC759</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Faculty context -->
+	<Content>
+		<Name>Student</Name>
+		<FriendlyName>Student</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in Student context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>What is CRM Student?</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet in Student default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>09470178-E6B7-46D8-8F98-3896AC56C452</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advisee and Registration Related Page in Student context -->
+	<Content>
+		<Name>Advisee and Registration Related</Name>
+		<FriendlyName>Advisee and Registration Related</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Student Schedule portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] StudentSchedule</Name>
+		<FriendlyName>Student Schedule</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Student Schedule,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course History portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] CourseHistory</Name>
+		<FriendlyName>Course History</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course History,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- GPA Projection portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] GPAProjection</Name>
+		<FriendlyName>GPA Projection</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=GPA Projection,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Grade Report portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] GradeReportPortlet</Name>
+		<FriendlyName>Grade Report</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Grade Report,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>4</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Academic Information portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] AcademicInformationPortlet</Name>
+		<FriendlyName>Academic Information</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Academic Information,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>5</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course Needs portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] CourseNeeds</Name>
+		<FriendlyName>Course Needs</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Needs,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Major Exploration and What If Scenarios portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] MajorExplorationandWhatIf</Name>
+		<FriendlyName>Major Exploration and What If Scenarios</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Major Exploration and What If Scenarios,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Advisor Meetings portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] AdvisorMeetingsPortlet</Name>
+		<FriendlyName>Advisor Meetings</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Advisor Meetings,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Degree Audit portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] DegreeAuditPortlet</Name>
+		<FriendlyName>Degree Audit</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Degree Audit,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>4</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Unofficial Transcript portlet in Advisee and Registration page -->
+	<Content>
+		<Name>[CRM] UnofficialTranscript</Name>
+		<FriendlyName>Unofficial Transcript</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Unofficial Transcript,CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Advisee and Registration Related,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>5</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Other Student Related Portlets Page in Student context -->
+	<Content>
+		<Name>Other Student Related Portlets</Name>
+		<FriendlyName>Other Student Related Portlets</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Financial Aid Awards portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] FinancialAidAwards</Name>
+		<FriendlyName>Financial Aid Awards</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Financial Aid Awards,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- My 1098T Info portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] My1098TInfo</Name>
+		<FriendlyName>My 1098-T Info</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=My 1098T Info,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Residence Information portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] ResidenceInfo</Name>
+		<FriendlyName>Residence Information</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Residence Information,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Student Survey portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] StudentSurveyPortlet</Name>
+		<FriendlyName>Student Survey</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Student Survey,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>4</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Financial Aid Document Tracking portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] FinancialAidDocumentTracking</Name>
+		<FriendlyName>Financial Aid Document Tracking</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Financial Aid Document Tracking,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- My Account Info portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] MyAccountInfo</Name>
+		<FriendlyName>My Account Info</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=My Account Info,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Room and Roommate Preferences portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] RoomRoommatePreferences</Name>
+		<FriendlyName>Room and Roommate Preferences</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Room and Roommate Preferences,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Vehicle Information Preferences portlet in Other Student Related Portlets page -->
+	<Content>
+		<Name>[CRM] VehicleInfo</Name>
+		<FriendlyName>Vehicle Information</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Vehicle Information,CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other Student Related Portlets,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>4</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Administrative Page in Student context -->
+	<Content>
+		<Name>Administrative</Name>
+		<FriendlyName>Administrative</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Administrative,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Payment Administration portlet in Administrative page -->
+	<Content>
+		<Name>[CRM] PaymentsPortlet</Name>
+		<FriendlyName>Payment Administration</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Payment Administration,CN=Administrative,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Administrative,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Online Registration Page in Student context -->
+	<Content>
+		<Name>Online Registration</Name>
+		<FriendlyName>Online Registration</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Online Registration,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course Schedules portlet in Online Registration page -->
+	<Content>
+		<Name>[CRM] CourseSchedules</Name>
+		<FriendlyName>Course Schedules</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Schedules,CN=Online Registration,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Online Registration,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Public Registration portlet in Online Registration page -->
+	<Content>
+		<Name>[CRM] PublicRegistrationPortlet</Name>
+		<FriendlyName>Public Registration</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Public Registration,CN=Online Registration,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Online Registration,OU=Pages,CN=Student,CN=CRM,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>STUD</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	LMS
+	***************************************
+	-->
+	<!-- LMS Context -->
+	<Content>
+		<Name>LMS</Name>
+		<FriendlyName>LMS</FriendlyName>
+		<Type>Context</Type>
+		<DN>CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Default Page in LMS Context -->
+	<Content>
+		<Name>Default Page</Name>
+		<FriendlyName>Introduction to Learning Management System</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Default Page,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Overview portlet on LMS Context default page -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Overview</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Overview,CN=Default Page,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Default Page,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>5CC16C75-02F3-4140-B5E9-E141AC6D67D2</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Assessment Portlets Page -->
+	<Content>
+		<Name>Assessment Portlets</Name>
+		<FriendlyName>Assessment Portlets</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Assessment Portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Assessment portlet  -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Assessment Portlets</FriendlyName>
+		<Type>CustomContentPortlet</Type>
+		<DN>CN=Assessment Portlets,CN=Assessment Portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Assessment Portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<CustomContentID>9BB0BB34-BDAC-44C9-A7C1-B2BD021934EC</CustomContentID>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Other LMS-Specific Portlets Page -->
+	<Content>
+		<Name>Other LMS Specific Portlets</Name>
+		<FriendlyName>Other LMS-specific portlets</FriendlyName>
+		<Type>Page</Type>
+		<DN>CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course Info Portlet -->
+	<Content>
+		<Name>[LMS] CourseInfoPortlet</Name>
+		<FriendlyName>Course Info</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Info,CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Readings Portlet -->
+	<Content>
+		<Name>[ICS] ReadingPortlet</Name>
+		<FriendlyName>Readings</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Readings,CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- All My Courses Portlet -->
+	<Content>
+		<Name>[LMS] AllMyCoursesPortlet</Name>
+		<FriendlyName>All My Courses</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=All My Courses,CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!-- Course Search Portlet -->
+	<Content>
+		<Name>[LMS] CourseSearchPortlet</Name>
+		<FriendlyName>Course Search</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Search,CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Other LMS specific portlets,OU=Pages,CN=LMS,CN=Welcome,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>LMS</Product>
+		<NewInstallOnly>0</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	Academics Homepage
+	***************************************
+	-->
+	<!-- Custom Content Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Custom Content</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Custom Content,CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Calendar Portlet -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Calendar,CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Course Search Portlet -->
+	<Content>
+		<Name>[LMS] CourseSearchPortlet</Name>
+		<FriendlyName>Course Search</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Course Search,CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>LMS</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks Portlet -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Bookmarks</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Bookmarks,CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Announcements Portlet -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Announcements</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Announcements,CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- ContextBrowsePortlet Portlet -->
+	<Content>
+		<Name>[ICS] [ICS] ContextBrowsePortlet</Name>
+		<FriendlyName>Our Departments</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Our Departments,CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Academics Homepage,OU=Pages,CN=Academics,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>	
+	<!--
+	***************************************
+	Campus Life Homepage
+	***************************************
+	-->
+	<!-- Custom Content Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Custom Content</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Custom Content,CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks Portlet -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Bookmarks</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Bookmarks,CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Announcements Portlet -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Announcements</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Announcements,CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Campus Groups Portlet -->
+	<Content>
+		<Name>[ICS] CampusGroupPortlet</Name>
+		<FriendlyName>Campus Groups</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Campus Groups,CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Calendar Portlet -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Calendar,CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Campus Life Homepage,OU=Pages,CN=Campus Life,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	Employee Info Homepage
+	***************************************
+	-->
+	<!-- Custom Content Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Custom Content</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Custom Content,CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks Portlet -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Bookmarks</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Bookmarks,CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Calendar Portlet -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Calendar,CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Announcements Portlet -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Announcements</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Announcements,CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Employee Info Homepage,OU=Pages,CN=Employee Info,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	Admissions Homepage
+	***************************************
+	-->
+	<!-- Custom Content Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Custom Content</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Custom Content,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Make an Inquiry Portlet (CAND) -->
+	<Content>
+		<Name>[CRM] MakeAnInquiry</Name>
+		<FriendlyName>Make an Inquiry</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Make an Inquiry,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Make an Inquiry Portlet (ADMO) -->
+	<Content>
+		<Name>[CRM] MakeAnInquiry</Name>
+		<FriendlyName>Make an Inquiry</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Make an Inquiry,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Calendar Portlet -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Calendar,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Apply for Admissions Portlet (CAND) -->
+	<Content>
+		<Name>[CRM] ApplyForAdmissions</Name>
+		<FriendlyName>Apply For Admissions</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Apply For Admissions,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>CAND</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Apply for Admissions Portlet (ADMO) -->
+	<Content>
+		<Name>[CRM] ApplyForAdmissions</Name>
+		<FriendlyName>Apply For Admissions</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Apply For Admissions,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>ADMO</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks Portlet -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Bookmarks</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Bookmarks,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Announcements Portlet -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Announcements</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Announcements,CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Admissions Homepage,OU=Pages,CN=Admissions,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	Alumni Homepage Homepage
+	***************************************
+	-->
+	<!-- Custom Content Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Custom Content</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Custom Content,CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Calendar Portlet -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Calendar,CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Online Giving Portlet -->
+	<Content>
+		<Name>[CRM] OnlineGivingPortlet</Name>
+		<FriendlyName>Online Giving</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Online Giving,CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>CNST</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks Portlet -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Bookmarks</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Bookmarks,CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Announcements Portlet -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Announcements</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Announcements,CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Alumni Homepage,OU=Pages,CN=Alumni,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>3</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	Finances Homepage
+	***************************************
+	-->
+	<!-- Custom Content Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Custom Content</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Custom Content,CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks Portlet -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Bookmarks</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Bookmarks,CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Calendar Portlet -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Calendar,CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Announcements Portlet -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Announcements</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Announcements,CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Finances Homepage,OU=Pages,CN=Finances,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!--
+	***************************************
+	Portal Homepage
+	***************************************
+	-->
+	<!-- Custom Content Portlet -->
+	<Content>
+		<Name>[ICS] CustomContentPortlet</Name>
+		<FriendlyName>Public Page</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Public Page,CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Bookmarks Portlet -->
+	<Content>
+		<Name>[ICS] BookmarkPortlet</Name>
+		<FriendlyName>Campus Resources</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Campus Resources,CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>1</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Calendar Portlet -->
+	<Content>
+		<Name>[ICS] CalendarPortlet</Name>
+		<FriendlyName>Events Calendar</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Events Calendar,CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>1</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+	<!-- Campus Announcements Portlet -->
+	<Content>
+		<Name>[ICS] AnnouncementPortlet</Name>
+		<FriendlyName>Campus Announcements</FriendlyName>
+		<Type>Portlet</Type>
+		<DN>CN=Campus Announcements,CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</DN>
+		<ParentDN>CN=Portal Homepage,OU=Pages,CN=Portal,O=Jenzabar,C=US</ParentDN>
+		<Column>2</Column>
+		<Order>2</Order>
+		<Product>BASE</Product>
+		<NewInstallOnly>1</NewInstallOnly>
+	</Content>
+</LayoutManager>

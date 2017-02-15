@@ -1,0 +1,21 @@
+# START - [CRM] AcademicInformationPortlet
+dn: CN=[CRM] AcademicInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: GQwVRn/xu0+pDwFFYvMRMQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Academic Information
+jenzabar-ICSNET-PortletPath:
+ Portlet.AcademicInformation,Jenzabar.CRM.Student.Web.Portlets.AcademicInformationPortlet.AcademicInformationPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portal-User,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] AcademicInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] AcademicInformationPortlet

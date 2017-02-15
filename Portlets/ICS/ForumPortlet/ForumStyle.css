@@ -1,0 +1,145 @@
+.quote 
+{
+	border: 1px solid #444; 
+	background: #eee; 
+	padding:5px
+}
+
+.forumPortlet ul 
+{
+	margin: 1.4em 10px 1.4em 2.5em;
+}
+
+.forumPortlet ul li {
+	list-style: disc none inside;
+}
+
+.forumPortlet .forumPosts {
+  width: 100%;
+  border: none;
+  }
+.forumPortlet .forumPosts th,
+.forumPortlet .forumPosts td {
+  border: solid 1px #aaa;
+  border-collapse:collapse;
+  vertical-align: top;  
+  padding: 0;
+  margin: 0 0 1000px 0;
+  }
+.forumPortlet .forumPosts th {
+  padding: 10px;
+  width: 100px;
+  background: #eee;
+  text-align: left;
+  font-weight: normal;
+  border-right: none;
+  }
+.forumPortlet .forumPosts td.space {
+  height: 20px;
+  border: none;
+  }
+.forumPortlet .forumPosts th a,
+.forumPortlet .forumPosts th div,
+.forumPortlet .forumPosts th img {
+  display: block;
+  }
+.forumPortlet .forumPosts th a,
+.forumPortlet .forumPosts th a:link,
+.forumPortlet .forumPosts th a:visited {
+  font-weight: bold;
+  color: #000;
+  }
+.forumPortlet .forumPosts th a:hover {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  }
+.forumPortlet .forumPosts td h5 {
+  margin: 0;
+  border-bottom-color: #aaa;
+  background: #ccc;
+  padding: 5px;
+  }
+.forumPortlet .forumPosts td .postInfo {
+  border-bottom: solid 1px #aaa;
+  background: #eee;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 2px;
+  }
+.forumPortlet .forumPosts td .postInfo .postHist {
+  border-right:  solid 1px #aaa;
+  padding: 0 .25em;
+  }
+  
+.forumPortlet .forumPosts td .postInfo .postLinks {
+  /*position: absolute;*/
+  right: 5px;
+  }
+.forumPortlet .forumPosts td .postBody {
+  margin: 10px;
+  }
+
+.forumPortlet h4
+{
+  background: #ccc;
+  margin: 0 0 1px 0;
+  padding: 5px;
+}
+
+.forumPortlet h5 {
+  margin: 0 0 1px 0;
+  background: #ddd;
+  padding: 2px;
+}
+
+.forumPortlet h4 .links,
+.forumPortlet h5 .links
+{
+  /*position: absolute;*/
+  right: 20px;
+}
+
+.forumPortlet h4 .lcell,
+.forumPortlet h5 .lcell
+{
+  padding: 4px;
+  border-right: solid 1px #fff;
+  border-collapse:collapse;
+}
+
+.forumPortlet h4 .rcell,
+.forumPortlet h5 .rcell
+{
+  padding: 4px;
+  font-size: 80%;
+  border-left: solid 1px #fff;
+  border-collapse:collapse;
+}
+.forumPortlet .forumSearch 
+{
+width: 98%;
+border: none;
+}
+.forumPortlet .forumSearch td 
+{
+border: none;
+vertical-align: top;  
+padding: 6;
+margin: 0 0 1000px 0;
+}
+.forumPortlet .forumSearch td.space 
+{
+height: 20px;
+border: none;
+}
+.forumPortlet .forumSearch .altEntry 
+{
+background: #eee;
+}
+.forumPortlet .modifyLink
+{
+/*position: absolute;*/
+right: 20px;
+}

@@ -1,0 +1,58 @@
+﻿
+#masthead {display: none;}
+#welcomeBackBar {display: none;}
+#headerTabs {display: none;}
+#sideBar {display: none;}
+#lnkCustomize  {display: none;}
+#foot {display: none;}
+.buttonBar {display: none;}
+.buttonBarCentered {display: none;}
+a.customize {display: none;}
+#mainCrumbs #adminContext  {display: none;}
+#lblYouAreHere {display: none;}
+#mainCrumbs { display:none;  }
+#pageTitle {display:none;}
+#TargetedMessage { display: none; }
+#mainCrumbs { display: none; }
+.pHead {display:none;}
+
+.testHeader{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    min-height: 110px;    
+    z-index: 200;
+    overflow: hidden;
+    overflow-y: auto; 
+}
+.reviewHeader {
+	min-height: 65px;  
+}
+.testArea{
+	margin-top:130px;
+}
+.reviewArea {
+	margin-top: 65px;
+}
+div.portlet{
+	border:0px;
+}
+div.autoMask  {
+	display:none;
+	position:fixed;
+	left: 0px;
+	right: 0px;
+	top:0px;
+	z-index:9000;
+    background-color: #BABABA;
+	filter: Alpha(Opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+}
+#lightbox 
+{
+    /*Override lightbox so that images appear below header*/
+    margin-top: 50px;
+}

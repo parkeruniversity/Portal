@@ -1,0 +1,1184 @@
+/*
+  JICS THEME - COLORS
+*/
+
+
+/* =Body
+------------------------------------------*/
+body {
+	background-color: #0A3772;
+	color: #fff;
+}
+/* =Headings
+------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	color: #0a3872;
+}
+/* =Text Elements
+------------------------------------------*/
+p {
+	color: #434141;
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	font-size: 90%;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+a:link, a:visited {
+	color: #0A3772;
+	outline: none;
+	text-decoration: none;
+}
+a:focus, a:hover {
+	text-decoration: underline;
+}
+blockquote {
+	border-left: 3px solid #0A3772;
+	color: #0A3772;
+	font-style: italic;
+	margin: 20px 0px;
+	padding-left: 40px;
+}
+blockquote p {
+	color: #0A3772;
+	font-style: italic;
+}
+strong {
+}
+em, dfn {
+}
+dfn {
+}
+sup, sub {
+}
+abbr, acronym {
+}
+address {
+}
+del {
+}
+pre {
+}
+pre, code, tt {
+}
+/* =Lists
+------------------------------------------*/
+li ul, li ol {
+}
+ul, ol {
+	color: #0A3772;
+	line-height: 110%;
+	list-style-position: inside;
+	list-style: square;
+}
+ul {
+}
+dl {
+}
+dl dt {
+}
+dd {
+}
+/* =Tables
+------------------------------------------*/
+table {
+}
+th {
+}
+th, td, caption {
+}
+tfoot {
+}
+caption {
+}
+/* =Forms
+------------------------------------------*/
+label {
+}
+fieldset {
+}
+legend {
+}
+textarea {
+}
+/* =Header
+------------------------------------------*/
+#siteWrapper {
+}
+.accessibility {
+}
+#masthead {
+	background:none;
+}
+#masthead h1 {
+	background: none;
+}
+#masthead h1 a {
+}
+#headerTabs {
+}
+#headerTabs ul {
+}
+#headerTabs ul li {
+}
+#headerTabs ul li.firstTab {
+	margin: 0;
+}
+#headerTabs ul li a {
+	color: #fff;
+}
+#headerTabs ul li a:hover {
+	color: #fff;
+	background-color: #060;
+}
+#headerTabs ul li.selected {
+	background-color: #060;
+	padding: 0;
+}
+#headerTabs ul li.selected a {
+	color: #fff;
+}
+#headerTabs ul li.selected a:hover {
+	color: #fff;
+}
+#more {
+	color: #fff;
+}
+#more:hover {
+	background-color: #060;
+	color: #fff;
+}
+#moreList {
+	background: #060;
+}
+#moreList li {
+}
+#moreList li a {
+}
+a#more.moreSelected {
+	background: #060;
+}
+#moreList li.selected a {
+	color: #fff!important;
+	background: #017F00;
+}
+#moreList li a:hover {
+	background-color:#017F00!important;
+	margin: 0;
+}
+/* =TargetedMessage
+------------------------------------------*/
+#TargetedMessage {
+	color: #fff;
+}
+#TargetedMessage .wysiwygtext {
+}
+#TargetedMessage img {
+}
+/* =Breadcrumbs
+------------------------------------------*/
+#mainCrumbs {
+	color: #060;
+}
+#mainCrumbs a:hover {
+}
+#youAreHere {
+	padding: 0;
+}
+.crumbs {
+	background-color: #fff;
+	border-color: #060;
+}
+.crumbs a, .crumbs a:link, .crumbs a:visited {
+	color: #0A3772;
+}
+.crumbs a:focus, .crumbs a:hover {
+	color: #060;
+}
+/* =WelcomeBack
+------------------------------------------*/
+#welcomeBackBar {
+	color: #0A3772;
+	background-color: #d2d2d2!important;
+}
+#userLogin, #userWelcome {
+}
+#userWelcome a {
+	color: #0A3772!important;
+}
+#userLogin label {
+}
+#userName, #password {
+	border-color: #999!important;
+}
+#userName:focus, #password:focus {
+	border-color: #060!important;
+}
+#btnLogin {
+	border-color: #d2d2d2;
+}
+#btnLogin:hover, #btnLogin:focus {
+	background: #060;
+	color: #fff;
+}
+#lnkForgot {
+	color: #0A3772!important;
+}
+#accountInfo {
+}
+#logout {
+}
+/* =MainLayout
+------------------------------------------*/
+#MAINFORM {
+	padding: 0;
+}
+#mainLayout {
+	background-color: #fff;
+	border-color: #fff;
+}
+/* =Sidebar
+------------------------------------------*/
+#sideBar {
+	background-color: #eeeded;
+}
+#sideBar ul {
+	color: #0a3872;
+}
+#sideBar ul li {
+	background: none;
+}
+#sideBar a {
+	color: #15508B
+}
+#sideBar a:focus, #sideBar a:hover {
+}
+#sideBar img {
+}
+#sideBar .sidebar-icon {
+}
+#sideBar .sidebar-icon-search, .e404 input.sidebar-icon-search {
+}
+#manageLinks li {
+	clear: both;
+	display: block!important;
+}
+#manageLinks li.manageContext, #manageLinks li.usageStats {
+	border-top: 1px solid #d2d2d2!important;
+}
+#manageLinks .manageContext a, #manageLinks .manageContext a:link, #manageLinks .manageContext a:visited {
+}
+#manageLinks li.manageGroup {
+}
+#manageLinks .manageGroup a, #manageLinks .manageGroup a:link, #manageLinks .manageGroup a:visited {
+}
+#manageLinks .usageStats a, #manageLinks .usageStats a:link, #manageLinks .usageStats a:visited {
+}
+#sideBar #subContexts a {
+	color: #15508B;
+}
+#sideBar #subContexts li {
+}
+#sideBar #otherPages a, #sideBar #otherPages a:link, #sideBar #otherPages a:visited {
+	color: #15508B;
+}
+/* =ThisContext
+------------------------------------------*/
+#sideBar div.sideSection, #sideBar div#quickLinks {
+	background: #EEEDED;
+}
+#sideBar div.sideSection h2, #sideBar div#quickLinks h3 {
+	color: #0A3772;
+}
+#sideBar div.sideSection h2 a {
+	background: none;
+	color: #0A3772;
+}
+#sideBar div.sideSection ul {
+	margin-left: 0!important;
+}
+#sideBar li {
+	position: relative!important;
+}
+#sideBar ul li a {
+	float: left;
+	width: 100%;
+}
+#contextPages li {
+	border: none;
+	clear: both;
+	margin: 0 5%;
+	padding: 5px 0;
+}
+#contextPages li a {
+	display: block;
+	padding: 0 0 0 4%;
+	text-decoration: none;
+	font-size: 117.65%;
+}
+#contextPages li a:hover {
+	background-color: none;
+}
+#contextPages li.currentPage {
+	background: #d2d2d2;
+}
+#contextPages li.currentPage a {
+	width: auto;
+}
+.currentPage #pagePortlets {
+	margin: 0;
+	padding: 0;
+}
+#pagePortlets li {
+	border: none;
+	list-style-type: none;
+	text-indent: 0;
+	padding: 0;
+}
+#contextPages #pagePortlets li a {
+	clear: both;
+	color: #333333;
+	float: none;
+	padding: 4px 0;
+	text-decoration: none;
+}
+#contextPages #pagePortlets li a:hover {
+	text-decoration: underline;
+}
+#contextPages #pagePortlets li a.selected {
+	background: none;
+	font-weight: bold;
+}
+#contextPages #pagePortlets li a.selected:hover {
+	background: #d2d2d2;
+	text-decoration: underline;
+}
+#pagePortlets {
+}
+#pagePortlets li {
+}
+#xpndPrtlts {
+	background: url(../../common/images/portletimages/icons/16/bullet_toggle_plus.png) 2px 2px no-repeat;
+	display: block;
+	float: right!important;
+	height: 16px!important;
+	overflow: hidden!important;
+	text-indent: 1000px;
+	width: 16px!important;
+}
+#xpndPrtlts.expanded {
+	background: url(../../common/images/portletimages/icons/16/bullet_toggle_minus.png) 2px 2px no-repeat;
+}
+#sideBar li.addPage {
+	background: none;
+	width: 100%!important;
+	margin: 0 0 20px 0;
+}
+#sideBar .addPage a, #sideBar .addPage a:link, #sideBar .addPage a:visited {
+	background: url(../../common/images/portletimages/icons/16/page_add.png) 93% 0 no-repeat!important;
+	font-style: normal;
+	font-size: 100%;
+	padding: 0 10%;
+	width: 80%;
+}
+/* =QuickLinks
+------------------------------------------*/
+#sideBar div#quickLinks {
+}
+#quickLinks h3 {
+}
+#sideBar #globalLinks {
+}
+#sideBar #globalLinks li {
+	padding: 0 2.5% 0 2.5%;
+ *padding: 0 2.5% 0 10%;
+	display: block;
+}
+#sideBar .globalLinks li {
+	padding: 0 2.5% 0;
+ 	*padding: 0 2.5% 0 10%;
+	display: block;
+}
+.globalLinks img {
+	display: none!important;
+}
+#sideBar #globalLinks li a, #sideBar .globalLinks li a {
+	color: #333;
+	display: block;
+	margin: 0;
+	font-size: 100%!important;
+	background-position: 95% 4px;
+	background-repeat: no-repeat;
+	width: 90%;
+	padding:5px 10% 5px 0;
+	line-height: 100%;
+}
+#sideBar #globalLinks li a:hover, #sideBar .globalLinks li a:hover {
+	text-decoration: underline;
+}
+#quickLinks a {
+	color: #333!important;
+}
+#quickLinks dl dt, #quickLinks dl dt:link, #quickLinks dl dt:visited {
+	color: #15508B!important;
+}
+#quickLinks dl#myPages a, #quicklinks dl#myGroups a {
+	float: none;
+}
+#quickLinks dl.closed dt {
+}
+#quickLinks dl.open dt {
+
+}
+#quickLinks dl.open  dd ul {
+background: #d2d2d2;
+}
+#quickLinks dl.open ul li {
+	
+}
+#quickLinks dl.open ul li a {
+
+}
+/* =MainContent
+------------------------------------------*/
+#mainContent {
+}
+/* =Feature
+------------------------------------------*/
+#errorMessage {
+	color: #424242;
+	background: #ffebe8;
+	display: block!important;
+	font-weight: bold;
+	line-height: 2;
+	margin: 0 auto!important;
+	padding: 0 5%!important;
+}
+#feature {
+}
+#feature .portlet {
+}
+#feature .portlet .pHead {
+}
+#feature .portlet .pHead h3 {
+}
+#feature .portlet .pHead h3 a {
+}
+#feature .portlet .pHead h3 a:focus, #feature .portlet .pHead h3 a:hover {
+}
+#feature .portlet .pContent {
+}
+#feature .portlet .pContent .pSection {
+}
+#feature .portlet .pContent .ccSection {
+}
+/* =PageTitle
+------------------------------------------*/
+#pageTitle {
+}
+#pageTitle h2 {
+}
+#pageTitle h2 #contextName {
+	color: #333;
+}
+#pageTitle h2 #pageName {
+}
+#pageTitle h2 a {
+}
+#pageTitle h2 a:focus, #pageTitle h2 a:hover {
+}
+#pageTitleButtons {
+//margin: 0 0 -20px 0;
+}
+#pageTitleButtons .editPage, #pageTitleButtons .printPage {
+}
+#pageTitleButtons .editPage a {
+}
+#pageTitleButtons .printPage a {
+}
+#pageTitleButtons img {
+}
+#printModeButtons {
+}
+#printModeButtons a {
+}
+#printModeButtons input {
+}
+/* =PortletGrid
+------------------------------------------*/
+#PORTLETGRID {
+	clear: both;
+	padding: 0;
+	width: 100%;
+}
+#portlets {
+}
+/* =Portlet
+------------------------------------------*/
+.portlet {
+	background: none;
+	border: none;
+	margin: 0 0 3% 0;
+	color: #333;
+}
+.pHead {
+	border-bottom-color: #d2d2d2;
+}
+.pHead h3 {
+}
+.portlet div.pHead h3 a {
+	color: #0A3772;
+	font-size: 110%;
+	text-decoration: none;
+}
+.pHead h3 a:focus, .pHead a:hover {
+}
+.pHead .a {
+}
+.pHead img {
+}
+.pShortcut {
+}
+.pShortcut a {
+}
+.pShortcut a:focus, .pShortcut a:hover {
+}
+.pContent {
+}
+.pFieldHint {
+}
+.pFoot {
+}
+.pFoot .crumbs {
+}
+.pFoot .crumbs a {
+}
+/* =Portlet:Toolbar
+------------------------------------------*/
+.pToolbar {
+}
+.pToolbar .menu {
+}
+.pToolbar ul {
+}
+.pToolbar ul li {
+}
+.pToolbar li.off a, .pToolbar li.off a:focus, .pToolbar li.off a:hover, .pToolbar li.off a.active, .pToolbar .pTool li.off a:focus, .pToolbar .pTool li.off a:hover, .pToolbar .pTool li.off a.active {
+}
+.pToolbar li ul {
+}
+.pToolbar a {
+}
+.pToolbar a:focus, .pToolbar a:hover, .pToolbar a.active, .pToolbar .pTool a:focus, .pToolbar .pTool a:hover, .pToolbar .pTool a.active {
+}
+.pToolbar .menu a {
+}
+.pToolbar .menu a.hasKids {
+}
+.pTool {
+}
+.pTool a:focus, .pTool a:hover, .pTool a.active {
+}
+/* =Portlet:Content
+------------------------------------------*/
+.wysiwygtext ul li {
+}
+.wysiwygtext ul {
+}
+.pSection.ccSection ul li, .postBody ul li {
+}
+.pSection.ccSection ol li, .pSection ol li {
+}
+.psection.ccSection ul, .psection.ccSection ol, .psection ol {
+}
+/* =Portlet:Content Tabs
+------------------------------------------*/
+.contentTabs {
+}
+.contentTabs ul {
+}
+.contentTabs li {
+}
+.contentTabs li a {
+}
+.contentTabs li a:focus, .contentTabs li a:hover {
+}
+.contentTabs li.selected {
+}
+.contentTabs li.selected a {
+}
+.contentTabs li.selected a:focus, .contentTabs li.selected a:hover {
+}
+.tabbox {
+}
+.scrollAll {
+}
+/* =Portlet:Navigation
+------------------------------------------*/
+.portletnavtabs {
+}
+.portletSectionJump {
+}
+.portletSectionJump dt {
+}
+.portletSectionJump dd {
+}
+.portletSectionJump dd.selected {
+}
+.portletSectionJump dd a {
+}
+.portletSectionJump dd.selected a {
+}
+.portletSectionJump dd a:focus, .portletSectionJump dd a:hover {
+}
+.portletSectionJump dd.selected a:focus, .portletSectionJump dd.selected a:hover {
+}
+/* =Footer
+------------------------------------------*/
+#foot {
+}
+#foot a {
+	color: #0A3772;
+}
+#foot a:focus, #foot a:hover {
+}
+#copyright {
+}
+#policies {
+	background-color: #eeeded;
+	border-top-color: #d2d2d2;
+}
+/* =Messages
+------------------------------------------*/
+.hint {
+}
+.largehint {
+}
+.notice {
+}
+.note {
+}
+.info {
+}
+.download {
+}
+.working {
+}
+.loading {
+}
+.feedbackMessage {
+}
+.feedbackError {
+}
+.PortletError {
+}
+.ApplicationError {
+}
+#errorMessage {
+	color: #cc0000;
+}
+.errorMessage {
+}
+.alert, .notFound {
+}
+.notFound p, .notFound p a {
+}
+.fieldHint {
+}
+.oops {
+}
+.oops h6 {
+}
+.oops pre {
+}
+/* =Messages:ASP.NET Compile Errors
+------------------------------------------*/
+.compileError {
+}
+.compileError p {
+}
+.compileError b {
+}
+.compileError H1 {
+}
+.compileError H2 {
+}
+.compileError pre {
+}
+.compileError .marker {
+}
+.compileError .version {
+}
+.compileError .error {
+}
+.compileError .expandable {
+}
+/* =Misc
+------------------------------------------*/
+.alt {
+}
+.highlighted {
+}
+.selected {
+}
+.WhiteLinks {
+}
+.linkBorder {
+}
+.hiddenText {
+}
+/* =Controls:Multi-File Upload
+------------------------------------------*/
+.multiUp p {
+}
+.multiUp table {
+}
+.multiUp table thead {
+}
+.multiUp th {
+}
+.multiUp table tfoot {
+}
+.multiUp table tfoot a {
+}
+/* =Controls:Calendar
+------------------------------------------*/
+.cal {
+}
+ .cal . {
+}
+.cal span {
+}
+.cal img {
+}
+.cal iframe {
+}
+.cal .time {
+}
+.cal select {
+}
+ul.dayOfWeek, ul.dayOfWeek li {
+}
+#calSideBar {
+	background: none;
+}
+#calSideBar li {
+	background: none;
+	clear: both;
+	display: block;
+	margin: 10px 0;
+}
+#calSideBar h3 {
+	background: none;
+	border-bottom: 1px solid #d2d2d2;
+	text-align: left;
+}
+#calSideBar hr {
+	border-bottom: 1px solid #d2d2d2;
+	border: none;
+	padding: 0;
+}
+#calEventListView p {
+ font-weight: bold  padding: 0 10px;
+}
+#calWeekView a, #calDayView a, #calMonthView a, #calEventListView a {
+	display: block;
+	font-weight: normal;
+	padding: 0 10px 10px 10px;
+	text-decoration: none!important;
+}
+#calWeekView a:hover, #calDayView a:hover, #calMonthView a:hover, #calEventListView a:hover {
+	text-decoration: underline!important;
+}
+#calWeekView table {
+	border: none;
+}
+#calWeekView td {
+	border: none;
+	padding: 5px;
+	width: 50%;
+}
+#calEventListView a {
+	padding: 0 0 10px 0;
+}
+.calDayNumber {
+	background: #CEDBE9;
+}
+.calBlankDay {
+	background: none!important;
+}
+#calMonthView ul, #calMonthView li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+.evHeader a {
+	border-bottom: 1px solid #d2d2d2;
+	padding-bottom: 0!important;
+}
+.hourHead, .allDayHead {
+	border: none!important;
+	padding: 10px;
+}
+.allDay {
+	background: #CEDBE9;
+}
+.allDay a {
+	font-size: 80%;
+}
+.topHour {
+	border-top-color: #333333!important;
+}
+.bottomHour {
+	border-bottom-color: #333333!important;
+}
+#calHeader a {
+	display: inline!important;
+}
+#calDefaultView a {
+	padding: 0
+}
+#calDefaultView {
+	background: #ccc;
+}
+ table[id*=calMain], #pg0_V_calMain {
+ background: none!important;
+ border: none!important;
+}
+td.calDayStyle {
+	background: none;
+	padding: 2px;
+}
+.calTitleStyle td {
+	background: none;
+}
+/* =Controls:Grouped Grid
+------------------------------------------*/
+.groupedGrid {
+}
+.groupedGrid thead, .groupedGrid .ghead, .header, .footer {
+}
+.groupedGrid th {
+}
+.groupedGrid td {
+}
+.groupedGrid tfoot, .subheader, .subfooter {
+}
+.groupedGrid tr.subGroup td {
+}
+.groupedGrid tr.subItem td {
+}
+.groupedGrid tr.subItem td td {
+}
+.groupedGrid th a {
+}
+.groupedGrid th a:focus, .groupedGrid th a:hover {
+}
+.groupedGrid tbody tr td.highlight {
+}
+.groupedGrid tbody tr.alt td.highlight {
+}
+.groupedGrid tbody tr.highlight {
+}
+.groupedGrid tbody tr td.alt {
+}
+.groupedGrid tbody tr.alt td.alt {
+}
+.groupedGrid thead tr th.highlight {
+}
+.groupedGrid .error {
+}
+.groupedGrid .disable {
+}
+.groupedGrid .disable td input {
+}
+.groupedGrid .disable td a {
+}
+/* =Controls:Date Range Edit
+------------------------------------------*/
+.dateRangeEdit label {
+}
+.dateRangeEdit .val {
+}
+.dateRangeEdit .start, .dateRangeEdit .end, .dateRangeEdit .action {
+}
+.dateRangeEdit .action {
+}
+.dateRangeEdit {
+}
+.dateRangeEdit .opt a {
+}
+.dateRangeEdit .opt a:focus, .dateRangeEdit .opt a:hover {
+}
+.dateRangeEdit .opt label {
+}
+.dateRangeEdit .opt label:hover {
+}
+/* =Controls:Tabbed Panel
+------------------------------------------*/
+.tabGroup {
+	margin: -1px 0 0 0;
+}
+.tabGroup ul.tabHeaders {
+	background: none!important;
+	border-bottom: 1px solid #d2d2d2;
+	height: 28px;
+	margin: -1px 0 10px 0;
+}
+.tabGroup ul.tabHeaders li {
+	border: none!important;
+	float: left;
+	padding: none!important;
+}
+.tabGroup ul.tabHeaders a {
+	background: none!important;
+	display: block;
+	font-size: 90%!important;
+ font-weight: normal!important  margin: 0!important;
+	padding: 5px 20px!important;
+}
+.tabGroup ul.tabHeaders a.selected {
+	background: #d2d2d2!important;
+}
+.tabGroup ul.tabHeaders a.selected:hover {
+	background: #d2d2d2!important;
+}
+.tabGroup ul.tabHeaders a:hover {
+	background: #d2d2d2!important;
+}
+.tabGroup .tabContent {
+}
+.reorder {
+}
+/* =Controls:Collapsible Panel
+------------------------------------------*/
+.cp {
+}
+.cpHead {
+}
+.cpHead input {
+}
+.cpContent {
+}
+.cpHeader {
+}
+.cpBody {
+}
+.cpLbl {
+}
+.cpTxt {
+}
+/* =Controls:Security Grid
+------------------------------------------*/
+.securityGrid {
+}
+.securityGrid h5 {
+}
+.securityGrid table {
+}
+.securityGrid table td {
+}
+.securityGrid table thead th {
+}
+.securityGrid table thead th.role {
+}
+.securityGrid table thead th.kids {
+}
+.securityGrid table th.admin {
+}
+.securityGrid table tbody th {
+}
+.securityGrid table tbody tr {
+}
+.securityGrid table tbody tr td {
+}
+.securityGrid table tbody tr td img {
+}
+.securityGrid table tbody td.admin {
+}
+.securityGrid table tbody .alt td.admin {
+}
+.securityGrid table tbody tr th {
+}
+.securityGrid table tbody tr th span.role {
+}
+.securityGrid table tbody tr th dl span.role {
+}
+.securityGrid table tbody dl {
+}
+.securityGrid table tbody dd {
+}
+.securityGrid p.addRole {
+}
+/* =Controls:Principal Selector Remix
+------------------------------------------*/
+.principalSelector {
+	width: 100%;
+}
+.principalSelector table {
+	width: 100%;
+}
+.psTitleCell {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.psCell {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+}
+/* =Controls:Role Selector
+------------------------------------------*/
+#tblContextRoleSelector {
+}
+.RoleColumn {
+}
+#ShowAllMyContexts {
+}
+#tblBaseRoleSelector {
+}
+#tblBaseRoleSelector .AllUsersCell {
+}
+#tblBaseRoleSelector .RoleColumn {
+}
+/* =Controls:User Selector
+------------------------------------------*/
+#tblUserSelector {
+}
+#tblUserSelector .ContextSelectCell {
+}
+#tblUserSelector .SearchCell {
+}
+#tblUserSelector .UserListCell {
+}
+#tblUserSelector .AddRemoveCell {
+}
+#tblUserSelector .AddRemoveButton {
+}
+#tblUserSelector .OkCancelCell {
+}
+#userSelectorCell {
+}
+#tblUserSelector .userlistTitleCell {
+}
+#tblUserSelector .UserSelectorListBox {
+}
+#tblUserSelector .LastNameTextBox {
+}
+#tblUserSelector .FirstNameTextBox {
+}
+/* =Controls:Content Box
+------------------------------------------*/
+.contentBox {
+}
+.contentBox h4 {
+}
+.contentbox .psection {
+}
+/* =Controls:Sideways Table
+------------------------------------------*/
+.sidewaysTable {
+}
+.sidewaysTable th {
+}
+.sidewaysTable th strong {
+}
+.sidewaysTable td {
+}
+/* =Controls:Order List box
+------------------------------------------*/
+.orderListBox td {
+}
+.orderListBox td#upButton {
+}
+.orderListBox td#downButton {
+}
+.pageNavigator {
+}
+.pageNavigator .prevPage {
+}
+.pageNavigator .nextPage {
+}
+.letterNavigator {
+}
+.letterNavigator table {
+}
+.letterSelector {
+}
+/* =Controls:Message Box
+------------------------------------------*/
+#messageBoxMask {
+}
+#messageBoxContainer {
+}
+#messageBoxInner {
+}
+#messageBoxTitle {
+}
+#messageBoxTitleControls {
+}
+#messageBoxText {
+}
+#messageBoxMainControls {
+}
+#keepWorkingBtn, #logoutBtn {
+}
+ 
+
+ 
+/* =Misc
+------------------------------------------*/ 
+span[id*=lblRedirect] {
+ float: left;
+}
+ a[id*=lnkEditRedirect] {
+ float: left;
+ margin: 0 0 0 10px;
+ //margin: -10px 0 0 10px;
+}
+.pSection>div, .pSection p, .pSection ul, .pSection ol, .pSection .hint, .pSection table {
+	margin: 0 0 10px 0;
+}
+.pActions {
+	background: #ddd;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+.pActionsTransp {
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+.pActionsTransp input, .pActionsTransp input {
+	margin: 0 .5em;
+}
+.buttonBar {
+	background: none;
+	padding: 5px;
+}
+.buttonBarCentered {
+	background: none;
+	padding: 5px;
+	text-align: center;
+}
+.CuteEditorFrame {
+	display: block;
+}
+.slideshow {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+ a[id*=lnk], .TaskManager a[id*=lnkAddNewTask], .buttonBar a, tfoot a {
+color: #0A3872!important;
+}
+a[id*=lnk]:hover, .buttonBar a:hover {
+color: #000!important;
+}
+.pSection .gbody a[id*=lnk] {
+	padding: 2px 2px 2px 2px;
+	textAlign='left';
+	white-space:nowrap;
+	}

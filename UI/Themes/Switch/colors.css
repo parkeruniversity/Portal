@@ -1,0 +1,236 @@
+/*
+  JICS COLOR SCHEME - BOSTON
+  by cornerstone interactive
+  cornerstoneinteractive.com
+  production version should 
+  be minified and cached for
+  optimum portal performance
+*/
+/* =Body
+------------------------------------------*/
+body {
+	background-color: #f3f3f3;
+	color: #333; }
+  
+/* =Headings
+------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	color: #4d5360; }
+  
+/* =Text Elements
+------------------------------------------*/
+p {
+	color: #434141; }
+  
+a:link, a:visited {
+	color: #0A3772; }
+ 
+blockquote {
+	border-color: #0A3772;
+	color: #0A3772; }
+ 
+	blockquote p {
+		color: #0A3772; }
+
+    /* =Lists
+------------------------------------------*/
+ul, ol {
+	color: #0A3772; }
+ 
+/* =Header
+------------------------------------------*/
+ 
+#masthead {
+	background-color: #0A3772;
+  border-bottom-color: #00285B;
+	border-top-color: #15508B; }
+  
+#headerTabs {
+	background-color: #0A3772; }
+  
+			#headerTabs ul li a {
+				color: #7DA5C8; }
+        
+				#headerTabs ul li a:hover {
+					color: #fff; }
+          
+				#headerTabs ul li.selected a {
+					color: #fff; }
+ 
+					#headerTabs ul li.selected a:hover { color: #fff; }
+           
+/* =TargetedMessage
+------------------------------------------*/
+#TargetedMessage {
+	color: #333333;
+border-color: #ddd;  }
+ 
+/* =Breadcrumbs
+------------------------------------------*/
+#mainCrumbs {
+	color: #cfcfcf; }
+  
+	.crumbs a,  .crumbs a:link,  .crumbs a:visited {
+		color: #ffffff!important; }
+ 
+	.crumbs a:focus,  .crumbs a:hover {
+		color: #00f; }
+
+/* =WelcomeBack
+------------------------------------------*/
+#welcomeBackBar {
+	background-color: #00285B;
+  color: #cfcfcf; }
+  
+#btnLogin {
+	border-color: #d2d2d2; }
+ 
+	#btnLogin:hover, #btnLogin:focus {
+		background-color: #060;
+		color: #fff;}
+ 
+#lnkForgot { color: #fff!important; } 
+
+/* =Sidebar
+------------------------------------------*/
+#sideBar {
+}
+
+	#sideBar ul {
+		color: #666; }
+     
+	#sideBar .sideSection ul li a { color: #666 }
+
+	#manageLinks li.manageContext,   #manageLinks li.usageStats {
+		border-top-color: #d2d2d2!important; }
+    
+  #manageLinks li.manageGroup {
+    border-top-color: #d2d2d2!important; }
+    
+#sideBar #subContexts a {
+  background-color: transparent;
+	color: #333; }
+ 
+#sideBar #otherPages a,  #sideBar #otherPages a:link,  #sideBar #otherPages a:visited {
+	background-color: transparent
+	color: #333; }
+ 
+/* =ThisContext
+------------------------------------------*/
+#sideBar div.sideSection h2, #sideBar div#quickLinks h3 {
+	color: #999; }
+  
+#sideBar div.sideSection h2 a {
+	color: #999; }
+
+		#contextPages li a:hover { background-color: none; }
+ 
+	#contextPages li.currentPage {
+		color: #666; }
+
+ 		#contextPages li.currentPage a {color: #333!important;  }
+
+#contextPages #pagePortlets li{
+ background: none!important;}
+ 
+
+#contextPages #pagePortlets li a {
+	color: #666!important;}
+ 
+		#contextPages #pagePortlets li a.selected:hover {
+			background-color: #d2d2d2; } 
+      
+ 
+/* =QuickLinks
+------------------------------------------*/
+ 
+#sideBar #globalLinks li a, #sideBar .globalLinks li a {
+	color: #333; }
+ 
+#quickLinks a { color: #666!important; }
+ 
+#quickLinks dl dt, #quickLinks dl:link, #quickLinks dl dt:visited { color: #666!important; }
+
+#quickLinks dl.open dt, #quickLinks dl.open dt:link, #quickLinks dl.open dt:visited { color: #333!important; }
+
+#quickLinks dl.open dt {
+	background-color: #f2f2f2!important; }
+ 
+#quickLinks dl.open ul {
+	background-color: #f2f2f2!important; }
+ 
+/* =PageTitle
+------------------------------------------*/
+		#pageTitle h2 #contextName { color: #333; }  
+    
+/* =PortletGrid
+------------------------------------------*/
+
+#portlets {
+  background-color: #f3f3f3;
+ }
+ 
+/* =Portlet
+------------------------------------------*/
+.pHead {
+	border-bottom-color: #ddd!important; }
+ 
+	.pHead h3 {  }
+ 
+.portlet div.pHead h3 a {
+	color: #0A3772; }
+
+/* =Footer
+------------------------------------------*/
+#foot {
+	background-color: #0A3772!important;
+  border-top-color: #00285B!important;
+  color: #cfcfcf;
+  }
+ 
+	#foot a { color: #f2f2f2; }
+ 
+#copyright {
+  color: #cfcfcf; }
+  
+/* =Controls:Calendar
+------------------------------------------*/
+	#calSideBar h3 {
+		border-bottom-color: #d2d2d2;}
+ 
+.calDayNumber { background-color: #CEDBE9; }
+
+.evHeader a {
+	border-bottom-color: #d2d2d2; }
+
+.allDay {
+	background-color: #CEDBE9; }
+ 
+.topHour { border-top-color: #333333!important; }
+ 
+.bottomHour { border-bottom-color: #333333!important; }
+
+#calDefaultView {
+	background-color: #ccc; }
+
+/* =Controls:Tabbed Panel
+------------------------------------------*/
+	.tabGroup ul.tabHeaders {
+		border-bottom-color: #d2d2d2;}
+ 
+			.tabGroup ul.tabHeaders a.selected { background-color: #d2d2d2!important; }
+ 
+				.tabGroup ul.tabHeaders a.selected:hover { background-color: #d2d2d2!important; }
+ 
+			.tabGroup ul.tabHeaders a:hover { background-color: #d2d2d2!important; }
+      
+/* =Links
+------------------------------------------*/
+a[id*=lnk], .TaskManager a[id*=lnkAddNewTask], .buttonBar a, tfoot a {
+	color: #0A3872!important; }
+ 
+a[id*=lnk]:hover, .buttonBar a:hover {
+	color: #000!important; }
+  
+.pActions {
+	background-color: #ddd;}

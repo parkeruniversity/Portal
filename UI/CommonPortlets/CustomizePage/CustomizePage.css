@@ -1,0 +1,3 @@
+.CP {}
+.CP .clearer { CLEAR: left; LINE-HEIGHT: 0; HEIGHT: 1% }
+.CP	.Block { DISPLAY: block; FLOAT: left; MARGIN: 10px; }

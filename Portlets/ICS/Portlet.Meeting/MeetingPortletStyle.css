@@ -1,0 +1,1056 @@
+﻿.meetingPortlet .pSection {
+    max-width: 70%;
+    min-width: 30%;
+}
+
+.meetingPortlet h4 {
+    background-color: transparent;
+    font-size: 140%;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.meetingPortlet h5 {
+    border-bottom-width: 0;
+}
+
+.meetingPortlet .current li {
+    margin-bottom: 15px;
+}
+
+.meetingPortlet .meetingList li a {
+    margin-left: 5px;
+}
+
+.meetingPortlet .meetingStatus {
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.meetingPortlet .globalMeetingListView {
+    max-width: 100%;
+}
+
+.meetingPortlet .goToMeetingLink {
+    padding: 3px;
+    margin-left: 10px;
+    color: black;
+    border: 1px solid #707070;
+    text-decoration: none;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    /* fallback */
+    background-color: #CFCFCF;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#CFCFCF), to(#F2F2F2));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top,#F2F2F2, #CFCFCF);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #F2F2F2, #CFCFCF);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #F2F2F2, #CFCFCF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #F2F2F2, #CFCFCF);
+}
+
+
+.modalDiv {
+    background-color: #FFF;
+    padding: 3px;
+    border: 1px solid black;
+    max-width: 900px;
+    z-index: 8001 !important;
+    -moz-box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
+}
+
+.modalPopup {
+    background-color: #BABABA;
+    filter: Alpha(Opacity=70);
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    z-index: 8000 !important;
+}
+
+.modalHeading .modalHeadingImg {
+    float: right;
+    margin-left: 10px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.modalHeading {
+    font-weight: bold;
+    padding: 3px;
+    background-color: #EFEFEF;
+    float: none;
+    padding-bottom: 8px;
+}
+
+.innerModal {
+    border: 1px solid #B2B2B2;
+    padding: 5px;
+    background-color: #EFEFEF;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.modalButtons {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.cancelButton {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    color: blue;
+    font-size: 9px;
+    /*border is optional*/
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+
+.generalHelpLinkDiv {
+    border-color: #c5c5c5;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #EFEFEF;
+    max-width: 300px;
+    padding: 5px;
+}
+
+    .generalHelpLinkDiv img {
+        float: left;
+    }
+
+.generalHelpLinkTextDiv {
+    padding-left: 38px;
+}
+
+    .generalHelpLinkTextDiv a {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .generalHelpLinkTextDiv #headerline {
+        font-size: 12pt;
+    }
+
+#schedulenow {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: #3E5A85;
+    background-color: #E6F3FF;
+    border-radius: 6px;
+    float: left;
+    color: #8A8D90;
+}
+
+#schedulelater {
+    padding: 5px;
+    margin-left: 15px;
+    float: left;
+    color: #8A8D90;
+}
+
+#clearfloat {
+    clear: left;
+}
+
+.generalHelpAdminButtons {
+    padding: 10px;
+}
+
+.meetingAdminHeaderLeftCell {
+    padding: 5px;
+    padding: 5px 10px 5px 0;
+    float: left;
+}
+
+.meetingAdminHeaderRightCell {
+    padding: 5px 0 5px 0;
+    margin-left: 15px;
+    float: left;
+}
+
+.adminHeader {
+    display: inline-block;
+}
+
+.meetingLauncherMain {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: #3E5A85;
+    background-color: #E6F3FF;
+    border-radius: 6px;
+    float: left;
+    max-height: 75px;
+}
+
+    .meetingLauncherMain span {
+        text-wrap: none;
+    }
+
+.meetingLauncherGuestView {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: #b2b2b2;
+    background-color: #e2e2e2;
+    border-radius: 6px;
+    float: left;
+    max-width: 350px;
+    max-height: 75px;
+    white-space: nowrap;
+}
+
+
+.meetingAddEditIntro {
+    max-width: 500px;
+    padding: 15px 0 5px 0;
+}
+
+    .meetingAddEditIntro a {
+        display: inline-block;
+        height: 20px;
+        padding-left: 20px;
+        background: url('../../../ui/common/images/portletimages/icons/16/align_left.png') no-repeat;
+    }
+
+.meetingPageIntroContainer {
+    padding: 10px 0 10px 0;
+}
+
+.meetingFileUploaderContainer {
+    padding: 20px 0 20px 0;
+}
+
+.meetingSaveCancelButtonContainer {
+    padding: 35px 0 35px 0;
+}
+
+.meetingSaveButtonContainer {
+    display: inline;
+    background-color: #D6E2FB;
+    padding: 15px;
+    border: 1px solid #39527B;
+}
+
+.meetingCancelButtonContainer {
+    display: inline;
+    background-color: #EFEFEF;
+    padding: 15px;
+    border-top: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+    border-bottom: 1px solid #CACACA;
+}
+
+.meetingDeleteLink {
+    display: inline-block;
+    height: 20px;
+    padding-left: 20px;
+    background: url('../../../ui/common/images/portletimages/icons/delete.gif') no-repeat;
+    vertical-align: middle;
+}
+
+.watchRecordingLink {
+    display: inline-block;
+    height: 20px;
+    padding-left: 20px;
+    background: url('../../../ui/common/images/portletimages/icons/16/vhs.png') no-repeat;
+    vertical-align: middle;
+}
+
+.meetingClearThisIntroductionLinkButtonContainer {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+
+.meetingLauncherMain.graySubdue {
+    color: #8A8D90;
+}
+
+.ConcurrentMeetingListTable {
+    border: 0;
+}
+
+    .ConcurrentMeetingListTable .headrow {
+        color: #8a8d90;
+    }
+
+    .ConcurrentMeetingListTable .time {
+    }
+
+#defaultlauncher {
+    display: inline-block;
+}
+
+.MeetingListTable {
+    border: 0;
+    border-spacing: 12px;
+}
+
+    .MeetingListTable .headrow {
+        color: #8a8d90;
+    }
+
+    .MeetingListTable .time {
+    }
+
+.meetingSubHeader {
+    display: block;
+    color: #8a8d90;
+    padding: 8px 0 8px 0;
+    font-weight: normal;
+}
+
+.meetingEditLink {
+    display: inline-block;
+    height: 20px;
+    padding-left: 20px;
+    background: url('../../../ui/common/images/portletimages/icons/edit-new.png') no-repeat;
+}
+
+.meetingDeleteLink {
+    display: inline-block;
+    height: 20px;
+    padding-left: 20px;
+    background: url('../../../ui/common/images/portletimages/icons/delete-new.png') no-repeat;
+}
+
+.meetingEditLinkContainer {
+    display: inline-block;
+    padding: 10px;
+}
+
+.meetingDeleteLinkContainer {
+    display: inline-block;
+    padding: 10px;
+}
+
+.meetingEditDeleteLinkContainer {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #EFEFEF;
+}
+
+.meetingStatusContainer {
+    clear: left;
+    display: inline-block;
+    padding-right: 10%;
+    vertical-align: top;
+}
+
+.meetingAdminMeetingDirections {
+    font-size: 1.2em;
+}
+
+.meetingStartTimeDisplay {
+    font-size: 1.2em;
+}
+
+.meetingStartMeetingNowLinkContainer {
+    padding-left: 10px;
+}
+
+.meetingNameContainer {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.meetingDefaultCreateLinkContainer {
+    padding: 10px 0 10px 0;
+}
+
+.meetingBackToListOfMeetingsContainer {
+    display: inline-block;
+    float: left;
+    padding-left: 20%;
+}
+
+.meetingDetailViewHeader {
+    display: block;
+}
+
+.meetingPreviousMeetingsColumn {
+    width: 25%;
+}
+
+.meetingsPreviousMeetingsContainer {
+    padding: 15px 0 50px 20px;
+}
+
+.meetingAllPreviousMeetingsContainer {
+    float: left;
+    display: inline-block;
+}
+
+.meetingBlogIconContainer {
+    display: inline-block;
+    height: 32px;
+    padding-left: 32px;
+    background: url('../../../ui/common/images/portletimages/icons/32/blogs_news_32.png') no-repeat;
+}
+
+.meetingCalendarIconContainer {
+    display: inline-block;
+    height: 32px;
+    padding-left: 32px;
+    background: url('../../../ui/common/images/portletimages/icons/32/calendar.png') no-repeat;
+}
+
+.meetingRecorderIconContainer {
+    display: inline-block;
+    height: 16px;
+    padding-left: 16px;
+    background: url('../../../ui/common/images/portletimages/icons/16/vhs.png') no-repeat;
+    vertical-align: text-bottom;
+}
+
+.meetingRecorderIconContainerLarge {
+    display: inline-block;
+    height: 32px;
+    padding-left: 32px;
+    background: url('../../../ui/common/images/portletimages/icons/32/vhs.png') no-repeat;
+    vertical-align: middle;
+}
+
+.meetingUserIconContainer {
+    display: inline-block;
+    height: 16px;
+    padding-left: 16px;
+    background: url('../../../ui/common/images/portletimages/icons/16/user_comment.png') no-repeat;
+    vertical-align: text-bottom;
+}
+
+.meetingUserIconContainerLarge {
+    display: inline-block;
+    height: 32px;
+    padding-left: 32px;
+    background: url('../../../ui/common/images/portletimages/icons/32/user_comment.png') no-repeat;
+    vertical-align: text-bottom;
+}
+
+.meetingPasswordIconContainer {
+    display: inline-block;
+    height: 16px;
+    padding-left: 16px;
+    background: url('../../../ui/common/images/portletimages/icons/16/lock.png') no-repeat;
+    vertical-align: text-bottom;
+}
+
+.meetingRecordingPasswordIconContainer {
+    display: inline-block;
+    height: 16px;
+    padding-left: 16px;
+    background: url('../../../ui/common/images/portletimages/icons/locked-recording.png') no-repeat;
+    vertical-align: text-bottom;
+}
+
+
+.meetingRecordingPasswordIconContainerDisabled {
+    display: inline-block;
+    height: 16px;
+    padding-left: 16px;
+    background: url('../../../ui/common/images/portletimages/icons/locked-recording-inactive.png') no-repeat;
+    vertical-align: text-bottom;
+}
+
+.meetingPasswordIconContainerDisabled {
+    display: inline-block;
+    height: 16px;
+    padding-left: 16px;
+    background: url('../../../ui/common/images/portletimages/icons/16/lock.png') no-repeat;
+    vertical-align: text-bottom;
+}
+
+.meetingMeetingListContainer {
+}
+
+.meetingOnlineHelpContainer {
+    padding: 20px 0 20px 0;
+}
+
+.meetingMeetingDetailStartJoinMeetingContainer {
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.meetingMeetingDetailStartMeetingContainer {
+    background-color: #E6F3FF;
+    border: 1px solid #3E5A85;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    padding: 5px 10px 10px;
+    font-weight: bold;
+}
+
+.meetingMeetingDetailJoinMeeting {
+    display: inline-block;
+    background-color: #E6F3FF;
+    border: 1px solid #3E5A85;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    padding: 5px 10px 10px;
+    font-weight: bold;
+}
+
+.meetingJoinNowLinkContainer {
+    display: block;
+    padding: 3px 0 3px 0;
+}
+
+.previousMeetingTable {
+    border: 0;
+    margin: 0;
+}
+
+    .previousMeetingTable td {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .previousMeetingTable tr:hover {
+        background-color: #E5EEFF;
+    }
+
+.meetingScreenSection {
+    clear: both;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.meetingRecordedAndPasswordStatusContainer {
+    display: inline;
+}
+
+.meetingRecordedStatusContainer {
+    display: inline-block;
+    padding-right: 10%;
+}
+
+.meetingPasswordStatusContainer {
+    display: inline-block;
+}
+
+.meetingWatchRecodingContainer {
+    display: inline-block;
+    background-color: #E6F3FF;
+    border: 1px solid #3E5A85;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+}
+
+.meetingMeetingDetailAttendeeUserIconContainer {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.meetingMeetingDetailViewerUserIconContainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.meetingMeetingDetailAttendeeWatchedRecordingIconContainer {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.meetingMeetingDetailSessionParticipantsContainer {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 200px;
+}
+
+.meetingMeetingDetailViewersListContainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.meetingMeetingDetailViewersContainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.meetingMeetingDetailAttendeesContainer {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #EFEFEF;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #B2B2B2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.meetingMeetingDetailParticpantsContainer {
+    display: inline-block;
+}
+
+.meetingAdminMeetingRequirePasswordForRecordingContainer {
+    padding-left: 20px;
+}
+
+.meetingDisabledText {
+    color: #8a8d90;
+}
+
+.meetingNote {
+    color: #8a8d90;
+    font-style: italic;
+}
+
+.PasswordMainTextPopup {
+    display: block;
+}
+
+    .PasswordMainTextPopup .pwError {
+        color: red;
+    }
+
+    .PasswordMainTextPopup .PasswordPopupSubmitButton {
+        display: inline-block;
+        vertical-align: top;
+        background-color: #EFEFEF;
+        padding: 10px 20px 10px 20px;
+        border: 1px solid #B2B2B2;
+        border-radius: 6px 6px 6px 6px;
+    }
+
+.EmailerPopup {
+    margin: 10px;
+}
+
+.emailerRecipList {
+    padding-bottom: 10px;
+}
+
+    .emailerRecipList span {
+        color: gray;
+    }
+
+.emailerHelpInfo {
+    padding-bottom: 10px;
+    color: gray;
+    font-style: italic;
+}
+
+.emailerSubject {
+    padding-bottom: 10px;
+}
+
+.emailerBody {
+    padding-bottom: 10px;
+}
+
+.emailerMainText {
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+    .emailerMainText img {
+        padding-right: 5px;
+        vertical-align: middle;
+    }
+
+.emailerButtons {
+    border-top: 1px solid #B2B2B2;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    overflow: auto;
+}
+
+.emailerSendMail {
+    background-color: #D6E2FB;
+    border-right: 1px solid #B2B2B2;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 175px;
+}
+
+    .emailerSendMail input {
+        cursor: pointer;
+    }
+
+.emailerCancelMail {
+    padding: 16px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+    .emailerCancelMail a {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+.noBottomPad {
+    padding-bottom: 0;
+}
+
+.emailerContextRoles {
+    float: left;
+    padding-right: 16px;
+}
+
+.butWaitPopup {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: #E2E2E2;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.butWaitRecipList {
+    padding-bottom: 10px;
+}
+
+    .butWaitRecipList span {
+        color: gray;
+    }
+
+
+.userHelpRoleList span {
+    color: gray;
+    margin-left: 15px;
+}
+
+.userHelpRoleList ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 27px;
+    margin-top: 7px;
+}
+
+.userHelpRoleList li {
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+}
+
+.butWaitHelpInfo {
+    padding-bottom: 10px;
+    color: gray;
+    font-style: italic;
+}
+
+.butWaitSubject {
+    padding-bottom: 10px;
+}
+
+.butWaitBody {
+    padding-bottom: 10px;
+}
+
+.butWaitMainText {
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+.butWaitText {
+    margin-left: 20px;
+}
+
+.butWaitMainText img {
+    padding-right: 5px;
+    vertical-align: middle;
+    float: left;
+}
+
+.butWaitButtons {
+    border-top: 1px solid #B2B2B2;
+    margin-left: -5px;
+    margin-right: -5px;
+    overflow: auto;
+}
+
+.butWaitSendMail {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 175px;
+}
+
+    .butWaitSendMail input {
+        cursor: pointer;
+    }
+
+
+.butWaitCancelMail a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.butWaitContextRoles {
+    float: left;
+    padding-right: 16px;
+}
+
+.butWaitTopLinks {
+    padding: 20px;
+    overflow: auto;
+}
+
+.butWaitLaunch {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    background-color: #E6F3FF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+    .butWaitLaunch a {
+        border-bottom: 1px solid blue;
+        cursor: pointer;
+    }
+
+.butWaitCancel {
+    padding-top: 15px;
+}
+
+
+.butWaitHeaderText {
+    font-size: 18px;
+}
+
+
+.meetingGetTheWordOut {
+    display: inline-block;
+    clear: both;
+    border-radius: 6px;
+    border: 1px solid #BFD2EF;
+    background-color: #E6F3FF;
+    margin-top: 8px;
+    padding: 12px 30px 12px 30px;
+}
+
+.meetingGetTheWordOutParent {
+    clear: both;
+}
+
+    .meetingGetTheWordOutParent span.text {
+        color: gray;
+    }
+
+.meetingGetTheWordOutEmailCell {
+    display: inline;
+    float: left;
+    min-width: 150px;
+}
+
+.meetingLetPeopleKnowEmailCell {
+    display: inline;
+    float: left;
+    width: 200px;
+    vertical-align: top;
+}
+
+.meetingLetPeopleKnowBlogCell {
+    display: inline;
+    float: left;
+    width: 200px;
+    vertical-align: top;
+}
+
+.meetingGetTheWordOutBlogCell {
+    display: inline;
+    float: left;
+    min-width: 175px;
+}
+
+.meetingGetTheWordOutCalendarCell {
+    display: inline;
+    float: left;
+    min-width: 150px;
+}
+
+.meetingAnnounceInBlogLinkContainer {
+    font-size: 110%;
+    cursor: pointer;
+}
+
+    .meetingAnnounceInBlogLinkContainer span {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+.meetingAddToCalendarLinkContainer {
+    font-size: 110%;
+    cursor: pointer;
+}
+
+    .meetingAddToCalendarLinkContainer span {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+.meetingBlogAnnouncmentModalHeader {
+    width: 1200px;
+}
+
+.meetingAddToCalemdarModalHeader {
+    width: 1200px;
+    padding-bottom: 20px;
+}
+
+.emailerLinkImage {
+    padding-right: 5px;
+    vertical-align: middle;
+    float: left;
+    display: inline;
+}
+
+.emailerLinkTextDiv {
+    font-size: 110%;
+    cursor: pointer;
+    display: inline;
+}
+
+    .emailerLinkTextDiv span {
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+.meetingBlogPost {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.meetingBlogAnnouncmentIconContainer {
+    display: inline-block;
+    float: left;
+    padding-right: 5px;
+}
+
+.meetingAddToCalendarIconContainer {
+    display: inline-block;
+    float: left;
+    padding-right: 5px;
+}
+
+.meetingAddToCalendarIconContainer {
+    display: inline-block;
+    float: left;
+    padding-right: 5px;
+}
+
+.meetingBlogRegularPriorityLabel {
+    font-weight: bold;
+}
+
+.meetingBlogHighPriorityLabel {
+    font-weight: bold;
+    color: red;
+}
+
+.meetingBlogSaveCancelButtonContainer {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    clear: both;
+}
+
+.meetingBlogSaveButtonContainer {
+    padding-right: 8px;
+    display: inline;
+}
+
+.meetingBlogCancelButtonContainer {
+    display: inline;
+    vertical-align: top;
+}
+
+.meetingNoBlogPortletContainer {
+    padding: 20px 0 20px 0;
+}
+
+.meetingNoCalendarPortletContainer {
+    padding: 20px 0 20px 0;
+}
+
+.meetingLetPeopleKnowContainer {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+.meetingMeetingDetailWatchRecording {
+    display: inline;
+    float: left;
+    padding-right: 10%;
+}
+
+.meetingEmailAndBlogContainer {
+    clear: both;
+    overflow: auto;
+}
+
+.userLaunchDiv {
+    display: inline;
+}
+
+    .userLaunchDiv a {
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+    }
+
+.pwImage {
+    float: left;
+    width: 32px;
+    padding: 10px;
+}
+
+.pwBox {
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+
+.pwButton {
+    float: left;
+    width: 200px;
+    padding: 10px;
+}
+
+.userStartLaunchDiv {
+    margin-top: 15px;
+}
+
+    .userStartLaunchDiv a {
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+    }
+
+.meetingFull {
+    padding-top: 10px;
+}
+
+.recordMeeting.disabled {
+    color: #808080;
+}

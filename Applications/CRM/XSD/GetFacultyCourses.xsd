@@ -1,0 +1,37 @@
+<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="FacultyCourseList">
+	<xs:element name="FacultyCourseList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CourseInfo" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ERPCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="TermKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="TermDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="Course" type="xs:string" minOccurs="0"/>
+							<xs:element name="DisplayedCourseCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="DivisionCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="DivisionDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="Section" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="Title" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="ClockHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="EditMidTermGrades" type="xs:string" minOccurs="0"/>
+							<xs:element name="EditFinalGrades" type="xs:string" minOccurs="0"/>
+							<xs:element name="FacultyGradeAccess" type="xs:string" minOccurs="0"/>
+							<xs:element name="ClassListAccess" type="xs:string" minOccurs="0"/>
+							<xs:element name="TextbookEntryAccess" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanDoAuthorizations" type="xs:string" minOccurs="0"/>
+							<xs:element name="RequisitesAuthorizedCount" type="xs:string" minOccurs="0"/>
+							<xs:element name="RequirementsAuthorizedCount" type="xs:string" minOccurs="0"/>
+							<xs:element name="CapacityAuthorizedCount" type="xs:string" minOccurs="0"/>
+							<xs:element name="ScheduleConflictAuthorizedCount" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

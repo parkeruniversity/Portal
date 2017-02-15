@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<indexdata>
+<key name="Access" >
+  <key name="Requisition Entry portlet" >
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="Account Description" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Account Number" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Add button" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Amount" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Approval track" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="assigned" >
+    <topic name="Item Approval" url="item_approval.htm" />
+  </key>
+</key>
+<key name="Approve" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <key name="requisition" >
+    <topic name="Item Approval" url="item_approval.htm" />
+  </key>
+</key>
+<key name="Approve/Decline Requisitions" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="approving timecard data" >
+  <topic name="The Timecard Approval portlet" url="the_timecard_approval_portlet.htm" />
+</key>
+<key name="Assign" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <key name="approval track" >
+    <topic name="Item Approval" url="item_approval.htm" />
+  </key>
+</key>
+<key name="Check Requisition Status" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Creation" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="purchase order" >
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="CRM Staff" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Employee Information" >
+  <topic name="CRM Staff Overview" url="crm_staff_overview.htm" />
+</key>
+<key name="ERP" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="ERP-specific" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Getting Started" >
+  <topic name="CRM Staff Overview" url="crm_staff_overview.htm" />
+</key>
+<key name="GL Account Filter" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="GL Account Filter Component Value" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="GL Account Filter Length" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="GL Account Filter Starting Position" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="GL Account Filter Starting Position/Length/Component Value" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="GL Account Lookup" >
+  <topic name="CRM Staff Overview" url="crm_staff_overview.htm" />
+</key>
+<key name="GL Account Sort Order" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Hide Details" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Invoices" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Item Approval portlet" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="logging timecard data" >
+  <topic name="The Timecard Portlet" url="timecard.htm" />
+</key>
+<key name="Open" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="Portlet Settings" >
+    <topic name="Item Approval" url="item_approval.htm" />
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="PO" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Portlet" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Portlet Settings" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="open" >
+    <topic name="Item Approval" url="item_approval.htm" />
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="Preferences" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Purchase Orders" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="creation" >
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="Reference Number" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Request" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="submit" >
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="Requestor" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Requisition Entry" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Requisition Entry form" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="Use" >
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="Requisition Entry portlet" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Requisition Number" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Requisitions" >
+  <topic name="Item Approval" url="item_approval.htm" />
+  <key name="approve" >
+    <topic name="Item Approval" url="item_approval.htm" />
+  </key>
+</key>
+<key name="Show Detail button" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Staff" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Staff Overview" >
+  <topic name="CRM Staff Overview" url="crm_staff_overview.htm" />
+</key>
+<key name="Submit" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+  <key name="request" >
+    <topic name="Requisition Entry" url="requisition_entry.htm" />
+  </key>
+</key>
+<key name="Submit button" >
+  <topic name="Requisition Entry" url="requisition_entry.htm" />
+</key>
+<key name="Tax Information" >
+  <topic name="Staff Portlet" url="staff_portlet.htm" />
+</key>
+<key name="Those individuals" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="timecards" >
+  <topic name="CRM Staff Overview" url="crm_staff_overview.htm" />
+  <topic name="The Timecard Approval portlet" url="the_timecard_approval_portlet.htm" />
+</key>
+<key name="Type" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Vendor" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="View Account Details" >
+  <topic name="GL Account Lookup" url="gl_account_lookup.htm" />
+</key>
+<key name="View Requisition Detail" >
+  <topic name="Item Approval" url="item_approval.htm" />
+</key>
+<key name="Your Dependent Information" >
+  <topic name="Staff Portlet" url="staff_portlet.htm" />
+</key>
+
+</indexdata>

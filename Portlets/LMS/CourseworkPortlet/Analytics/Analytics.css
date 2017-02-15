@@ -1,0 +1,176 @@
+﻿
+
+/*
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+*/
+
+div.CWK_Analytics_Loading
+{
+	background-image:   url(<%=GetImageURL("../../AjaxImages/L03b_green.gif")%>);
+	background-repeat:  no-repeat;
+
+    margin:             20px;
+
+    padding-left:       30px;
+
+    line-height:        30px;
+
+}
+
+div.CWK_Analytics_QuestionDetail_GroupHeader-Selected
+{
+	border-top:		#003471 2px solid;
+}
+
+div.CWK_Analytics_QuestionDetail_GroupHeader:hover
+{
+    background-color:	#D6E2FB;
+    cursor:				pointer;
+    border:				1px solid #000;
+    border-style:		inset;
+}
+
+span.CWK_Analytics_QuestionDetail_GroupTitle
+{
+	font-size:			13pt;
+}
+
+span.CWK_Analytics_QuestionDetail_GroupTitleSelectedOrHighlight
+{
+	font-size:			13pt;
+	font-weight:		bold;
+}
+
+span.CWK_Analytics_QuestionDetail_GroupQuestionCount
+{
+	font-style:			italic;
+	font-size:			8pt;
+	
+	margin-left:		10px;
+}
+
+a.CWK_Analytics_QuestionDetail_GroupToggleLink
+{
+	margin-left:		5px;
+	font-size:			8pt;
+	font-style:			italic;
+}
+
+/**/
+
+td.CWK_Analytics_MainLabels
+{
+	text-align:			right;
+	padding-right:		15px;
+}
+
+div.CWK_Analytics_MainCharts
+{
+	margin-left:		50px;
+	border:				1px solid Black;
+	width:				220px;
+	height:				160px;
+}
+
+td.CWK_Analytics_MainHeader
+{
+	font-weight:		bold;
+	font-size:			10pt;
+}
+
+td.CWK_Analytics_Header
+{
+	font-weight:		bold;
+	font-size:			11pt;
+}
+
+div.CWK_Analytics_SubHeader
+{
+	margin-left:		25px;
+	margin-top:			15px;
+	margin-bottom:		10px;
+	
+	font-weight:		bold;
+}
+
+span.CWK_Analytics_StudentLink
+{
+	margin-left:		10px;
+}
+
+td.CWK_Analytics_HelpHeader
+{
+	padding-left:		5px;
+	
+	font-weight:		bold;
+	font-size:			11pt;
+}
+
+td.CWK_Analytics_SectionBottomMargin
+{
+	margin-bottom:		30px;
+}
+
+*.CWK_Analytics_Questions_Matching_ResponsesTable
+{
+	font-size:			80%;
+}
+
+div.CWK_Analytics_Questions_Matching_ChoiceBody
+{
+	max-height:			6em;
+	overflow:			auto;
+}
+
+div.CWK_Analytics_Questions_MultipleChoice_ChoiceBody
+{
+	max-height:			6em;
+	overflow:			auto;
+}
+
+div.CWK_Analytics_Questions_Ordering_ChoiceBody
+{
+	max-height:			6em;
+	overflow:			auto;
+}
+
+
+
+
+
+
+span.CWK_Analytics_Basics_Header
+{
+	font-family:		Arial;
+	font-weight:		bold;
+	font-size:			14pt;
+}
+
+span.CWK_Analytics_Basics_SubHeader
+{
+	font-family:		Arial;
+	font-weight:		bold;
+	font-size:			11pt;
+	font-style:			italic;
+}
+
+li.CWK_Analytics_Basics_Bullet
+{
+	margin:				0px 0px 10px 25px;
+	list-style:			disc;	
+}
+
+div.CWK_Analytics_Basics_Body
+{
+	font-family:		Arial;
+	font-size:			10pt;
+}
+
+div.CWK_Analytics_QuestionAnalysisControl_QuestionBody
+{
+	max-height:			10em;
+	overflow:			auto;
+	border:				1px gray dotted;
+}

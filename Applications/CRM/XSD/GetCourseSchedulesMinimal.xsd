@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CourseListMinimal" type="CourseListMinimal" />
+  <xs:complexType name="CourseListMinimal">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Message" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CourseInfo" type="CourseListMinimalCourseInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CourseListMinimalCourseInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="ERPCourseKey" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TermKey" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TermDesc" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UseVariableGrading" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="DisplayedCourseCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CreditFixedVariable" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CreditHours" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MinCreditHours" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MaxCreditHours" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FirstBeginDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastEndDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CourseStatus" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CanRegister" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PublicRegistration" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalSeats" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AvailableSeats" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FacultyList" type="CourseListMinimalCourseInfoFacultyList" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Schedules" type="CourseListMinimalCourseInfoSchedules" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AvailableVariableGradingTypes" type="CourseListMinimalCourseInfoAvailableVariableGradingTypes" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DefaultVariableGradingType" type="CourseListMinimalCourseInfoDefaultVariableGradingType" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SelectedVariableGradingType" type="CourseListMinimalCourseInfoSelectedVariableGradingType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CourseListMinimalCourseInfoFacultyList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="FacultyID" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FacultyName" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CourseListMinimalCourseInfoSchedules">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Weekdays" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BeginDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EndDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MeetTime" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CampusCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CampusDesc" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BuildingCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BuildingDesc" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RoomCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RoomDesc" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CourseListMinimalCourseInfoAvailableVariableGradingTypes">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="GradeTypeDesc" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GradeTypeCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CourseListMinimalCourseInfoDefaultVariableGradingType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="GradeTypeDesc" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GradeTypeCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CourseListMinimalCourseInfoSelectedVariableGradingType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="GradeTypeDesc" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="GradeTypeCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CourseListMinimalCourseInfo" nillable="true" type="CourseListMinimalCourseInfo" />
+  <xs:element name="CourseListMinimalCourseInfoSchedules" nillable="true" type="CourseListMinimalCourseInfoSchedules" />
+  <xs:element name="CourseListMinimalCourseInfoFacultyList" nillable="true" type="CourseListMinimalCourseInfoFacultyList" />
+  <xs:element name="CourseListMinimalCourseInfoAvailableVariableGradingTypes" nillable="true" type="CourseListMinimalCourseInfoAvailableVariableGradingTypes" />
+  <xs:element name="CourseListMinimalCourseInfoSelectedVariableGradingType" nillable="true" type="CourseListMinimalCourseInfoSelectedVariableGradingType" />
+  <xs:element name="CourseListMinimalCourseInfoDefaultVariableGradingType" nillable="true" type="CourseListMinimalCourseInfoDefaultVariableGradingType" />
+</xs:schema>

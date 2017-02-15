@@ -1,0 +1,1715 @@
+﻿.addApptTop.pt_Appointments .pSection{
+    padding:10px;
+}
+.fc .fa{
+    font-size:16px;
+}
+.backLnk {
+    margin-bottom:10px;
+}
+.activeItem,.ui-widget-content .activeItem, a.activeItem, a.activeItem:link, a.activeItem:visited {
+    color: #3b86ad;
+}
+a.activeItem, a.activeItem:link, a.activeItem:visited{
+    text-decoration:underline;
+    cursor:pointer;
+}
+.activeAction,.cancelAction,.checkInAction, a.activeAction, a.activeAction:link, a.activeAction:visited {
+    background-color: #3b87ae;
+    color:#FFF;
+    padding:5px;
+    border: 1px solid #305D74;
+    border-radius:5px;
+    text-decoration:none;
+}
+.cancelAction:hover,.checkInAction:hover, a.activeAction:hover,button.activeAction:hover  {
+    cursor:pointer;
+}
+.cancelAction, a.cancelAction{
+    background-color:#D9534F;
+    border-color:#D43F3A;
+    padding:2px 5px;
+}
+.checkInAction {
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+    padding:2px 5px;
+}
+.fc-event.hasAttendee, .fc-event.hasAttendee:hover, div.overlapAppts .fc-event.hasAttendee{
+    background-color: #3b87ae;
+    color:#FFF;
+    cursor: pointer;
+}
+ div.overlapAppts .fc-event.hasAttendee:hover {
+     cursor: default;
+ }
+button.activeAction:hover, a.activeAction:hover{
+    background-color:#305d74;
+}
+button.activeAction:active,a.activeAction:active{
+    background-color:#62b9d6;
+}
+button.cancelAction:hover, a.cancelAction:hover{
+    background-color:#D2322D;
+    border-color: #AC2925;
+}
+button.cancelAction:active,a.cancelAction:active{
+    background-color:#FA6B66;
+    border-color: #AC2925;
+}
+button.checkInAction:hover {
+    background-color: #47a447;
+    border-color: #398439;
+}
+button.checkInAction:active {
+    background-color: #57c957;
+    border-color: #398439;
+}
+button.activeAction:disabled{
+    background-color: #ECECEC;
+    border-color: #D4D4D4;
+    color: #808080;
+    font-weight: normal;
+}
+.inactiveItem, a.fc-event.inactiveItem div.fc-title,a.fc-event.inactiveItem,
+div.overlapAppts div.inactiveItem span{
+    color: #808080;
+}
+.inactiveAction, .ui-dialog .ui-dialog-buttonpane .inactiveAction{
+    background-color: #ECECEC;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    color: #808080;
+    cursor: default;
+    font-weight: normal;
+    padding: 5px;
+}
+.permissionAction, a.permissionAction, a.permissionAction:link, a.permissionAction:visited  {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #5A9ABD;
+    margin: 5px 0;
+    color: #5A9ABD;
+    background-color: #EFF3FF;
+    border-radius: 4px;
+    text-decoration: none;
+}
+a.permissionAction:hover, .permissionAction:hover {
+    background-color: white; 
+    color: #3b87ae; 
+    border-color: #3b87ae;
+}
+a.permissionAction:active, .permissionAction:active {
+    background-color: #3b87ae; 
+    color: white; 
+    border-color: #3b87ae;
+}
+
+#addAppointmentPlugin button.cancelAction {
+    float: right;
+    padding: 5px;
+    font-size: 0.85em;
+}
+.apptStrong{
+    font-weight:bold;
+}
+.itemInfo{
+    font-size:0.9em;
+}
+.activeInput, .pc-autocomplete{
+    background-color: white;
+    border: 1px solid #abcade;
+}
+div.addAppointmentContainer div.ui-dialog-titlebar.ui-widget-header {
+    display: none;
+}
+div.addApptContent {
+    clear: both;
+}
+div.addApptHeader {
+    text-align: right;
+    padding-bottom: 5px;
+}
+div.addApptHeader .addAttendee,div.addApptHeader .downloadIcs {
+    margin-right: 10px;
+}
+span.addEditAppt {
+    float: left;
+    color: #808080;
+    font-size: 1.1em;
+}
+.quickOptions {
+    margin: 5px 0;
+    font-size: 0.85em;
+}
+.advancedOptionsWrapper.inputArea {
+    clear: none;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #DDD;
+}
+.advancedOptionsWrapper.inputArea, .apptDetailAction.advancedAction {
+    margin-left: 65px;
+}
+.advancedOptionsHeader {
+    margin-bottom: 5px;
+    text-align: right;
+    color: #808080;
+    float: left;
+    width: 55px;
+}
+.advancedOptionsWrapper .inputDescrip strong {
+    font-weight: normal ;
+}
+.advancedUntil {
+    margin: -5px 0 10px 0px;
+}
+.advancedHowMany {
+    margin-top: 10px;
+}
+.untilOptions, .setHowMany {
+    display: inline-block;
+    white-space: nowrap;
+}
+.specificPeople {
+    margin: 0;
+    margin-top: 10px;
+}
+.specificPeople:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.specificPersons, .specificRoles {
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+}
+.specificPersons {
+    float: left;
+    width: 47.5%;
+}
+.specificRoles {
+    margin-left: 52.5%;
+    width: auto;
+}
+#peopleDisplay, #roleDisplay {
+    margin: 0;
+    text-align: left;
+    max-height:55px;
+    overflow-y: auto;
+    border: 1px solid #abcade;
+    border-width: 1px 0 1px 0;
+}
+#peopleDisplay li, #roleDisplay li {
+    margin: 0;
+    border-bottom: 1px solid #abcade;
+    padding: 1px 0;
+}
+#peopleDisplay li i, #roleDisplay li i {
+    float: right;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.inputArea{
+    margin:12px 0 5px 0;
+    clear: both;
+}
+.inputDescrip{
+    font-size:0.9em;
+    color:#808080;
+    margin-bottom:2px;
+}
+.calPlacement{
+    position:relative;
+    left:-25px;
+    margin-right:-20px;
+}
+.headerDate{
+    font-size: 1.5em;
+}
+.headerMonth{
+    line-height: 24px;
+    font-size: 1.6em;
+    padding-right: 10px;
+}
+.headerMonths{
+    font-size: 1.2em;
+    line-height: 29px;
+    padding-right: 10px;
+}
+.headerDay{
+    font-weight:normal;
+    display: block;
+    padding-top: 5px;
+}
+.headerDayNum{
+    display: block;
+    font-size: 1.8em;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.headerToday span{
+    font-weight:bold;
+}
+th.nextActionHeader {
+    position: relative;
+}
+div.nextActionHeader {
+    position: absolute;
+    padding: 12px 4px 15px 5px;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.showWeekend{
+    padding-left:10px;
+}
+div.miniCalCalendar{
+    float:left;
+}
+div.miniCal-details {
+    padding-left: 285px;
+}
+div.miniCalInfo{
+    padding-top:15px;
+}
+span.miniCalApptCount{
+    display:block;
+    min-height: 25px;
+    font-weight:bold;
+}
+span.chooseDay{
+    font-style:italic;
+    display:block;
+    margin-bottom:5px;
+}
+div.miniCalSection ul li{
+    margin:4px 0 0 12px;
+}
+.specificShowHosts {
+    padding-top: 10px;
+}
+.bxWithAppt, .bxAvailAppt, .bxDaysViewing{
+    display:inline-block;
+    height:10px;
+    width:10px;
+    margin-right:5px;
+    border-width:1px;
+}
+.bxWithAppt, .ui-datepicker td.miniAttendee a{
+    background-color:#3b86ad;
+    border-color: #3b86ad;
+    border-style: solid;
+    border-radius:2px;
+}
+.ui-datepicker td.miniAttendee{
+    padding:5px;
+}
+.ui-datepicker td.miniAttendee a{
+    padding:0;
+}
+.bxAvailAppt,.ui-datepicker td.miniAvailable{
+    background-color:#e9f2f7;
+    border-color: #3b86ad;
+    border-style: solid;
+}
+.ui-datepicker td.miniAvailable{
+    border:1px solid #cdcdcd;
+}
+.bxDaysViewing{
+    height:9px;
+    width:9px;
+}
+.currentViewDay, .ui-datepicker td.currentViewDay, .ui-datepicker td.currentViewDay:first-child,
+.ui-datepicker td.currentViewDay:last-child, #ui-datepicker-div .ui-state-active, table.weekNav td.currentViewDay{
+    border:2px solid #fda900;
+}
+.ui-datepicker td.currentViewDay{
+    border-right:1px solid #cdcdcd;
+    border-left:1px solid #cdcdcd;
+}
+.ui-datepicker td.currentViewDay.cvd-last{
+    border-right:2px solid #fda900;
+    border-left-width:0px;
+}
+.ui-datepicker td.currentViewDay.cvd-first{
+    border-left:2px solid #fda900;
+}
+.ui-datepicker td.currentViewDay.cvd-first.cvd-last{
+    border-left-width:2px;
+    border-right-width:2px;
+    border-color:#FDA900;
+    border-style:solid;
+}
+.ui-datepicker td.miniAttendee a{
+    color:#FFF;
+}
+.addApptTop .addApptActions {
+    margin-bottom: 15px;
+}
+.addApptActions button, .addApptActions a.permissionAction{
+    margin:10px 10px 0px 0px;
+    display: inline-block;
+}
+.addApptActions a.permissionAction {
+    padding: 7px;
+}
+ .signUpAttendees{
+    text-align:center;
+}
+div.mySchedulePersonal {
+    margin-bottom: 10px;
+}
+div.mySchedulePersonal div.myScheduleInfo{
+    padding-top:10px;
+    margin-left:85px;
+}
+div.myScheduleInfo div.settingWrapper {
+    clear: none;
+}
+div.myScheduleInfo div.settingWrapper .inactiveItem{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+div.apptNotificationPH {
+    content: '';
+    height: 26px;
+    display: block;
+    margin: 5px 0 15px 0;
+}
+div.apptNotification {
+    padding: 5px;
+    font-size: 0.9em;
+    border: 1px solid #e7d937;
+    background-color: #ffffe5;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px 0 15px 0;
+}
+.apptNotification:hover span.activeItem {
+    text-decoration: underline;
+}
+.apptNotification.apptNotificationMain {
+    float: none;
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+}
+.apptNotification.apptNotificationSchedule {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.apptEmulate {
+    border: 1px solid #e7d937;
+    background-color: #ffffe5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.apptEmulate .fa {
+    color: #dab502;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+span.apptNotifyNext {
+    float: left;
+}
+span.apptNotifyMyNext {
+    margin-right: 3px;
+}
+div.apptNotifyInfo {
+    padding-left: 35px;
+}
+.apptNotifyComment {
+    margin-left: 7px;
+    color: #8C8C8A;
+    font-style: italic;
+}
+.userPhoto{
+    float:left;
+    width:75px;
+    height: auto;
+    max-height:150px;
+}
+.apptsHeader{
+    display:block;
+    font-size:1.3em;
+}
+.apptsHeader-default{
+    display:block;
+    font-size:1.1em;
+}
+#specificHosts {
+    margin: 10px 0 0 0;
+}
+#specificHosts li {
+    display: inline-block;
+    clear: both;
+    padding-right: 5px;
+    margin: 0;
+}
+#specificHosts li img {
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+#specificHosts li span {
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.overlapArea{
+    margin-top:5px;
+    margin-bottom:20px;
+    padding-left: 35px;
+    width:90%;
+}
+.overlapArea .fa{
+    color:#dab502;
+    float:left;
+    margin-left:-28px;
+}
+.overlapArea.overlapExact{
+    padding: 5px 5px 5px 35px;
+    border-radius: 4px;
+    border: 1px solid #dd0600;
+    background-color: #fdf7f7;
+}
+input.invalidItem {
+    border: 1px solid #dd0600;
+    background-color: #fdf7f7;
+}
+.overlapExact .fa, .fa.overlapExact, .fa.invalidItem, span.invalidItem, p.invalidItem{
+    color: #dd0600;
+    background: 0;
+    border: 0;
+}
+ .fa.overlapExact{
+    margin-right:10px;
+    font-size:17px;
+ }
+.overlapArea .fc-event{
+    display:inline-block;
+    padding:2px;
+    margin-left:5px;
+    margin-bottom:3px;
+}
+.overlapTitle{
+    display:block;
+    font-weight:normal;
+}
+div.overlapInfo{
+    float:none;
+    margin-bottom:5px;
+    font-style: italic;
+    font-size: 0.9em;
+}
+div.overlapAppts {
+    max-height: 150px;
+    overflow-y: auto;
+}
+div.overlapAppts .fc-event {
+    cursor: default;
+}
+div.overlapAppts .fc-event span.overlapDate {
+    font-weight: normal;
+    display: block;
+    font-size: 0.9em;
+}
+div.addApptNoPast{
+    font-size:1.1em;
+}
+div.addApptNoPast strong{
+    font-weight:normal;
+    display:block;
+    margin-top:10px;
+    font-size:0.9em;
+}
+div.apptKeyContainer{
+    text-align:center;
+    margin-bottom:15px;
+    white-space:nowrap;
+}
+div.apptKey {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div.apptKeyInfo{
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+div.apptKeyInfo:hover {
+    padding: 5px;
+    cursor: default;
+}
+div.addApptTop div.apptKeyInfo {
+    max-width: 180px;
+    text-align: center;
+    float: left;
+}
+div.addApptTop div.apptKeyInfo span.specificKey {
+    padding: 6px 0;
+}
+div.apptKeyInfo span {
+    display: block;
+    font-size: 11px;
+}
+div.apptKeyInfo:hover span,div.apptKeyInfo span  {
+    font-weight: normal;
+}
+div.apptKeyInfo span.availAppt{
+    font-weight:bold;
+}
+div.apptKeyInfo.inactiveItem, div.fc-event.inactiveItem, a.fc-event.inactiveItem {
+    background-color:#E6E6E6;
+    border:1px solid #b8b8b8;
+    font-weight:normal;
+}
+div.fc-event.inactiveItem{
+    font-size:0.8em;
+}
+div.apptKeyInfo span.alreadyBusy, .rg-host-holder{
+    font-style:italic;
+}
+.apptKeyHolder {
+    border-top: 1px solid #DDDDDD;
+    display: inline-block;
+    padding: 0 10px 20px;
+    position: relative;
+}
+.apptKeyHolder:after,
+.apptKeyHolder:before {
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 13px solid white;
+    top: -13px;
+    content: '';
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+}
+.apptKeyHolder:before {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #ddd;
+    border-top-color: inherit; /* Can't be included in the shorthand to work */
+    top: -15px;
+    margin-left: -15px;
+}
+.signUpContainer .ui-dialog-title{
+    font-weight:normal;
+}
+div.signUpDate, div.signUpTime{
+    text-align:center;
+    font-size:1.3em;
+}
+div.signUpDate{
+    margin-top:10px;
+}
+div.signUpTime{
+    font-weight:bold;
+}
+div.addAppt-list {
+    margin: 10px 0 5px 0;
+    float: left;
+    clear: both;
+}
+/* MAIN */
+div.apptSidebar {
+    float: left;
+}
+div.apptSidebar div.activeAction, div.apptSidebar div.permissionAction {
+    width: 95%;
+}
+div.apptSidebar a.permissionAction {
+    margin-bottom: 15px;
+}
+a.permissionAction i.fa, .activeItem .fa {
+    margin-right: 5px;
+}
+div.apptCalendar {
+    padding-left: 228px;
+}
+span.findAppts{
+    margin-top:5px;
+    display:inline-block;
+    border:0;
+    border-radius:4px 4px 0px 0px;
+}
+div.searchAppts{
+    padding:10px;
+    border-top:3px solid #3B87AE;
+    border-bottom:3px solid #3B87AE;
+    border-right:1px solid #DDD;
+    border-left:1px solid #DDD;
+}
+div.searchAppts span.inactiveItem{
+    display:block;
+    margin-bottom:5px;
+    font-size:1.1em;
+}
+div.myFacWrapper, div.campusWrapper {
+    margin: 20px 0 10px 0;
+}
+div.myFac {
+    margin: 5px 0;
+}
+a.mySchedule.activeAction{
+    text-align:center;
+    display:block;
+    margin:5px 0px;
+    font-weight:normal;
+}
+a.mySchedule span, span.findAppts span {
+    display:block;
+    margin-bottom:3px;
+    font-size:1.1em;
+}
+div.rg-sidebar {
+    margin: 10px 0;
+}
+div.otherEvents span:first-child{
+    color:#808080;
+    font-weight:normal;
+}
+div.otherEvents .fa{
+    font-size:0.7em;
+}
+div.otherEvents.inactiveItem .fa{
+    display: none;
+}
+table.weekNav{
+    width:100%;
+    margin:0;
+    margin-top:-5px;
+}
+/* END OF MAIN */
+.defaultSearch{
+    margin-top:3px;
+}
+/*appt detail modal*/
+.apptDetailContainer span.ui-dialog-title{
+    display:none;
+}
+.apptDetailContainer button.ui-dialog-titlebar-close{
+    margin-top:1px;
+    z-index:1001
+}
+.apptDetailContainer div.ui-dialog-titlebar{
+    padding:0.2em;
+}
+#apptDetailPlugin {
+    padding: 10px 18px 20px;
+}
+.apptDetailPlugin div.apptOwnerWrapper{
+    padding-left: 85px;
+}
+.apptOwnerSchedule{
+    text-decoration:underline;
+    cursor:pointer;
+}
+.apptOwnerSchedule, .apptDateLocation, .apptOver, .addApptEmailTemplate, .apptIcs{
+    font-size:0.9em;
+}
+.apptOver {
+    display: block;
+    color: #808080;
+}
+.apptTitle{
+    font-weight:bold;
+    display:block;
+    font-size: 1.2em;
+}
+.apptDetails {
+    line-height: 1.4em;
+}
+.apptDescription{
+    clear:both;
+    padding-top:15px;
+    font-size:0.9em;
+}
+.editAppt {
+    float: right;
+    margin-right: 10px;
+}
+.apptAttendees, .apptHostAttendees{
+    margin: 10px 0 25px;
+    overflow: hidden;
+}
+.apptDetailAction{
+    padding-top:12px;
+    text-align:center;
+    clear:both;
+}
+.apptDetailAction button,.apptDetailAction a{
+    margin-right:10px;
+}
+.apptDiscussion {
+    clear: both;
+}
+.apptDiscussion .activeInput, #addApptDescrip{
+    border-radius:4px;
+    float:left;
+    font-size:0.85em;
+    padding:3px;
+    width:578px;
+    max-width:578px;
+    min-width:578px;
+    height:43px;
+    min-height:43px;
+}
+ #addApptDescrip {
+     float: none;
+ }
+.discussionWrapper .activeInput{
+    width:510px;
+    max-width:510px;
+    min-width:510px;
+}
+.apptDiscussion img.discussionPhoto{
+    height:auto;
+    max-height: 63px;
+    width:63px;
+}
+.apptDiscussion img.discussionPhoto.commentHost {
+    margin-right: 5px;
+}
+.disTitle, .whoThere {
+    font-size: 1.2em;
+}
+.disInfo{
+    font-size:0.8em;
+    color:#888;
+}
+.addAttendeeChooser {
+    margin-top: 15px;
+}
+.attendeesWrapper{
+    margin-top:5px;
+    overflow-y:auto;
+    max-height:170px;
+    min-height:70px;
+    border: 1px solid #dfdfdf;
+    border-width: 1px 0;
+    padding-top:5px;
+}
+img.attendeePhoto{
+    height:auto;
+    max-height: 60px;
+    width:60px;
+    float:left;
+}
+li.attendee{
+    display:block;
+    float:left;
+    width:33%;
+    height:60px;
+}
+li.attendee div.attendeeActions{
+    width:auto;
+    padding-left:65px;
+    padding-right:5px;
+}
+.attendee img.attendeePhoto{
+    margin-right:5px;
+    float:left;
+}
+.attendee span{
+    font-size:0.85em;
+}
+.attendee .attendeeActions{
+    display:block;
+    white-space:nowrap;
+}
+.checkInWrapper {
+    float: right;
+    font-size: 0.85em;
+}
+.checkInWrapper button, .checkInWrapper div{
+    display: block;
+    margin-bottom: 5px;
+    float: right;
+    clear: both;
+}
+.apptHostAttendees textarea.activeInput {
+    border-radius:4px;
+    font-size:0.85em;
+    padding:3px;
+    width: 315px;
+    max-width:315px;
+    min-width:315px;
+    height:103px;
+    max-height:103px;
+    min-height:103px;
+}
+.notesWrapper {
+    width: 335px;
+    float: right;
+}
+.hostAttendees {
+    overflow-y: auto;
+    max-width: 335px;
+    max-height:150px;
+    border: 1px solid #dfdfdf;
+    border-width: 1px 0;
+    padding-top:5px;
+}
+.hostAttendees li.attendee {
+    float: none;
+    padding-bottom: 5px;
+    width: inherit;
+    border-bottom: 1px solid #f4f4f4;
+}
+.attendeeActions a{
+    font-size:0.85em;
+}
+i.fa-cus-info{
+    color:#7B797B;
+    margin-right:3px;
+}
+button.activeAction.activeActionInverse{
+    background-color:#FFF;
+    border-color:#cecece;
+    color:#000;
+    font-weight: normal;
+}
+button.activeAction.activeActionInverse:hover{
+    background-color:#f2f2f2;
+    border-color:#c0c0c0;
+    color:#3986ad;
+}
+button.activeAction.activeActionInverse:active{
+    background-color:#fff;
+    border-color:#c0c0c0;
+    color:#3986ad;
+}
+button.activeAction.activeActionInverse i.fa{
+    color:#3986ad;
+}
+.confirmModalWrapper .ui-dialog-titlebar{
+    display:none;
+}
+.confirmModalWrapper div.confirmMesg,.confirmModalWrapper div.confirmInfo{
+    margin:10px 0;
+}
+div.confirmMesg {
+    font-size: 1.1em;
+}
+.discussionWrapper{
+    overflow-y:auto;
+    max-height:200px;
+    margin:5px 0 15px 0;
+    background-color: #f4f4f4;
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+}
+div.comment{
+    clear:both;
+    margin:10px 0;
+}
+div.commentContent{
+    padding:3px;
+    border:1px solid #dfdfdf;
+    border-radius:5px;
+    margin:0 62px;
+    background-color:#FFF;
+    position:relative;
+}
+.rightComment:after,
+.rightComment:before {
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid white;
+    content: '';
+    top: 13px;
+    right: -6px;
+    margin-top: -6px;
+    position: absolute;
+}
+/* Styling for second triangle (border) */
+.rightComment:before {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #dfdfdf;
+    border-left-color: inherit; /* Can't be included in the shorthand to work */
+    right: -8px;
+    margin-top: -8px;
+}
+
+.leftComment:after,
+.leftComment:before {
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid white;
+    content: '';
+    top: 13px;
+    left: -6px;
+    margin-top: -6px;
+    position: absolute;
+}
+
+/* Styling for second triangle (border) */
+
+.leftComment:before {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #dfdfdf;
+    border-right-color: inherit; /* Can't be included in the shorthand to work */
+    left: -8px;
+    margin-top: -8px;
+}
+div.commentContent {
+    font-size: 0.9em;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+}
+div.commentContent.commentNew {
+    border: 2px solid #3b87ae;
+}
+div.commentContent .commentInfo{
+    font-size:0.9em;
+    color:#7B797B;
+}
+div.commentFile, div.commentTxt {
+    display: inline-block;
+    margin-right: 5px;
+}
+.commentInfo i.fa{
+    margin-left:5px;
+    font-size:1.2em;
+    cursor:pointer;
+}
+img.commentPhoto {
+    margin-bottom: 5px;
+    max-height: 55px;
+    max-width: 55px;
+}
+img.commentHost{
+    float:left;
+}
+img.commentAttendee{
+    float:right;
+}
+#uploadFileForm div {
+    margin: 10px 0;
+}
+#uploadFileForm input.activeInput {
+    width: 300px;
+}
+#uploadFileForm span {
+    display: inline-block;
+    margin-right: 5px;
+    width: 70px;
+    text-align: right;
+}
+/*end appt detail modal*/
+/*Settings View*/
+.settingsHeader {
+    margin-top: 25px;
+}
+.settingsHeader .itemInfo {
+    display: block;
+    margin-top: 10px;
+}
+.settingsSelector {
+    margin-top: 20px;
+}
+.settingWrapper {
+    margin: 5px 0;
+    clear: both;
+    padding: 10px;
+}
+.settingWrapper input[type='radio']{
+    float: left;
+}
+.settingWrapper div.settingTxt {
+    margin-left: 25px;
+}
+div.settingTxt ul li {
+    list-style-type: disc; 
+    list-style-position: outside;
+    margin-left: 12px;
+}
+.settingName {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+p.settingInfo {
+    margin-bottom: 3px;
+}
+.settingSelected,div.rg-campus-ctr div.rg-edit, #newCampusResource div.rg-edit  {
+    border: 1px solid #5A9ABD;
+    background-color: #EFF3FF;
+    border-radius: 4px;
+}
+.settingOptions {
+    display: none;
+}
+.settingSelected .settingOptions {
+    display: block;
+}
+.settingSelected .settingDetails {
+    display: none;
+}
+.showHideDetails {
+    display: block;
+    margin-bottom: 15px;
+}
+.orSpacer {
+    font-style: italic;
+    margin: 0 15px;
+}
+.settingHosts {
+    margin-bottom: 10px;
+}
+/*end Settings view*/
+/*Resource Group*/
+div.rg-wrapper {
+    margin: 15px 0;
+}
+div.rg-create-header {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: bold;   
+}
+div.rg-imageContainer {
+    float:left; 
+    width:120px;
+}
+div.rg-content {
+    margin-left:140px;
+}
+div.rg-content input {
+    width: 250px;
+}
+div.rg-input-container {
+    margin-bottom: 15px;
+}
+div.resourceNameWrapper i.fa.invalidItem {
+    margin-left: -20px;
+    margin-right: 20px;
+}
+div.resourceNameWrapper span.invalidItem {
+    display: inline-block;
+    width: 260px;
+    text-wrap: normal;
+    font-size: 0.9em;
+}
+div.resourceNameWrapper input {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.requiredFilled {
+    display: block;
+    margin: 15px 0;
+}
+.rg-name {
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: 2px;
+}
+.rg-lnk-action {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+.rg-spacer {
+    margin-bottom: 7px;
+}
+.rg-manage-users {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.rg-img-placeholder {
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    content: '';
+    margin-bottom: 5px;
+}
+.rg-img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.rg-uploadModal .uploadInfo {
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.rg-uploadModal .uploadInfo p{
+    margin: 2px 0;
+    font-size: 0.9em;
+}
+.rg-img-restriction i.fa {
+    font-size: 1.7em;
+    margin-right: 5px;
+}
+/*end Resource Group*/
+/*Managers and Hosts*/
+.mh-container {
+    font-size: 1.0em;
+}
+.mh-container .ui-dialog-titlebar {
+    display: none;
+}
+.mh-container  .settingSelected .mh-table-wrapper {
+    max-height: 240px;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+.mh-header {
+    font-size: 1.6em;
+}
+.mh-header-info {
+    display: block;
+}
+.mh-wrapper {
+    margin-top: 15px;
+}
+.mh-wrapper .apptsHeader {
+    padding-right: 5px;
+    display: inline-block;
+}
+.mh-table {
+    width: 100%;
+    border-collapse:collapse;
+}
+.mh-table td, .mh-table th {
+    border-bottom: 1px solid #abcade;
+    padding: 10px 0px;
+    margin: 0;
+    text-align: left;
+}
+.mh-table  .mh-remove {
+    text-align: right;
+}
+td.mh-remove {
+    padding-right: 20px;
+}
+td.mh-remove i.fa {
+    cursor: pointer;
+}
+span.mh-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+span.mh-id {
+    margin-left: 5px;
+}
+/*end of Managers and Hosts*/
+/*Campus Resoures*/
+.campusResourceInfo {
+    padding-left:20px;
+    padding-right:150px;
+}
+.campusResourceInfo span.apptsHeader {
+    margin-bottom: 7px;
+}
+.campusSection {
+    margin: 20px 0;
+    padding: 5px 0;
+}
+.campusSection .apptsHeader, .noResources {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #BABABA;
+    font-size: 1.1em;
+}
+.noResources {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+    color: #999;
+    font-style: italic;
+}
+button.campusAction{
+    width: 162px;
+    text-align: left;
+    float: left;
+}
+button.campusAction .fa {
+    float: left;
+    margin-top: 8px;
+}
+button.campusAction span {
+    margin-left: 18px;
+}
+.campusActionInfo {
+    font-size: 0.85em;
+}
+.campusActionTitle,.campusActionInfo {
+    display: block;
+}
+div.rg-campus-ctr {
+    padding-left: 170px;
+    border-bottom: 1px solid #BABABA;
+}
+div.rg-campus-ctr div.rg-edit, #newCampusResource div.rg-edit {
+    padding: 20px;
+}
+/*end Campus Resources*/
+/*Email template plugin*/
+.templateArea {
+    padding: 10px 0;
+    clear: both;
+}
+.templateArea .inactiveItem {
+    display: block;
+    margin-bottom: 3px;
+}
+textarea.templateSubject {
+    font-size: 0.85em;
+    height: 30px;
+    max-height: 30px;
+    max-width: 98%;
+    min-height: 30px;
+    min-width: 98%;
+    padding: 3px;
+    width: 98%;
+    border: 1px solid #777;
+}
+.tokenInfo {
+    float: right;
+    width:225px;
+    text-wrap: normal;
+    overflow-y: auto;
+    max-height: 475px;
+    border-left: 1px solid #EFEFEF;
+    padding-left: 15px;
+}
+.tokenInfo span.inactiveItem {
+    font-size: 0.9em;
+    display: block;
+}
+.tokenArea {
+    margin: 5px 0;
+    padding: 5px 0;
+    border-top: 1px solid #EFEFEF;
+}
+.tokenArea div {
+    margin: 5px 0;
+}
+/*end of email template plugin*/
+/*Appointment help*/
+#apptHelpModal {
+    padding: 10px 20px 20px 20px;
+}
+.apptHelpWrapper {
+    float: right;
+}
+.apptHelpContainer .ui-dialog-title {
+    font-size: 1.3em;
+    color: #888;
+}
+.hlp-wrapper {
+    font-size: 0.95em;
+}
+.hlp-wrapper ul, .hlp-wrapper  li {
+    list-style: disc outside none;
+    margin-left: 10px;
+}
+.hlp-wrapper ol {
+    padding-left: 15px;
+}
+.hlp-wrapper ol li {
+    list-style-type: decimal;
+}
+.hlp-wrapper p {
+    margin: 5px 0 10px;
+}
+.hlp-left {
+    float: left;
+    width: 300px;
+}
+.hlp-right {
+    padding-left: 325px;
+}
+.hlp-center {
+    padding-top: 10px;
+    clear: both;
+    text-align: center;
+}
+.hlp-full {
+    clear: both;
+    padding-top: 10px;
+}
+.hlp-header {
+    font-size: 1.25em;
+    display: block;
+    padding-top: 15px;
+}
+.hlp-info {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+div.apptKeyInfo.hlp-list-key {
+    display: block;
+}
+#apptHelpModal div.apptKeyInfo.activeAction span:first-child {
+    font-weight: bold;
+}
+.hlp-wrapper div.apptKeyInfo.fc-event {
+    padding: 5px;
+}
+span.hlp-drag.fc-event {
+    display: inline-block;
+    padding: 0 4px;
+    line-height: 1.0em;
+    border-radius: 0;
+}
+.hlp-drag:after {
+    content: '=';
+}
+.hlp-appt {
+    margin-bottom: 15px;
+}
+.hlp-appt .fc-event {
+    display: inline-block;
+    width: 150px;
+}
+.hlp-appt .hlp-drag {
+    text-align: center;
+    margin-top: -10px;
+}
+/*end of appointment help*/
+/*people chooser overrides*/
+div.peoplechooser {
+    clear: both;
+}
+.pc-autocomplete{
+    width:170px;
+}
+.defaultSearch .pc-autocomplete{
+    width:220px;
+}
+.pc-action a {
+    color: #3b86ad;
+}
+span.pc-details {
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+}
+/*end people chooser overrides*/
+/*Full Calendar overrides*/
+.fc-clear {
+    clear: none;
+}
+.fc-toolbar{
+    margin-bottom: 0px;
+    vertical-align:bottom;
+    padding-bottom:2px;
+    border-bottom:1px solid #cdcdcd;
+}
+.fc-header-wrapper {
+    border: 0 !important;
+    margin: 0 !important;
+}
+.fc-axis.fc-axis-left{
+    text-align: left;
+}
+.fc {
+    margin-top: 25px;
+}
+.fc th.fc-axis-right {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.fc .fc-toolbar .fc-right {
+    margin-right: -12px;
+}
+.fc .fc-toolbar button {
+    margin: 0;
+    padding: 0 3px;
+}
+.fc-toolbar.fc-toolbar-list button {
+    float: right;
+}
+.fc-toolbar.fc-toolbar-list .fc-right {
+    margin: 0;
+}
+.fc-content{
+    clear:none;
+}
+.fc-state-hover, .fc-state-down, .fc-state-active, .headerAction{
+    text-decoration:underline;
+    background: 0;
+    cursor:pointer;
+    box-shadow:none;
+    border: 0;
+}
+.fc-state-active.apptStrong, .inactiveItem.headerAction{
+    text-decoration:none;
+}
+.fc-widget-header table {
+    margin: 0;
+}
+thead td.fc-widget-header{
+    vertical-align:middle;
+    cursor:pointer;
+    border-top:0 none;
+    border-left:0 none;
+    border-right:0 none;
+}
+td.fc-widget-header th {
+    border-top:0 none;
+    border-left:0 none;
+    border-right:0 none;
+}
+tr.monthHeader th.fc-widget-header {
+    cursor: default;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+th.fc-day-header{
+    font-weight:normal;
+}
+table.weekNav {
+    border-collapse: separate;
+}
+table.weekNav td{
+    border: 2px solid #fff;
+    border-collapse: separate;
+}
+th.fc-agenda-axis.fc-first{
+    text-align:left;
+}
+th.fc-first i.fa, th.fc-last i.fa{
+    cursor:pointer;
+}
+.fc-content .fc-time{
+    display:none;
+}
+.ui-draggable-dragging .fc-event-time,.ui-resizable-resizing .fc-event-time{
+    display:block;
+}
+.ui-widget .fc-event,.fc-event,.fc-event:hover{
+    font-weight:bold;
+    background-color: #e9f2f7;
+    border: 1px solid #8da7b6;
+    border-radius: 4px;
+    color: #3d87ae;
+    padding: 2px;
+    font-size: 0.85em;
+}
+.fc-event:hover {
+    text-decoration: none;
+}
+.fc-event-vert .fc-event-bg {
+    opacity: 0;
+}
+span.fc-cus-event-info{
+    font-weight:normal;
+    display:block;
+    padding: 0 1px;
+}
+td.fc-day-number.fc-cus-clickable:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+.fc-listView{
+    margin-bottom: 30px;
+}
+.fc-left-list {
+    width: 100px;
+}
+.fc-list-day-wrapper {
+    margin-bottom: 20px;
+}
+.fc-list-day {
+    float: left;
+    width: 100px;
+    text-align: right;
+    color: #808080;
+    font-size: 1.1em;
+}
+.fc-list-day-num {
+    display: block;
+    font-size: 0.85em;
+}
+.fc-list-appointments {
+    margin-left: 110px;
+    padding-left: 10px;
+    border-left: 1px solid #DDDDDD;
+}
+.fc-listView .fc-event {
+    padding: 5px;
+    margin: 3px 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+.fc-event-info {
+    margin-top: 4px;
+}
+.fc-event-who {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.fc-list-showMore {
+    display: block;
+    margin-left: 115px;
+}
+.fc-list-noAppt {
+    text-align: center;
+    font-style: italic;
+    margin: 30px 30px 60px 30px;
+    font-size: 1.2em;
+}
+.fc-comment {
+    font-weight: bold;
+    float: right;
+    margin-left: 3px;
+}
+.fc-comment .fa {
+    margin-right: 2px;
+    font-weight: normal;
+    font-size: 11px;
+}
+a.fc-event.fc-otherAggregate {
+    border: 0;
+    background: 0;
+    margin-left: 15px;
+    display: list-item;
+    padding: 0;
+}
+a.fc-event.hasAttendee .fc-bg {
+    background: none;
+}
+a.fc-event.fc-otherAggregate div.fc-content {
+    display: inline;
+}
+.fc-next-button .fa {
+    padding-left: 5px;
+}
+.fc-listView-content {
+    margin-top: 15px;
+}
+/*End Full Calender overrides*/
+
+/*DatePicker overrides*/
+
+.ui-state-default, /*REMOVES IE6-9 Issue*/
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    filter: none;
+}
+table.ui-datepicker-calendar td{
+    padding:0;
+    background-image:none;
+}
+.ui-datepicker td a, .ui-datepicker td span {
+    padding:5px;
+    background-image:none;
+}
+.ui-datepicker-calendar a.ui-state-default.ui-state-highlight{
+    font-weight:bold;
+}
+.ui-datepicker.ui-widget-content{
+    border:0;
+}
+.ui-datepicker-calendar .ui-state-default, .ui-datepicker-calendar .ui-state-disabled span{
+    background:none;
+    border-top:0;
+    border-right:0;
+    text-shadow:none;
+}
+.ui-datepicker-calendar a.ui-state-default{
+    border:0;
+}
+.ui-datepicker td.miniAttendee a{
+    padding-right:3px;
+}
+.ui-datepicker-calendar td{
+    border:1px solid #cdcdcd;
+}
+.ui-datepicker-calendar .ui-state-disabled{
+    opacity:1;
+}
+.ui-datepicker-calendar .ui-state-disabled span{
+    color:#BABABA;
+    border: none;
+}
+.ui-datepicker-calendar td.ui-datepicker-week-end {
+    border-right:1px solid #cdcdcd;
+}
+.ui-datepicker-calendar td.ui-datepicker-week-end:first-child{
+    border-right:0;
+}
+.ui-datepicker-calendar thead th{
+    border-top:1px solid #cdcdcd;
+    border-bottom:1px solid #cdcdcd;
+    padding:2px;
+}
+.ui-datepicker .ui-widget-header, .ui-datepicker th{
+    font-weight:normal;
+}
+.ui-datepicker-title .ui-datepicker-month{
+    font-size:1.2em;
+}
+.ui-datepicker .ui-widget-header .ui-icon {
+    background-image: url("../../../../UI/Common/Styles/jQuery/images/ui-icons_3b86ad_256x240.png"); /*custom*/
+}
+.ui-datepicker .ui-widget-header .ui-icon.ui-icon-circle-triangle-w{
+    background-position: -96px 0;
+}
+.ui-datepicker .ui-widget-header .ui-icon.ui-icon-circle-triangle-e{
+     background-position: -32px 0;
+}
+.ui-datepicker .ui-datepicker-next-hover, .ui-datepicker .ui-datepicker-prev-hover{
+    background:0;
+    border:0;
+    box-shadow:none;
+    top:2px;
+}
+#ui-datepicker-div{
+    border-radius: 4px;
+    border: 1px solid #abcade;
+    box-shadow: 1px 0 2px rgba(0,0,0,.25);
+}
+/*END DatePicker overrides*/
+/*START Modal override*/
+.ui-dialog .ui-dialog-content {
+    padding: 20px;
+}
+/*END Modal override*/
+.appt-loading{
+    overflow: hidden;
+    padding: 25px 0;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    width: 200px;
+    font-family: Trebuchet MS;
+    font-size: medium;
+    font-weight: bold;    -moz-border-radius: 6px;
+    -webkit-border-radius: 6x;
+    border-radius: 6px 6px 6px 6px;
+    -moz-box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    box-shadow: 1px 1px 8px rgba(0,0,0,.35);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=45,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=135,strength=4) progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=225,strength=4) progid:DXImageTransform.Microsoft.Shadow(color=#535353,direction=315,strength=3);
+}
+.appt-loading img{
+    vertical-align: middle;
+    margin-right: 6px;
+}

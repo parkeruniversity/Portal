@@ -1,0 +1,544 @@
+﻿
+ .chat-portlet.chat-wrapper {
+    border: 1px solid #ddd;
+    overflow: auto;    
+}
+
+.chat-portlet.chat-wrapper .table {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.chat-portlet.chat-wrapper .table p {
+    margin: 0;
+}
+
+.chat-portlet.chat-wrapper table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.chat-portlet.chat-wrapper .usersInSessionHeader {
+    color: #6D6D6D;
+    font-weight: bold;
+    border: none;
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 7px;
+}
+.addChatAvailability .validation-error-container,.editChatAvailability .validation-error-container {
+    display: inline-flex;
+    padding: .5em 1em .5em .5em;
+    margin: 1em 0 1em 0;
+    border-radius: 4px;
+    background-color: #FCF7F7;
+    border: 1px solid #D40614;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+.addChatAvailability .error-icon ,.editChatAvailability .error-icon{
+    color: #D40614;
+    padding-right: .5em;
+    padding-top: .2em;
+}
+.editChatAvailability button.delete,.addChatAvailability button.delete {
+    border: 1px solid #D43F3A;
+    background-color: #D9534F;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer; 
+        margin-top: 10px;
+    float: right;
+}
+.editChatAvailability button.save,.addChatAvailability button.save {
+      border: 1px solid #305D74;
+    background-color: #3B87AE;
+    color: #FFFFFF;
+    background-image: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;  
+        padding: 0;
+    margin-top: 10px;
+}
+
+.editChatAvailability button.delete span,.addChatAvailability button.delete span{
+    background-color: #D9534F;
+}
+.editChatAvailability button.cancel,.addChatAvailability button.cancel {
+    text-decoration: underline;
+    color: #3B87AE;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding-left: 0; 
+    margin-top: 10px;
+    -ms-text-shadow: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+
+ .editChatAvailability button.cancel span,.addChatAvailability button.cancel span {
+    text-decoration: underline;
+}
+.addChatAvailability button.cancel {
+    float: right;
+}
+.ui-dialog .ui-dialog-content.chat-availability {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+.editChatAvailability .content,.addChatAvailability .content {
+    color: #6D6D6D;
+}
+.editChatAvailability .content.allday,.addChatAvailability .content.allday {
+    text-align: center;
+}
+.addChatAvailability .content input,.editChatAvailability .content input {
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+ .addChatAvailability .content .dayOfTheWeek,.editChatAvailability .content .dayOfTheWeek {
+    color: black;
+}
+.addChatAvailability.ui-dialog .ui-dialog-titlebar,.editChatAvailability.ui-dialog .ui-dialog-titlebar {
+    padding-left: 2px;
+}
+.addChatAvailability.ui-dialog .ui-dialog-title,.editChatAvailability.ui-dialog .ui-dialog-title {
+    color: #6D6D6D;
+    font-size: 14px;
+}
+.addChatAvailability  .ui-button-text-only .ui-button-text ,.editChatAvailability  .ui-button-text-only .ui-button-text {
+    padding: .5em .5em;
+    font-size: 12px;
+    text-shadow: none
+}
+
+.chat-availability button.delete {
+    padding: 0;
+}
+.addChatAvailability .ui-dialog-buttonpane button,.editChatAvailability .ui-dialog-buttonpane button {
+    margin: 0;
+}
+.addChatAvailability .ui-dialog-buttonpane .ui-dialog-buttonset, .editChatAvailability .ui-dialog-buttonpane .ui-dialog-buttonset{
+    width: 100%;
+}
+.addChatAvailability .save.ui-state-default,.editChatAvailability .save.ui-state-default
+.addChatAvailability .save.ui-widget-content .ui-state-default, .editChatAvailability .save.ui-widget-content .ui-state-default
+.addChatAvailability .save.ui-widget-header .ui-state-default,.editChatAvailability .save.ui-widget-header .ui-state-default {
+    -ms-text-shadow: none;
+    text-shadow: none;
+}
+
+.editChatAvailability.ui-dialog .ui-dialog-buttonpane, .addChatAvailability.ui-dialog .ui-dialog-buttonpane {
+    text-align: left;
+    padding: 0;
+    width: 100%;
+}
+.addChatAvailability .save.ui-state-hover,.addChatAvailability .save.ui-state-hover
+.addChatAvailability .save.ui-widget-content .ui-state-hover,.editChatAvailability .save.ui-widget-content .ui-state-hover
+.addChatAvailability .save.ui-widget-header .ui-state-hover,.editChatAvailability .save.ui-widget-header .ui-state-hover
+.addChatAvailability .save.ui-state-focus,.editChatAvailability .save.ui-state-focus
+.addChatAvailability .save.ui-widget-content .ui-state-focus,.editChatAvailability .save.ui-widget-content .ui-state-focus
+.addChatAvailability .save.ui-widget-header .ui-state-focus,.editChatAvailability .save.ui-widget-header .ui-state-focus {
+
+    border: 1px solid #305D74;
+    background-color: #3B87AE;
+    -webkit-box-shadow: none ;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    -ms-text-shadow: none;
+    text-shadow: none;
+}
+
+ .chat-availability .fc-unthemed .fc-today {
+    background: none;
+}
+
+.chat-portlet.chat-wrapper .table>tbody>tr>td,
+.chat-portlet.chat-wrapper .table>tbody>tr>th,
+.chat-portlet.chat-wrapper .table>tfoot>tr>td,
+.chat-portlet.chat-wrapper .table>tfoot>tr>th,
+.chat-portlet.chat-wrapper .table>thead>tr>td,
+.chat-portlet.chat-wrapper .table>thead>tr>th {
+    padding: 4px 8px;
+    vertical-align: middle;
+  border-top: 1px solid #ddd;
+}
+
+.chat-portlet.chat-wrapper .messaging {
+    border-top: 1px solid #ddd;
+    clear: both;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.chat-portlet.chat-wrapper .messaging:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.chat-portlet.chat-wrapper td,
+th {
+  padding: 0;
+}
+
+.chat-portlet.chat-wrapper .table-bordered {
+  border: 1px solid #ddd;
+}
+.chat-portlet.chat-wrapper .mce-container label {
+    color: #6D6D6D !important;
+}
+.chat-portlet.chat-wrapper .usersInSession .scrollable {
+    padding: 0;
+    height: 300px;
+    overflow-y: auto;
+    float: left;
+}
+.chat-portlet.chat-wrapper .table {
+  /*float: left;*/
+}
+.chat-portlet.chat-wrapper .table.options >tbody>tr>th,.chat-portlet.chat-wrapper .user-info .table > tbody > tr > th {
+    color: #6D6D6D;
+    font-weight: bold;
+    border: none;
+}
+.chat-portlet.chat-wrapper .user-info .table.options > tbody > tr > th{
+    padding: 5px 5px 0px 8px;
+    text-align: left;
+}
+.chat-portlet.chat-wrapper .user-info .table.options > tbody > tr > td {
+   padding: 3px 8px;
+}
+.chat-portlet.chat-wrapper .table.options a {
+  color: #2171cd;
+}
+.chat-portlet.chat-wrapper {
+  color: #6D6D6D;
+  font-size: 12px;
+  background-color: #FAFAFA;
+}
+.chat-portlet.chat-availability {
+    margin-top:10px
+}
+.chat-portlet.chat-availability .header {
+    background: none;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+
+}
+.chat-portlet.chat-availability .chatAvailablityEditor .description {
+    text-align: center;
+    color:#6D6D6D;
+    padding-top:15px;
+    display: block;
+    font-size: 12px;
+}
+.chat-portlet.chat-availability .label {
+    display: none;
+}
+.chat-portlet.chat-availability .header a {
+    float:right;
+    margin-right: 10px;
+}
+.chat-portlet.chat-availability .availabilityTitle {
+    font-weight: bold;
+    font-size: 15px;
+}
+.chat-portlet.chat-availability .chatAvailabilityMessageEditorContainer {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.chat-portlet.chat-availability .chatAvailabilityMessageEditorContainer.hide {
+    display: none;
+} 
+.chat-portlet.chat-availability .chatAvailabilityMessageEditorContainer .description {
+    text-align: center;
+}
+.chat-portlet.chat-availability a.backButton,.chat-portlet.chat-wrapper a, .chat-portlet.logs a {
+    color: #004A80 
+}
+.chat-portlet.chat-availability .fc-day-grid-event .fc-content {
+    height: 30px;
+    padding: 5px 2px;
+}
+.chat-portlet.chat-availability .fc-day-grid-event .fc-title{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.chat-portlet.chat-availability .fc-day-grid .fc-content-skeleton {
+    padding-bottom: 0;
+}
+.chat-portlet.chat-wrapper .user-info {
+  color: #4a4a4a;
+}
+.chat-portlet.chat-wrapper .user-info .userIcon {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    top: 3px;
+    object-fit: cover;
+}
+.chat-portlet.chat-wrapper .user-info span {
+  font-size: 18px;
+}
+
+.chat-portlet.chat-wrapper .user-info .table > tbody > tr > td {
+  padding: 2px 5px;
+  vertical-align: top;
+}
+
+.chat-portlet.chat-wrapper .users th {
+  text-transform: uppercase;
+    text-align: left;
+}
+
+.chat-portlet.chat-wrapper table td {
+  background-color: #fafafa;
+}
+
+.chat-portlet.chat-wrapper .chat-portlet.chat-wrapper {
+  padding: 0;
+  border: 1px solid #ebebeb;
+  background-color: #fafafa;
+  font-family: 'Open Sans',verdana,arial,sans-serif;
+}
+
+.chat-portlet.chat-wrapper .user-info {
+  padding: 0;
+  float: left;
+  width: 14%;
+}
+
+.chat-portlet.chat-wrapper .table tbody > tr > td {
+  border-top: none;
+  border-bottom: none;
+}
+
+.chat-portlet.chat-wrapper .message-info {
+  margin: 0;
+  border: none;
+}
+
+.chat-portlet.chat-wrapper .message-info > td.name {
+  border-left: none;
+  border-right: 2px solid #ebebeb;
+  font-weight: bold;
+}
+
+.chat-portlet.chat-wrapper .message-info > td.time-stamp {
+  border-right: none;
+}
+
+td.time-stamp span {
+    float: right;
+}
+
+.chat-portlet.chat-wrapper .message-info  > td {
+  border-top: none;
+  border-bottom: 1px solid #ebebeb;
+  ;
+}
+
+.chat-portlet.chat-wrapper .message-info {
+  margin: 0;
+}
+
+.session-info tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-portlet.chat-wrapper .session-info > td {
+  border: none;
+  background-color: #fafafa;
+}
+
+.chat-portlet.chat-wrapper .chat-table {
+  padding: 0;
+  height: 400px;
+  overflow-y: scroll;
+  float: left;
+  width: 86%;
+}
+
+.chat-portlet.chat-wrapper .table > tbody > tr > td.empty {
+  border-right: 2px solid #ebebeb;
+  border-bottom: none;
+  border-left: none;
+}
+
+.chat-portlet.chat-wrapper .name,
+.chat-portlet.chat-wrapper .empty {
+  width: 10%;
+}
+
+.chat-portlet.chat-wrapper .message-info.start > td.name {
+    border-top: 1px solid #ebebeb;
+    border-bottom: none;
+}
+.chat-portlet.chat-wrapper .message-info.lastActivity.start > td.name {
+    border-bottom: 1px solid #ebebeb;
+}
+.chat-portlet.chat-wrapper .message-info.repeat.end > td.name {
+    border-top: none;
+    border-bottom: 1px solid #ebebeb;
+}
+.chat-portlet.chat-wrapper .message-info.repeat > td.name {
+    border-top: none;
+    border-bottom: none; 
+}
+
+.chat-portlet.chat-wrapper .table > tbody > tr > td.time-stamp {
+  border-left: none;
+   border-top: none;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+}
+
+.chat-portlet.chat-wrapper .time-stamp {
+  background-color: #fff;
+}
+.editChatAvailability .label,.addChatAvailability .label,.chat-portlet.chat-wrapper .label {
+    display: none;
+}
+
+.chat-portlet.chat-wrapper .name,
+.chat-portlet.chat-wrapper .message {
+  color: #000;
+}
+
+.chat-portlet.chat-wrapper .message,
+.chat-portlet.chat-wrapper .session-message {
+  width: 74%;
+}
+.chat-portlet.chat-wrapper .message > span {
+    display: block;
+    padding: 2px 0 2px 0
+}
+.chat-portlet.chat-wrapper .table > tbody > .session-info > td.time-stamp{
+    border: none;
+}
+.chat-portlet.chat-wrapper .table > tbody > tr > td.message {
+  border-right: none;
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+}
+
+.chat-portlet.chat-wrapper .table > tbody > tr > td.no-padding {
+  padding: 0;
+}
+
+.mce-tinymce {
+    width: 80% !important;
+    float: left !important;
+}
+.chat-portlet.chat-wrapper .mce-tinymce.mce-container.mce-panel {
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+.chat-portlet.chat-availability .chatAvailablityEditor .chatAvailabilityMessage .message {
+    font-weight: bold;
+    color:#4a4a4a;
+    font-size: 15px;
+     display: inline-block;
+    max-width: 525px;
+}
+.chat-portlet.chat-availability .chatAvailablityEditor .chatAvailabilityMessage {
+    text-align: center;
+     
+}
+ .chat-portlet.chat-availability .chatAvailablityEditor .btn.btn-update-availability-message {
+     bottom: -178px;
+     border-radius: 5px;
+ }
+  .chat-portlet.chat-availability .chatAvailablityEditor .btn.btn-edit-availability-message {
+      bottom: -5px;
+      border-radius: 5px;
+  }
+
+ .chat-portlet.chat-availability .btn, .chat-portlet.chat-wrapper .btn-send-message {
+     margin-left: 1%;
+    color: #fff;
+    background-color: #3B87AE;
+    border: 1px solid #305D74;
+    color: #FFFFFF;
+    background-image: none;
+     -ms-border-radius: 2px;
+     border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    bottom: -40px;
+    position: relative;
+ }
+
+ .chat-portlet.chat-wrapper .message-info.start > td.name {
+    border-top: 1px solid #ebebeb;
+    border-bottom: none;
+}
+.chat-portlet.chat-wrapper .message-info.repeat.end > td.name {
+    border-top: none;
+    border-bottom: 1px solid #ebebeb;
+}
+.chat-portlet.chat-wrapper .message-info.repeat > td.name {
+    border-top: none;
+    border-bottom: none; 
+}
+.logs .log-title {
+    font-size: 18px;
+}
+.logs .month-title {
+    font-size: 15px;
+}
+.logs .log-title, .month-title {
+    display: block;
+}
+.logs ul {
+    margin: 0;
+    padding: 7px;
+    border-top: 1px solid #ccc;
+}
+.logs .sessions {
+    padding-left: 16px;
+}
+.logs a {
+    padding-bottom: 3px;
+    display: inline-block;
+}
+.chat-portlet ::-webkit-scrollbar {
+    width:20px;
+}
+.chat-portlet ::-webkit-scrollbar-track {
+    background:rgba(0,0,0,0.1);
+}
+.chat-portlet ::-webkit-scrollbar-thumb {
+       background:rgba(0,0,0,0.2);
+}
+.chat-portlet ::-webkit-scrollbar-thumb:hover {
+       background:rgba(0,0,0,0.4);
+}
+.chat-portlet ::-webkit-scrollbar-thumb:window-inactive {
+    background:rgba(0,0,0,0.05);
+}
+

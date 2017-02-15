@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EssayManageQuestion.ascx.cs" Inherits="Jenzabar.LMS.Portlets.CourseworkPortlet.Views.Controls.ManageQuestion.EssayManageQuestion" %>
+<asp:Label ID="_lblInfo" runat="server" CssClass="extraInfo typeInfo" />

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Context Name="Replaced by system" DisplayName="Replaced by system" IsSystemObject="true" Hidden="false" Type="CourseSection" ShowChildNodesInSidebar="true" Order="1" DefaultPage="Main Page" Grant="Faculty" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\scratch\ContextTemplate.xsd">
+	<Role Name="Faculty" IsSystemObject="true"/>
+	<Role Name="Students" IsSystemObject="true"/>
+	<Page Name="Attendance" IsSystemObject="true" Grant="Students" PageOrder="1">
+		<Portlet Name="Attendance" Column="1" Order="1" Template="[LMS] AttendancePortlet"/>
+	</Page>
+	<Page Name="Collaboration" Grant="Students" PageOrder="2">
+		<Portlet Name="Forums" Column="1" Order="1" Template="[ICS] ForumPortlet">
+			<Operation Name="CANADDMESSAGES" Grant="Students"/>
+			<Operation Name="CANREPLYTOPOSTS" Grant="Students"/>
+		</Portlet>
+		<Portlet Name="Coursemates" Column="1" Order="2" Template="[ICS] GroupDirectoryPortlet"/>
+		<Portlet Name="Chat" Column="2" Order="1" Template="[ICS] ChatPortlet"/>
+	</Page>
+	<Page Name="Course Information" IsSystemObject="true" Grant="Students" GrantGlobal="Everyone" PageOrder="3">
+		<Portlet Name="Course Information" Column="1" Order="1" Template="[LMS] CourseInfoPortlet"/>
+	</Page>
+	<Page Name="Coursework" IsSystemObject="true" Grant="Students" PageOrder="4">
+		<Portlet Name="Coursework" Column="1" Order="1" Template="[LMS] CourseworkPortlet"/>
+	</Page>
+	<Page Name="Gradebook" IsSystemObject="true" Grant="Students" PageOrder="5">
+		<Portlet Name="Gradebook" Column="1" Order="1" Template="[LMS] GradebookPortlet"/>
+	</Page>
+	<Page Name="Main Page" Grant="Students" PageOrder="6">
+		<Portlet Name="About This Course" Column="1" Order="1" Template="[ICS] CustomContentPortlet"/>
+		<Portlet Name="Calendar" Column="2" Order="1" Template="[ICS] CalendarPortlet"/>
+		<Portlet Name="Announcements" Column="2" Order="2" Template="[ICS] AnnouncementPortlet"/>
+		<Portlet Name="Handouts" Column="2" Order="3" Template="[ICS] HandoutPortlet"/>
+		<Portlet Name="Bookmarks" Column="2" Order="4" Template="[ICS] BookmarkPortlet"/>
+	</Page>
+	<Page Name="Syllabus" Grant="Students" PageOrder="7">
+		<Portlet Name="Course Syllabus" Column="1" Order="1" Template="[ICS] CustomContentPortlet"/>
+		<Portlet Name="Downloadable Version" Column="2" Order="1" Template="[ICS] HandoutPortlet"/>
+		<Portlet Name="Readings" Column="2" Order="2" Template="[ICS] ReadingPortlet"/>
+	</Page>
+</Context>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<tocdata>
+<book name="Welcome to Advancement Officer" >
+  <item name="Title and copyright" url="default.htm" />
+  <item name="Overview" url="Overview.htm" />
+</book>
+<book name="Portlets" >
+  <item name="Relationship Management" url="Relationship_Management.htm" />
+  <item name="Campaign Management" url="Campaign_Management.htm" />
+  <item name="Planned Giving Management" url="Planned_Giving_Management.htm" />
+  <item name="Stewardship and Grants Management" url="Stewardship_and_Grants_Management.htm" />
+</book>
+
+</tocdata>

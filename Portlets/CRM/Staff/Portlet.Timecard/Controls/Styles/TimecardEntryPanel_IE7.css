@@ -1,0 +1,145 @@
+﻿
+.tcHoursEntry ul
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tcHoursEntry ul>li
+{
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	display: block;
+}
+
+.tcHoursEntry ul>li>*
+{
+	float: left;
+	margin: 0px;
+	padding: 0px 5px 0px 5px;
+}
+
+.tcHoursEntry input.tcHoursEntryField
+{
+	width: 50px;
+	padding: 0px;
+}
+
+.tcHoursEntry select.tcHoursEntryField
+{
+	width: 120px;
+}
+
+.tcHoursEntry ul>li.tcFooter
+{
+	border-top: solid 1px #C1C1C1;
+
+}
+
+/* Period Entry Elements*/
+
+.tcHoursEntry ul.tcPeriodEntry
+{
+	width: 400px;
+}
+
+.tcHoursEntry ul.tcPeriodEntry>li>*
+{
+	width: 150px;
+}
+
+.tcHoursEntry ul.tcPeriodEntry>li>*.tcValue
+{
+	width: 60px;
+}
+
+.tcHoursEntry ul.tcPeriodEntry>li>hr
+{
+	display: none;
+}
+
+.tcHoursEntry ul.tcPeriodEntry>li select
+{
+	width: 120px;
+}
+
+
+/* Hourly Entry Elements*/
+
+.tcHoursEntry ul.tcHourlyEntry
+{
+	width: 740px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry.tcSingleDay
+{
+	width: 740px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>*
+{
+	width: 140px;
+	padding: 0px 20px 0px 20px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>*:first-child
+{
+	width: 80px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>*.tcValue
+{
+	width: 60px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>hr
+{
+	display: none;
+}
+
+
+/* Daily Grid Entry Elements*/
+
+.tcHoursEntry ul.tcPeriodGridEntry
+{
+	width: 800px;
+}
+
+.tcHoursEntry ul.tcPeriodGridEntry.tcHideOtherHours,
+.tcHoursEntry ul.tcPeriodGridEntry.tcHideTimeOffHours
+{
+	width: 580px;
+}
+
+.tcHoursEntry ul.tcPeriodGridEntry.tcHideOtherHours.tcHideTimeOffHours
+{
+	width: 360px;
+}
+
+.tcHoursEntry ul.tcPeriodGridEntry>li>*
+{
+	width: 100px;
+}
+
+.tcHoursEntry ul.tcPeriodGridEntry>li>*.tcValue
+{
+	width: 60px;
+}
+
+.tcHoursEntry ul.tcPeriodGridEntry>li>*.tcOtherHoursColumn,
+.tcHoursEntry ul.tcPeriodGridEntry>li>*.tcTimeOffHoursColumn
+{
+	width: 220px;
+}
+
+.tcHoursEntry ul.tcPeriodGridEntry>li>ul>li>input
+{
+	padding: 0px;
+	margin: 0px 5px 0px 5px;
+}
+
+.tcHoursEntry ul.tcPeriodGridEntry>li>hr
+{
+	display: none;
+}

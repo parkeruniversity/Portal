@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html> 
+<head>
+<title>Using Dependencies</title>
+<style type="text/css" media="all">@import url( ../../../../UI/Common/Styles/siteStyle.css );</style>
+<style type="text/css" media="print">@import url( ../../../../UI/Common/Styles/print.css );</style>
+</head>
+
+<body>
+<h4>Using Dependencies</h4>
+<table cellpadding="5" cellspacing="5">
+	<tr>
+		<td>
+			"Dependency" is a feature that allows questions whose options are populated by SQL to use the user's response to a previous question as a variable in the SQL "SELECT" statement. If this feature is used, when the user responds to the original question, the dependent question will be populated with options based on their selection. For example, if you provide a dropdown menu of states for the question "In which state did you go to high school?", you could follow that question up with "If available, please select your high school from this list" and provide a dropdown menu of high schools in your system that are located in the state selected by the user (In this case, you would probably also want a "Enter your High School if it isn't available in the list" question as well, of course).
+			<p/>
+			Using this feature is quite simple, provided you already have an understanding of using SQL to populate question options from your database. When entering the dynamic SQL SELECT statement for your dependent question, just add a variable that corresponds to the original question to the SQL "WHERE" clause. This variable should be in the format: {S#Q#} with the "#" replaced by the section and question number (respectively) of the question to which you want to refer. Using the example above, and assuming the "High School State" question is the tenth (10th) question in Section 1 of your form, your "Select High School" question might have SQL that looks something like this: SELECT id, name FROM tbl_HighSchools WHERE stateId = '{S1Q10}'
+			<p/>
+			The application will automatically identify questions that use this variable, and will only populate their options once the user has made a selection in the original question, and will identify the dependent question as needing a response to the other question to minimize end-user confusion.
+			<p/>
+			One important note about using this feature is that the original question (the one on which the dependent question depends) MUST be either a Dropdown Menu question, or a Multiple Choice, Single Selection (i.e. Radio Button) question. The applications needs the original to have a single answer and a clear indication of the user having made a selection to properly reload the dependent question with the relevant options. Because of this, Text-based or multiple-selection questions will not work.
+			<br/><br/>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

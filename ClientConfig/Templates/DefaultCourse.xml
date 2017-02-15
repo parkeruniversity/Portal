@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Context Name="Replaced by system" DisplayName="Replaced by system" IsSystemObject="true" Hidden="false" ShowChildNodesInSidebar="false" Order="1" DefaultPage="Main Page" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\scratch\ContextTemplate.xsd">
+	<Page Name="Main Page" IsSystemObject="false" GrantGlobal="Everyone">
+		<Portlet Name="Browse Portlet" DisplayName="Sections in this Course" Column="1" Order="1" Template="[ICS] [ICS] ContextBrowsePortlet"/>
+	</Page>
+</Context>

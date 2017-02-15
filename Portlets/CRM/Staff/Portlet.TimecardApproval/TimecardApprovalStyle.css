@@ -1,0 +1,877 @@
+/* NEW TABLE STYLES - MOVE TO MAIN CSS */
+
+table.tabularData
+{
+	border-collapse: collapse;
+}
+
+table.tabularData>caption,
+table.tabularData>*>tr>*
+{
+	border: solid 1px #CECECE;
+	padding: 5px;
+}
+
+table.tabularData>caption,
+table.tabularData>thead>tr.header
+{
+	text-align: left;
+	font-weight: bold;
+	white-space: nowrap;
+
+	border: solid 1px #CECECE;
+	border-bottom: 0px;
+	border-collapse: collapse;
+	background-color: #CDCDCD;
+}
+
+table.tabularData>thead>tr>th
+{
+	text-align: left;
+	font-weight: normal;
+	font-size: 80%;
+}
+
+table.tabularData>thead,
+table.tabularData>tfoot
+{
+	background-color: #EEEEEE;
+}
+
+table.tabularData>thead>tr>th
+{
+	background-color: #DDDDDD;
+}
+
+table.tabularData>thead>tr.superHeader>*
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+table.tabularData>*>tr.tableNote>*
+{
+	font-style: italic;
+	padding: 10px;
+}
+
+table.tabularData>tbody>tr.alt
+{
+	background-color: #EEEEEE;
+}
+
+table.tabularData>*>tr>th.sorted
+{
+	background-color: #C7C7C7;
+}
+
+table.tabularData>*>tr>td.sorted
+{
+	background-color: #E5E5E5;
+}
+
+table.tabularData>*>tr.alt>td.sorted
+{
+	background-color: #D7D7D7;
+}
+
+table.tabularData>tbody>tr>td.numeric
+{
+	text-align: right;
+}
+
+table.tabularData>*>tr>td.highlight,
+table.tabularData>*>tr.highlight>td
+{
+	font-weight: bold;
+}
+
+table.tabularData>*>tr.error,
+table.tabularData>*>tr.error.alt,
+table.tabularData>*>tr.error>td.sorted,
+table.tabularData>*>tr>td.error
+{
+	color: white;
+	background-color: red;
+	border-color: white;
+}
+
+table.tabularData>*>tr.error>td
+{
+	border-color: white
+}
+
+table.tabularData>*>tr.error a
+{
+	color: white;
+}
+
+table.tabularData>*>tr.error>td.error
+{
+	color: red;
+	font-weight: bold;
+	background-color: white;
+	border: solid red 2px;
+}
+
+/* END OF NEW TABLE STYLES */
+
+.TimecardApproval .noDataItem,
+.TimecardApproval a.noDataItem,
+.TimecardApproval a.noDataItem:link,
+.TimecardApproval a.noDataItem:visited
+{
+	font-weight: normal;
+	font-style: italic;
+}
+
+.TimecardApproval .overdueItem,
+.TimecardApproval a.overdueItem,
+.TimecardApproval a.overdueItem:link,
+.TimecardApproval a.overdueItem:visited
+{
+	font-weight: bold;
+	font-style: normal;
+	color: Red;
+}
+
+.TimecardApproval .overdueItemMessage,
+.TimecardApproval a.overdueItemMessage,
+.TimecardApproval a.overdueItemMessage:link,
+.TimecardApproval a.overdueItemMessage:visited
+{
+	font-weight: normal;
+	font-style: normal;
+	color: Red;
+}
+
+.TimecardApproval .portletContent
+{
+	margin: 10px;
+	display: block;
+}
+
+.TimecardApproval .tcaHeaderFormatDisplay
+{
+	font-weight:normal;
+	font-size:smaller;
+}
+
+.TimecardApproval .tcaHeaderFormatDisplay h4
+{
+	margin-bottom:0;
+}
+
+.TimecardApproval .tcaHiddenField
+{
+	display: none;
+}
+
+.TimecardApproval .tcaDefaultSelection
+{
+	padding: 10px 45px;
+}
+
+.TimecardApproval .tcaDefaultSelectionItem
+{
+	margin: 5px;
+}
+
+.TimecardApproval .tcaMainSelection
+{
+	border: solid 1px #CECECE;
+	background-color: #EFEFEF;
+	margin: 0px;
+	padding: 5px;
+}
+
+.TimecardApproval .tcaMainSelection p
+{
+	margin: 0px;
+	padding: 5px;
+}
+
+.TimecardApproval .tcaMainSelection ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.TimecardApproval .tcaMainSelection ul li
+{
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.TimecardApproval .tcaMainSelectionLabel
+{
+	margin: 0px;
+	padding-left: 30px;
+}
+
+.TimecardApproval .tcaTotalHours
+{
+	font-weight: bold;
+}
+
+.TimecardApproval .tcaFinalNote
+{
+	padding: 0px 10px;
+}
+
+.TimecardApproval .tcaFinalNote img
+{
+	float: left;
+	padding-right: 10px;
+}
+
+.TimecardApproval .tcaMainGrid tfoot td
+{
+	padding-left: 20px;
+	margin: 0px;
+}
+
+.TimecardApproval .tcaMainGrid tfoot input
+{
+	margin: 10px;
+}
+
+.TimecardApproval .tcaMainFooter
+{
+	border: solid 1px #CECECE;
+	background-color: #EFEFEF;
+	padding: 5px 50px;
+	margin-top: 15px;
+}
+
+.TimecardApproval .tcaMainFooter input
+{
+	margin: 10px;
+}
+
+.TimecardApproval .tcaTimecardMainHeader
+{
+	font-size: large;
+	font-weight: bold;
+}
+
+
+.Timecard .tcFinalizeDisplay
+{
+	display: block;
+	padding: 10px;
+	clear: both;
+}
+
+.Timecard .tcFinalizeDisplay>*
+{
+	float: left;
+	padding-bottom: 10px;
+	font-size: 80%;
+}
+
+.Timecard .tcFinalizeDisplay>img
+{
+	padding-right: 5px;
+}
+
+.TimecardApproval .tcaTimecardSummaryTable
+{
+	padding: 5px;
+}
+
+.TimecardApproval .tcaTimecardSummaryTable span
+{
+	padding: 5px;
+}
+
+.TimecardApproval .tcaTimecardSummaryPrimaryButton
+{
+	border-top: solid 1px #000000;
+	background-color: #D6E2FB;
+	padding: 5px 15px;
+}
+
+.TimecardApproval .tcaTimecardSummarySecondaryButton
+{
+	border-top: solid 1px #000000;
+	background: #EEEEEE;
+	padding: 5px 15px;
+}
+
+.TimecardApproval .tcaTimecardSummaryLabel
+{
+	margin-left: 20px;
+}
+
+.TimecardApproval .tcaTimecardBackButton
+{
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+}
+
+.TimecardApproval .tcaTimecardTableFormat
+{
+	border: solid 2px #1879be;
+	background-color: #EFEFEF;
+	padding:10px;
+	/*margin: 7px;*/
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-collapse: collapse;
+}
+
+.TimecardApproval .tcaTimecardTableFormat td
+{
+	padding:10px;
+}
+
+/* This style will apply to any table with an id of tblButtonBar*/
+.TimecardApproval table#tblButtonBar
+{
+	border: solid 2px #1879be;
+	background-color: #EFEFEF;
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+/* end of tblButtonBar style */
+
+.TimecardApproval .tcaTimecardInfoMsg
+{	
+	border: dashed 1px Red;
+	margin: 0px;
+	padding: 8px;
+	font-family: Arial;
+	font-weight: bold;
+	color: Red;
+	background-color:White;
+	float:left;
+	text-align: left;
+}
+
+.TimecardApproval img.tcaFloatLeft
+{
+	float:left;
+	padding: 5px 5px 5px 5px ;
+	vertical-align:middle;
+}
+
+.TimecardApproval img.tcaFloatRight
+{
+	float:right;
+	padding: 5px 5px 5px 5px ;
+	vertical-align:middle;
+}
+
+.TimecardApproval img.paddingAlignMiddle
+{
+	padding: 5px 5px 5px 5px ;
+	vertical-align:middle;
+}
+
+.TimecardApproval .tcaTimecardTitleFormat
+{	
+	background-color: #CDCDCD; 
+	text-align: center; 
+	padding: 5px; 
+}
+
+.TimecardApproval .tcaDashedTable
+{
+	empty-cells: show;
+	/*border-bottom-style:none;*/
+	padding: 10px 10px 10px 10px;
+		
+}
+
+.TimecardApproval .tcaDashedTable td
+{
+	border-bottom: 1px dashed #CECECE;
+	padding: 10px 10px 10px 10px;
+}
+
+.TimecardApproval .tcaDashedTableCellBottom
+{
+	border-bottom: 1px dashed #CECECE;
+	border-top: none;
+	padding: 10px 10px 10px 10px;
+}
+
+.TimecardApproval .tcaDashedTableCellTop
+{
+	border-bottom:none;
+	border-top: 1px dashed #CECECE;
+	padding: 10px 10px 10px 10px;
+}
+
+.TimecardApproval .tcaDashedTableCellTopBottom
+{
+	border-top: 1px dashed #CECECE;
+	border-bottom: 1px dashed #CECECE;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:10px;
+	margin-right:10px;	
+	display: block;
+}
+
+.TimecardApproval .tcaDashedTable p
+{
+	line-height: 1.2em;
+}
+
+
+/*Default Grid style look */
+
+.TimecardApproval .tcaGroupedGridStyle
+{
+	border: solid 1px #CECECE;
+	border-collapse: collapse;
+	padding: 7px;
+	margin: 5px;
+}
+
+.TimecardApproval .tcaGroupedGridStyle td
+{
+	border:solid 1px #CECECE;
+	padding: 5px; 
+}
+
+.TimecardApproval .tcaGroupedGridStyle .tblHeaderAlignLeft
+{
+	background-color: #CDCDCD;
+	text-align: left;
+}
+
+.TimecardApproval .tcaGroupedGridStyle .colHeaderAlignCenter
+{
+	background-color:#CDCDCD;
+	text-align:center;
+}
+
+.TimecardApproval .tcaGroupedGridStyle .colHeaderAlignLeft
+{
+	background-color:#CDCDCD;
+	text-align:left;
+}
+
+.TimecardApproval .tcaGroupedGridStyle .highLightedColumn
+{
+	background: #DDDDDD;
+	/*border-right:solid 1px #CECECE;*/
+}
+
+.TimecardApproval .tcaGroupedGridStyle .highLightedHeader
+{
+	background: #EEEEEE;
+	border-right:solid 1px #CECECE;
+}
+
+.TimecardApproval .tcaGroupedGridStyle .colHeaderBackground
+{
+	background: #DDDDDD;
+}
+
+.TimecardApproval .tcaGroupedGridStyle .highLightedFooter
+{
+	background: #EEEEEE;
+	border:none;
+}
+
+/*End of Default Grid style look */
+
+.TimecardApproval .tcaEmployeeList .tcaHeaderNote
+{
+	padding: 10px;
+	background-color: #EEEEEE;
+	font-style: italic;
+}
+
+.TimecardApproval .tcaEmployeeList .tcaNumber
+{
+	text-align: right;
+}
+
+.TimecardApproval .tcaEmployeeList .tcaTotal
+{
+	font-weight: bold;
+}
+
+.TimecardApproval .tcaEmployeeSearchBar
+{
+	background-color:#EEEEEE;
+	padding: 5px;
+}
+
+.TimecardApproval .tcaNoBottomMargin
+{
+	margin-bottom:0;
+	margin-top:8px;
+}
+
+.TimecardApproval .tcaNoBottomMargin h4
+{
+	margin-bottom:0;
+}
+
+.TimecardApproval .tcaFooterLinkBar
+{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.TimecardApproval .tcaCellCenteredText
+{
+	text-align: center;
+}
+
+.TimecardApproval .tcaCellCenteredText>*
+{
+	margin: 10px;
+}
+
+.TimecardApproval .tcaTimecardApprovalSelector
+{
+	border: 1px solid #CECECE;
+	background-color:#EEEEEE;
+	/*border-collapse: collapse;*/
+	margin: 5px;
+}
+
+.TimecardApproval .tcaTimecardApprovalSelector td
+{
+	padding:7px 7px 7px 7px;
+	/*text-align:center;*/
+}
+
+.TimecardApproval .tcaCellSolidBorderBottom
+{
+	border-bottom: 1px solid #CECECE;
+	border-top:none;
+	text-align:center;
+	padding:7px 7px 7px 7px;
+	margin: 10px 10px 10px 10px;
+}
+
+.TimecardApproval .tcaCellHeader
+{
+	background-color:#CDCDCD;
+	font-weight:bold;
+	text-align:left;
+	padding:7px 7px 7px 7px;
+	margin: 10px 10px 10px 10px;
+}
+
+.TimecardApproval .tcaCellCentered
+{
+	text-align: center;
+}
+
+.TimecardApproval .tcaNoPadding
+{
+	padding: 0px;
+}
+
+.TimecardApproval .tcaNoMarginOrPadding
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.TimecardApproval .tcaNoBorder
+{
+	border: none;
+	margin: 0px;
+}
+
+
+/* Employee Details Screen */
+
+.TimecardApproval .tcaBasicHeader
+{
+	border-bottom: solid 1px #000000;
+}
+
+.TimecardApproval .tcaBasicHeader .tcaBasicHeaderText
+{
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.TimecardApproval .tcaBasicHeader .tcaBasicHeaderLink
+{
+	float:right;
+	font-size:80%;
+}
+
+.TimecardApproval .tcaEmpDetailsColumn
+{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.TimecardApproval .tcaEmpDetailsColumn .buttonBarCenteredVer2
+{
+	margin-top: 10px;
+}
+
+.TimecardApproval .tcaEmpDetailsElement
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.TimecardApproval .tcaEmpDetailsElement .tcaButtonBar
+{
+	display: block;
+	text-align: center;
+	padding: 15px;
+}
+
+.TimecardApproval .tcaEmpDetailsUserPanel
+{
+	background-color: #EFEFEF;
+	border-top: solid 1px #CECECE;
+	border-left: solid 1px #CECECE;
+	padding: 0px;
+}
+
+.TimecardApproval .tcaEmpDetailsUserPanel>*
+{
+	border-right: solid 1px #CECECE;
+	border-bottom: solid 1px #CECECE;
+	text-align:center;
+	margin: 0px;
+	padding: 5px;
+}
+
+.TimecardApproval .tcaEmpDetailsUserPanel>*.tcaPhotoPanel
+{
+	padding: 0px;
+}
+
+.TimecardApproval .tcaEmpDetailsUserPanel>*.tcaPositionPanel
+{
+	text-align: left;
+	font-weight: bold;
+	background-color: #E2E2E2;
+}
+
+.TimecardApproval .tcaEmpDetailsUserPanel>*.tcaContactPanel
+{
+}
+
+.TimecardApproval .tcaEmpDetailsRecentPanel
+{
+	border: #BFBFBF;
+	background-color: #DBDBDB;
+}
+
+.TimecardApproval .tcaEmpDetailsRecentPanel>*
+{
+	border: dashed 1px #AAAAAA;
+}
+
+.TimecardApproval .tcaEmpDetailsTotals
+{
+	display: table;
+	margin: 0px auto 0px auto;
+	padding: 10px;
+}
+
+.TimecardApproval .tcaEmpDetailsTotalsNote
+{
+	display: block;
+	margin: 5px 10px;
+	font-style: italic;
+	max-width: 600px;
+}
+
+.TimecardApproval .tcaEmpDetailsTotalsFooter
+{
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+
+.TimecardApproval .tcaEmpDetailsHours
+{
+	padding: 20px;
+}
+
+.TimecardApproval .tcaEmpDetailsFooter
+{
+	clear: both;
+	font-size: 80%;
+}
+
+
+/* ADMIN PAGES */
+
+.TimecardApproval .tcaAdminPage .contentBox>p,
+.TimecardApproval .tcaAdminPage .contentBox>ul
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px;
+	clear: both;
+}
+
+.TimecardApproval .tcaAdminPage .tcaDescription>img
+{
+	padding: 0px 10px 10px 0px;
+	margin: 0px;
+	float: left;
+}
+
+.TimecardApproval .tcaAdminPage .tcaHeader
+{
+	font-weight: bold;
+}
+
+.TimecardApproval .tcaAdminPage hr
+{
+	padding: 0px;
+	margin: 10px;
+	border: dashed 1px #AAAAAA;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	clear: both;
+}
+
+.TimecardApproval .tcaApproverTableFormat
+{
+	border-top: 1px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+	width: 99%;
+}
+
+.TimecardApproval .tcaApproverTableFormat td
+{
+	border-bottom: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+
+.TimecardApproval .tcaApproverTableFormatHeader
+{
+	background-color: #cfcfcf;
+	font-weight: bold;
+}
+
+.TimecardApproval .tcaApproverTableFormatSubHeader
+{
+	background-color: #dedede;
+}
+
+.TimecardApproval .tcaApproverTableFormatSubHeaderBlue
+{
+	background-color: #D6E2FD;
+}
+
+.TimecardApproval .tcaApproverTableFormatSubHeaderLight
+{
+	background-color: #EBEBEB;
+}
+
+.TimecardApproval .tcaApproverTableFormatAlternateItem
+{
+	background-color: #F0EFEF;
+}
+
+.TimecardApproval .tcaAltApproversByGroupBodyRow
+{
+	background-color: #E2E2E2;
+}
+
+.TimecardApproval .tcaAltApproversByGroupColumnHeader
+{
+	border-bottom: #B7B7B7;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.TimecardApproval .tcaAltApproversByGroupHeader
+{
+	padding: 4px;
+	background-color: #cfcfcf;
+	border: 1px solid #b2b2b2;
+	font-weight: bold;
+}
+
+.TimecardApproval .tcaAltApproversByGroupBlueBorder
+{
+	border: 2px solid #1779BE;
+}
+
+.TimecardApproval .tcaAltApproversByGroupButtonRow
+{
+	background-color: #BACDDB;
+}
+
+.TimecardApproval .tcaHand
+{
+	cursor: pointer;
+}
+
+.TimecardApproval .tcaApproverTableFormat td.NoFormat
+{
+	border-bottom: none;
+	border-right: none;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+
+.TimecardApproval .tcaControlHighlight
+{
+	border: solid 2px #1879BE;
+}
+
+.TimecardApproval .contentBox h4
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 100%;
+}
+
+.tcaStatusDescriptions
+{
+	width: 300px;
+	background-color:#EEEEEE;
+	padding: 10px;
+}
+
+.tcaStatusDescriptions li
+{
+	padding-bottom: 5px;
+}
+
+.TimecardApproval .IndentMargin
+{
+    margin-left: 15px;
+}
+
+.TimecardApproval .tcaTimecardEntryContainer
+{     
+    min-width: 800px;
+    background-color: #EEEEEE;
+}
+
+.TimecardApproval .tcaErrorColor
+{
+    max-width: 800px;
+    color: Red; 
+}

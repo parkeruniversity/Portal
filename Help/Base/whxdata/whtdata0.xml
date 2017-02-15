@@ -1,0 +1,154 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<tocdata>
+<book name="Welcome" url="Welcome_1.htm" >
+  <item name="Overview" url="Welcome/Wlc_Overview.htm" />
+  <item name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+  <item name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+  <item name="Legal disclaimer" url="Welcome/Wlc_Legal_disclaimer.htm" />
+</book>
+<book name="Base portlets" url="Base_portlets.htm" >
+  <book name="Announcements" url="Announcements.htm" >
+    <item name="Viewing announcements" url="Announcements/Ann_Viewing_announcements.htm" />
+    <item name="Creating announcements" url="Announcements/Ann_Creating_announcements.htm" />
+    <item name="Setting preferences" url="Announcements/Ann_Setting_preferences.htm" />
+  </book>
+  <book name="Blog" url="Blog.htm" >
+    <item name="Permissions overview" url="Blog/Blg_Permissions_overview.htm" />
+    <item name="Viewing posts" url="Blog/Blg_Viewing_posts.htm" />
+    <item name="Working with comments" url="Blog/Blg_Working_with_comments.htm" />
+    <item name="Subscribing to a blog" url="Blog/Blg_Subscribing_to_a_blog.htm" />
+    <item name="Posting blog items" url="Blog/Blg_Posting_blog_items.htm" />
+    <item name="Using My Subscriptions" url="Blog/Blg_Using_My_Subscriptions.htm" />
+  </book>
+  <book name="Bookmarks" url="Bookmarks.htm" >
+    <item name="Creating bookmarks" url="Bookmarks/Bkm_Creating_bookmarks.htm" />
+    <item name="Setting preferences" url="Bookmarks/Bkm_Setting_preferences.htm" />
+  </book>
+  <book name="Bulletin Boards" url="Bulletin_Boards.htm" >
+    <item name="Posting a message" url="Bulletin_Boards/Bul_Posting_a_message.htm" />
+    <item name="Replying to a message" url="Bulletin_Boards/Bul_Replying_to_a_message.htm" />
+    <item name="Setting preferences" url="Bulletin_Boards/Bul_Setting_preferences.htm" />
+  </book>
+  <book name="Calendar" url="Calendar.htm" >
+    <item name="Customizing your view" url="Calendar/Cal_Customizing_your_view.htm" />
+    <item name="Exporting and importing" url="Calendar/Cal_Exporting_and_importing.htm" />
+    <item name="Subscribing to calendars" url="Calendar/Cal_Subscribing_to_calendars.htm" />
+    <item name="Creating calendars" url="Calendar/Cal_Creating_calendars.htm" />
+    <item name="Creating events" url="Calendar/Cal_Creating_events.htm" />
+    <item name="Setting preferences" url="Calendar/Cal_Setting_preferences.htm" />
+  </book>
+  <book name="Campus Directory" url="Campus_Directory.htm" >
+    <item name="Browsing the directory" url="Campus_Directory/Cpd_Browsing_the_directory.htm" />
+    <item name="Searching for people" url="Campus_Directory/Cpd_Searching_for_people.htm" />
+    <item name="Hiding or displaying your details" url="Campus_Directory/Cpd_Hiding_or_displaying_your_details.htm" />
+  </book>
+  <book name="Campus Groups" url="Campus_Groups.htm" >
+    <book name="About Campus Groups" url="Campus_Groups/Cgp_About_Campus_Groups.htm" >
+      <item name="Group roles" url="Campus_Groups/Cgp_Group_roles.htm" />
+      <item name="The Campus Groups portlet" url="Campus_Groups/Cgp_The_Campus_Groups_portlet.htm" />
+      <item name="Public vs. private groups" url="Campus_Groups/Cgp_Public_vs._private_groups.htm" />
+      <item name="Categories" url="Campus_Groups/Cgp_Categories.htm" />
+    </book>
+    <book name="Browsing groups" url="Campus_Groups/Cgp_Browsing_groups.htm" >
+      <item name="The Join This Group portlet" url="Campus_Group_Join.htm" />
+      <item name="Viewing groups you belong to" url="Campus_Groups/Cgp_Viewing_groups_you_belong_to.htm" />
+      <item name="Browsing public groups" url="Campus_Groups/Cgp_Browsing_public_groups.htm" />
+      <item name="Joining a public group" url="Campus_Groups/Cgp_Joining_a_group.htm" />
+      <item name="Accepting an invitation" url="Campus_Groups/Cgp_Accepting_an_invitation.htm" />
+      <item name="Dropping a group" url="Campus_Groups/Cgp_Dropping_a_group.htm" />
+    </book>
+    <book name="Applying to create a group" url="Campus_Groups/Cgp_Applying_to_create_a_group.htm" >
+      <item name="Attributes of a group" url="Campus_Groups/Cgp_Attributes_of_a_group.htm" />
+      <item name="Submitting an application" url="Campus_Groups/Cgp_Submitting_an_application.htm" />
+    </book>
+  </book>
+  <book name="Chat" url="Chat.htm" >
+    <item name="Entering a chatroom" url="Chat/Cht_Entering_a_chatroom.htm" />
+    <item name="Troubleshooting" url="Chat/Cht_Troubleshooting.htm" />
+    <item name="Unsupported features" url="Chat/Cht_Unsupported_features.htm" />
+  </book>
+  <book name="Forums" url="Forums.htm" >
+    <book name="Forums basics" url="Forums/Fms_Forums_basics.htm" >
+      <item name="Permissions overview" url="Forums/Fms_Permissions_overview.htm" />
+      <item name="Understanding the Forums views" url="Forums/Fms_Understanding_the_Forums_views.htm" />
+      <item name="Terminology" url="Forums/Fms_Terminology.htm" />
+    </book>
+    <book name="Managing view/reply options" url="Forums/Fms_Managing_viewreply_options.htm" >
+      <item name="About the view options" url="Forums/Fms_About_the_view_options.htm" />
+      <item name="About the reply options" url="Forums/Fms_About_the_reply_options.htm" />
+      <item name="Setting preferences" url="Forums/Fms_Setting_preferences.htm" />
+    </book>
+    <book name="Working with posts and replies" url="Forums/Fms_Working_with_posts_and_replies.htm" >
+      <item name="About posts and replies" url="Forums/Fms_About_posts_and_replies.htm" />
+      <item name="Adding a post" url="Forums/Fms_Adding_a_post.htm" />
+      <item name="Adding a reply" url="Forums/Fms_Adding_a_reply.htm" />
+      <item name="Modifying a post or reply" url="Forums/Fms_Modifying_a_post_or_reply.htm" />
+      <item name="Deleting a post or reply" url="Forums/Fms_Deleting_a_post_or_reply.htm" />
+    </book>
+    <book name="Subscribing to Forums" url="Forums/Fms_Subscribing_to_Forums.htm" >
+      <item name="About My Subscribed Forums" url="Forums/Fms_About_My_Subscribed_Forums.htm" />
+      <item name="Managing subscriptions" url="Forums/Fms_Managing_subscriptions.htm" />
+    </book>
+    <book name="Other tasks" url="Forums/Fms_Other_tasks.htm" >
+      <item name="Searching for messages" url="Forums/Fms_Searching_for_messages.htm" />
+      <item name="Viewing unread messages" url="Forums/Fms_Viewing_unread_messages.htm" />
+      <item name="Viewing your own messages" url="Forums/Fms_Viewing_your_own_messages.htm" />
+      <item name="Viewing Forums participants" url="Forums/Fms_Viewing_Forum_participants.htm" />
+    </book>
+  </book>
+  <book name="Group Directory" url="Group_Directory.htm" >
+    <item name="Sending e-mail" url="Group_Directory/Gdr_Sending_e-mail.htm" />
+    <item name="Setting preferences" url="Group_Directory/Gdr_Setting_preferences.htm" />
+  </book>
+  <book name="Handouts" url="Handouts.htm" >
+    <item name="Creating handouts" url="Handouts/Hdo_Creating_handouts.htm" />
+    <item name="Setting preferences" url="Handouts/Hdo_Setting_preferences.htm" />
+  </book>
+  <book name="Readings" url="Readings.htm" >
+    <item name="Creating a reading" url="Readings/Rdg_Creating_a_reading.htm" />
+    <item name="Setting preferences" url="Readings/Rdg_Setting_preferences.htm" />
+  </book>
+  <book name="RSS News Reader" url="RSS_News_Reader.htm" >
+    <item name="Creating a category" url="RSS_News_Reader/Rss_Creating_a_category.htm" />
+    <item name="Subscribing to a feed" url="RSS_News_Reader/Rss_Subscribing_to_a_feed.htm" />
+  </book>
+  <book name="Task Manager" url="Task_Manager.htm" >
+    <item name="Viewing your tasks" url="Task_Manager/Tkm_Viewing_your_tasks.htm" />
+    <item name="Creating a task" url="Task_Manager/Tkm_Creating_a_task.htm" />
+    <item name="Marking progress" url="Task_Manager/Tkm_Marking_progress.htm" />
+    <item name="Setting preferences" url="Task_Manager/Tkm_Setting_preferences.htm" />
+  </book>
+</book>
+<book name="Managing My Info" url="My_Info.htm" >
+  <item name="Navigating to My Info" url="My_Info/Myi_Viewing_your_personal_details.htm" />
+  <book name="Viewing data on record" url="My_Info/Myi_Viewing_available_data.htm" >
+    <item name="Viewing biographical info" url="My_Info/Myi_Working_with_Biographical_Info.htm" />
+    <item name="Viewing academic info" url="My_Info/Myi_Viewing_academic_info.htm" />
+  </book>
+  <book name="Managing public details" url="My_Info/Myi_Adding_details.htm" >
+    <item name="Setting privacy preferences" url="My_Info/Myi_Setting_privacy_preferences.htm" />
+    <item name="Modifying your display name" url="My_Info/Myi_Modifying_your_display_name.htm" />
+    <item name="Adding a profile photo" url="My_Info/Myi_Adding_a_profile_photo.htm" />
+    <item name="Adding custom info" url="My_Info/Myi_Adding_custom_info.htm" />
+    <item name="Adding office hours" url="My_Info/Myi_Adding_office_hours.htm" />
+  </book>
+  <item name="Managing your password" url="My_Info/Myi_Managing_your_password.htm" />
+</book>
+<book name="Using My Pages" url="My_Pages/Myp_My_Pages.htm" >
+  <book name="Key concepts" >
+    <item name="Navigating to My Pages" url="My_Pages/Myp_Navigating_to_My_Pages.htm" />
+    <item name="The My Pages wizard" url="My_Pages/Myp_The_My_Pages_wizard.htm" />
+    <item name="Contents of My Pages" url="My_Pages/Myp_Contents_of_My_Pages.htm" />
+  </book>
+  <book name="Adding content" >
+    <item name="Adding a page" url="My_Pages/Myp_Adding_a_page.htm" />
+    <item name="Adding portlets" url="My_Pages/Myp_Adding_portlets.htm" />
+  </book>
+  <book name="Message Center" url="Message_Center.htm" >
+    <item name="Checking your mail" url="Message_Center/Mcr_Checking_messages.htm" />
+    <item name="Adding login details" url="Message_Center/Mcr_Adding_login_details.htm" />
+    <item name="Checking external accounts" url="Message_Center/Mcr_Checking_external_accounts.htm" />
+  </book>
+</book>
+
+</tocdata>

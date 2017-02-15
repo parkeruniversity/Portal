@@ -1,0 +1,38 @@
+﻿<html>
+	<head>
+		<title></title>
+		<script type="text/javascript">
+		
+			var body__onload = function()
+			{
+				var load_target = function()
+				{
+					var show_loaded = function()
+					{
+						document.body.innerHTML = "The document may have loaded using an external program such as Adobe Acrobat or Microsoft Word.";
+					}
+					
+					////
+					
+					window.location = qs.target;
+
+					setTimeout(show_loaded, 5000);					
+				}
+				
+				////
+				
+				JCSL.element.create("img", document.body, {src: qs.img});
+						
+				setTimeout(load_target, 1000);
+			}
+			
+			////
+			
+			var JCSL = parent.JCSL;
+			
+			var qs = JCSL.window.parse_qs(window);
+			
+		</script>
+	</head>
+	<body onload="body__onload();"></body>
+</html>

@@ -1,0 +1,153 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<indexdata>
+<key name="context" >
+  <key name="defined" >
+    <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+  </key>
+  <key name="for a course, adding to" >
+    <topic name="Managing a context" url="Adding_sub-sections_.htm" />
+  </key>
+  <key name="for a course, copying materials from" >
+    <topic name="Copy Course Materials (Faculty)" url="Copy_Courses_UI.htm" />
+  </key>
+</key>
+<key name="Copy Course Materials" >
+  <key name="copying selected items" >
+    <topic name="Copying selected materials" url="Copy_Course_Materials/Ccm_Copying_selected_materials.htm" />
+  </key>
+  <key name="items that can be copied" >
+    <topic name="What can you copy?" url="Copy_Course_Materials/Ccm_What_can_you_copy_.htm" />
+  </key>
+  <key name="navigating to" >
+    <topic name="Navigating to Copy Course Materials" url="Copy_Course_Materials/Ccm_Navigating_to_Copy_Course_Materials.htm" />
+  </key>
+</key>
+<key name="Copy Cousre Materials" >
+  <key name="copying everything" >
+    <topic name="Copying everything" url="Copy_Course_Materials/Ccm_Copying_everything.htm" />
+  </key>
+</key>
+<key name="creating" >
+  <key name="a page" >
+    <topic name="Adding a page to a sub-section" url="Managing_a_context/Mng_Adding_a_page.htm" />
+  </key>
+  <key name="a sub-section" >
+    <topic name="Creating a sub-section" url="Managing_a_context/Mng_Creating_a_subsection.htm" />
+  </key>
+  <key name="folders in the File Cabinet" >
+    <topic name="Working with folders" url="File_Cabinet/Fcb_Working_with_folders.htm" />
+  </key>
+  <key name="items within the File Cabinet" >
+    <topic name="Adding items" url="File_Cabinet/Fcb_Adding_items.htm" />
+  </key>
+</key>
+<key name="documentation, additional" >
+  <topic name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+</key>
+<key name="e-Racer" >
+  <key name="Faculty Guide, finding" >
+    <topic name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+  </key>
+  <key name="overview of" >
+    <topic name="Overview" url="Welcome/Wlc_Overview.htm" />
+  </key>
+</key>
+<key name="faculty" >
+  <key name="resources for" >
+    <topic name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+  </key>
+</key>
+<key name="FatCow icons" >
+  <topic name="Legal disclaimer" url="Welcome/Wlc_Legal_disclaimer.htm" />
+</key>
+<key name="File Cabinet" >
+  <key name="editing items in" >
+    <topic name="Editing items" url="File_Cabinet/Fcb_Editing_items.htm" />
+  </key>
+  <key name="navigating to" >
+    <topic name="Navigating to the File Cabinet" url="File_Cabinet/Fcb_Navigating_to_the_File_Cabinet.htm" />
+  </key>
+  <key name="organizing with folders" >
+    <topic name="Working with folders" url="File_Cabinet/Fcb_Working_with_folders.htm" />
+  </key>
+  <key name="overview of" >
+    <topic name="File Cabinet" url="File_Cabinet.htm" />
+  </key>
+</key>
+<key name="for more information" >
+  <topic name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+</key>
+<key name="key terms" >
+  <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+</key>
+<key name="legal disclaimer" >
+  <topic name="Legal disclaimer" url="Welcome/Wlc_Legal_disclaimer.htm" />
+</key>
+<key name="merging content while copying" >
+  <topic name="Copying selected materials" url="Copy_Course_Materials/Ccm_Copying_selected_materials.htm" />
+</key>
+<key name="My Pages" >
+  <topic name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+</key>
+<key name="navigating to your course context" >
+  <topic name="About your course context" url="About_your_course_context.htm" />
+</key>
+<key name="permissions for a sub-section" >
+  <topic name="Setting permissions for a sub-section" url="Managing_a_context/Mng_Setting_permissions_for_a_sub-section.htm" />
+</key>
+<key name="portlet instance" >
+  <key name="defined" >
+    <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+  </key>
+</key>
+<key name="portlets" >
+  <key name="defined" >
+    <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+  </key>
+  <key name="in base JICS, list of" >
+    <topic name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+  </key>
+</key>
+<key name="Quick Links" >
+  <topic name="Navigating to the File Cabinet" url="File_Cabinet/Fcb_Navigating_to_the_File_Cabinet.htm" />
+</key>
+<key name="reusing materials" >
+  <topic name="File Cabinet" url="File_Cabinet.htm" />
+</key>
+<key name="roles" >
+  <key name="copying" >
+    <topic name="Copying selected materials" url="Copy_Course_Materials/Ccm_Copying_selected_materials.htm" />
+  </key>
+</key>
+<key name="saving materials to the File Cabinet" >
+  <topic name="File Cabinet" url="File_Cabinet.htm" />
+</key>
+<key name="selecting materials to copy" >
+  <topic name="Copying selected materials" url="Copy_Course_Materials/Ccm_Copying_selected_materials.htm" />
+</key>
+<key name="source context" >
+  <key name="defined" >
+    <topic name="Copy Course Materials (Faculty)" url="Copy_Courses_UI.htm" />
+  </key>
+</key>
+<key name="sub-section" >
+  <key name="adding a page to" >
+    <topic name="Adding a page to a sub-section" url="Managing_a_context/Mng_Adding_a_page.htm" />
+  </key>
+  <key name="creating" >
+    <topic name="Creating a sub-section" url="Managing_a_context/Mng_Creating_a_subsection.htm" />
+  </key>
+  <key name="defined" >
+    <topic name="Creating a sub-section" url="Managing_a_context/Mng_Creating_a_subsection.htm" />
+  </key>
+  <key name="setting permissions for" >
+    <topic name="Setting permissions for a sub-section" url="Managing_a_context/Mng_Setting_permissions_for_a_sub-section.htm" />
+  </key>
+</key>
+<key name="target context" >
+  <key name="defined" >
+    <topic name="Copy Course Materials (Faculty)" url="Copy_Courses_UI.htm" />
+  </key>
+</key>
+
+</indexdata>

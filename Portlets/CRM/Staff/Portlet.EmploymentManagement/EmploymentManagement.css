@@ -1,0 +1,143 @@
+﻿/* Reset */
+.EmploymentManagement p, ul, li { margin: 0; padding: 0; }
+/* END Reset */
+
+/* Default */
+.EmploymentManagement .EMFloatLeft { float: left; }
+.EmploymentManagement .EMFloatRight { float: right; }
+.EmploymentManagement .EMClearLeft { clear: left; }
+.EmploymentManagement .EMClearRight { clear: right; }
+.EmploymentManagement .EMClearBoth { clear: both; }
+.EmploymentManagement .EMOverflowHidden { overflow: hidden; }
+.EmploymentManagement .EMOverflowAuto { overflow: auto; }
+.EmploymentManagement .EMDisplayBlock { display: block; }
+.EmploymentManagement .EMDisplayInlineBlock { display: inline-block; }
+.EmploymentManagement .EMVAlignMiddle { vertical-align: middle; }
+.EmploymentManagement .EMVAlignTop { vertical-align: top; }
+.EmploymentManagement .EMListStyleDisc { list-style-type: disc; }
+
+.EmploymentManagement .EMLightText { color: #707070; }
+.EmploymentManagement .EMDarkText { color: #000000; }
+.EmploymentManagement .EMBoldText { font-weight: bold; }
+.EmploymentManagement .EMErrorText { color: #953630; }
+.EmploymentManagement .EMBlueText { color: #226DB7; }
+.EmploymentManagement .EMBoldUnderline b { text-decoration: underline; }
+.EmploymentManagement .EMItalicText { font-style: italic; }
+.EmploymentManagement .EMUnderlineText { text-decoration: underline; }
+.EmploymentManagement .EMNoDecorationText { text-decoration: none; }
+.EmploymentManagement .EMCapitalize { text-transform: capitalize; }
+.EmploymentManagement .EMHeader1Text { font-size: 18px; }
+.EmploymentManagement .EMHeader2Text { font-size: 16px; }
+.EmploymentManagement .EMHeader3Text { font-size: 14px; }
+.EmploymentManagement .EMSmallText { font-size: 11px; }
+.EmploymentManagement .EMSmallerText { font-size: 10px; }
+.EmploymentManagement .EMTextAlignCenter { text-align: center; }
+.EmploymentManagement .EMTextAlignLeft { text-align: left; }
+.EmploymentManagement .EMTextAlignRight { text-align: right; }
+.EmploymentManagement .EMProfileImage { width: 50px; }
+
+.EmploymentManagement .EMMarginAllTwenty { margin: 20px; }
+.EmploymentManagement .EMMarginAllTen { margin: 10px; }
+.EmploymentManagement .EMMarginAllFive { margin: 5px; }
+.EmploymentManagement .EMMarginAllThree { margin: 3px; }
+.EmploymentManagement .EMMarginTopTwenty { margin-top: 20px; }
+.EmploymentManagement .EMMarginTopTen { margin-top: 10px; }
+.EmploymentManagement .EMMarginTopFive { margin-top: 5px; }
+.EmploymentManagement .EMMarginTopThree { margin-top: 3px; }
+.EmploymentManagement .EMMarginRightTwenty { margin-right: 20px; }
+.EmploymentManagement .EMMarginRightTen { margin-right: 10px; }
+.EmploymentManagement .EMMarginRightFive { margin-right: 5px; }
+.EmploymentManagement .EMMarginRightThree { margin-right: 3px; }
+.EmploymentManagement .EMMarginBottomTwenty { margin-bottom: 20px; }
+.EmploymentManagement .EMMarginBottomTen { margin-bottom: 10px; }
+.EmploymentManagement .EMMarginBottomFive { margin-bottom: 5px; }
+.EmploymentManagement .EMMarginBottomThree { margin-bottom: 3px; }
+.EmploymentManagement .EMMarginLeftTwenty { margin-left: 20px; }
+.EmploymentManagement .EMMarginLeftTen { margin-left: 10px; }
+.EmploymentManagement .EMMarginLeftFive { margin-left: 5px; }
+.EmploymentManagement .EMMarginLeftThree { margin-left: 3px; }
+
+.EmploymentManagement .EMPaddingAllTwenty { padding: 20px; }
+.EmploymentManagement .EMPaddingAllTen { padding: 10px; }
+.EmploymentManagement .EMPaddingAllFive { padding: 5px; }
+.EmploymentManagement .EMPaddingAllThree { padding: 3px; }
+.EmploymentManagement .EMPaddingTopTwenty { padding-top: 20px; }
+.EmploymentManagement .EMPaddingTopTen { padding-top: 10px; }
+.EmploymentManagement .EMPaddingTopFive { padding-top: 5px; }
+.EmploymentManagement .EMPaddingTopThree { padding-top: 3px; }
+.EmploymentManagement .EMPaddingRightTwenty { padding-right: 20px; }
+.EmploymentManagement .EMPaddingRightTen { padding-right: 10px; }
+.EmploymentManagement .EMPaddingRightFive { padding-right: 5px; }
+.EmploymentManagement .EMPaddingRightThree { padding-right: 3px; }
+.EmploymentManagement .EMPaddingBottomTwenty { padding-bottom: 20px; }
+.EmploymentManagement .EMPaddingBottomTen { padding-bottom: 10px; }
+.EmploymentManagement .EMPaddingBottomFive { padding-bottom: 5px; }
+.EmploymentManagement .EMPaddingBottomThree { padding-bottom: 3px; }
+.EmploymentManagement .EMPaddingLeftTwenty { padding-left: 20px; }
+.EmploymentManagement .EMPaddingLeftTen { padding-left: 10px; }
+.EmploymentManagement .EMPaddingLeftFive { padding-left: 5px; }
+.EmploymentManagement .EMPaddingLeftThree { padding-left: 3px; }
+
+.EmploymentManagement .EMBackgroundGray { background-color: #EFEFEF; }
+.EmploymentManagement .EMBackgroundGrayDark { background-color: #D4D4D4; }
+.EmploymentManagement .EMBackgroundYellow { background-color: #FFFFE4; }
+.EmploymentManagement .EMBackgroundBlue { background-color: #D6E2FB; }
+.EmploymentManagement .EMBackgroundBlueLight { background-color: #E6EEFE; }
+.EmploymentManagement .EMBackgroundBlueDark { background-color: #0076A3; }
+.EmploymentManagement .EMBackgroundBlueDarker { background-color: #003663; }
+.EmploymentManagement .EMBackgroundGreen { background-color: #EFFEE1; }
+.EmploymentManagement .EMBackgroundGreenDark { background-color: #DCEAC6; }
+.EmploymentManagement .EMBackgroundRed { background-color: #FFE5E6; }
+.EmploymentManagement .EMBackgroundBrown { background-color: #EFEFEF; }
+
+.EmploymentManagement .EMBorderAllBlack { border: 1px solid #000000; }
+.EmploymentManagement .EMBorderTopBottomBlack { border-top: 1px solid #000000; border-bottom: 1px solid #000000; }
+.EmploymentManagement .EMBorderAllGray { border: 1px solid #D4D4D4; }
+.EmploymentManagement .EMBorderTopBottomGray { border-top: 1px solid #D4D4D4; border-bottom: 1px solid #D4D4D4; }
+.EmploymentManagement .EMBorderTopGray { border-top: 1px solid #D4D4D4; }
+.EmploymentManagement .EMBorderAllGrayDashed { border: 1px dashed #D4D4D4; }
+.EmploymentManagement .EMBorderTopBottomGrayDashed { border-top: 1px dashed #D4D4D4; border-bottom: 1px dashed #D4D4D4; }
+.EmploymentManagement .EMBorderTopGrayDashed { border-top: 1px dashed #D4D4D4; }
+.EmploymentManagement .EMBorderRightGray { border-right: 1px solid #D4D4D4; }
+.EmploymentManagement .EMBorderLeftGrayDashed { border-left: 1px dashed #D4D4D4; }
+.EmploymentManagement .EMBorderLeftRightGray { border-left: 1px solid #D4D4D4; border-right: 1px solid #D4D4D4; }
+.EmploymentManagement .EMBorderAllBlue { border: 1px solid #226DB7; }
+.EmploymentManagement .EMBorderTopBottomBlue { border-top: 1px solid #226DB7; border-bottom: 1px solid #226DB7; }
+/* END Default */
+
+/*GridView*/
+.EmploymentManagement .EMGridView { width:100%; border: 1px solid #D4D4D4; border-collapse: collapse; }  
+.EmploymentManagement .EMGridView th { font-size:11px;  padding: 3px 7px 2px 7px; border: 1px solid #D4D4D4; background-color:#EFEFEF; color:#7C7C7C; }
+.EmploymentManagement .EMGridView td { font-size:12px;  padding: 3px 7px 2px 7px; border: 1px solid #D4D4D4; }
+.EmploymentManagement .EMGridViewAlt td {background-color: #EFEFEF; }
+/*END GridView*/
+
+/* ModalPopupExtender */
+.EmploymentManagement .EMModalBackground { background-color: #EFEFEF; filter: alpha(opacity=70); opacity: 0.7; }
+.EmploymentManagement .EMModalPopup { background-color: #FFF; padding: 3px; border: 1px solid #000; max-width: 800px; max-height: 800px; width: auto; }
+.EmploymentManagement .EMModalInner { border: 1px solid #B2B2B2; background-color: #EFEFEF; max-width: 800px; max-height: 800px; overflow: auto; }
+.EmploymentManagement .EMModalHeader { font-size: 14px; font-weight: bold; padding: 3px; background-color: #E2E2E2; float: none; }
+.EmploymentManagement .EMModalHeaderImg { float: right; margin-left: 10px; padding: 0px; }
+.EmploymentManagement .EMModalButtons { margin: 5px; padding: 5px; text-align: center; }
+/* END ModalPopupExtender */
+
+/* Wedge */
+.EmploymentManagement .EMWedgeWrapper { border: 1px solid #578FC9; background-color: #FFFFFF; padding: 2px 10px; z-index: 1; }
+.EmploymentManagement .EMWedgeIcon { border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-right: 7px solid #FFFFFF; height: 0; width: 0; margin-top: 5px; margin-left: -17px; float: left; position: relative; z-index: 3; }
+.EmploymentManagement .EMWedgeIconOutline { border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-right: 8px solid #578FC9; height: 0; width: 0; margin-top: 4px; margin-left: -18px; float: left; position: relative; z-index: 2; }
+.EmploymentManagement .EMWedgeEntry { padding: 8px 0;  }
+/* END Wedge */
+
+/* Employment Management Global */
+.EmploymentManagement .EMPage { overflow: hidden; margin: 15px; }
+.EmploymentManagement .EMButton { margin: 5px 10px;  }
+.EmploymentManagement .EMButtonImage { vertical-align: middle; margin-left: 5px;  }
+.EmploymentManagement .EMLinkButton { display:block; margin: 5px 10px; padding: 5px 10px; }                                
+/* END Employment Management Global */
+
+/* Main */
+.EmploymentManagement .EMPositionTitle { font-size: 14px; }
+.EmploymentManagement .EMPositionNumber { color: #707070; text-decoration: none; margin-left: 3px; }
+.EmploymentManagement .EMMainPnlCommittees { margin-right: 320px; }
+.EmploymentManagement .EMMainPnlOptions { width: 300px; float: right; }
+/* END Main */

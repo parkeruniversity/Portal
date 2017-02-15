@@ -1,0 +1,184 @@
+/* START styles for calendar header */
+#attHeader
+{
+	width: 100%;
+	border: solid 0 #000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 100%;
+}
+
+
+
+#attHeader .plainLink
+{
+	color: #000;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+#attHeader .calheader
+{
+	color: #000;
+	font-size: 100%;
+	text-decoration: bold;
+}
+
+#attHeader a
+{
+	vertical-align: middle;
+}
+/* END styles for calendar header */
+
+/* START styles for attendance calendar */
+#attCalendar
+{
+	font-size: 100%;
+	background-color: #FFF;
+}
+
+#attCalendar .calDayNumber
+{
+	vertical-align: top;	
+}
+
+#attCalendar .calHeader
+{
+	border-top: solid 1px #CCC;
+	border-left: solid 0px #FFF;
+	border-right: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	vertical-align: bottom;
+	font-weight: bold;
+	height: 5px;
+}
+
+#attCalendar .calHeaderLeft
+{
+	border-top: solid 1px #CCC;
+	border-left: solid 1px #CCC;
+	border-right: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	vertical-align: bottom;
+	font-weight: bold;
+	height: 5px;
+}
+
+#attCalendar td
+{
+	border-top: solid 0px #FFF;
+	border-left: solid 0px #FFF;
+	border-right: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	vertical-align: top;
+	text-align: center;
+}
+
+#attCalendar .calLeft
+{
+	border-top: solid 0px #FFF;
+	border-left: solid 1px #CCC;
+	border-right: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	vertical-align: top;
+}
+
+#attCalendar .emphDate
+{
+	border-top: solid 1px #000000;
+	border-left: solid 1px #000000;
+	border-right: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+	font-weight: bold;
+}
+
+/* END styles for attendance calendar */
+
+/* START Side Bar */
+#attSideBar {
+  padding: 2px 2px 2px 2px;
+  vertical-align: top;
+  background: #EFEFEF;
+  font-size: 100%;
+  }
+
+#attSideBar div
+{
+	padding: 5px 5px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	font-size: 100%;
+}
+
+#attSideBar hr
+{
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	width: 90%;
+}
+
+/* END Side Bar */
+
+.attGroupedGrid
+{
+	border: solid 1px #000000;
+}
+
+.attAbsentUnexcused
+{
+	font-weight: bold;
+	color: #9D0000;
+}
+
+.attAbsentExcused
+{
+}
+
+.attPresent
+{
+	font-style: italic;
+}
+
+.attTardy
+{
+	color: #9D0000;
+}
+
+.attNoClass
+{
+}
+
+.attFuture
+{
+}
+
+.attWithdrawn
+{
+}
+
+.attNonDividingHeader
+{
+	font-size: 120%;
+	background-color: White;
+}
+
+.attHighlight
+{
+	color: #FF0000;
+	background: #FFFFCE;
+}
+
+.alt.attHighlight
+{
+	color: #FF0000;
+	background: #ECEA8F;
+}
+
+.attHighlight A:link, 
+.attHighlight A:visited, 
+.attHighlight A:active, 
+.attHighlight A:hover,
+.attHighlight A:visited:hover 
+{
+	color: #FF0000;
+}
+

@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<tocdata>
+<book name="Welcome" url="Welcome_1.htm" >
+  <item name="Overview" url="Welcome/Wlc_Overview.htm" />
+  <item name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+  <item name="For more information" url="Welcome/Wlc_For_more_information.htm" />
+  <item name="Legal disclaimer" url="Welcome/Wlc_Legal_disclaimer.htm" />
+</book>
+<book name="Faculty Guide excerpts" url="Faculty_Guide_overview.htm" >
+  <item name="About your course context" url="About_your_course_context.htm" />
+  <book name="Copying course materials" url="Copy_Courses_UI.htm" >
+    <item name="Opening Copy Course Materials" url="Copy_Course_Materials/Ccm_Navigating_to_Copy_Course_Materials.htm" />
+    <item name="What can you copy?" url="Copy_Course_Materials/Ccm_What_can_you_copy_.htm" />
+    <item name="Copying everything" url="Copy_Course_Materials/Ccm_Copying_everything.htm" />
+    <item name="Copying selected materials" url="Copy_Course_Materials/Ccm_Copying_selected_materials.htm" />
+  </book>
+  <book name="Adding sub-sections" url="Adding_sub-sections_.htm" >
+    <item name="Creating a sub-section" url="Managing_a_context/Mng_Creating_a_subsection.htm" />
+    <item name="Adding a page" url="Managing_a_context/Mng_Adding_a_page.htm" />
+    <item name="Setting permissions" url="Managing_a_context/Mng_Setting_permissions_for_a_sub-section.htm" />
+  </book>
+  <book name="Using your File Cabinet" url="File_Cabinet.htm" >
+    <item name="Navigating to the File Cabinet" url="File_Cabinet/Fcb_Navigating_to_the_File_Cabinet.htm" />
+    <item name="Adding items" url="File_Cabinet/Fcb_Adding_items.htm" />
+    <item name="Editing items" url="File_Cabinet/Fcb_Editing_items.htm" />
+    <item name="Working with folders" url="File_Cabinet/Fcb_Working_with_folders.htm" />
+  </book>
+</book>
+
+</tocdata>

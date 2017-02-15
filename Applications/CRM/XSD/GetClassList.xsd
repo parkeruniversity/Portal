@@ -1,0 +1,87 @@
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="" id="StudentGradeListDataSet">
+	<xs:element name="StudentGradeList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ERPCourseKey" type="xs:string" minOccurs="0"/>
+				<xs:element name="EditMidTermGrades" type="xs:string" minOccurs="0"/>
+				<xs:element name="EditFinalGrades" type="xs:string" minOccurs="0"/>
+				<xs:element name="FacultyGradeAccess" type="xs:string" minOccurs="0"/>
+				<xs:element name="Course" type="xs:string" minOccurs="0"/>
+				<xs:element name="CatalogCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="CatalogDesc" type="xs:string" minOccurs="0"/>
+				<xs:element name="DisplayedCourseCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="DivisionCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="DivisionDesc" type="xs:string" minOccurs="0"/>
+				<xs:element name="Title" type="xs:string" minOccurs="0"/>
+				<xs:element name="Section" type="xs:string" minOccurs="0"/>
+				<xs:element name="TermKey" type="xs:string" minOccurs="0"/>
+				<xs:element name="TermDesc" type="xs:string" minOccurs="0"/>
+				<xs:element name="CourseGradeTypeCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="CourseGradeTypeDesc" type="xs:string" minOccurs="0"/>
+				<xs:element name="CrossListedCourseList" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CrossListedDisplayedCourseCode" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Instructors" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="InstructorName" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Students" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ERPStudentCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="StudentName" type="xs:string" minOccurs="0"/>
+							<xs:element name="StudentID" type="xs:string" minOccurs="0"/>
+							<xs:element name="FERPARestriction" type="xs:string" minOccurs="0"/>
+							<xs:element name="ClassCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="Division" type="xs:string" minOccurs="0"/>
+							<xs:element name="StudentEmail" type="xs:string" minOccurs="0"/>
+							<xs:element name="MajorDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="RegistrationStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="WaitlistedDate" type="xs:string" minOccurs="0"/>
+							<xs:element name="Graduating" type="xs:string" minOccurs="0"/>
+							<xs:element name="CurrentMidTermGrade" type="xs:string" minOccurs="0"/>
+							<xs:element name="CurrentFinalGrade" type="xs:string" minOccurs="0"/>
+							<xs:element name="CurrentMidTermGradeDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="CurrentFinalGradeDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="GradeTypeCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="GradeTypeDesc" type="xs:string" minOccurs="0"/>
+              <xs:element name="Absences" type="xs:string" minOccurs="0"/>
+              <xs:element name="CreditHours" type="xs:string" minOccurs="0"/>
+              <xs:element name="ClockHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="GradeNotes" type="xs:string" minOccurs="0"/>
+							<xs:element name="RegisteredCrossListedCourse" type="xs:string" minOccurs="0"/>
+              <xs:element name="LastDateofAttendance" type="xs:string" minOccurs="0"/>
+              <xs:element name="AdvisorID" type="xs:string" minOccurs="0"/>
+              <xs:element name="AdvisorName" type="xs:string" minOccurs="0"/>
+              <xs:element name="AdvisorEmail" type="xs:string" minOccurs="0"/>
+              <xs:element name="AvailableFinalGrades" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="GradeCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="GradeDesc" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="AvailableMidtermGrades" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="GradeCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="GradeDesc" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="LastDateOfAttendance" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

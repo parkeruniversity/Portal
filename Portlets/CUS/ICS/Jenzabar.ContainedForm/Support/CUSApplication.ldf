@@ -1,0 +1,17 @@
+# START - CUS Application Creation
+dn: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-BasePath: CUS
+jenzabar-ICSNET-GUID:: 4I5hohd2lEybA8b4VJOTxw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortalApplication
+instanceType: 4
+objectCategory: CN=Portal-Application,CN=Schema,CN=Configuration,CN=x
+
+dn: OU=Operations,CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - CUS Application Creation

@@ -1,0 +1,29 @@
+.ApplyOnline .GrayBordered { background-color: #EFEFEF; border: 1px solid #B2B2B2; padding: 10px;   }
+.ApplyOnline .BlueBordered { background-color: #EFEFEF; border: 1px solid #0034A5; padding: 10px;   }
+.ApplyOnline .WhiteBordered { border: 1px solid #B2B2B2; padding: 10px }
+.ApplyOnline .YellowBordered { background-color: #FFFFE7; border: 1px solid #0034A5; padding: 10px;   }
+.ApplyOnline .RedErrorText { color: #AD0000; }
+.ApplyOnline .TableBorder { border: 1px solid #B2B2B2;   }
+.ApplyOnline .Bullet { list-style-type: disc;}
+.ApplyOnline .BorderLeftBottom { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2 }
+.ApplyOnline .BorderLeftBottomINALT { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#DDDDDD; }
+.ApplyOnline .BorderLeftBottomIN { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#EAEAEA; }
+.ApplyOnline .BorderLeftBottomSE { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#DEDFDE; }
+.ApplyOnline .BorderTopLeftBottomRight { background-color:#C0C0C0; border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; border-top:1px solid #B2B2B2; border-right: 1px solid #B2B2B2 }
+.ApplyOnline .BorderLeftRightBottom { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2 }
+.ApplyOnline .BorderLeftRightBottomSE { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2; background-color:#DEDFDE; }
+.ApplyOnline .BorderLeftRightBottomIN { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2; background-color:#EAEAEA; }
+.ApplyOnline .BorderLeftRightBottomINALT { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2; background-color:#DDDDDD; }
+.ApplyOnline .BorderLeftRightTop { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-top:1px solid #B2B2B2 }
+.ApplyOnline .BorderLeft { border-left:1px solid #B2B2B2;  }
+.ApplyOnline .BorderLeftSU { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; background-color:#D6E2F8; }
+.ApplyOnline .BorderLeftIN { border-left:1px solid #B2B2B2; background-color:#EAEAEA; }
+.ApplyOnline .BorderLeftRight { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; }
+.ApplyOnline .BorderLeftRightIN { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; background-color:#EAEAEA; }
+.ApplyOnline #Layer2 {position:absolute; width: 200px; z-index:2;border-right: 1px solid #C3C3C3;border-left: 1px solid #C3C3C3;  background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible;}
+.ApplyOnline .GrayBase {border: 1px solid #C3C3C3; background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible; padding: .45em; padding/*\**/: 2em; /*IE8 hack */}
+.ApplyOnline .GrayBorderBottom {border-top: 1px solid #C3C3C3; border-bottom: 1px solid #C3C3C3;}
+.ApplyOnline .GrayBorderSides {border: 1px solid #C3C3C3;}
+.ApplyOnline .AdminScreen {font-size: 85%;}
+.ApplyOnline .Activate {font-size: 120%;}
+.ApplyOnline .QuestionColumnWidth {width: 30%;}

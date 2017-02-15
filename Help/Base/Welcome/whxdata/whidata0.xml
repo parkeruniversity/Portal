@@ -1,0 +1,326 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<indexdata>
+<key name="adding" >
+  <key name="a bookmark" >
+    <topic name="Creating bookmarks" url="Bookmarks/Bkm_Creating_bookmarks.htm" />
+  </key>
+  <key name="a Bulletin Board message" >
+    <topic name="Posting a message" url="Bulletin_Boards/Bul_Posting_a_message.htm" />
+  </key>
+  <key name="a calendar" >
+    <topic name="Creating calendars" url="Calendar/Cal_Creating_calendars.htm" />
+  </key>
+  <key name="a Forums post" >
+    <topic name="Adding a post" url="Forums/Fms_Adding_a_post.htm" />
+  </key>
+  <key name="a profile photo to your My Info" >
+    <topic name="Adding a profile photo" url="My_Info/Myi_Adding_a_profile_photo.htm" />
+  </key>
+  <key name="a reading" >
+    <topic name="Creating a reading" url="Readings/Rdg_Creating_a_reading.htm" />
+  </key>
+  <key name="a task" >
+    <topic name="Creating a task" url="Task_Manager/Tkm_Creating_a_task.htm" />
+  </key>
+</key>
+<key name="Announcements portlet" >
+  <topic name="Announcements" url="Announcements.htm" />
+  <key name="creating announcements" >
+    <topic name="Creating announcements" url="Announcements/Ann_Creating_announcements.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Announcements/Ann_Setting_preferences.htm" />
+  </key>
+  <key name="viewing announcements" >
+    <topic name="Viewing announcements" url="Announcements/Ann_Viewing_announcements.htm" />
+  </key>
+</key>
+<key name="Blog portlet" >
+  <topic name="Blog" url="Blog.htm" />
+  <key name="adding a post" >
+    <topic name="Posting blog items" url="Blog/Blg_Posting_blog_items.htm" />
+  </key>
+  <key name="changing a post" >
+    <topic name="Posting blog items" url="Blog/Blg_Posting_blog_items.htm" />
+  </key>
+  <key name="deleting a post" >
+    <topic name="Posting blog items" url="Blog/Blg_Posting_blog_items.htm" />
+  </key>
+  <key name="My Subscriptions view" >
+    <topic name="Using My Subscriptions" url="Blog/Blg_Using_My_Subscriptions.htm" />
+    <topic name="Subscribing to a blog" url="Blog/Blg_Subscribing_to_a_blog.htm" />
+  </key>
+  <key name="subscribing to" >
+    <topic name="Subscribing to a blog" url="Blog/Blg_Subscribing_to_a_blog.htm" />
+  </key>
+  <key name="working with comments" >
+    <topic name="Working with comments" url="Blog/Blg_Working_with_comments.htm" />
+  </key>
+</key>
+<key name="Bookmarks portlet" >
+  <key name="creating a bookmark" >
+    <topic name="Creating bookmarks" url="Bookmarks/Bkm_Creating_bookmarks.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Bookmarks/Bkm_Setting_preferences.htm" />
+  </key>
+</key>
+<key name="Bulletin Boards portlet" >
+  <key name="posting a message" >
+    <topic name="Posting a message" url="Bulletin_Boards/Bul_Posting_a_message.htm" />
+  </key>
+  <key name="Replying to a message" >
+    <topic name="Replying to a message" url="Bulletin_Boards/Bul_Replying_to_a_message.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Bulletin_Boards/Bul_Setting_preferences.htm" />
+  </key>
+</key>
+<key name="Calendar portlet" >
+  <key name="creating calendars" >
+    <topic name="Creating calendars" url="Calendar/Cal_Creating_calendars.htm" />
+  </key>
+  <key name="customizing your view" >
+    <topic name="Customizing your view" url="Calendar/Cal_Customizing_your_view.htm" />
+  </key>
+  <key name="deleting calendars" >
+    <topic name="Creating calendars" url="Calendar/Cal_Creating_calendars.htm" />
+  </key>
+  <key name="exporting to a CSV file" >
+    <topic name="Exporting and importing" url="Calendar/Cal_Exporting_and_importing.htm" />
+  </key>
+  <key name="importing a CSV file" >
+    <topic name="Exporting and importing" url="Calendar/Cal_Exporting_and_importing.htm" />
+  </key>
+  <key name="modifying calendars" >
+    <topic name="Creating calendars" url="Calendar/Cal_Creating_calendars.htm" />
+  </key>
+  <key name="selecting calendars to view" >
+    <topic name="Customizing your view" url="Calendar/Cal_Customizing_your_view.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Calendar/Cal_Setting_preferences.htm" />
+  </key>
+  <key name="subscribing to" >
+    <topic name="Subscribing to calendars" url="Calendar/Cal_Subscribing_to_calendars.htm" />
+  </key>
+</key>
+<key name="Campus Directory" >
+  <topic name="Campus Directory" url="Campus_Directory.htm" />
+  <key name="browsing" >
+    <topic name="Browsing the directory" url="Campus_Directory/Cpd_Browsing_the_directory.htm" />
+  </key>
+  <key name="hiding yourself from" >
+    <topic name="Hiding or displaying your details" url="Campus_Directory/Cpd_Hiding_or_displaying_your_details.htm" />
+  </key>
+  <key name="searching for other users" >
+    <topic name="Searching for people" url="Campus_Directory/Cpd_Searching_for_people.htm" />
+  </key>
+</key>
+<key name="Campus Groups" >
+  <key name="accepting an invitation" >
+    <topic name="Accepting an invitation" url="Campus_Groups/Cgp_Accepting_an_invitation.htm" />
+  </key>
+  <key name="attributes of" >
+    <topic name="Attributes of a group" url="Campus_Groups/Cgp_Attributes_of_a_group.htm" />
+  </key>
+  <key name="browsing groups" >
+    <topic name="Browsing groups" url="Campus_Groups/Cgp_Browsing_groups.htm" />
+  </key>
+  <key name="Campus Groups portlet" >
+    <topic name="Campus Groups" url="Campus_Groups.htm" />
+  </key>
+  <key name="overview" >
+    <topic name="About Campus Groups" url="Campus_Groups/Cgp_About_Campus_Groups.htm" />
+  </key>
+  <key name="private groups" >
+    <topic name="Accepting an invitation" url="Campus_Groups/Cgp_Accepting_an_invitation.htm" />
+  </key>
+  <key name="public group enrollment options" >
+    <topic name="Attributes of a group" url="Campus_Groups/Cgp_Attributes_of_a_group.htm" />
+  </key>
+  <key name="public vs. private" >
+    <topic name="Attributes of a group" url="Campus_Groups/Cgp_Attributes_of_a_group.htm" />
+  </key>
+</key>
+<key name="Chat portlet" >
+  <topic name="Chat" url="Chat.htm" />
+  <key name="entering a chatroom" >
+    <topic name="Entering a chatroom" url="Chat/Cht_Entering_a_chatroom.htm" />
+  </key>
+  <key name="troubleshooting" >
+    <topic name="Troubleshooting" url="Chat/Cht_Troubleshooting.htm" />
+  </key>
+</key>
+<key name="commenting" >
+  <key name="on a Blog item" >
+    <topic name="Working with comments" url="Blog/Blg_Working_with_comments.htm" />
+  </key>
+  <key name="on a Forums post" >
+    <topic name="About the reply options" url="Forums/Fms_About_the_reply_options.htm" />
+  </key>
+</key>
+<key name="Context" >
+  <key name="defined" >
+    <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+  </key>
+</key>
+<key name="Coursemates portlet" >
+  <key name="sending e-mails" >
+    <topic name="Sending e-mail" url="Group_Directory/Gdr_Sending_e-mail.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Group_Directory/Gdr_Setting_preferences.htm" />
+  </key>
+</key>
+<key name="creating" >
+  <key name="a Forums post" >
+    <topic name="Adding a post" url="Forums/Fms_Adding_a_post.htm" />
+  </key>
+  <key name="a handout" >
+    <topic name="Creating handouts" url="Handouts/Hdo_Creating_handouts.htm" />
+  </key>
+  <key name="a task in the Task Manager portlet" >
+    <topic name="Creating a task" url="Task_Manager/Tkm_Creating_a_task.htm" />
+  </key>
+</key>
+<key name="CSV file - importing or exporting to a calendar" >
+  <topic name="Exporting and importing" url="Calendar/Cal_Exporting_and_importing.htm" />
+</key>
+<key name="Custom Content portlet" >
+  <topic name="Custom Content" url="Custom_Content.htm" />
+</key>
+<key name="definitions of common terms" >
+  <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+</key>
+<key name="e-mail" >
+  <key name="external accounts" >
+    <key name="saving credentials" >
+      <topic name="Adding login details" url="Message_Center/Mcr_Adding_login_details.htm" />
+    </key>
+  </key>
+  <key name="sending via the Group Directory" >
+    <topic name="Sending e-mail" url="Group_Directory/Gdr_Sending_e-mail.htm" />
+  </key>
+</key>
+<key name="e-mail subscriptions" >
+  <key name="to Blog portlets" >
+    <topic name="Subscribing to a blog" url="Blog/Blg_Subscribing_to_a_blog.htm" />
+  </key>
+  <key name="to Forums portlets" >
+    <topic name="Subscribing to Forums" url="Forums/Fms_Subscribing_to_Forums.htm" />
+  </key>
+</key>
+<key name="FatCow icons" >
+  <topic name="Legal disclaimer" url="Welcome/Wlc_Legal_disclaimer.htm" />
+</key>
+<key name="Forums portlet" >
+  <topic name="Overview of the Forums portlet" url="Forums.htm" />
+  <key name="adding a post" >
+    <topic name="Adding a post" url="Forums/Fms_Adding_a_post.htm" />
+  </key>
+  <key name="managing subscriptions" >
+    <topic name="Managing subscriptions" url="Forums/Fms_Managing_subscriptions.htm" />
+  </key>
+  <key name="My Subscribed forums" >
+    <topic name="About My Subscribed Forums" url="Forums/Fms_About_My_Subscribed_Forums.htm" />
+  </key>
+  <key name="permissions overview" >
+    <topic name="Permissions overview" url="Forums/Fms_Permissions_overview.htm" />
+  </key>
+  <key name="replying to a post" >
+    <topic name="About the reply options" url="Forums/Fms_About_the_reply_options.htm" />
+  </key>
+  <key name="subscribing" >
+    <topic name="Subscribing to Forums" url="Forums/Fms_Subscribing_to_Forums.htm" />
+  </key>
+</key>
+<key name="Group Directory portlet" >
+  <topic name="Group Directory" url="Group_Directory.htm" />
+  <key name="sending e-mails" >
+    <topic name="Sending e-mail" url="Group_Directory/Gdr_Sending_e-mail.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Group_Directory/Gdr_Setting_preferences.htm" />
+  </key>
+</key>
+<key name="Groupmates portlet" >
+  <topic name="Group Directory" url="Group_Directory.htm" />
+</key>
+<key name="Handouts portlet" >
+  <topic name="Handouts" url="Handouts.htm" />
+  <key name="creating handouts" >
+    <topic name="Creating handouts" url="Handouts/Hdo_Creating_handouts.htm" />
+  </key>
+  <key name="setting preferences" >
+    <topic name="Setting preferences" url="Handouts/Hdo_Setting_preferences.htm" />
+  </key>
+</key>
+<key name="invitations to Campus Groups" >
+  <topic name="Accepting an invitation" url="Campus_Groups/Cgp_Accepting_an_invitation.htm" />
+</key>
+<key name="joining a Campus Group" >
+  <topic name="The Join This Group portlet" url="Campus_Group_Join.htm" />
+</key>
+<key name="key terms" >
+  <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+</key>
+<key name="legal disclaimer" >
+  <topic name="Legal disclaimer" url="Welcome/Wlc_Legal_disclaimer.htm" />
+</key>
+<key name="Message Center" >
+  <topic name="Message Center" url="Message_Center.htm" />
+  <key name="saving external e-mail credentials" >
+    <topic name="Adding login details" url="Message_Center/Mcr_Adding_login_details.htm" />
+  </key>
+  <key name="viewing mail" >
+    <topic name="Checking your mail" url="Message_Center/Mcr_Checking_messages.htm" />
+  </key>
+</key>
+<key name="My Info portlet" >
+  <key name="adding a profile photo" >
+    <topic name="Adding a profile photo" url="My_Info/Myi_Adding_a_profile_photo.htm" />
+  </key>
+  <key name="changing your display name" >
+    <topic name="Modifying your display name" url="My_Info/Myi_Modifying_your_display_name.htm" />
+  </key>
+  <key name="privacy settings" >
+    <topic name="Setting privacy preferences" url="My_Info/Myi_Setting_privacy_preferences.htm" />
+  </key>
+</key>
+<key name="My Subscribed Forums" >
+  <key name="overview of" >
+    <topic name="About My Subscribed Forums" url="Forums/Fms_About_My_Subscribed_Forums.htm" />
+  </key>
+</key>
+<key name="portlet" >
+  <key name="defined" >
+    <topic name="Key terms" url="Welcome/Wlc_Key_terms.htm" />
+  </key>
+</key>
+<key name="posting a message" >
+  <key name="in the Bulletin Boards portlet" >
+    <topic name="Posting a message" url="Bulletin_Boards/Bul_Posting_a_message.htm" />
+  </key>
+</key>
+<key name="privacy settings for your photo and e-mail address" >
+  <topic name="Setting privacy preferences" url="My_Info/Myi_Setting_privacy_preferences.htm" />
+</key>
+<key name="private groups" >
+  <key name="described" >
+    <topic name="Public vs. private groups" url="Campus_Groups/Cgp_Public_vs._private_groups.htm" />
+  </key>
+  <key name="versus public" >
+    <topic name="Attributes of a group" url="Campus_Groups/Cgp_Attributes_of_a_group.htm" />
+  </key>
+</key>
+<key name="profile photo" >
+  <key name="adding" >
+    <topic name="Adding a profile photo" url="My_Info/Myi_Adding_a_profile_photo.htm" />
+  </key>
+  <key name="hiding" >
+    <topic name="Setting privacy preferences" url="My_Info/Myi_Setting_privacy_preferences.htm" />
+  </key>
+</key>
+
+</indexdata>

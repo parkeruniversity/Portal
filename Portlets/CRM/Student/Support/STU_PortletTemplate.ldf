@@ -1,0 +1,513 @@
+# START - [CRM] AcademicInformationPortlet
+dn: CN=[CRM] AcademicInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: GQwVRn/xu0+pDwFFYvMRMQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Academic Information
+jenzabar-ICSNET-PortletPath:
+ Portlet.AcademicInformation,Jenzabar.CRM.Student.Web.Portlets.AcademicInformationPortlet.AcademicInformationPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] AcademicInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] AcademicInformationPortlet
+
+
+# START - GPA Projection
+dn: CN=[CRM] GPAProjection,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: FYveKngLw0esSPdUJOpeew==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: GPA Projection
+jenzabar-ICSNET-PortletPath: Portlet.GPAProjection,Jenzabar.CRM.Student.Web.Portlets.GPAProjectionPortlet.GPAProjectionPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] GPAProjection,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - GPA Projection
+
+
+# START - Financial Aid Document Tracking
+dn: CN=[CRM] FinancialAidDocumentTracking,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: YgKY+2VJ90mMcJcOrAWLig==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Financial Aid Document Tracking
+jenzabar-ICSNET-PortletPath: Portlet.FADocumentTracking,Jenzabar.CRM.Student.Web.Portlets.FADocumentTrackingPortlet.FADocumentTrackingPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] FinancialAidDocumentTracking,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Financial Aid Document Tracking
+
+
+# START - Vehicle Information
+dn: CN=[CRM] VehicleInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: XHTM2EWbE0yjuQcRu5KOMg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Vehicle Information
+jenzabar-ICSNET-PortletPath: Portlet.VehicleInfo,Jenzabar.CRM.Student.Web.Portlets.VehicleInfoPortlet.VehicleInfoPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] VehicleInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Vehicle Information
+
+
+# START - Course History
+dn: CN=[CRM] CourseHistory,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: sK67bbOu4UCjxCMwrq06AQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Course History
+jenzabar-ICSNET-PortletPath: Portlet.CourseHistory,Jenzabar.CRM.Student.Web.Portlets.CourseHistoryPortlet.CourseHistoryPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] CourseHistory,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Course History
+
+
+# START - Room and Roommate Preferences
+dn: CN=[CRM] RoomRoommatePreferences,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: cd8fRrzE8k6ZN+iQpEqMbg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Room and Roommate Preferences
+jenzabar-ICSNET-PortletPath: Portlet.RoomRoommatePreferences,Jenzabar.CRM.Student.Web.Portlets.RoomRoommatePreferencesPortlet.RoomRoommatePreferencesPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] RoomRoommatePreferences,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Room and Roommate Preferences
+
+
+# START - Residence Information
+dn: CN=[CRM] ResidenceInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: 4OQEo/mjQ021NnUuHdS2qQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Residence Information
+jenzabar-ICSNET-PortletPath: Portlet.ResidenceInfo,Jenzabar.CRM.Student.Web.Portlets.ResidenceInfoPortlet.ResidenceInfoPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] ResidenceInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Residence Information
+
+
+# START - UnofficialTranscript
+dn: CN=[CRM] UnofficialTranscript,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: wG3SS7zEDU27t6UbWC8KfQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Unofficial Transcript
+jenzabar-ICSNET-PortletPath: Portlet.UnofficialTranscript,Jenzabar.CRM.Student.Web.Portlets.UnofficialTranscriptPortlet.UnofficialTranscriptPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] UnofficialTranscript,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - UnofficialTranscript
+
+
+# START - Student Schedule
+dn: CN=[CRM] StudentSchedule,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: 2MQoVdZwFUKrW8dJsgSiww==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Student Schedule
+jenzabar-ICSNET-PortletPath: Portlet.StudentSchedule,Jenzabar.CRM.Student.Web.Portlets.StudentSchedulePortlet.StudentSchedulePortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] StudentSchedule,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Student Schedule
+
+
+# START - Course Schedules
+dn: CN=[CRM] CourseSchedules,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: DtwPYO6UVEKHZ5OtbnwIiA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Course Schedules
+jenzabar-ICSNET-PortletPath: Portlet.CourseSchedules,Jenzabar.CRM.Student.Web.Portlets.CourseSchedulesPortlet.CourseSchedulesPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] CourseSchedules,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Course Schedules
+
+
+# START - Advisor Meetings
+dn: CN=[CRM] AdvisorMeetingsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: 5n4td/jcEkSsiRW0Ah+1xw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Advisor Meetings
+jenzabar-ICSNET-PortletPath: Portlet.AdvisorMeetings, Jenzabar.CRM.Student.Web.Portlets.AdvisorMeetingsPortlet.AdvisorMeetingsPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] AdvisorMeetingsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Advisor Meetings
+
+
+# START - My Account Info
+dn: CN=[CRM] MyAccountInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: 5zoB4OEEmEmQkx0Ht+9W2w==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: My Account Info
+jenzabar-ICSNET-PortletPath: Portlet.AccountInfo,Jenzabar.CRM.Student.Web.Portlets.AccountInfoPortlet.AccountInfoPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] MyAccountInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - My Account Info
+
+
+# START - Student Survey
+dn: CN=[CRM] StudentSurveyPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: YP2E6lbx0UaTNbiz0srfcw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Student Survey
+jenzabar-ICSNET-PortletPath: Portlet.FormBuilder,Jenzabar.CRM.Common.Web.Portlets.FormBuilderPortlet.FormBuilderPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] StudentSurveyPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Student Survey
+
+
+# START - Financial Aid Awards
+dn: CN=[CRM] FinancialAidAwards,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: tsHbXmGLlkmRY7J1/MO1lg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Financial Aid Awards
+jenzabar-ICSNET-PortletPath: Portlet.FinancialAidAwards,Jenzabar.CRM.Student.Web.Portlets.FinancialAidAwardsPortlet.FinancialAidAwardsPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] FinancialAidAwards,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Financial Aid Awards
+
+
+# START - MY 1098-T Info
+dn: CN=[CRM] My1098TInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: G7BhwFcgLUGim+TV/qhz4g==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: MY 1098-T Info
+jenzabar-ICSNET-PortletPath: Portlet.My1098TInfo,Jenzabar.CRM.Student.Web.Portlets.My1098TInfoPortlet.My1098TInfoPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] My1098TInfo,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - MY 1098-T Info
+
+
+# START - Public Registration Portlet
+dn: CN=[CRM] PublicRegistrationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: HF9G5yRaH0matvxBUDx86Q==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Public Registration
+jenzabar-ICSNET-PortletPath: Portlet.FormBuilder,Jenzabar.CRM.Common.Web.Portlets.FormBuilderPortlet.FormBuilderPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] PublicRegistrationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Public Registration Portlet
+
+
+# START - Course Needs
+dn: CN=[CRM] CourseNeeds,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: I5Omg82kGUSpm/Zjqhm1bA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Course Needs
+jenzabar-ICSNET-PortletPath: Portlet.CourseNeeds,Jenzabar.CRM.Student.Web.Portlets.CourseNeedsPortlet.CourseNeedsPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] CourseNeeds,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Course Needs
+
+
+# START - Grade Report
+dn: CN=[CRM] GradeReportPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: 2jcjz/IcgkmNkLEyZlMPyQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Grade Report
+jenzabar-ICSNET-PortletPath: Portlet.GradeReport,Jenzabar.CRM.Student.Web.Portlets.GradeReportPortlet.GradeReportPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] GradeReportPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Grade Report
+
+
+# START - Degree Audit
+dn: CN=[CRM] DegreeAuditPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: mA3bkKERv0ypMoV1uWEYTA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Degree Audit Portlet
+jenzabar-ICSNET-PortletPath: Portlet.DegreeAudit, Jenzabar.CRM.Student.Web.Portlets.DegreeAuditPortlet.DegreeAuditPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] DegreeAuditPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Degree Audit
+
+
+# START - Major Exploration and What If Scenarios
+dn: CN=[CRM] MajorExplorationandWhatIf,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: UjFZowUOnE+jgQf+dpt85g==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Major Exploration and What If Scenarios
+jenzabar-ICSNET-PortletPath: Portlet.MajorExplorationandWhatIf,Jenzabar.CRM.Student.Web.Portlets.MajorExplorationandWhatIfPortlet.MajorExplorationandWhatIfPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] MajorExplorationandWhatIf,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Major Exploration and What If Scenarios
+
+
+# START - [CRM] PaymentsPortlet
+dn: CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: HT2qkjTyPEiWGVb2SlsXDQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Payment Administration
+jenzabar-ICSNET-PortletPath:
+ Portlet.Payments,Jenzabar.CRM.Common.Web.Portlets.PaymentsPortlet.PaymentsPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] PaymentsPortlet
+
+
+# START - Financial Aid Admin
+dn: CN=[CRM] FinancialAidAdmin,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: wu+PRL9r1kik5VGX6YdTKA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Financial Aid Admin
+jenzabar-ICSNET-PortletPath: Portlet.FinancialAidAdmin,Jenzabar.CRM.Student.Web.Portlets.FinancialAidAdminPortlet.FinancialAidAdminPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] FinancialAidAdmin,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Financial Aid Admin
+
+
+# START - Update Financial Aid Admin Portlet display name to Financial Aid Administration
+dn: CN=[CRM] FinancialAidAdmin,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: modify
+replace: displayName
+displayName: Financial Aid Administration
+-
+# END - Update Financial Aid Admin
+
+# START - Student Request Portlet
+dn: CN=[CRM] StudentRequests,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: K4iVGMfIC0Gj7B4tzRjxqA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Student Requests
+jenzabar-ICSNET-PortletPath: Portlet.StudentRequest,Jenzabar.CRM.Student.Web.Portlets.StudentRequest.StudentRequestPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] StudentRequests,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Student Request Portlet
+
+# START - Ethnicity and Race Portlet
+dn: CN=[CRM] EthnicityAndRacePortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: hrXabc/NlE2eQ8EygCiBNg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Ethnicity and Race Portlet
+jenzabar-ICSNET-PortletPath: Portlet.EthnicityAndRace,Jenzabar.CRM.Student.Web.Portlets.EthnicityAndRacePortlet.EthnicityAndRacePortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] EthnicityAndRacePortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Ethnicity and Race Portlet

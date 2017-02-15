@@ -1,0 +1,16 @@
+
+.ContextBrowse table
+{
+	width: 100%;
+}
+
+.ContextBrowse table td
+{
+	width: 50%;
+	padding-left: 10px;
+}
+
+.ContextBrowse li
+{
+	padding-top: 5px;
+}

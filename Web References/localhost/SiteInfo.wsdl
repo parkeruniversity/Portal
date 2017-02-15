@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="RoomIDs">
+        <s:complexType />
+      </s:element>
+      <s:element name="RoomIDsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RoomIDsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RoomNames">
+        <s:complexType />
+      </s:element>
+      <s:element name="RoomNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RoomNamesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RoomOwners">
+        <s:complexType />
+      </s:element>
+      <s:element name="RoomOwnersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RoomOwnersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RoomUserCount">
+        <s:complexType />
+      </s:element>
+      <s:element name="RoomUserCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RoomUserCountResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RoomFlags">
+        <s:complexType />
+      </s:element>
+      <s:element name="RoomFlagsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RoomFlagsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RoomTopics">
+        <s:complexType />
+      </s:element>
+      <s:element name="RoomTopicsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RoomTopicsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SiteName">
+        <s:complexType />
+      </s:element>
+      <s:element name="SiteNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SiteNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Err">
+        <s:complexType />
+      </s:element>
+      <s:element name="ErrResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ErrResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="RoomIDsSoapIn">
+    <part name="parameters" element="s0:RoomIDs" />
+  </message>
+  <message name="RoomIDsSoapOut">
+    <part name="parameters" element="s0:RoomIDsResponse" />
+  </message>
+  <message name="RoomNamesSoapIn">
+    <part name="parameters" element="s0:RoomNames" />
+  </message>
+  <message name="RoomNamesSoapOut">
+    <part name="parameters" element="s0:RoomNamesResponse" />
+  </message>
+  <message name="RoomOwnersSoapIn">
+    <part name="parameters" element="s0:RoomOwners" />
+  </message>
+  <message name="RoomOwnersSoapOut">
+    <part name="parameters" element="s0:RoomOwnersResponse" />
+  </message>
+  <message name="RoomUserCountSoapIn">
+    <part name="parameters" element="s0:RoomUserCount" />
+  </message>
+  <message name="RoomUserCountSoapOut">
+    <part name="parameters" element="s0:RoomUserCountResponse" />
+  </message>
+  <message name="RoomFlagsSoapIn">
+    <part name="parameters" element="s0:RoomFlags" />
+  </message>
+  <message name="RoomFlagsSoapOut">
+    <part name="parameters" element="s0:RoomFlagsResponse" />
+  </message>
+  <message name="RoomTopicsSoapIn">
+    <part name="parameters" element="s0:RoomTopics" />
+  </message>
+  <message name="RoomTopicsSoapOut">
+    <part name="parameters" element="s0:RoomTopicsResponse" />
+  </message>
+  <message name="SiteNameSoapIn">
+    <part name="parameters" element="s0:SiteName" />
+  </message>
+  <message name="SiteNameSoapOut">
+    <part name="parameters" element="s0:SiteNameResponse" />
+  </message>
+  <message name="ErrSoapIn">
+    <part name="parameters" element="s0:Err" />
+  </message>
+  <message name="ErrSoapOut">
+    <part name="parameters" element="s0:ErrResponse" />
+  </message>
+  <portType name="SiteInfoSoap">
+    <operation name="RoomIDs">
+      <input message="s0:RoomIDsSoapIn" />
+      <output message="s0:RoomIDsSoapOut" />
+    </operation>
+    <operation name="RoomNames">
+      <input message="s0:RoomNamesSoapIn" />
+      <output message="s0:RoomNamesSoapOut" />
+    </operation>
+    <operation name="RoomOwners">
+      <input message="s0:RoomOwnersSoapIn" />
+      <output message="s0:RoomOwnersSoapOut" />
+    </operation>
+    <operation name="RoomUserCount">
+      <input message="s0:RoomUserCountSoapIn" />
+      <output message="s0:RoomUserCountSoapOut" />
+    </operation>
+    <operation name="RoomFlags">
+      <input message="s0:RoomFlagsSoapIn" />
+      <output message="s0:RoomFlagsSoapOut" />
+    </operation>
+    <operation name="RoomTopics">
+      <input message="s0:RoomTopicsSoapIn" />
+      <output message="s0:RoomTopicsSoapOut" />
+    </operation>
+    <operation name="SiteName">
+      <input message="s0:SiteNameSoapIn" />
+      <output message="s0:SiteNameSoapOut" />
+    </operation>
+    <operation name="Err">
+      <input message="s0:ErrSoapIn" />
+      <output message="s0:ErrSoapOut" />
+    </operation>
+  </portType>
+  <binding name="SiteInfoSoap" type="s0:SiteInfoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="RoomIDs">
+      <soap:operation soapAction="http://tempuri.org/RoomIDs" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RoomNames">
+      <soap:operation soapAction="http://tempuri.org/RoomNames" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RoomOwners">
+      <soap:operation soapAction="http://tempuri.org/RoomOwners" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RoomUserCount">
+      <soap:operation soapAction="http://tempuri.org/RoomUserCount" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RoomFlags">
+      <soap:operation soapAction="http://tempuri.org/RoomFlags" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RoomTopics">
+      <soap:operation soapAction="http://tempuri.org/RoomTopics" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SiteName">
+      <soap:operation soapAction="http://tempuri.org/SiteName" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Err">
+      <soap:operation soapAction="http://tempuri.org/Err" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="SiteInfo">
+    <port name="SiteInfoSoap" binding="s0:SiteInfoSoap">
+      <soap:address location="http://localhost/ICS_CHAT/SiteInfo.asmx" />
+    </port>
+  </service>
+</definitions>

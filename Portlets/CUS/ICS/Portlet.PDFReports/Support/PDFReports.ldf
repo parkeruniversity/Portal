@@ -1,0 +1,39 @@
+# START - Admin PDF Reports
+dn: CN=[CUS] AdminPDFReports,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: y9dHJPbb5kGh1dRILHzvbw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Admin PDF Reports
+jenzabar-ICSNET-PortletPath: Portlet.AdminPDFReports,Jenzabar.CUS.ICS.Web.Portlets.AdminPDFReportsPortlet.AdminPDFReportsPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CUS] AdminPDFReports,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Admin PDF Reports
+
+# START - PDF Reports
+dn: CN=[CUS] PDFReports,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: lKi55Ikw+UqIs6L5Ofzh+Q==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: PDF Reports
+jenzabar-ICSNET-PortletPath: Portlet.PDFReports,Jenzabar.CUS.ICS.Web.Portlets.PDFReportsPortlet.PDFReportsPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CUS] PDFReports,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - PDF Reports

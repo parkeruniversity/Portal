@@ -1,0 +1,21 @@
+# START - [CRM] StaffPortletPortlet
+dn: CN=[CRM] StaffPortletPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: K6SaW4FxPkeylzr5bVzfkw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Staff Portlet
+jenzabar-ICSNET-PortletPath:
+ Portlet.StaffPortlet,Jenzabar.CRM.Staff.Web.Portlets.StaffPortletPortlet.StaffPortletPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portal-User,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] StaffPortletPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] StaffPortletPortlet

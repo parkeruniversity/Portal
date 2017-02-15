@@ -1,0 +1,1110 @@
+﻿#EqEditor 
+{
+	width: 700px;
+	margin-bottom: 20px;
+}
+
+#EqEditor .header  
+{
+	background-color: #eeeeee; 
+	border: solid 1px #888888;
+	padding: 5px 5px 0px 5px;
+	position: relative;
+	z-index: 100;
+}
+.showHelp #rowHolder
+{
+	padding-left: 150px;
+}
+
+.showHelp #bottomGroup {
+	margin-right: 170px;
+	position: relative;
+}
+
+#EqEditor .bottomBar 
+{
+	border: solid 1px #888888;
+	border-top: 0;
+	position: relative;
+}
+	
+#EqEditor .buttonBar
+{
+	background-color: #eeeeee; 
+	padding: 0;
+}
+
+#EqEditor .buttonBar div
+{
+    padding: 5px;
+	display: inline-block;
+	zoom:1;
+	*display: inline;
+	_height: 28px;
+}
+
+#EqEditor .buttons
+{
+    background-color: #D6E2FB;
+    padding-right: 0;
+    border-left: solid 1px #888888;
+    border-right: solid 1px #888888;
+}
+
+.showHelp .buttons
+{
+    border-bottom: solid 1px #888888;
+}
+
+#EqEditor h2.header
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 3px 5px 5px 5px;
+	border-bottom: none;
+}
+
+#EqEditor .header .row
+{
+    margin-bottom: 2px;
+}
+
+#EqEditor .iconSet
+{
+    background: no-repeat center center;
+    height: 28px;
+	width: 22px;
+	border-right: solid 1px #888888;
+}
+
+#EqEditor .iconSet img
+{
+   position:absolute; 
+   margin: 12px 0 0 24px;
+}
+
+#EqEditor .iconSetPopup
+{
+    display:none;
+	position: absolute;
+	z-index: 99;
+	/*margin-top: 28px;*/
+	padding: 5px 5px 5px 5px;
+	border: solid 1px #888888;
+	margin-left: -1px;
+	background-color: #eeeeee;
+}
+
+#EqEditor .header ul
+{
+	margin: 0 10px 0 0;
+	display: inline-block;
+	zoom:1;
+	*display: inline;
+	_height: 28px;
+}
+
+#EqEditor .header li
+{
+	border: solid 1px #888888;
+	background-color: #dddddd;
+	margin: 0 3px 0 -1px;
+	display: inline-block;
+	text-decoration: none;
+	height: 28px;
+	width: 34px;
+	outline: none;
+	zoom:1;
+	*display: inline;
+	_height: 28px;
+}
+  
+#EqEditor .header a
+{
+	border: solid 1px #888888;
+	background: no-repeat center center;
+	background-color: #dddddd;
+	margin: 0 0 0 -1px;
+	display: inline-block;
+	text-decoration: none;
+	height: 28px;
+	width: 22px;
+	outline: none;
+}
+
+#EqEditor .largeIcon img
+{
+   margin: 12px 0 0 40px;
+}
+
+#EqEditor .header .largeIcon
+{
+	width: 50px;
+}
+
+#EqEditor .largeIcons a,
+#EqEditor .header .largeIcon .iconSet
+{
+	width: 38px;
+}
+
+#EqEditor .header select
+{
+    vertical-align: 9px;   
+}
+
+#EqEditor .header .separator
+{
+	width: 0;
+	border-right: 0;
+	margin: 0 3px 0 3px;
+	background-color: #888888;
+}
+
+#EqEditor .header .icons
+{
+	width: auto;
+	background-color: #eeeeee;
+	border: 0px;
+}
+
+#EqEditor .header .icons a
+{
+    width: 40px;
+	background-color: #ffffff;
+	margin: 0 3px 0 7px;
+}
+
+#EqEditor .header .iconRow a
+{
+    border-top: 0px;
+}
+
+#EqEditor .header a:hover,
+#EqEditor .header li:hover
+{
+	background-color: #eeeeee;
+}
+
+#EqEditor #imgheight
+{
+	margin-left: 5px;
+}
+
+#EqEditor .text
+{
+	border: solid 1px #888888;
+	border-top-width: 0px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
+
+#EqEditor .text:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#EqEditor .text textarea
+{
+	width: 100%;
+	border-width: 0px;
+}
+
+#EqEditor #eqchars
+{
+	position:absolute;
+	bottom: 5px;
+	right: 25px; /* extra offset for right scrollbar */
+}
+
+#EqEditor .equation
+{
+	padding: 15px 10px 15px 10px;
+	border: solid 1px #888888;
+	border-top-width: 0px;
+	overflow: auto;
+}
+
+#EqEditor .imageAndText img
+{
+	vertical-align: middle;
+}
+
+#EqEditor .right{
+	float: right;
+}
+
+/* Help Text Blocks */
+
+.leftHelpBlock,
+.rightHelpBlock {
+	display: none;
+}
+
+#EqEditor.showHelp .header .row
+{
+    margin-bottom: 10px;
+}
+
+.showHelp .leftHelpBlock {
+	display: block;
+	border: 1px solid #0054a6;
+	background-color: #eaf1ff;
+	width: 134px;
+	position: absolute;
+	top: 0;
+	left: -150px;
+}
+
+.showHelp .rightHelpBlock {
+	display: block;
+	border: 1px solid #0054a6;
+	background-color: #eaf1ff;
+	margin-top: 8px;
+	width: 155px;
+	position: absolute;
+	top: 0;
+	right: -172px;
+}
+
+#EqEditor .leftHelpBlock h2, #EqEditor .rightHelpBlock h2 {
+	position: relative;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0;
+	padding: 3px 6px 6px;
+	background-color: #0054a6;
+}
+#EqEditor .leftHelpBlock .wedge {
+	float: right;
+	margin-right: -19px;
+	margin-top: -4px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 12px solid #0054a6; 
+	border-bottom: 12px solid transparent;
+	border-top: 12px solid transparent;
+}
+#EqEditor .rightHelpBlock .wedge {
+	float: left;
+	margin-left: -19px;
+	margin-top: -4px;
+	display: block;
+	width: 0;
+	height: 0;
+	border-right: 12px solid #0054a6; 
+	border-bottom: 12px solid transparent;
+	border-top: 12px solid transparent;
+}
+
+#EqEditor .leftHelpBlock p, #EqEditor .rightHelpBlock p  {
+	padding: 0 8px;
+	font-size: 12px;
+	margin: 8px 0;
+	font-weight: normal;
+}
+#bottomLeftHelp {
+	top: -48px;
+}
+#EqEditor .rightHolder {
+	position: relative;
+}
+#EqEditor .rightText {
+	text-align: right;
+}
+
+/* End Help Text Blocks */ 
+
+/* Icon Images */
+
+#EqEditor .header .img53 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4.5px -2px;
+}
+#EqEditor .header .img54 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -6px -32px;
+}
+#EqEditor .header .img55 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4px -63px;
+}
+#EqEditor .header .img56 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3.5px -95px;
+}
+#EqEditor .header .img57 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -1px -126px;
+}
+#EqEditor .header .img58 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -1px -157.5px;
+}
+#EqEditor .header .img1 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7px -191px;
+}
+#EqEditor .header .img2 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -6.5px -222px;
+}
+#EqEditor .header .img3 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7px -257px;
+}
+#EqEditor .header .img4 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7.5px -295px;
+}
+#EqEditor .header .img5 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -8px -333px;
+}
+#EqEditor .header .img6 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3px -375px;
+}
+#EqEditor .header .img22 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -8px -416px;
+}
+#EqEditor .header .img23 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7.5px -453px;
+}
+#EqEditor .header .img29 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7px -488px;
+}
+#EqEditor .header .img19 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -2px -521px;
+}
+#EqEditor .header .img20 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7px -560px;
+}
+#EqEditor .header .img21 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -5px -600px;
+}
+#EqEditor .header .img10 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4.5px -645px;
+}
+#EqEditor .header .img11 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4.5px -688px;
+}
+#EqEditor .header .img12 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3px -732px;
+}
+#EqEditor .header .img13 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -6.5px -776px;
+}
+#EqEditor .header .img14 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -6px -820px;
+}
+#EqEditor .header .img24 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -6px -862px;
+}
+#EqEditor .header .img25 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4.5px -902px;
+}
+#EqEditor .header .img26 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -5.5px -943px;
+}
+#EqEditor .header .img27 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4px -984px;
+}
+#EqEditor .header .img31 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -5px -1023px;
+}
+#EqEditor .header .img32 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -6px -1054px;
+}
+#EqEditor .header .img33 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3.5px -1086px;
+}
+#EqEditor .header .img34 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3.5px -1118px;
+}
+#EqEditor .header .img35 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -5px -1150px;
+}
+#EqEditor .header .img36 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3.5px -1182.5px;
+}
+#EqEditor .header .img37 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3px -1215.5px;
+}
+#EqEditor .header .img38 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3px -1249.5px;
+}
+#EqEditor .header .img39 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4.5px -1282.5px;
+}
+#EqEditor .header .img40 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -4px -1315.5px;
+}
+#EqEditor .header .img41 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3.5px -1349.5px;
+}
+#EqEditor .header .img42 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3.5px -1383.5px;
+}
+#EqEditor .header .img43 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -3px -1422.5px;
+}
+#EqEditor .header .img44 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -5.5px -1460.5px;
+}
+#EqEditor .header .img45 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -9.5px -1494px;
+}
+#EqEditor .header .img46 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -8.5px -1528px;
+}
+#EqEditor .header .img47 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -9px -1564px;
+}
+#EqEditor .header .img48 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -9px -1600px;
+}
+#EqEditor .header .img49 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -8px -1636.5px;
+}
+#EqEditor .header .img50 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -8px -1672.5px;
+}
+#EqEditor .header .img51 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7.5px -1708.5px;
+}
+#EqEditor .header .img52 {
+  background-image: url("../Images/EquationEditor/EqEdSprite1.png");
+  background-position: -7.5px -1744.5px;
+}
+#EqEditor .header .img67 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: 0% -2.5px;
+}
+#EqEditor .header .img59 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -7px -35px;
+}
+#EqEditor .header .img60 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -2.5px -67px;
+}
+#EqEditor .header .img61 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4px -101px;
+}
+#EqEditor .header .img62 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -2.5px -133px;
+}
+#EqEditor .header .img63 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4px -165.5px;
+}
+#EqEditor .header .img64 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -2.5px -197.5px;
+}
+#EqEditor .header .img65 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4.5px -228.5px;
+}
+#EqEditor .header .img66 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4px -258.5px;
+}
+#EqEditor .header .img68 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -7px -296px;
+}
+#EqEditor .header .img103 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5.5px -339px;
+}
+#EqEditor .header .img104 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4px -376px;
+}
+#EqEditor .header .img105 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -8px -414px;
+}
+#EqEditor .header .img106 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5.5px -452px;
+}
+#EqEditor .header .img69 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -3.5px -491.5px;
+}
+#EqEditor .header .img70 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5.5px -532.5px;
+}
+#EqEditor .header .img71 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -1px -571.5px;
+}
+#EqEditor .header .img75 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -6px -607px;
+}
+#EqEditor .header .img72 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -7px -637px;
+}
+#EqEditor .header .img73 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -3.5px -669px;
+}
+#EqEditor .header .img74 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4px -701.5px;
+}
+#EqEditor .header .img76 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -8px -734.5px;
+}
+#EqEditor .header .img77 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -9px -768px;
+}
+#EqEditor .header .img78 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -8.5px -800.5px;
+}
+#EqEditor .header a.img78 {
+  background-position: 0 -800.5px;
+}
+#EqEditor .header .img79 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -2px -830.5px;
+}
+#EqEditor .header .img80 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -3px -862px;
+}
+#EqEditor .header .img81 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: 0% -893px;
+}
+#EqEditor .header .img82 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -2.5px -923px;
+}
+#EqEditor .header .img83 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5px -954px;
+}
+#EqEditor .header .img84 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: 0% -984.5px;
+}
+#EqEditor .header .img85 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -3.5px -1015px;
+}
+#EqEditor .header .img86 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5px -1046.5px;
+}
+#EqEditor .header .img87 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: 0% -1077px;
+}
+#EqEditor .header .img88 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -2.5px -1107px;
+}
+#EqEditor .header .img89 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -6px -1138.5px;
+}
+#EqEditor .header .img90 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: 0% -1169px;
+}
+#EqEditor .header .img91 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5.5px -1198.5px;
+}
+#EqEditor .header .img92 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -6.5px -1229.5px;
+}
+#EqEditor .header .img93 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: 0% -1260.5px;
+}
+#EqEditor .header .img94 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5px -1290px;
+}
+#EqEditor .header .img95 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -7px -1320.5px;
+}
+#EqEditor .header .img96 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -6px -1351px;
+}
+#EqEditor .header .img99 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -5px -1388px;
+}
+#EqEditor .header .img97 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -1px -1431px;
+}
+#EqEditor .header .img98 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -6.5px -1475px;
+}
+#EqEditor .header .img100 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -7px -1519.5px;
+}
+#EqEditor .header .img101 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4px -1563.5px;
+}
+#EqEditor .header .img102 {
+  background-image: url("../Images/EquationEditor/EqEdSprite2.png");
+  background-position: -4px -1607.5px;
+}
+#EqEditor .header .img126 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6.5px -2.5px;
+}
+#EqEditor .header .img132 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4px -40.5px;
+}
+#EqEditor .header .img107 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5.5px -79.5px;
+}
+#EqEditor .header .img108 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6.5px -120px;
+}
+#EqEditor .header .img109 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5.5px -160.5px;
+}
+#EqEditor .header .img110 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5.5px -198.5px;
+}
+#EqEditor .header .img111 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -233px;
+}
+#EqEditor .header .img112 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -3.5px -268px;
+}
+#EqEditor .header .img113 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -306px;
+}
+#EqEditor .header .img114 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -3.5px -344px;
+}
+#EqEditor .header .img115 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -3.5px -380.5px;
+}
+#EqEditor .header .img116 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -2.5px -417.5px;
+}
+#EqEditor .header .img117 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -455.5px;
+}
+#EqEditor .header .img118 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -3.5px -493.5px;
+}
+#EqEditor .header .img119 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -2.5px -530px;
+}
+#EqEditor .header .img120 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6px -565px;
+}
+#EqEditor .header .img121 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -601.5px;
+}
+#EqEditor .header .img122 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5.5px -639.5px;
+}
+#EqEditor .header .img123 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6px -676px;
+}
+#EqEditor .header .img124 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -3px -713.5px;
+}
+#EqEditor .header .img125 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -751px;
+}
+#EqEditor .header .img127 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -787.5px;
+}
+#EqEditor .header .img128 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4px -825.5px;
+}
+#EqEditor .header .img129 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6.5px -862px;
+}
+#EqEditor .header .img130 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6px -897px;
+}
+#EqEditor .header .img131 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6px -932px;
+}
+#EqEditor .header .img133 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -967px;
+}
+#EqEditor .header .img134 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -1004.5px;
+}
+#EqEditor .header .img135 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -7px -1042px;
+}
+#EqEditor .header .img136 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -1077px;
+}
+#EqEditor .header .img137 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1112px;
+}
+#EqEditor .header .img138 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4px -1147px;
+}
+#EqEditor .header .img139 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5.5px -1182px;
+}
+#EqEditor .header .img140 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1217px;
+}
+#EqEditor .header .img141 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -3.5px -1252px;
+}
+#EqEditor .header .img142 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -1287px;
+}
+#EqEditor .header .img143 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1322px;
+}
+#EqEditor .header .img144 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -1.5px -1357px;
+}
+#EqEditor .header .img145 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5.5px -1392px;
+}
+#EqEditor .header .img146 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1427px;
+}
+#EqEditor .header .img147 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -6.5px -1462px;
+}
+#EqEditor .header .img148 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -1497px;
+}
+#EqEditor .header .img149 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4px -1532px;
+}
+#EqEditor .header .img150 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1567px;
+}
+#EqEditor .header .img151 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -1602px;
+}
+#EqEditor .header .img152 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4px -1637px;
+}
+#EqEditor .header .img153 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1672px;
+}
+#EqEditor .header .img154 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1707px;
+}
+#EqEditor .header .img155 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -5px -1742px;
+}
+#EqEditor .header .img156 {
+  background-image: url("../Images/EquationEditor/EqEdSprite3.png");
+  background-position: -4.5px -1777px;
+}
+#EqEditor .header .img203 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px 0%;
+}
+#EqEditor .header .img204 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -6px -30.5px;
+}
+#EqEditor .header .img160 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -1px -63.5px;
+}
+#EqEditor .header .img161 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -3px -97px;
+}
+#EqEditor .header .img162 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4px -131.5px;
+}
+#EqEditor .header .img163 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -5px -168.5px;
+}
+#EqEditor .header .img164 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px -206.5px;
+}
+#EqEditor .header .img173 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -243.5px;
+}
+#EqEditor .header .img181 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -275px;
+}
+#EqEditor .header .img166 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -306px;
+}
+#EqEditor .header .img175 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -306px;
+}
+#EqEditor .header .img176 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -338px;
+}
+#EqEditor .header .img177 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -370px;
+}
+#EqEditor .header .img178 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -6px -402.5px;
+}
+#EqEditor .header .img179 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -6px -434.5px;
+}
+#EqEditor .header .img180 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -6.5px -466.5px;
+}
+#EqEditor .header .img187 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -501.5px;
+}
+#EqEditor .header .img182 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px -538px;
+}
+#EqEditor .header .img183 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px -573px;
+}
+#EqEditor .header .img184 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -3px -608px;
+}
+#EqEditor .header .img185 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4px -643px;
+}
+#EqEditor .header .img165 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -3px -678.5px;
+}
+#EqEditor .header .img167 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -1.5px -712.5px;
+}
+#EqEditor .header .img168 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -747.5px;
+}
+#EqEditor .header .img169 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -783px;
+}
+#EqEditor .header .img170 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -818px;
+}
+#EqEditor .header .img171 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -854.5px;
+}
+#EqEditor .header .img172 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -891px;
+}
+#EqEditor .header .img202 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -1px -927.5px;
+}
+#EqEditor .header .img190 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -6px -967px;
+}
+#EqEditor .header .img188 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -5.5px -1004px;
+}
+#EqEditor .header .img189 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -3px -1044px;
+}
+#EqEditor .header .img191 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -5.5px -1084px;
+}
+#EqEditor .header .img192 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -1122.5px;
+}
+#EqEditor .header .img193 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -1160.5px;
+}
+#EqEditor .header .img194 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px -1198.5px;
+}
+#EqEditor .header .img195 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px -1236.5px;
+}
+#EqEditor .header .img196 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -2.5px -1274.5px;
+}
+#EqEditor .header .img197 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -9px -1312.5px;
+}
+#EqEditor .header .img198 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -7px -1350.5px;
+}
+#EqEditor .header .img199 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px -1388.5px;
+}
+#EqEditor .header .img200 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -3.5px -1426.5px;
+}
+#EqEditor .header .img201 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -2.5px -1468.5px;
+}
+#EqEditor .header .img157 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -5.5px -1509px;
+}
+#EqEditor .header .img158 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -5px -1544px;
+}
+#EqEditor .header .img159 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: -4.5px -1579px;
+}
+#EqEditor .header .img205 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -1615.5px;
+}
+#EqEditor .header .img206 {
+  background-image: url("../Images/EquationEditor/EqEdSprite4.png");
+  background-position: 0% -1650.5px;
+}
+/* End Icon Images */

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ToolConsumerOutcomesCallback.aspx.cs" Inherits="Jenzabar.ICS.Web.Portlets.LearningToolsPortlet.ToolConsumerOutcomesCallback" %>

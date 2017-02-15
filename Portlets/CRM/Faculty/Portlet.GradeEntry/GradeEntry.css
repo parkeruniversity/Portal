@@ -1,0 +1,31 @@
+﻿.GE .DisplayNone { display:none; }
+
+.GE .floatLeft { float:left; }
+.GE .floatRight { float:right; }
+.GE .BoldText { font-weight: 600; }
+.GE .textAlignCenter { text-align: center; }
+.GE .textAlignRight { text-align: right; }
+.GE .VerticalAlignMiddle { vertical-align: middle; }
+.GE .ClearLeft { clear: left; }
+.GE .ClearRight { clear: right; }
+.GE .InfoButton { background-color: #3A87AD; color: white; }
+.GE .NoWrap { white-space: nowrap; }
+.GE .WidthHalf { width: 48%; }
+
+.GE .btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;    
+    text-decoration: none;
+}

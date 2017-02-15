@@ -1,0 +1,51 @@
+/* Reset */
+.EmploymentApplication p { margin: 0 0; padding: 0 0; }
+/* END Reset */
+
+
+.EmploymentApplication .EAMarginAllTen { margin: 10px; }
+
+.EmploymentApplication .GrayBordered { background-color: #EFEFEF; border: 1px solid #B2B2B2; padding: 10px;   }
+.EmploymentApplication .BlueBordered { background-color: #EFEFEF; border: 1px solid #0034A5; padding: 10px;   }
+.EmploymentApplication .WhiteBordered { border: 1px solid #B2B2B2; padding: 10px }
+.EmploymentApplication .YellowBordered { background-color: #FFFFE7; border: 1px solid #0034A5; padding: 10px;   }
+.EmploymentApplication .RedErrorText { color: #AD0000; }
+.EmploymentApplication .TableBorder { border: 1px solid #B2B2B2;   }
+.EmploymentApplication .Bullet { list-style-type: disc;}
+.EmploymentApplication .BorderLeftBottom { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2 }
+.EmploymentApplication .BorderTopLeftBottomRight { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; border-top:1px solid #B2B2B2; border-right: 1px solid #B2B2B2 }
+.EmploymentApplication .BorderLeftRightBottom { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2 }
+.EmploymentApplication .BorderLeftRightTop { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-top:1px solid #B2B2B2 }
+
+.EmploymentApplication .BorderLeft { border-left:1px solid #B2B2B2;  }
+.EmploymentApplication .BorderLeftRight { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; }
+.EmploymentApplication #Layer2 {position:absolute; width: 200px; z-index:2;border-right: 1px solid #C3C3C3;border-left: 1px solid #C3C3C3;  background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible;}
+.EmploymentApplication .GrayBase {border: 1px solid #C3C3C3; background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible;  padding: .45em; padding/*\**/: 2em; /*IE8 hack */}
+.EmploymentApplication .GrayBorderBottom {border-top: 1px solid #C3C3C3; border-bottom: 1px solid #C3C3C3;}
+.EmploymentApplication .GrayBorderSides {border: 1px solid #C3C3C3;}
+.EmploymentApplication .QuestionColumnWidth {width: 30%;}
+
+
+.EmploymentApplication .EALightText { color: #707070; }
+.EmploymentApplication .EABoldText {font-weight: 600;}
+.EmploymentApplication .EAHeaderText {font-size:16px; margin-right: 3px;}
+.EmploymentApplication .EAItalicText {font-style: italic;}
+.EmploymentApplication .EAExpiringText {color: #880000; /*Brick Red*/}
+.EmploymentApplication .EAMarginPadding{margin:5px;padding:5px}
+.EmploymentApplication .EAFloatLeft{float:left;}
+.EmploymentApplication .EAMarginTopFive { margin-top: 5px; }
+
+.EmploymentApplication .EAApplication { padding: 10px;}
+.EmploymentApplication .EAApplicationApproved { background-color: #FBFFF5; border: 2px solid #47D147; padding: 10px;}
+
+/*GridView*/
+.EmploymentApplication .EAGridView {width:100%;border-collapse:collapse;}  
+.EmploymentApplication .EAGridView td {font-size:12px; border:1px solid #C6C6C6; padding: 3px 7px 2px 7px; background-color: #fff;}
+.EmploymentApplication .EAGridView th {font-size:12px; border:1px solid #C6C6C6; padding-top:3px; padding-bottom:2px; background-color:#D4D4D4; color:#464646;}  
+.EmploymentApplication .EAGridView th.EACentered {text-align:center;}
+.EmploymentApplication tr.alt td { background-color: #efefef;}  
+/*END GridView*/
+
+.EmploymentApplication .IndentMargin{margin-left: 15px;}
+
+.EmploymentApplication .EAPositionTitle { font-size: 14px; }

@@ -1,0 +1,409 @@
+﻿.DefaultScreenIntroTable
+{
+	background-color: #EFEFEF;	
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0; 
+	border: solid 2px #B2B2B2;
+	border-spacing: 0;	
+}
+
+.DefaultScreenIntroTableCell
+{
+	border-bottom: solid 2px #B2B2B2;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+.DefaultScreenIntroTableMiddleCell
+{
+	border-bottom: solid 2px #B2B2B2;
+	padding: 10px;
+	margin: 0;	
+}
+
+.DefaultScreenIntroTableBottomCell
+{
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+.MainScreenIntroTable
+{
+	background-color: #EFEFEF;	
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0; 
+	border: solid 2px #B2B2B2;
+	border-spacing: 0;	
+}
+
+.MainScreenIntroTableTopCell
+{
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+.MainScreenIntroTableLeftCell
+{
+	border-top: solid 2px #B2B2B2;
+	border-right: solid 1px #B2B2B2;
+	padding: 5px;
+	margin: 0;	
+}
+
+.MainScreenIntroTableRightCell
+{
+	border-top: solid 2px #B2B2B2;
+	border-left: solid 1px #B2B2B2;
+	padding: 10px;
+	margin: 0;	
+}
+
+.MainScreenManageCell
+{
+	background-color: #EFEFEF;	
+	border-top: solid 2px #B2B2B2;
+	border-bottom: solid 2px #B2B2B2;
+	border-left: solid 2px #B2B2B2;
+	padding: 8px;
+}
+
+.MainScreenAddTermCell
+{
+	background-color: #EFEFEF;	
+	border-top: solid 2px #B2B2B2;
+	border-bottom: solid 2px #B2B2B2;
+	padding: 8px;
+}
+
+.MainScreenAddDepartmentCell
+{
+	background-color: #EFEFEF;	
+	border-top: solid 2px #B2B2B2;
+	border-bottom: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;
+	padding: 8px;	
+}
+
+.MainScreenNoContent
+{
+	background-color: #EFEFEF;
+	border: solid 2px #B2B2B2;
+	padding: 10px;	
+}
+
+.ButtonTableSaveCell
+{
+	background-color: #D6E2FB;
+	text-align: center;
+	border: solid 2px #B2B2B2;	
+	padding: 20px;
+	width: 33%;
+}
+
+.ButtonTableAddAnotherCell
+{
+	background-color: #F5F5F5;
+	text-align: center;
+	border-top: solid 2px #B2B2B2;	
+	border-bottom: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;
+	padding: 20px;
+	width: 33%;
+}
+
+.ButtonTableCancelCell
+{
+	background-color: #F5F5F5;
+	border-top: solid 2px #B2B2B2;	
+	border-bottom: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;
+	padding: 20px;	
+}
+
+.AddCourseScreenTable
+{
+	background-color: #EFEFEF;
+	border: solid 2px #B2B2B2;
+	padding: 0px;
+	margin: 0px;
+}
+
+.AddCourseScreenMiddleTableCell
+{	text-align: right;
+	padding: 10px;	
+}
+
+.AddCourseScreenDepartmentPopupHeaderLeftCell
+{
+	font-weight: bold;
+	background-color: #E2E2E2;
+	border-top: solid 2px #B2B2B2;
+	border-left: solid 2px #B2B2B2;
+	border-bottom: solid 2px #B2B2B2;
+	padding: 5px;
+}
+
+.AddCourseScreenDepartmentPopupHeaderRightCell
+{
+	background-color: #E2E2E2;
+	border-top: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;
+	border-bottom: solid 2px #B2B2B2;
+	padding: 5px;
+	text-align: right;
+}
+
+.AddCourseScreenDepartmentPopupDepartmentCodeLeftCell
+{
+	background-color: #F2F2F2;
+	border-left: solid 2px #B2B2B2;
+	padding: 5px;
+}
+
+.AddCourseScreenDepartmentPopupDepartmentCodeRightCell
+{
+	background-color: #F2F2F2;
+	border-right: solid 2px #B2B2B2;
+	padding: 5px;
+}
+
+.AddCourseScreenDepartmentPopupDepartmentNameLeftCell
+{
+	background-color: #F2F2F2;
+	border-left: solid 2px #B2B2B2;
+	padding: 5px;
+}
+
+.AddCourseScreenDepartmentPopupDepartmentNameRightCell
+{
+	background-color: #F2F2F2;
+	border-right: solid 2px #B2B2B2;
+	padding: 5px;
+}
+
+.AddCourseScreenDepartmentPopupDepartmentButtonLeftCell
+{
+	background-color: #D6E2FB;
+	border: solid 2px #B2B2B2;
+	text-align: center;
+	padding: 5px;	
+}
+
+.AddCourseScreenDepartmentPopupDepartmentButtonRightCell
+{
+	background-color: #F5F5F5;
+	border-top: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;
+	border-bottom: solid 2px #B2B2B2;
+	padding: 5px;
+}
+
+.SelectCourseScreenCourseDivTableRow
+{
+	border: solid 1px #B2B2B2;	
+}
+
+.divSelectCourseCourseResult
+{
+	background-color: #EFEFEF;
+	padding: 5px 5px 5px 5px;
+}
+
+.MainScreenMenuPopup
+{	
+	background-color: #FFFDE7;
+	border: solid 2px #B2B2B2;	
+}
+
+.ViewCourseInfoTerm
+{
+	color: #003471;
+	font-weight: bold;
+}
+
+.ViewCourseInfoCourse
+{
+	font-weight: bold;
+}
+
+.MainViewDepartment
+{
+	color: #003471;
+	font-weight: bold;	
+}
+
+.MainViewCourseDisplay
+{
+	font-weight: bold;	
+}
+
+.MainViewDeptDivider
+{
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+}
+
+.AddEditSectionCourseInfo
+{
+	background-color: #F5F5F5;
+	border: solid 2px #B2B2B2;
+	padding: 10px 10px 10px 10px;
+	width: 100%;	
+}
+
+.AddEditSectionCourseCodeTitle
+{
+	font-weight: bold;
+}
+
+.AddEditSectionMeetingPopupHeaderLeftCell
+{
+	background-color: #E2E2E2;	
+	border-top: solid 2px #B2B2B2;	
+	border-bottom: solid 2px #B2B2B2;
+	border-left: solid 2px #B2B2B2;	
+	padding: 8px 8px 8px 8px;
+	font-weight: bold;
+}
+
+.AddEditSectionMeetingPopupHeaderRightCell
+{
+	background-color: #E2E2E2;	
+	border-top: solid 2px #B2B2B2;	
+	border-bottom: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;		
+	text-align: right;
+	padding: 8px 8px 8px 8px;
+}
+
+.AddEditSectionMeetingPopupDaysCell
+{
+	background-color: #F2F2F2;		
+	border-left: solid 2px #B2B2B2;
+	padding: 8px 8px 8px 8px;
+}
+
+.AddEditSectionMeetingPopupTimesCell
+{
+	background-color: #F2F2F2;		
+	border-right: solid 2px #B2B2B2;
+	padding: 8px 8px 8px 8px;
+}
+
+.AddEditSectionMeetingPopupLocationCell
+{
+	background-color: #F2F2F2;		
+	border-left: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;
+	padding: 8px 8px 8px 8px;
+}
+
+.AddEditSectionMeetingPopupSaveCell
+{
+	background-color: #D6E2FB;
+	text-align: center;
+	border: solid 2px #B2B2B2;	
+	padding: 8px 8px 8px 8px;
+}
+
+.AddEditSectionMeetingPopupCancelCell
+{
+	background-color: #F5F5F5;
+	border-top: solid 2px #B2B2B2;	
+	border-bottom: solid 2px #B2B2B2;
+	border-right: solid 2px #B2B2B2;
+	padding: 8px 8px 8px 8px;	
+}
+
+.SelectCourseCourseResults
+{
+}
+
+.SelectCourseCourseResultsSelected
+{
+	background-color: #003471;
+	padding: 8px;	
+}
+
+.SelectCourseCourseResultDiv
+{
+	background: #F5F5F5;
+	padding: 8px;	
+}
+
+.SelectCourseDivResultsInstructions
+{
+	font-style: italic;
+	font-size: smaller;
+	border: solid 1px #B2B2B2;
+}
+
+.LinkNoUnderline
+{
+	text-decoration: none;
+}
+
+.LinkNoUnderlineSelected
+{
+	color: #FFFFFF;
+}
+
+.BoldText
+{
+	font-weight: bold;
+}
+
+.ViewDepartmentIntroTableTopRowCell
+{
+	border-top: solid 1px #B2B2B2;
+	border-left: solid 1px #B2B2B2;
+	border-right: solid 1px #B2B2B2;
+	background-color: #EFEFEF;
+}
+
+.ViewDepartmentIntroTableBottomRowLeftCell
+{
+	border: solid 1px #B2B2B2;	
+	background-color: #EFEFEF;
+}
+
+.ViewDepartmentIntroTableBottomRowRightCell
+{
+	border-bottom: solid 1px #B2B2B2;
+	border-top: solid 1px #B2B2B2;
+	border-right: solid 1px #B2B2B2;
+	background-color: #EFEFEF;
+}
+
+.ViewDepartmentTerm
+{
+	color: #003471;	
+	font-weight: bold;	
+}
+
+.ViewDepartmentTermDivider
+{
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+}
+
+.ViewCourseInfoTermDivider
+{
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+}
+
+.LightColorText
+{
+	color: #666666;
+}
+
+.ItalicText
+{
+	font-style: italic;
+}

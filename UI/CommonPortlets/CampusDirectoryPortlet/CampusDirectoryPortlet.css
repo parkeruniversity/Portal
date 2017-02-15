@@ -1,0 +1,30 @@
+.CampusDirectory {}
+.CampusDirectory .Everyone { BACKGROUND: green; color:White; right: auto; }
+.CampusDirectory .GroupAccessItem { DISPLAY: block; FLOAT: left; MARGIN: 10px; WIDTH: 150px; height: 50px;}
+.CampusDirectory .clearer { CLEAR: left; LINE-HEIGHT: 0; HEIGHT: 1% }
+
+.CampusDirectory .blockCanView { margin-left: 20px; }
+.CampusDirectory .canViewTxt { float: left; margin-right: 6px; }
+.CampusDirectory .blockCanViewRadioButtons { float:left; }
+.CampusDirectory .clearSpacer { clear: both; height: 15px; }
+
+.CampusDirectory .containerRolesColumns { margin-left: 130px; }
+.CampusDirectory .listTitle { float: left; width: 130px; text-align: right; margin-right: 6px; }
+.CampusDirectory .listContainer { float: left; }
+.CampusDirectory .checkboxItem { margin: 0px 30px 3px 0px }
+.CampusDirectory .hrDiv 
+{
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	width: 750px;
+	width: 100%;
+	border-color: #000000;
+	height: 1px;
+}
+* > .CampusDirectory .hrDiv 
+{
+	margin-bottom: 20px;
+}

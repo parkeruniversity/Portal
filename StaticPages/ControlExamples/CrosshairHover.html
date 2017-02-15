@@ -1,0 +1,244 @@
+<html>
+<head>
+	<title>CrosshairHover plugin examples</title>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../Portlets/LMS/Common/Scripts/CrosshairHover.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#simple').crosshairHover();
+
+			$('#complex').crosshairHover();
+
+			$('#withHoverableCells').crosshairHover({
+				hoverSelector: '.hoverable'
+			});
+
+			$('#withHoverableElements').crosshairHover({
+				hoverSelector: 'button'
+			});
+
+			$('#someElementsShowCrosshair').crosshairHover({
+				crosshairSelector: '.withCrosshair'
+			});
+
+			$('#headersAndFootersOnly').crosshairHover({
+				crosshairSelector: 'tbody th, thead th, tfoot td:not(:first-child)',
+				crosshairRowSelector: 'tbody th',
+				crosshairColumnSelector: 'thead th, tfoot td:not(:first-child)'
+			});
+
+			$('#specialHover').crosshairHover({
+				crosshairClass: 'importantHover'
+			});
+
+			/* column header - highlight only the data in the column and footer, without the header */
+			$('#multiHover').crosshairHover({
+				hoverSelector: 'thead th',
+				crosshairSelector: 'tbody td, tfoot td'
+			});
+			/* row header - highlight the entire row, but don't do the "cross" column banding */
+			$('#multiHover').crosshairHover({
+				hoverSelector: 'tbody th',
+				crosshairColumnSelector: ' ' /* space means: never highlight the column elements */
+			});
+			/* body - highlight the header and footer cells only, and don't highlight the hovered-over cell */
+			$('#multiHover').crosshairHover({
+				hoverSelector: 'tbody td',
+				crosshairSelector: ' ', /* space means: never highlight the rolled-over element */
+				crosshairRowSelector: 'th',
+				crosshairColumnSelector: 'th, tfoot td'
+			});
+			/* footer - highlight the data part of the footer, and the column, using a special class */
+			$('#multiHover').crosshairHover({
+				hoverSelector: 'tfoot td:not(:first-child)',
+				crosshairClass: 'importantHover'
+			});
+
+		});
+	</script>
+	<style>
+		p { font-style: italic; }
+		code { background-color: lightGray; margin: 20px; display: block; white-space: pre }
+		hr { margin-top: 20px; margin-bottom: 20px; }
+		table, td, th { border: solid 1px black; cursor: default; }
+		td { padding: 10px; }
+		.crosshairHover { background-color: lightGray; }
+		.crosshairHover:hover { background-color: darkGray; color: white; }
+		.importantHover { background-color: red; }
+	</style>
+</head>
+<body>
+	<h1>CrosshairHover plugin examples</h1>
+
+	<code>
+	&lt;style&gt;
+		.crosshairHover { background-color: lightGray; }
+		.crosshairHover:hover { background-color: darkGray; color: white; }
+		.importantHover { background-color: red; }
+	&lt;/style&gt;
+	</code>
+
+	<hr />
+
+	<h3>Simplest setup</h3>
+	<code>
+	$('#simple').crosshairHover();
+	</code>
+	<table id="simple">
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+	<table>
+
+	<hr />
+
+	<h3>More complex table definition (includes thead, tbody, and tfoot)</h3>
+	<code>
+	$('#complex').crosshairHover();
+	</code>
+	<table id="complex">
+		<thead>
+			<tr><td></td><th>header 1</th><th>header 2</th><th>header 3</th></tr>
+		</thead>
+		<tbody>
+			<tr><th>row 1</th><td>some text</td><td>some text</td><td>some text</td></tr>
+			<tr><th>row 2</th><td>some text</td><td>some text</td><td>some text</td></tr>
+			<tr><th>row 3</th><td>some text</td><td>some text</td><td>some text</td></tr>
+		</tbody>
+		<tfoot>
+			<tr><td>TOTALS</td><td>total 1</td><td>total 2</td><td>total 3</td></tr>
+		</tfoot>
+	<table>
+
+	<hr />
+
+	<h3>Only certain cells hoverable</h3>
+	<code>
+	$('#withHoverableCells').crosshairHover({
+		hoverSelector: '.hoverable'
+	});
+	</code>
+	<table id="withHoverableCells">
+		<tr><td class="hoverable">HOVER HERE</td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td class="hoverable">HOVER HERE</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td class="hoverable">HOVER HERE</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td class="hoverable">HOVER HERE</td></tr>
+	<table>
+
+	<hr />
+
+	<h3>Only certain elements hoverable</h3>
+	<code>
+	$('#withHoverableElements').crosshairHover({
+		hoverSelector: 'button'
+	});
+	</code>
+	<table id="withHoverableElements">
+		<tr><td><button>HOVER HERE</button><p>but not here</p></td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td><button>HOVER HERE</button><p>but not here</p></td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td><button>HOVER HERE</button><p>but not here</p></td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td><button>HOVER HERE</button><p>but not here</p></td></tr>
+	<table>
+
+	<hr />
+
+	<h3>Only certain elements show the crosshair</h3>
+	<code>
+	$('#someElementsShowCrosshair').crosshairHover({
+		crosshairSelector: '.withCrosshair'
+	});
+	</code>
+	<table id="someElementsShowCrosshair">
+		<tr><td>no crosshair here</td><td>no crosshair here</td><td>no crosshair here</td><td>no crosshair here</td></tr>
+		<tr><td>no crosshair here</td><td class="withCrosshair">WITH crosshair</td><td class="withCrosshair">WITH crosshair</td><td class="withCrosshair">WITH crosshair</td></tr>
+		<tr><td>no crosshair here</td><td class="withCrosshair">WITH crosshair</td><td class="withCrosshair">WITH crosshair</td><td class="withCrosshair">WITH crosshair</td></tr>
+		<tr><td>no crosshair here</td><td class="withCrosshair">WITH crosshair</td><td class="withCrosshair">WITH crosshair</td><td class="withCrosshair">WITH crosshair</td></tr>
+	<table>
+
+	<hr />
+
+	<h3>Filtering the crosshair separately by row and column</h3>
+
+	<p>Note that when both the rowSelector and columnSelector have values, the crosshairSelector will <em>only</em> affect the currently rolled-over cell.</p>
+
+	<code>
+	$('#headersAndFootersOnly').crosshairHover({
+		crosshairSelector: 'tbody th, thead th, tfoot td:not(:first-child)',
+		crosshairRowSelector: 'tbody th',
+		crosshairColumnSelector: 'thead th, tfoot td:not(:first-child)'
+	});
+	</code>
+	<table id="headersAndFootersOnly">
+		<thead>
+			<tr><td></td><th>header 1</th><th>header 2</th><th>header 3</th></tr>
+		</thead>
+		<tbody>
+			<tr><th>row 1</th><td>some text</td><td>some text</td><td>some text</td></tr>
+			<tr><th>row 2</th><td>some text</td><td>some text</td><td>some text</td></tr>
+			<tr><th>row 3</th><td>some text</td><td>some text</td><td>some text</td></tr>
+		</tbody>
+		<tfoot>
+			<tr><td>TOTALS</td><td>total 1</td><td>total 2</td><td>total 3</td></tr>
+		</tfoot>
+	<table>
+
+	<hr />
+
+	<h3>Special hover class</h3>
+	<code>
+	$('#specialHover').crosshairHover({
+		crosshairClass: 'importantHover'
+	});
+	</code>
+	<table id="specialHover">
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+		<tr><td>some text</td><td>some text</td><td>some text</td><td>some text</td></tr>
+	<table>
+
+	<hr />
+
+	<h3>Mix and match Crosshair Hovers</h3>
+	<code>
+	/* column header - highlight only the data in the column and footer, without the header */
+	$('#multiHover').crosshairHover({
+		hoverSelector: 'thead th',
+		crosshairSelector: 'tbody td, tfoot td'
+	});
+	/* row header - highlight the entire row, but don't do the "cross" column banding */
+	$('#multiHover').crosshairHover({
+		hoverSelector: 'tbody th',
+		crosshairColumnSelector: ' ' /* space means: never highlight the column elements */
+	});
+	/* body - highlight the header and footer cells only, and don't highlight the hovered-over cell */
+	$('#multiHover').crosshairHover({
+		hoverSelector: 'tbody td',
+		crosshairSelector: ' ', /* space means: never highlight the rolled-over element */
+		crosshairRowSelector: 'th',
+		crosshairColumnSelector: 'th, tfoot td'
+	});
+	/* footer - highlight the data part of the footer, and the column, using a special class */
+	$('#multiHover').crosshairHover({
+		hoverSelector: 'tfoot td:not(:first-child)',
+		crosshairClass: 'importantHover'
+	});
+	</code>
+	<table id="multiHover">
+		<thead>
+			<tr><td></td><th>header 1</th><th>header 2</th><th>header 3</th></tr>
+		</thead>
+		<tbody>
+			<tr><th>row 1</th><td>some text</td><td>some text</td><td>some text</td></tr>
+			<tr><th>row 2</th><td>some text</td><td>some text</td><td>some text</td></tr>
+			<tr><th>row 3</th><td>some text</td><td>some text</td><td>some text</td></tr>
+		</tbody>
+		<tfoot>
+			<tr><td>TOTALS</td><td>total 1</td><td>total 2</td><td>total 3</td></tr>
+		</tfoot>
+	<table>
+
+	<hr />
+</body>
+</html>

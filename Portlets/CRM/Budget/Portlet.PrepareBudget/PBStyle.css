@@ -1,0 +1,1167 @@
+﻿/*GridView*/
+.PrepareBudget .PBGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.PrepareBudget .PBGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color: #fff;
+}
+
+.PrepareBudget .PBGridView th, .PBGridViewHeader th  
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color:#D4D4D4;
+    color:#464646;    
+}  
+
+.PrepareBudget .PBGridViewHeader a 
+{ 
+    color:#464646;    
+    margin-right: 5px;
+}
+
+.PrepareBudget .PBGridView th.PBCentered  
+{ 
+    text-align:center;
+}
+
+.PrepareBudget tr.alt td    
+{
+    background-color: #efefef;   
+}  
+
+.PrepareBudget tr.selected td    
+{
+    background-color: #fff899;   
+}  
+
+/*END GridView*/
+
+.PrepareBudget td.WidthFill
+{
+    width: *;
+}
+
+/*PBHoverGridView*/
+.PrepareBudget .PBHoverGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.PrepareBudget .PBHoverGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    border-bottom: 0;
+    padding: 3px 7px 2px 7px;
+}
+
+.PrepareBudget .PBHoverGridView tr:last-child td 
+{ 
+    border-bottom: 1px solid #C6C6C6; 
+}
+
+.PrepareBudget .PBHoverGridView tr:hover td 
+{  
+    border-top-color: #336633;
+    border-bottom: 1px solid #005e20;
+    background-color:#effee1;
+}
+
+.PrepareBudget .PBHoverGridView tr:hover td:first-child 
+{ 
+    border-left-color: #005e20; 
+}
+
+.PrepareBudget .PBHoverGridView tr:hover td:last-child  
+{ 
+    border-right-color: #005e20; 
+}
+
+.PrepareBudget .PBHoverGridView .PBImageHover
+{
+    visibility: hidden;
+}
+
+.PrepareBudget .PBHoverGridView tr:hover .PBImageHover
+{
+    visibility: visible;
+}
+/*END PBHoverGridView*/
+
+/*PBOutlineGridView*/
+.PrepareBudget .PBOutlineGridView {   
+    width:auto;
+    border-collapse:collapse;
+}  
+.PrepareBudget .PBOutlineGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+}
+
+.PrepareBudget .PBOutlineGridView th 
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+}  
+
+/*END PBOutlineGridView*/
+.PrepareBudget .PBOutlineGridView tr.PBBlueRowHighlight td
+{
+    border-bottom: 1px solid #003663;
+    background: #d6e2fb;
+}
+
+.PrepareBudget .PBOutlineGridView tr.PBHighlightRowBelow td
+{
+    border-bottom: 1px solid #003663;    
+}
+
+.PrepareBudget .PBOutlineGridBackground
+{
+    background-color: #EFEFEF;
+}
+
+/*PBAvailableGridView*/
+.PrepareBudget .PBAvailableGridView {   
+    width:auto;
+    border-collapse:collapse;
+}  
+.PrepareBudget .PBAvailableGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    background: #effee1;
+    padding: 3px 7px 2px 7px;
+}
+
+.PrepareBudget .PBAvailableGridView th 
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+}  
+/*END PBAvailableGridView*/
+
+/*PBOverSpentGridView*/
+.PrepareBudget .PBOverSpentGridView {   
+    width:auto;
+    border-collapse:collapse;
+}  
+.PrepareBudget .PBOverSpentGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    background: #ffffe4;
+    padding: 3px 7px 2px 7px;
+}
+
+.PrepareBudget .PBOverSpentGridView th 
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+}  
+/*END PBOverSpentGridView*/
+
+/*PBOverBudgetGridView*/
+.PrepareBudget .PBOverBudgetGridView {   
+    width:auto;
+    border-collapse:collapse;
+}  
+.PrepareBudget .PBOverBudgetGridView td    
+{
+    font-size:12px;
+    border-top:1px solid #790000;
+    border-bottom:1px solid #790000;
+    border-right:1px solid #790000;
+    background: #ffffe4;
+    padding: 3px 7px 2px 7px;
+}
+
+.PrepareBudget .PBOverBudgetGridView td:last-child  
+{ 
+    border-right-color: #C6C6C6; 
+}
+
+.PrepareBudget .PBOverBudgetGridView th 
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+}  
+/*END PBOverBudgetGridView*/
+
+/*Main - Your current worksheets*/
+.PrepareBudget .PBGridView td.SubmitWorksheet  {   
+     background-color: #e6eefe;
+}
+
+.PrepareBudget .PBGridView td.ApproveDenyWorksheet {   
+     background-color: #f2ffde;
+}
+
+.PrepareBudget .PBGridView td.ViewPrepareWorksheet {   
+     background-color: #efefef;
+}
+/*END Main - Your current worksheets*/
+
+/*Main - Pending and complete worksheets*/
+.PrepareBudget .PBGridView td.Waiting {   
+     font-style: italic;
+}
+/*END Main - Pending and complete worksheets*/
+
+/*WorksheetDetail - Header*/
+.PrepareBudget a.PBHeaderLink:link 
+{
+    color: #000;
+}
+.PrepareBudget a.PBHeaderLink:visited 
+{
+    color: #000;
+}   
+.PrepareBudget a.PBHeaderLink:hover 
+{
+    color: #000;
+}
+.PrepareBudget a.PBHeaderLink:active 
+{
+    color: #000;
+}
+/*WorksheetDetail - Header*/
+
+
+/*Default - Main Link*/
+
+.PrepareBudget a.PBHeaderLinkDefault 
+{
+    font-size: 14px;
+    position: relative;
+    left: 20px;
+}
+
+
+.PrepareBudget a.PBHeaderLinkDefault:link 
+{
+    color: #000;
+}
+.PrepareBudget a.PBHeaderLinkDefault:visited 
+{
+    color: #000;
+}   
+.PrepareBudget a.PBHeaderLinkDefault:hover 
+{
+    color: #000;
+}
+.PrepareBudget a.PBHeaderLinkDefault:active 
+{
+    color: #000;
+}
+/*WorksheetDetail - Header*/
+
+
+
+/*WorksheetDetail - Worksheet*/
+.PrepareBudget .PBGridView td.evenApproved
+{
+    background-color: #dceac6;  
+}  
+.PrepareBudget .PBGridView td.oddApproved    
+{
+    background-color: #f2ffde;    
+} 
+.PrepareBudget .PBGridView td.selectedApproved
+{
+    background-color: #fff899;  
+}  
+.PrepareBudget .PBGridView td.selectedApproved
+{
+    background-color: #fff899;  
+}
+.PrepareBudget .PBGridView td.oddApproved    
+{
+    background-color: #f2ffde;    
+} 
+.PrepareBudget .PBGridView td.evenSubmitted
+{   
+    background-color: #d0d9eb;   
+}  
+.PrepareBudget .PBGridView td.oddSubmitted    
+{
+    background-color: #e6eefe;
+} 
+.PrepareBudget .PBGridView td.even
+{
+    background-color: #efefef;   
+}  
+.PrepareBudget .PBGridView td.odd  
+{
+    background-color: #fff;   
+}  
+/*WorksheetDetail - Worksheet*/
+
+.PrepareBudget div.PBTopStretch
+{
+    clear:both;
+    display: block;
+    position:relative;
+    left:0px;
+}
+
+.PrepareBudget .PBBackToMain{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+    width: 100%;
+}
+
+.PrepareBudget .PBGreyBox{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+
+/*WorksheetDetail - Component Worksheets*/
+/*Submitted*/
+.PrepareBudget td.S {   
+     background-color: #e6eefe;
+     border-bottom: 1px solid #c2c2c2;     
+     padding: 3px 7px 2px 7px;
+     margin: 0px;
+}
+/*Approved*/
+.PrepareBudget td.P {   
+     background-color: #f2ffde;
+     border-bottom: 1px solid #c2c2c2;     
+     padding: 3px 7px 2px 7px;
+     margin: 0px;     
+}
+/*Active*/
+.PrepareBudget td.A {   
+     background-color: #efefef;
+     padding: 3px 7px 2px 7px;
+     margin: 0px;     
+}
+/*Draft*/
+.PrepareBudget td.D {   
+     background-color: #efefef;
+     padding: 3px 7px 2px 7px;
+     margin: 0px;     
+}
+
+.PrepareBudget div.PBGraySolidBorder { 
+     border: 1px solid #c2c2c2;   
+     padding:0px;
+     margin:0px;     
+}
+
+.PrepareBudget table.PBLayoutTable { 
+    width:100%;
+    border-collapse:collapse;     
+     padding:0px;
+     margin:0px;
+}
+
+/*END WorksheetDetail - Component Worksheets*/
+
+/*WorksheetDetail - Summary*/
+
+.PrepareBudget .PBNoMarginPadding { 
+     padding:0px;
+     margin:0px;
+     border-collapse: collapse;     
+}
+
+.PrepareBudget div.BudgetAmountSummary   
+{
+    border-style: solid;
+    border-width: 1px;  
+    padding: 5px;   
+    margin: 0px;
+    height: 100%;
+}
+
+.PrepareBudget div.ApproverSummary   
+{
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    padding: 5px 5px 5px 25px;   
+    margin: 0px;
+    float: left; 
+    height: 33px;
+}
+
+.PrepareBudget div.Approved {   
+     background-color: #f2ffde;
+     border-color: #008700;  
+}
+
+.PrepareBudget div.Submitted {   
+     background-color: #e6eefe;
+     border-color: #484848;
+}
+
+.PrepareBudget div.PBActiveHighlight {   
+     background-color: #fff899;
+     border-color: #484848;     
+}
+
+.PrepareBudget div.PBActiveBudget { 
+     background-color: #fff;
+     border-color: #484848;  
+}
+
+.PrepareBudget ul.PBUsersList 
+{
+    max-height: 400px;
+    overflow: auto;
+}
+/*END WorksheetDetail - Summary*/
+
+/*WorksheetDetail - Preparer to Approver arrow */
+
+.PrepareBudget div.preparerWedgeSubmitted {   
+    border-color: transparent transparent transparent #e6eefe;
+}
+
+.PrepareBudget div.preparerWedgePBActiveHighlight {  
+    border-color: transparent transparent transparent #fff899;
+}
+
+.PrepareBudget .preparerWedgePBActiveBudget { 
+    border-color: transparent transparent transparent #fff;
+}
+
+.PrepareBudget div.preparerWedge{
+    border-style: solid;
+    border-width: 22px;
+    height:0;
+    width:0;
+    position:absolute;
+    right:-43px;
+    top:-1px;
+}
+
+.PrepareBudget div.preparerWedgeOutline{
+    border-color: transparent transparent transparent #484848;
+    border-style: solid;
+    border-width: 22px;
+    margin: 0px;
+    height:0;
+    width:0;
+    position:absolute;
+    right:-46px;
+    top:-1px;
+}
+
+.PrepareBudget div.preparerOutline
+{
+    clear:both;
+    border-color: #484848;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+	padding: 5px 10px 5px 5px;
+	margin: 0px;
+    display: block;
+    position: relative;
+    height: 33px;
+}
+/*WorksheetDetail - Preparer to Approver arrow */
+
+.PrepareBudget .PBHide { 
+     display: none;
+}
+
+/*Text Styles*/
+/*Font-weight: 400 is the same as normal, and 700 is the same as bold*/
+
+.PrepareBudget .PBInformativeText 
+{
+    color:#707070;
+    font-size:12px;
+    margin-right: 3px;
+}
+
+.PrepareBudget .PBInformativeRedText 
+{
+    font-size:12px;
+    color: #953630;
+}
+
+.PrepareBudget .PBInformativeHeaderText 
+{
+    color:#707070;
+    font-size:14px;
+    margin-right: 3px;
+}
+
+.PrepareBudget .PBInformativeGridText 
+{
+    color:#464646;
+    font-size:12px;
+    margin-right: 3px;
+}
+
+.PrepareBudget .PBLabelText 
+{
+    color:#000;
+    font-size:12px;
+    margin-right: 3px;
+}
+
+.PrepareBudget .PBErrorText 
+{
+    color:red;
+    font-size:12px;
+}
+
+.PrepareBudget .PBBoldText 
+{
+    font-weight: 600;
+}
+
+.PrepareBudget .PBItalicText 
+{
+    font-style: italic;
+}
+
+.PrepareBudget .PBAvailableText 
+{
+    color: #003663;
+}
+
+.PrepareBudget .PBHeaderText 
+{
+    font-size:14px;    
+    margin-right: 3px;
+}
+
+.PrepareBudget .PBHeader1Text 
+{
+    font-size:16px;    
+    margin-right: 3px;
+}
+
+
+.PrepareBudget .PBHeader2Text 
+{
+    font-size:14px;    
+    margin-right: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+/*END Text Styles*/
+
+.PrepareBudget .PBCentered  
+{ 
+    text-align:center;
+}
+
+.PBRight 
+{ 
+    text-align:right;       
+}
+
+.PrepareBudget .PBVerticalAlignTop
+{      
+    vertical-align: top;
+}
+
+.PrepareBudget .PBVerticalAlignCenter
+{
+    vertical-align:middle;
+}
+
+.PrepareBudget .PBFloatLeft 
+{      
+    float: left;
+}
+
+.PrepareBudget .PBFloatRight
+{      
+    float: right;
+}
+
+.PrepareBudget .PBFloatNone
+{      
+    float: none;
+}
+
+.PrepareBudget .PBClearRight
+{      
+    clear:right;
+}
+
+.PrepareBudget .PBClearLeft
+{      
+    clear:left;
+}
+
+.PrepareBudget div.PBSection   
+{
+    float:left;
+    margin: 10px;
+}
+
+/*Monitor Worksheet Detail*/
+.PrepareBudget .PBOverText
+{
+    color: #790000; /*Brick Red*/    
+}
+
+.PrepareBudget .PBOverSpentArea
+{
+    border:1px solid #790000; /*Brick Red*/ 
+    background-color: #EFEFEF;
+}
+
+.PrepareBudget .PBOverBudgetArea
+{
+    border:1px solid #790000; /*Brick Red*/ 
+    background-color: #ffffe4;
+}
+
+.PrepareBudget .PBPendingAdjustment{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+    width:auto;
+    margin-left:10px; 
+    margin-right:10px;      
+    padding:5px;
+}
+
+.PrepareBudget .PBDenyArea
+{
+    background-color: #ffffe4;
+}
+
+.PrepareBudget .PBApproveArea
+{
+    background-color: #effee1;
+}
+
+.PrepareBudget a.PBOverLink:link 
+{
+    color: #880000; /*Brick Red*/   
+}
+.PrepareBudget a.PBOverLink:visited 
+{
+    color: #880000; /*Brick Red*/   
+}   
+.PrepareBudget a.PBOverLink:hover 
+{
+    color: #880000; /*Brick Red*/   
+}
+.PrepareBudget a.PBOverLink:active 
+{
+    color: #880000; /*Brick Red*/   
+}
+
+.PrepareBudget .PBStretchWidth
+{
+    width:100%;
+}
+/*END Monitor Worksheet Detail*/
+
+/*Monitor Worksheet - Line Item Detail*/
+.PrepareBudget .PBAdjustmentLinkBox
+{
+    border:1px solid #003663;
+    background: #EFEFEF;
+    padding: 5px;
+}
+/*Transfer*/
+
+.PrepareBudget div.PBBoxArea   
+{
+    border-style: solid;
+    border-width: 1px;  
+    padding: 5px;   
+    margin: 0px;
+}
+
+.PrepareBudget div.PBBottomAreaBox   
+{
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    padding: 5px;   
+    margin: 0px;
+}
+
+.PrepareBudget div.PBBlue {   
+    background-color: #e6eefe;
+    border-color: #484848;
+}
+
+.PrepareBudget div.PBGreen {   
+    background-color: #f2ffde;
+    border-color: #008700;  
+}
+
+.PrepareBudget .PBBlueBar {   
+    background-color: #0076a3;
+    width: 15px;
+}
+
+.PrepareBudget .PBGreyBar {   
+    background-color: #EFEFEF;
+    width: 15px;
+}
+
+.PrepareBudget td.PBGreyBackgroundCell {   
+    background-color: #EFEFEF;
+    border:1px solid #C6C6C6;    
+}
+
+.PrepareBudget .PBBlueBorder    
+{
+    border: 1px solid #0076a3;
+}
+
+.PrepareBudget .PBDarkBlueBar {   
+    background-color: #003663;
+    width: 15px;
+}
+
+.PrepareBudget .PBDarkBlueBorder    
+{
+    border: 1px solid #003663;
+}
+
+.PrepareBudget td.PBAvailableNowBox
+{
+    border: 1px solid #003663;
+    background: #EFEFEF;
+}
+
+.PrepareBudget .PBBlueButtonBox
+{
+    border: 1px solid #003663;
+    background: #d6e2fb;
+    padding: 5px;
+    width: 115px;
+}
+
+.PrepareBudget .PBGreyButtonBox
+{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+
+
+/*END Transfer*/
+
+/*Worksheet Detail - Your Action*/
+.PrepareBudget .PBActionSubArea {   
+    text-align: center;
+    background-color: #f2ffde;
+    padding: 5px 6px 8px 6px;    
+    margin: 0px 2px 0px 2px;
+    border-style: solid;
+    border-color: #484848;
+    border-top-width: 6px;
+    border-left-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+} 
+
+.PrepareBudget div.PBActiveHighlightBorder {   
+     background-color: #fff899;
+     border: 1px solid #484848; 
+     padding: 5px; 
+     margin:0px;       
+}
+
+.PrepareBudget .PBSplitWidth {   
+    width: 50%;   
+}
+
+.PrepareBudget .PBStretchWidth {   
+    width: 100%;   
+}
+
+.PrepareBudget .PBInPBActiveSolidBorder {   
+    width: 100%;   
+    margin: 4px;  
+    border: 1px solid #484848;
+} 
+
+.PrepareBudget .PBActiveSolidBorder {   
+    width: 100%;   
+    margin: 4px;  
+    border: 1px solid #484848;
+    background-color: #fff899;
+}
+/*END Worksheet Detail - Your Action*/
+
+/*Worksheet Detail - Line Item Detail*/
+.PrepareBudget .PBMarginPadding{
+    margin:5px;
+    padding:5px
+}
+
+.PrepareBudget .PBPadding5{
+    padding:5px
+}
+
+.PrepareBudget .PBPaddingTop10{
+    padding-top:10px
+}
+
+.PrepareBudget .PBPadding{
+    padding:10px
+}
+
+.PrepareBudget .PBPaddingBottom{
+    padding-bottom:15px
+}
+
+.PrepareBudget .PBSectionMarginBottom{
+    margin-bottom:15px;
+}
+
+.PrepareBudget .PBMarginBottom{
+    margin-bottom:5px;
+}
+
+.PrepareBudget .PBMarginTop{
+    margin-top:5px;
+}
+
+.PrepareBudget .PBMarginTop10{
+    margin-top:10px;
+}
+
+.PrepareBudget .PBMarginRight{
+    margin-right:5px;
+}
+
+.PrepareBudget .PBMarginLeft{
+    margin-left:10px;
+}
+    
+/*END Worksheet Detail - Line Item Detail*/
+
+/*Worksheet Detail - Drill Down*/
+.PrepareBudget .PBFixedTableWidth
+{
+    width: 750px;   
+    margin: 0px;
+}
+
+.PrepareBudget .PBColumnWidth1
+{
+    width: 79px;    
+}
+
+.PrepareBudget .PBColumnWidth2
+{
+    width: auto;    
+}
+
+.PrepareBudget .PBColumnWidth3
+{
+    width: 100px;    
+}
+
+.PrepareBudget .PBColumnWidth4
+{
+    width: 125px;    
+}
+
+.PrepareBudget .PBColumnWidth4Hidden
+{
+    display: none;  
+}
+
+.PrepareBudget .PBColumnWidth5
+{
+    width: 125px;    
+}
+
+.PrepareBudget .PBColumnWidth5Hidden
+{
+    display: none;  
+}
+
+.PrepareBudget .PBColumnWidth6
+{
+    width: 125px;    
+}
+
+.PrepareBudget .PBColumnWidthSpan5
+{
+    width: auto;    
+}
+
+.PrepareBudget .PBColumnWidthSpan6
+{
+    width: 100%;    
+}
+
+.PrepareBudget div.PBTransactions{
+    width: 768px;
+    overflow: auto;
+    max-height: 400px;
+}
+/*END Worksheet Detail - Drill Down*/
+    
+/*MonitorWorksheetDetail - Links*/
+.PrepareBudget a.PBHoverLink:link 
+{
+    color: #000;
+    text-decoration:none;
+}
+.PrepareBudget a.PBHoverLink:visited 
+{
+    color: #000;
+    text-decoration:none;
+}   
+.PrepareBudget a.PBHoverLink:hover 
+{
+    color: #000;
+    text-decoration:underline;
+}
+.PrepareBudget a.PBHoverLink:active 
+{
+    color: #000;
+    text-decoration:underline;    
+}
+/*END MonitorWorksheetDetail - Links*/
+
+/*Adjustment Search*/
+.PrepareBudget .PBNoAvailableNow td    
+{
+    background: #ffffe4;
+}
+/*END - Adjustment Search*/
+
+/*Modal*/
+.PrepareBudget .PBModalPopup
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.PrepareBudget .PBModalDiv{
+    background-color:#FFF;
+    padding:3px;
+    border:1px solid black;
+    width:auto;
+}
+.PrepareBudget .PBModalHeadingImg{
+    float:right;
+    margin-left:10px;
+    padding:0px;
+}
+.PrepareBudget .PBModalHeading{
+    padding:3px;
+    background-color:#E2E2E2;
+    float:none;
+}
+.PrepareBudget .PBInnerModal{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+.PrepareBudget .PBModalButtons{
+    margin:5px;
+    padding:5px;
+}
+
+.PrepareBudget .PBLineItemDetailWidthHeight{
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.PrepareBudget .PBFeedbackWidthHeight{
+    max-width: 700px;
+    max-height: 800px;
+}
+
+.PrepareBudget .PBModelMinMaxWidthHeight{
+    min-width: 300px;
+    max-width: 700px;
+    max-height: 800px;
+}
+/*END Modal*/
+
+/*Feedback*/
+.PrepareBudget div.feedbackDisplayList{
+    margin-bottom: 10px;
+    padding: 0 70px 0 70px;
+    width: 500px;
+    overflow: auto;
+    max-height: 400px;
+}
+.PrepareBudget div.feedbackDisplayList div.feedbackDisplay{
+    position: inherit;
+}
+.PrepareBudget div.feedbackDisplay{
+    clear:both;
+	border:1px solid #578FC9;
+	padding:2px 10px 2px 10px;
+	margin:5px 10px 10px 10px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.PrepareBudget div.feedbackDisplay div.feedbackContainer{
+    display: inline;
+}
+
+.PrepareBudget div.feedbackDisplayEmpty{
+    border-color: #AAAAAA;
+    font-style:italic;
+    color:#888888;
+}
+.PrepareBudget div.feedbackDisplay div.feedbackWedge, div.feedbackDisplay div.choiceWedge{
+    float:left;
+    margin-top: 4px;
+    margin-left: -15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 5px solid #ffffff; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: relative;
+    z-index: 3;
+}
+.PrepareBudget div.feedbackDisplay div.feedbackWedgeOutline, div.feedbackDisplay div.choiceWedgeOutline{
+    float:left;
+    margin-top: 3px;
+    margin-left: -16px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 6px solid #578FC9; 
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+.PrepareBudget div.feedbackDisplayEmpty div.feedbackWedgeOutline
+{
+    border-right-color: #AAAAAA;
+}
+.PrepareBudget div.feedbackDisplay div.commentWedge{
+    float:right;
+    margin-top: 4px;
+    margin-right: -15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid #ffffff; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: relative;
+    z-index: 3;
+}
+.PrepareBudget div.feedbackDisplay div.commentWedgeOutline{
+    float:right;
+    margin-top: 3px;
+    margin-right: -16px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid #578FC9; 
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+.PrepareBudget div.feedbackDisplay div.reviewWedge{
+    margin-left: 7px;
+    margin-bottom: -5px;
+    display: block;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 5px solid #ffffff; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    z-index: 3
+}
+.PrepareBudget div.feedbackDisplay div.reviewWedgeOutline{
+
+    margin-left: 6px;
+    margin-bottom: -6px;
+    display: block;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 6px solid #578FC9; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    z-index: 2;
+}
+.PrepareBudget div.feedbackEntry{
+	padding:8px 0px 8px 0px;
+}
+.PrepareBudget img.feedbackImage{
+    border:1px solid #578FC9;
+    float: left;
+    max-width: 50px;
+    margin-left: -80px;
+    margin-top: -3px;
+
+}
+.PrepareBudget div.feedbackDisplay .author{
+	color:#888888;
+}
+.PrepareBudget div.feedbackDisplay div.wysiwygtext{
+	margin-bottom:2px;
+}
+/*END Feedback*/
+
+/*Modal*/
+.PrepareBudget .BUModalPopup
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.PrepareBudget .BUModalDiv{
+    background-color:#FFF;
+    padding:3px;
+    border:1px solid black;
+    width:auto;
+}
+.PrepareBudget .BUModalHeadingImg{
+    float:right;
+    margin-left:10px;
+    padding:0px;
+}
+.PrepareBudget .BUModalHeading{
+    padding:3px;
+    background-color:#E2E2E2;
+    float:none;
+}
+.PrepareBudget .BUInnerModal{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+.PrepareBudget .BUModalButtons{
+    margin:5px;
+    padding:5px;
+}
+
+.PrepareBudget .BUMessageWidthHeight{
+    max-width: 600px;
+    max-height: 800px;
+    min-width: 300px;
+}
+/*END Modal*/

@@ -1,0 +1,87 @@
+# START - [CRM] ConstituentSearch
+dn: CN=[CRM] ConstituentSearchPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: I7r8u/AorUu8OTD9SIelvQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Constituent Search
+jenzabar-ICSNET-PortletPath:
+ Portlet.ConstituentSearch,Jenzabar.CRM.Constituent.Web.Portlets.ConstituentSearchPortlet.ConstituentSearchPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] ConstituentSearchPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] ConstituentSearch
+
+# START - [CRM] ContributionHistoryPortlet
+dn: CN=[CRM] ContributionHistoryPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: oYaEIAnLkUqcSVleGTLXZw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Contribution History
+jenzabar-ICSNET-PortletPath:
+ Portlet.ContributionHistory,Jenzabar.CRM.Constituent.Web.Portlets.ContributionHistoryPortlet.ContributionHistoryPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] ContributionHistoryPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] ContributionHistoryPortlet
+
+# START - [CRM] OnlineGivingPortlet
+dn: CN=[CRM] OnlineGivingPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: W3D8iq7/402YXvl8NCBsQw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Online Giving
+jenzabar-ICSNET-PortletPath:
+ Portlet.OnlineGiving,Jenzabar.CRM.Constituent.Web.Portlets.OnlineGivingPortlet.OnlineGivingPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] OnlineGivingPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] OnlineGivingPortlet
+
+# START - [CRM] PaymentsPortlet
+dn: CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: HT2qkjTyPEiWGVb2SlsXDQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Payment Administration
+jenzabar-ICSNET-PortletPath:
+ Portlet.Payments,Jenzabar.CRM.Common.Web.Portlets.PaymentsPortlet.PaymentsPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] PaymentsPortlet

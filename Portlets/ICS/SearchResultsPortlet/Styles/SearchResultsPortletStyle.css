@@ -1,0 +1,286 @@
+﻿
+
+.searchHeader div.left {
+    display: inline;
+    float: left;
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+
+.searchHeader div.right {
+    display: inline;
+    float: right;
+}
+
+.didYouMean {
+    padding: 20px 0 10px;
+    font-size: .85em;
+}
+
+#searchRightContainer {
+    float: none;
+    width: auto;
+    overflow: hidden;
+}
+
+#searchSideBar {
+    float: right;
+    width: 175px;
+    margin-left: 15px;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.searchResults {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.searchResultsIcon {
+    width: 32px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: top;
+}
+
+.pagingPanel {
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 4px;
+}
+
+.pagingContainerSearch {
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.searchResultItem {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.searchResultsDetails {
+    width: auto;
+    float: none;
+    overflow: hidden;
+}
+
+.searchHelpLayer {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.searchResultsDescription {
+    margin-top: 5px;
+}
+
+    .searchResultsDescription img {
+        vertical-align: middle;
+    }
+
+    .searchResultsDescription a.extrapadding {
+        padding-left: 10px;
+    }
+
+.searchHelpLink {
+    margin: 1px;
+    padding: 3px 10px 0 20px;
+    cursor: pointer;
+    position: relative;
+    background: url(../../../../UI/Common/images/PortletImages/Icons/icon_help_16.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    min-height: 18px;
+    text-decoration: underline;
+    color: Blue;
+    clear: both;
+    float: right;
+}
+
+
+.searchHelpContent {
+    clear: both;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 15px;
+    text-align: left;
+    background-color: #e2e2e2;
+    float: left;
+    border-radius: 6px;
+    padding-left: 22px;
+}
+
+.searchHelpContentHolder {
+    clear: both;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 15px;
+    text-align: left;
+    float: left;
+    display: none;
+}
+
+
+.searchHelpBullet {
+    list-style-type: disc;
+}
+
+.searchHelpHighlight {
+    color: #000000;
+    font-weight: bold;
+}
+
+.searchResultsTitle {
+    font-size: 120%;
+    display: block;
+}
+
+.searchResultsDetails a.searchResultsTitleCourse {
+    font-size: 120%;
+    display: block;
+    text-decoration: none;
+}
+
+
+.searchResultsTitleCourse span.nolink {
+    color: black;
+    text-decoration: none;
+    cursor: text;
+}
+
+.searchResultsTitle span.link {
+    text-decoration: underline;
+}
+
+.searchResultsTitleCourse span.mycourse {
+    color: black;
+    text-decoration: none;
+    cursor: text;
+    font-weight: bold;
+}
+
+.searchResultsDetails a.searchResultsTitleNoLink {
+    display: block;
+    color: Black;
+}
+
+.highlightedsearchresult {
+    background-color: #c5d7e3;
+    font-weight: bold;
+}
+
+div.searchResultsSubtitle {
+    margin-bottom: 5px;
+}
+
+.searchResultsDetails span.searchResultsSubtitle {
+    font-size: 80%;
+}
+
+.searchResultsDetails span.searchResultsBreadcrumbLink {
+    font-size: 80%;
+}
+
+.grayTopWedge {
+    margin-top: -13px;
+    margin-right: 25px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #e2e2e2;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    float: right;
+}
+
+.searchResultHighlight {
+    background: #C8D6DF;
+    font-weight: bold;
+}
+
+.searchResultsIcon span {
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    display: block;
+}
+
+.iconPeople span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/missing_user_photo_32.png);
+}
+
+.iconCourses span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/32/books.png);
+}
+
+.iconPortalContexts span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/32/page.png);
+}
+
+.iconBlogs span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/blogs_news_32.png);
+}
+
+.iconBookmarks span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/bookmarks_32.png);
+}
+
+.iconCalendars span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/32/calendar_view_month.png);
+}
+
+.iconCoursework span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/coursework_32.png);
+}
+
+.iconForms span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/forms_32.png);
+}
+
+.iconForums span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/forums_32.png);
+}
+
+.iconGradebooks span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/gradebook_32.png);
+}
+
+.iconHandouts span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/handouts_32.png);
+}
+
+.iconCustomContent span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/32/document_image.png);
+}
+
+.iconPages span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/32/page.png);
+}
+
+.iconPortlets span {
+    background-image: url(../../../../UI/Common/Images/PortletImages/Icons/32/page.png);
+}
+
+.searchResultsText {
+    font-size: 1.3em;
+}
+
+.searchResultsText br {
+    display: block;
+    margin: 20px 0;
+}
+
+.noExactResults {
+    clear: both;
+    padding: 5px 0 30px 0;
+    font-size: 1em;
+}
+
+.didYouMeanQuestionMark {
+    margin-left: -3px;
+}

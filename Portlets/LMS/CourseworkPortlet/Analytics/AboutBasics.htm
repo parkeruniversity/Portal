@@ -1,0 +1,43 @@
+<div class="CWK_Analytics_Basics_Body">
+	<span class="CWK_Analytics_Basics_Header">About Test Analysis</span>
+	<p>Test Analysis is a feature that provides data on all graded online assignments that three or more students have completed. This feature is useful if you want to assess the effectiveness of an assignment and each of its questions, or if you want to see which parts of the curriculum students struggled with.</p>
+	<p>Test Analysis provides the following:</p>
+	<ul>
+		<li class="CWK_Analytics_Basics_Bullet">A snapshot of students&#8217; performance on the assignment.</li>
+		<li class="CWK_Analytics_Basics_Bullet">A summary of the relative difficulty of the assignment and each of its questions.</li>
+		<li class="CWK_Analytics_Basics_Bullet">An assessment of whether each question adequately distinguished between students who understood the material and those who did not.</li>
+		<li class="CWK_Analytics_Basics_Bullet">Analysis -- using parameters that you set -- about whether a question was too hard or too easy.</li>
+		<li class="CWK_Analytics_Basics_Bullet">Analysis of multiple-choice questions, including a look at the efficacy of the incorrect options within multiple-choice answer sets.</li>
+	</ul>
+	<br />
+	<span class="cwkAnalyticsBasicsHeader" data-globalization="TXT_KEY_TERMS"></span>
+	<p>This section defines key terms that you&#8217;ll need to know in order to configure Test Analysis and understand the data the system generates.</p>
+	<br />
+	
+	<a name="LNK_bkmk_performance_groups"></a>
+	<span class="CWK_Analytics_Basics_SubHeader" data-globalization="TXT_PERFORMANCE_GROUPS"></span>
+	<p>Performance groups are categories that classify students as high, low, or midrange performers. Essentially, these groups are intended to represent those students who understood the material, those who didn&#8217;t, and those who are in between.</p>
+	<p>The size of each performance group is a percentage of the total class size, and it is configurable. So, for example, if the high-performers group is defined as 10 percent, and 100 students complete the assignment, the high-performers group consists of the 10 students who did the best.</p>
+	<p>You manually define the size of the high- and low-performers groups using the Performance Groups tab. If you configure these two groups so that together they contain less than 100 percent of the entire class, the system creates and automatically determines the size of a middle-performers group. These size definitions are used throughout the course context -- not on an assignment-by-assignment basis.</p>
+	<p>The default sizes are:</p>
+	<ul>
+		<li class="CWK_Analytics_Basics_Bullet" data-globalization="-TXT_HIGH:">&nbsp;25%</li>
+		<li class="CWK_Analytics_Basics_Bullet" data-globalization="-TXT_MIDDLE:">&nbsp;50%</li>
+		<li class="CWK_Analytics_Basics_Bullet" data-globalization="-TXT_LOW:">&nbsp;25%</li>
+	</ul>
+	<br />
+	<a name="LNK_bkmk_difficulty_rating"></a>
+	<span class="CWK_Analytics_Basics_SubHeader" data-globalization="TXT_DIFFICULTY_RATING"></span>
+	<p>The difficulty rating is a number between 0 and 1 that reflects the percentage of students who answered the question incorrectly. The higher the difficulty rating, the harder the question was. You can configure the system to display a warning if any question is too easy (using the Low Difficulty Warning field) or too difficult (using the High Difficulty Warning field).</p>
+	<br />
+	<a name="LNK_bkmk_discrimination_index"></a>
+	<span class="CWK_Analytics_Basics_SubHeader" data-globalization="TXT_DISCRIMINATION_INDEX"></span>
+	<p>The discrimination index is a number between -1 and 1 that tells you how effective a question was at distinguishing between high and low performers. The closer the number is to 1, the better the question was at making this distinction.</p>
+	<p>The discrimination index is the difference between the percentage of high performers who got a question right and the percentage of low performers who got it right. A negative discrimination index is problematic because it means that more low performers than high performers answered correctly.</p>
+	<br />
+	<a name="LNK_bkmk_distractor_performance"></a>
+	<span class="CWK_Analytics_Basics_SubHeader" data-globalization="TXT_DISTRACTOR_PERFORMANCE" data-globalization_case="proper"></span>
+	<p>A distractor is an incorrect option in a multiple-choice answer set. The percentage of students who choose a particular distractor is its distractor performance.</p>
+	<p>Ideally, you want a question&#8217;s distractors to be chosen with equal, or close-to-equal, frequency. For this reason, you can configure the system to warn you if there is a large disparity among the distractor performances for the various incorrect options.</p>
+	<p>For example, suppose you set the Poor Distractor Performance Warning to 20 percent. In this case, if 20 percent of students choose the first distractor, and 40 percent choose another distractor, the system will display a warning.</p>
+</div>

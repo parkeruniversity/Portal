@@ -1,0 +1,54 @@
+﻿.tcTotalsDisplay>ul
+{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tcTotalsDisplay>*.tcHeader
+{
+	display:block;
+	padding: 5px 3px;
+	font-weight: bold;
+}
+
+.tcTotalsDisplay>ul>li
+{
+	display: table-row;
+}
+
+.tcTotalsDisplay>ul>li>*
+{
+	display: table-cell;
+	padding: 3px;
+}
+
+.tcTotalsDisplay>ul>li>hr
+{
+	padding: 0px;
+	margin: 0px;
+	border-top: solid 1px #C1C1C1;
+	border-bottom: solid 1px #FFFFFF;
+	border-left: none;
+	border-right: none;
+}
+
+.tcTotalsDisplay>ul>li.tcGrandTotal>*
+{
+	font-weight: bold;
+}
+
+.tcTotalsDisplay>ul>li>*.tcLabel
+{
+	padding-right: 25px;
+}
+
+.tcTotalsDisplay>ul>li>*.tcValue
+{
+	text-align: right;
+}
+
+.tcOverriddenHours
+{
+	color: Red;
+}

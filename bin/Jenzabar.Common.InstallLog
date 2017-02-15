@@ -1,0 +1,28 @@
+﻿Installing assembly 'C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll
+   logfile = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.InstallLog
+Installing WMI Schema: Started
+Installing WMI Schema: Finished
+Creating EventLog source Enterprise Library Cryptography in log Application...
+Creating EventLog source Enterprise Library Instrumentation in log Application...
+Creating EventLog source ExceptionManagerInternalException in log Application...
+Creating EventLog source ExceptionManagerPublishedException in log Application...
+Creating EventLog source ICSNET in log ICSNET...
+Committing assembly 'C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll
+   logfile = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.InstallLog
+Installing assembly 'C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.InstallLog
+   assemblypath = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll
+Installing WMI Schema: Started
+Rolling back assembly 'C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.InstallLog
+   assemblypath = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\Jenzabar.Common.dll

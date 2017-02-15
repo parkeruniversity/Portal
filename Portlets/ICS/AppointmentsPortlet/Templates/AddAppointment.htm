@@ -1,0 +1,143 @@
+﻿<div id="addAppointmentPlugin" style="display: none;">
+    <div class="addApptContent">
+        <div class='addApptHeader'>
+            <span class='addEditAppt'></span>
+            <a href="" class="activeItem addAttendee" style="display: none;"><i class="fa fa-user"></i>  {{{g11n.addAttendees}}}</a>
+            <a href="" class="activeItem downloadIcs" style="display: none;"><i class="fa fa-arrow-down"></i>  {{{g11n.downloadIcs}}}</a>
+            <a href='' class='activeItem showAdvanced'>{{{g11n.showAdvanced}}}</a>
+        </div>
+        <div id="addApptHosts" style="display:none;">
+            <div class='advancedOptionsHeader' style="display:none;">{{{g11n.host}}}</div>
+            <div class='inputArea apptAdvancedQuick'>
+                <div class='inputDescrip quickOptions'>
+                    <strong>{{{g11n.host}}}</strong>
+                </div>
+                <select id="selHosts"></select>
+            </div>
+        </div>
+        <div>
+            <div class='advancedOptionsHeader' style="display:none;">{{{g11n.what}}}</div>
+            <div class='inputArea apptAdvancedQuick'>
+                <div class='inputDescrip'>
+                    {{{g11n.whatCalled}}}
+                </div>
+                <input type="text" id="addApptTitle" class="activeInput" style="width:275px" maxlength="255" />
+                <div id="quickDescrip" class='quickOptions'></div>
+                <div class="inputArea advancedOptions" style="display: none">
+                    <div class="inputDescrip">
+                        {{{g11n.whatDescription}}}
+                    </div>
+                    <textarea id="addApptDescrip" class="activeInput"></textarea>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class='advancedOptionsHeader' style="display:none;">{{{g11n.when}}}</div>
+            <div class='inputArea apptAdvancedQuick'>
+                <div class='inputDescrip quickOptions'>
+                    {{{g11n.whenAppt}}}
+                </div>
+                <div>
+                    <input type="text" id="addApptWhen" class="activeInput" style="width:200px;" />
+                    <i class="activeItem calPlacement calWhen fa fa-calendar fa-fw"></i>
+                    <span class="inputDescrip">{{g11n.from}}</span>
+                    <input type="text" id="addApptStart" class="activeInput" size="8" />
+                    <span class="inputDescrip">{{g11n.to}}</span>
+                    <input type="text" id="addApptEnd" class="activeInput" size="8" />
+                    <span id="apptLength"></span>
+                </div>
+                <div id="quickRepeat" class='quickOptions advancedOptionsNew'></div>
+                <div class="inputArea advancedOptions advancedOptionsNew" style="display: none">
+                    <div class='advancedUntil'>
+                        <select id="addApptRepeat"></select> 
+                        <div class='untilOptions' style="display: none;">
+                            <span class="inputDescrip">{{{g11n.until}}}</span> 
+                            <input type="text" id="addApptUntil" class="activeInput" style="width:200px;" />
+                            <i class="activeItem calPlacement calUntil fa fa-calendar fa-fw"></i>
+                        </div>
+                    </div>
+                    <div class="inputDescrip">
+                        {{{g11n.numOfAppointments}}}
+                    </div>
+                    <select id="addApptNum"></select>
+                </div>
+                <div id="overlap" style="display:none;"></div>
+            </div>
+        </div>
+        <div>
+            <div class='advancedOptionsHeader' style="display:none;">{{{g11n.where}}}</div>
+            <div class='inputArea apptAdvancedQuick'>
+                <div class='inputDescrip quickOptions'>
+                    {{{g11n.whereAppt}}}
+                </div>
+                <input type="text" id="addApptWhere" class="activeInput" style="width:275px" />
+                <div id="quickWho" class='quickOptions'></div>
+            </div>
+        </div>
+        <div>
+            <div class="advancedOptionsHeader">{{{g11n.who}}}</div>
+            <div class="inputArea advancedOptions advancedOptionsWrapper" style="display: none">
+                <div>
+                    <div class="inputDescrip">{{{g11n.whoSignUp}}}</div>
+                    <select id="addApptWho"></select> <span class='whoStudent inactiveItem itemInfo' style="display: none;">{{{g11n.in}}}</span> <select class="whoStudent" style="display: none;"></select> <span class='whoDescrip inputDescrip' style="display: none;">{{{g11n.specificDescrip}}}</span>
+                    <div class="specificPeople" style="display: none">
+                        <div class="specificPersons activeInput">
+                            <ul id="peopleDisplay"></ul>
+                            <a href='' id="addApptPeople" class="activeItem"></a>
+                        </div>
+                        <div class="specificRoles activeInput">
+                            <ul id="roleDisplay"></ul>
+                            <a href='' id="addApptRole" class="activeItem"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class='advancedHowMany'>
+                    <div class="inputDescrip">{{{g11n.howManySignUp}}}</div>
+                    <select id="addApptHowMany"></select> <div class='setHowMany' style="display: none;"><input type="number" id="addApptSetHowMany" class="activeInput" min="0" max="999" style="width:45px;" /> <span class='inputDescrip'>{{{g11n.setHowMany}}}</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="addApptEmailTemplate">
+            <div class="inputArea advancedOptions advancedOptionsWrapper" style="display: none; border-left: none;">
+                <input type="checkbox" id="cbxRemind" /> {{{g11n.reminderSentTo}}} <select id="selRemind"></select> {{{g11n.reminderBefore}}} <a href='' id="hypEditReminder" class="activeItem">{{{g11n.editMesg}}}</a>
+                <div>
+                    <input type="checkbox" id="cbxRemindMe" /> <label for="cbxRemindMe">{{{g11n.remindMeToo}}}</label> <a href='' id="hypEditRemindMe" class="activeItem">{{{g11n.editMesg}}}</a>
+                </div>
+            </div>
+            <div class='quickOptions addApptEmailTemplate'>
+                {{{g11n.reminderEmail}}}
+            </div>
+        </div>
+        <div class='apptDetailAction'>
+            <div style="float: left;">
+                <button id="addApptBtn" class="activeAction"></button>
+                <a id="addApptCancel" href='' class='activeItem'></a>
+            </div>
+            <button class='cancelAction'><i class='fa fa-dot-circle-o'></i> {{g11n.cancelThisAppointment}}</button>
+        </div>
+    </div>
+    <div id="addApptEmailTemplate" style="display: none;"></div>
+    <div id="addApptPCWrapper" style="display: none">
+        <div id="addApptPeopleChooser"></div>
+        <div class='apptDetailAction'>
+            <button id="addApptSavePeople" class="activeAction">{{{g11n.savePeople}}}</button>
+            <a id="addApptCancelPeople" href='' class='activeItem'>{{{g11n.noThanks}}}</a>
+        </div>
+    </div>
+
+    <div id="addApptRCWrapper" style="display: none">
+        <div id="addApptRoleChooser"></div>
+        <div class='apptDetailAction'>
+            <button id="addApptSaveRole" class="activeAction">{{{g11n.saveRoles}}}</button>
+            <a id="addApptCancelRole" href='' class='activeItem'>{{{g11n.noThanks}}}</a>
+        </div>
+    </div>
+    <div class='confirmAddModal' style="display: none;">
+        <div class='confirmMesg'></div>
+        <div class='confirmInfo'></div>
+        <div class='apptDetailAction'>
+            <button class="activeAction"></button>
+            <a href='' class='activeItem'></a>
+        </div>
+    </div>
+</div>

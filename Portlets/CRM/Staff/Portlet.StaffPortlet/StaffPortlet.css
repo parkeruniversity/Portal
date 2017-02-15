@@ -1,0 +1,17 @@
+.maroonitalicbold{font-weight: bold;color: #790000;font-style: italic;}
+.blackbold{font-weight: bold;}
+.maroon{color: #790000;}
+.green{color: #007236;}
+.BottomLeft { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid }
+.BottomLeftDarkGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#dddddd }
+.BottomLeftDarkerGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#bababa }
+.BottomLeftLightGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#efefef }
+.BottomLeftDarkBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#0d004c }
+.BottomLeftLightBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#E5F2FF }
+.BottomLeftMediumBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#CBDCEE }
+.BottomLeftVeryLightBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#e7fff2 }
+.white { COLOR: #ffffff }
+.TableStyle{BORDER-RIGHT: #b2b2b2 1px solid; BORDER-TOP: #b2b2b2 1px solid; MARGIN: 1px; BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; BORDER-COLLAPSE: collapse}
+.StaffPortletGridViewHeaderStyle { background-color:#DDDDDD; color:#000000; padding:1px 0.5em; }
+.StaffPortletGridViewItemStyle { color:#000000; padding:2px 5px; }
+.StaffPortletGridViewAlternatingStyle { background-color:#EFEFEF; }

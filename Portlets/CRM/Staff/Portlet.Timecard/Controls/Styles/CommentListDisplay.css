@@ -1,0 +1,34 @@
+﻿
+.tcCommentList
+{
+	padding: 15px 15px 0px 15px;
+	/*max-width: 600px;*/
+}
+
+.tcCommentList>*
+{
+	display: block;
+	padding: 0px 0px 15px 0px;
+}
+
+.tcCommentList>*.tcHeader
+{
+	font-weight: bold;
+	padding: 0px;
+}
+
+.tcCommentList .tcSignatureLine
+{
+	font-size: 80%;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+.tcCommentList .tcComment
+{
+}
+
+.tcCommentList .tcName
+{
+	font-style: italic;
+}

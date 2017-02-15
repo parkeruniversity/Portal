@@ -1,0 +1,21 @@
+# START - [CRM] ItemApprovalPortlet
+dn: CN=[CRM] ItemApprovalPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: iYVWnbLhD0O4osS/lYdNMw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Item Approval
+jenzabar-ICSNET-PortletPath:
+ Portlet.ItemApproval,Jenzabar.CRM.Staff.Web.Portlets.ItemApprovalPortlet.ItemApprovalPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portal-User,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] ItemApprovalPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] ItemApprovalPortlet

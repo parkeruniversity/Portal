@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Context Name="Replaced by system" DisplayName="Replaced by system" Hidden="false" Type="CampusGroup" ShowChildNodesInSidebar="true" Order="1" DefaultPage="Members Page" Grant="Leader" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\scratch\ContextTemplate.xsd">
+	<Role Name="Leader" IsSystemObject="true"/>
+	<Role Name="Member" IsSystemObject="true"/>
+	<Page Name="Members Page" Grant="Member" PageOrder="1">
+		<Portlet Name="About This Group" Column="1" Order="1" Template="[ICS] CustomContentPortlet"/>
+		<Portlet Name="Calendar" Column="2" Order="1" Template="[ICS] CalendarPortlet"/>
+		<Portlet Name="Announcements" Column="2" Order="2" Template="[ICS] AnnouncementPortlet"/>
+		<Portlet Name="Handouts" Column="2" Order="3" Template="[ICS] HandoutPortlet"/>
+		<Portlet Name="Bookmarks" Column="2" Order="4" Template="[ICS] BookmarkPortlet"/>
+	</Page>
+	<Page Name="Group Directory" Grant="Member" PageOrder="2">
+		<Portlet Name="Group Directory" Column="1" Order="1" Template="[ICS] GroupDirectoryPortlet"/>
+	</Page>
+	<Page Name="Discussion" Grant="Member" PageOrder="3">
+		<Portlet Name="Forums" Column="1" Order="1" Template="[ICS] ForumPortlet">
+			<Operation Name="CANADDMESSAGES" Grant="Member"/>
+			<Operation Name="CANREPLYTOPOSTS" Grant="Member"/>
+		</Portlet>
+	</Page>
+	<Page Name="Public Page" Grant="Member" GrantGlobal="Everyone" PageOrder="4">
+		<Portlet Name="About This Group" Column="1" Order="1" Template="[ICS] CustomContentPortlet"/>
+		<Portlet Name="Join This Group" Column="1" Order="2" Template="[ICS] CampusGroupJoinPortlet"/>
+		<Portlet Name="Calendar" Column="2" Order="1" Template="[ICS] CalendarPortlet"/>
+		<Portlet Name="Announcements" Column="2" Order="2" Template="[ICS] AnnouncementPortlet"/>
+		<Portlet Name="Handouts" Column="2" Order="3" Template="[ICS] HandoutPortlet"/>
+		<Portlet Name="Bookmarks" Column="2" Order="4" Template="[ICS] BookmarkPortlet"/>
+	</Page>
+</Context>

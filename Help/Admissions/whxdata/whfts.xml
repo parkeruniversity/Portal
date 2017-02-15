@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<fts>
+<chunkinfo url="whfwdata0.xml" first="&amp;" last="default"/>
+<chunkinfo url="whfwdata1.xml" first="defin" last="map"/>
+<chunkinfo url="whfwdata2.xml" first="mapping" last="spac"/>
+<chunkinfo url="whfwdata3.xml" first="specifi" last="•"/>
+
+<tchunkinfo first="0" last="41" url="whftdata0.xml" />
+
+</fts>

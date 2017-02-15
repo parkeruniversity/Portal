@@ -1,0 +1,80 @@
+﻿<div id="mhModal" style='display:none;'>
+    <div>
+        <i class="fa fa-group fa-2x"></i><span class="mh-header"></span>
+        <span class="mh-header-info"></span>
+    </div>
+    <div id="mh-content">
+        <div id="manageManagers" class="mh-wrapper">
+            <span class="apptsHeader"></span>
+            <span class="inactiveItem infoItem"></span>
+            <div class="settingWrapper settingSelected">
+                <div class="mh-table-wrapper">
+                    <table id="tblManagers" class="mh-table">
+                        <thead>
+                            <tr>
+                                <th id="thManager" class="inactiveItem">{{{g11n.manager}}}</th>
+                                <th class="mh-remove inactiveItem">{{{g11n.remove}}}</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div>
+                    <a href="#" id="managers" class="activeItem"><span class="fa fa-group"></span>{{{g11n.chooseDiff}}}</a>
+                </div>
+            </div>
+        </div>
+        <div id="manageHosts" class="mh-wrapper">
+            <span class="apptsHeader">{{{g11n.apptHosts}}}</span>
+            <span class="inactiveItem infoItem mh-host-mesg"></span> <br />
+            <div class="settingWrapper settingSelected">
+                <div class="mh-table-wrapper">
+                    <table id="tblHosts" class="mh-table">
+                        <thead>
+                            <tr>
+                                <th class="inactiveItem">{{{g11n.host}}}</th>
+                                <th class="inactiveItem">{{{g11n.canSchedule}}}</th>
+                                <th class="mh-remove inactiveItem">{{{g11n.remove}}}</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div>
+                    <a href="#" id="hosts" class="activeItem"><i class="fa fa-group"></i>{{{g11n.chooseDiff}}}</a>
+                </div>
+            </div>
+        </div>
+        <div class='apptDetailAction mh-actions'>
+            <button type="button" class="activeAction">{{{g11n.savePeople}}}</button>
+            <a href='' class='activeItem'>{{{g11n.noThanks}}}</a>
+        </div>
+    </div>
+    <div id="mh-chooser">
+        <span class="apptsHeader"></span>
+        <div id="managePeople"></div>    
+        <div class='apptDetailAction'>
+            <button type="button" class="activeAction"></button>
+            <a href='' class='activeItem'>{{{g11n.noThanks}}}</a>
+        </div>
+    </div>
+    <div id="hostConfirm" class='confirmModal' style="display: none;">
+        <div class='confirmMesg'></div>
+        <div class='confirmInfo'></div>
+        <div class='apptDetailAction'>
+            <button type="button" class="activeAction"></button>
+            <a href='' class='activeItem'></a>
+        </div>
+    </div>
+    <div id='hostRemoval' style="display: none;">
+        <div class='confirmMesg'></div>
+        <div class='confirmInfo'></div>
+        <div id="hostReassign">
+
+        </div>
+        <div class='apptDetailAction'>
+            <button type="button" class="activeAction"></button>
+            <a href='' class='activeItem'></a>
+        </div>
+    </div>
+</div>

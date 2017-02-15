@@ -1,0 +1,144 @@
+﻿.UsageStatisticsPortlet .pSection table
+{
+	margin: 0 0 0 0;
+}
+
+.RatingsKeyPopupOuterDiv
+{
+	width: 30%;
+	margin: -200px 0 200px 0;
+	display: none;
+	padding: 5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	border: solid 1px #A0A0A0;	
+}
+
+.RatingsKeyPopup
+{
+	background-color: #EFEFEF;
+	border: solid 1px #E0E0E0;		
+}
+
+.RatingsKeyPopupCell
+{
+	padding: 5px 5px 5px 5px;
+}
+
+.RatingsKeyPopupCellClose
+{
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+}
+
+.RatingsKeyPopupHeaderRow
+{
+	background-color: #E0E0E0;	
+	font-weight: bold;	
+}
+
+.RatingsKeyPopupDescription
+{
+	text-align: left; 
+	padding: 7px 7px 7px 7px;
+	font-style: italic;	
+}
+
+.LabelLink
+{
+	color: #0000FF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.BoldText
+{	
+	font-weight: bold;	
+}
+
+.NumberOfVisitorsText
+{
+	color: #104E8B;
+	font-size: x-large;
+	font-weight: bolder;
+}
+
+.HaveViewedPagesHereText
+{
+	color: #104E8B;
+}
+
+.NavigationTable
+{	
+	width: 100%;
+	border: solid 1px #E0E0E0;
+}
+
+.NavigationTableHeaderCell
+{
+	background-color: #BCD2EE;
+	padding: 12px;
+}
+
+.NavigationTableBodyCell
+{
+	background-color: #E0E0E0;
+	padding: 10px;
+	
+}
+
+.USUserDisplayTable
+{
+	background-color: #efefef;
+	border: 1px solid #b3b3b3;
+}
+
+.USUserDisplayTable td
+{
+	padding: 5px;
+}
+
+.USUserDisplayTableFooter
+{
+	border-style: solid none none none;
+	border-width: 1px;
+	border-color: #b3b3b3;
+	background-color: #d1e1f1;
+	vertical-align: middle;
+	text-align: center;
+}
+.USDashedTableCellTop
+{
+	border-bottom:none;
+	border-top: 1px dashed #CECECE;
+}
+.AlignTop
+{
+	vertical-align: top;
+}
+
+.USAboutUsageStatsTable
+{
+	background-color: #EFEFEF;
+	border: 1px solid #d4d4d4;
+	padding: 10px 10px 10px 10px;
+}
+
+.USAboutUsageStats
+{
+}
+
+.USAboutUsageStats LI
+{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.divMissingStudents
+{	
+	margin: 20px 20px;
+}
+
+.italicText
+{
+	font-style: italic;
+}

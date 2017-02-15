@@ -1,0 +1,210 @@
+﻿/*GridView*/
+.RequisitionEntry .REGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.RequisitionEntry .REGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color: #fff;
+}
+
+.RequisitionEntry .REGridView th, .REGridViewHeader th  
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color:#D4D4D4;
+    color:#464646;    
+}  
+
+.RequisitionEntry .REGridViewHeader a 
+{ 
+    color:#464646;    
+    margin-right: 5px;
+}
+
+.RequisitionEntry .REGridView th.RECentered  
+{
+    text-align:center;
+}
+
+.RequisitionEntry tr.alt td    
+{
+    background-color: #efefef;   
+}  
+/*END GridView*/
+
+.RequisitionEntry table.RELayoutTable { 
+    width:100%;
+    border-collapse:collapse;     
+     padding:0px;
+     margin:0px;
+}
+
+
+/*Text Styles*/
+/*Font-weight: 400 is the same as normal, and 700 is the same as bold*/
+
+.RequisitionEntry .REInformativeText 
+{
+    color:#707070;
+    font-size:12px;
+    margin-right: 3px;
+}
+
+.RequisitionEntry .REInformativeGridText 
+{
+    color:#464646;
+    font-size:12px;
+    margin-right: 3px;
+}
+
+.RequisitionEntry .RELabelText 
+{
+    color:#000;
+    font-size:12px;
+    margin-right: 3px;
+}
+
+.RequisitionEntry .REWrapText
+{
+    white-space:normal;
+}
+
+.RequisitionEntry .RENoWrapText
+{
+    white-space:nowrap;
+}
+
+.RequisitionEntry .REErrorText 
+{
+    color:red;
+    font-size:12px;
+}
+
+.RequisitionEntry .RENotSplitText 
+{
+    color: #880000; /*Brick Red*/    
+}
+
+.RequisitionEntry .REBoldText 
+{
+    font-weight: 600;
+}
+
+.RequisitionEntry .REItalicText 
+{
+    font-style: italic;
+}
+
+.RequisitionEntry .REHeaderText 
+{
+    font-size:14px;    
+    margin-right: 3px;
+}
+
+.RequisitionEntry .REHeader1Text 
+{
+    font-size:16px;    
+    margin-right: 3px;
+}
+
+
+/*END Text Styles*/
+
+.RequisitionEntry .IndentMargin
+{
+    margin-left: 15px;
+}
+
+.RequisitionEntry .REFloatRight
+{
+    float: right;
+}
+
+.RequisitionEntry .REFloatLeft 
+{      
+    float: left;
+}
+
+.RequisitionEntry .RESpace
+{      
+    margin-left: 5px;
+}
+
+.RequisitionEntry td.ApprovalTrackBG  {   
+    background-color: #d6e2fb;
+}
+
+.RequisitionEntry td.RESectionPadding  {   
+    padding: 5px;
+}
+
+.RequisitionEntry td.REHeaderPadding  {   
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.RequisitionEntry .REDottedLine  {   
+    border-bottom: 1px dashed #6272A8;
+}
+
+/*Requisition Popup*/
+.RequisitionEntry div.RERequisitions{
+    overflow: auto;
+    max-height: 500px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.RequisitionEntry .REStretch
+{
+    width: 100%;
+}
+/*Requisition Popup*/
+
+
+/*Modal*/
+.RequisitionEntry .REModalPopup
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.RequisitionEntry .REModalDiv{
+    background-color:#FFF;
+    padding:3px;
+    border:1px solid black;
+    width:auto;
+}
+.RequisitionEntry .REModalHeadingImg{
+    float:right;
+    margin-left:10px;
+    padding:0px;
+}
+.RequisitionEntry .REModalHeading{
+    padding:3px;
+    background-color:#E2E2E2;
+    float:none;
+}
+.RequisitionEntry .REInnerModal{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+    padding: 1px;
+}
+.RequisitionEntry .REModalButtons{
+    margin:5px;
+    padding:5px;
+}
+.RequisitionEntry .RERequisitionWidthHeight{
+    max-width: 550px;
+    min-width: 400px;
+    max-height: 650px;
+}
+/*END Modal*/

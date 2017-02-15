@@ -1,0 +1,133 @@
+﻿<div id="withdrawalPlugin" title="{{modalLabels.title}}" style="overflow: visible;">
+    <div class="GE">
+        <div class="withdrawalContainer">
+            <div class="formItem">
+                    <label for="studentName" class="BoldText">{{modalLabels.studentName}}</label>
+                    <label id="studentName" style="padding-left: 1.5em">{{studentName}}</label>
+            </div>
+            <br />
+            <div class="formItem">
+                <label for="selWithdrawalReason" class="BoldText">{{modalLabels.withdrawalReason}}</label>
+                {{#if reasonList}}
+                <select id="selWithdrawalReason">
+                    <option value="">{{modalLabels.select}}...</option>
+                    {{#each reasonList.items}}
+                    {{#ifCond appId '==' ../withdrawalReason}}
+                    <option value="{{appId}}" selected>{{descr}}</option>
+                    {{else}}
+                    <option value="{{appId}}">{{descr}}</option>
+                    {{/ifCond}}
+                    {{/each}}
+                </select>
+                {{/if}}
+            </div>
+            <br />
+
+            <div class="WidthHalf floatLeft">
+                <div class="formItem">
+                    <label for="datePicker" class="BoldText">{{modalLabels.lastDateOfAttendance}}</label><br />
+                    <input type="text" id="datePicker" value="{{lastDateOfAttendance}}" />
+                </div>
+                <br />
+
+                <div class="formItem">
+                    <label for="datePickerWD" class="BoldText">{{modalLabels.withdrawalDte}}</label><br />
+                    <input type="text" id="datePickerWD" value="{{withdrawalDte}}" />
+                </div>
+            </div>
+
+
+            <div class="WidthHalf floatLeft">
+                <div class="formItem">
+                    <label for="censusDte" class="BoldText">{{modalLabels.censusDte}}</label><br />
+                    <input type="text" id="censusDte" value="{{censusDte}}" disabled />
+                </div>
+                <br />
+
+                <div class="formItem">
+                    <label for="lastWithdrawPassDte" class="BoldText">{{modalLabels.lastWithdrawPassDte}}</label><br />
+                    <input type="text" id="lastWithdrawPassDte" value="{{lastWithdrawPassDte}}" disabled />
+                </div>
+            </div>
+
+            <div class="ClearLeft"></div>
+            <br />
+
+            {{#ifCond useLimits '==' 'Y'}}
+            {{#ifCond excludeFromDropLimit '!=' 'Y'}}
+            <div class="formItem">                
+                {{#if countExceeded }}
+                {{#ifCond addToWithdrawDrop '==' 'Y'}}
+                <input type="checkbox" id="addToWithdrawDrop" checked disabled/>
+                {{else}}
+                <input type="checkbox" id="addToWithdrawDrop" disabled />
+                {{/ifCond}}
+                <label for="addToWithdrawDrop">{{{modalLabels.addToWithdrawDrop}}}</label>
+                <label>{{{modalLabels.limitReached}}}</label>
+                {{else}}
+                {{#ifCond addToWithdrawDrop '==' 'Y'}}
+                <input type="checkbox" id="addToWithdrawDrop" checked />
+                {{else}}
+                <input type="checkbox" id="addToWithdrawDrop" />
+                {{/ifCond}}
+                <label for="addToWithdrawDrop">{{{modalLabels.addToWithdrawDrop}}}</label>
+                {{/if}}
+            </div>
+            <br />
+            {{/ifCond}}            
+            {{/ifCond}}
+
+            <div class="formItem WidthHalf floatLeft">
+                <label for="selFinalGrade" class="BoldText">{{modalLabels.finalGrade}}</label>
+                {{#if gradeList}}
+                <select id="selFinalGrade">
+                    <option value="">{{modalLabels.select}}...</option>
+                    {{#each gradeList.availableGrades}}
+                    {{#ifCond gradeCode '==' ../finalGradeVal}}
+                    <option value="{{gradeCode}}" selected>{{gradeDesc}}</option>
+                    {{else}}
+                    <option value="{{gradeCode}}">{{gradeDesc}}</option>
+                    {{/ifCond}}
+                    {{/each}}
+                </select>
+                {{/if}}
+            </div>
+
+            <div class="WidthHalf floatLeft">
+                <div class="formItem">
+                    <input type="checkbox" id="updateMidtermGrade" />
+                    <label for="updateMidtermGrade">{{{modalLabels.updateMidtermGrade}}}</label>
+                </div>
+                <div class="formItem">
+                    <label for="selMidtermGrade" class="BoldText">{{modalLabels.midtermGrade}}</label>
+                    {{#if midtermGradeList}}
+                    <select id="selMidtermGrade" disabled>
+                        <option value="">{{modalLabels.select}}...</option>
+                        {{#each midtermGradeList.availableGrades}}                        
+                        {{#ifCond gradeCode '==' ../midtermGradeVal}}
+                        <option value="{{gradeCode}}" selected>{{gradeDesc}}</option>
+                        {{else}}
+                        <option value="{{gradeCode}}">{{gradeDesc}}</option>
+                        {{/ifCond}}
+                        {{/each}}
+                    </select>
+                    {{/if}}
+                </div>
+            </div>
+
+            <div class="ClearLeft"></div>
+            <br />
+
+                <!--<div class="formItem">
+            <input type="hidden" id="idNum" value="{{idNum}}" />
+            <input type="hidden" id="gradeScaleCde" value="{{gradeScaleCde}}" />
+            <input type="hidden" id="creditTypeCde" value="{{creditTypeCde}}" />
+        </div>-->
+
+            <div class='formButtons textAlignCenter'>
+                <button id="modalSubmitItem" type="button" class="btn InfoButton submitAction">{{modalLabels.save}}</button>
+                <button id="modalCancel" type="button" class="btn cancelAction">{{modalLabels.cancel}}</button>
+            </div>
+        </div>
+    </div>
+</div>

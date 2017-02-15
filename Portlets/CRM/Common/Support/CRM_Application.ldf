@@ -1,0 +1,24 @@
+dn: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-AssemblyPath: Jenzabar.Portal.Framework,Jenzabar.Portal.Framework.FrameworkApplication
+jenzabar-ICSNET-GUID:: 4XRtT9cQx0WCe/djJa292Q==
+jenzabar-ICSNET-BasePath: CRM
+objectClass: top
+objectClass: jenzabar-ICSNET-PortalApplication
+cn: CRM
+distinguishedName: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+name: CRM
+objectCategory: 
+ CN=Portal-Application,CN=Schema,CN=Configuration,CN=X
+
+dn: OU=Operations,CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+ou: Operations
+distinguishedName: OU=Operations,CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+name: Operations
+objectCategory: 
+ CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X

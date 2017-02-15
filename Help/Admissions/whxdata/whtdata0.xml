@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<tocdata>
+<book name="Welcome to CRM Candidate &amp; CRM Admissions Officer" >
+  <item name="Title and Copyright" url="default_1.htm" />
+</book>
+<book name="Using Candidate" >
+  <item name="Overview" url="Overview_Candidate.htm" />
+  <book name="Portlets" >
+    <item name="Academic Information" url="Academic_Information.htm" />
+    <item name="Admissions Status" url="Admissions_Status.htm" />
+    <item name="Apply Online" url="Apply_for_Admissions.htm" />
+    <item name="Division and Major Assignment" url="Division_and_Major_Assignment.htm" />
+    <item name="Folder Items" url="Folder_Items.htm" />
+    <item name="Helpful Links" url="Helpful_Links.htm" />
+    <item name="Initiate Contact" url="Initiate_Contact.htm" />
+    <item name="Make an Inquiry" url="Make_an_Inquiry.htm" />
+  </book>
+</book>
+<book name="Using Admissions Officer" >
+  <item name="Overview" url="Overview_Admissions_Officer.htm" />
+  <book name="Portlets" >
+    <item name="Admissions Officer and Counselor Assignments" url="Admissions_Officer_and_Counselor_Assignments.htm" />
+    <item name="Admissions Status" url="Admissions_Status.htm" />
+    <item name="Division and Major Assignment" url="Division_and_Major_Assignment.htm" />
+    <item name="Financial Aid Estimator - CX" url="Financial_Aid_Estimator_-_CX.htm" />
+    <item name="Folder Items" url="Folder_Items.htm" />
+    <item name="Initiate Contact" url="Initiate_Contact.htm" />
+    <item name="Make an Inquiry" url="Make_an_Inquiry.htm" />
+    <item name="Travel Assistant" url="Travel_Assistant.htm" />
+    <item name="View Activity" url="View_Activity.htm" />
+    <item name="View Candidate" url="View_Candidate.htm" />
+  </book>
+</book>
+<book name="Administering Candidate" >
+  <item name="Admissions Officer and Counselor Assignments" url="Admissions_Officer_and_Counselor_Assignments_GS.htm" />
+  <item name="Division and Major Assignment" url="Division_and_Major_Assignment_GS.htm" />
+  <book name="Working with Forms" >
+    <item name="Planning your forms" url="Planning_your_forms.htm" />
+    <book name="Creating forms" >
+      <item name="About forms" url="Creating_forms.htm" />
+      <item name="Creating a form from scratch" url="Creating_a_form_from_scratch.htm" />
+      <item name="Creating a form by importing content" url="Creating_a_form_by_importing_content.htm" />
+    </book>
+    <book name="Modifying forms" >
+      <item name="Opening a form for editing" url="Opening_a_form_for_editing.htm" />
+      <item name="Adding questions" url="Adding_questions.htm" />
+      <item name="Importing sections from an existing form" url="Importing_sections_from_an_existing_form.htm" />
+      <item name="Importing questions from an existing form" url="Importing_questions_from_an_existing_form.htm" />
+      <item name="Searching for questions" url="Searching_for_questions.htm" />
+      <item name="Browsing for questions" url="Browsing_for_questions.htm" />
+      <item name="Adding a section" url="Adding_a_section.htm" />
+      <item name="Adding a header" url="Adding_a_header.htm" />
+      <item name="Reordering and moving questions" url="Reordering_and_moving_questions.htm" />
+      <item name="Deleting a form" url="Deleting_a_form.htm" />
+    </book>
+    <item name="Mapping fields to your database" url="Mapping_fields_to_your_database.htm" />
+    <book name="Setting up e-mail templates for a form" >
+      <item name="About e-mail templates" url="About_e-mail_templates.htm" />
+      <item name="Setting up e-mail templates from scratch" url="Setting_up_e-mail_templates_from_scratch.htm" />
+      <item name="Importing e-mail templates" url="Importing_e-mail_templates.htm" />
+      <item name="Working with dynamic data" url="Working_with_dynamic_data.htm" />
+    </book>
+    <book name="Activating and deactivating forms" >
+      <item name="About the activation process" url="About_the_activation_process.htm" />
+      <item name="Activating and deactivating applications" url="Activating_and_deactivating_forms.htm" />
+      <item name="Activating Inquiry forms" url="Activating_Inquiry_forms.htm" />
+    </book>
+  </book>
+</book>
+
+</tocdata>

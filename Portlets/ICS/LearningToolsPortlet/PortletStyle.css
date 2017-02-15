@@ -1,0 +1,689 @@
+﻿.headerText
+{
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.learningToolFormCategoryContainer
+{
+    clear: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+.descriptiveText
+{
+	color: #7D7D7D;
+	font-size: 90%;
+    line-height: 150%;
+}
+
+.validationError
+{
+    color:Red;
+}
+
+.optionalClickToView 
+{
+    margin-left: 15px;
+    display: inline;
+    color: #7D7D7D;
+	font-size: 100%;    
+    font-style: italic;
+}
+
+.optionalClickToView a:link {
+    color: #7D7D7D;
+}
+
+.learningToolFormSubCategoryContainer
+{
+	padding: 5px 0px 5px 0px;
+    display: block;
+}
+
+.label
+{
+	float: left;
+    width: 15%;
+    text-align: left;
+    clear: left; 
+}
+
+.formRow {
+    padding: 7px 0px 7px 0px;
+}
+
+.advancedSetupContainerClosed {
+    display: none;
+}
+
+.sharingInformationContainer {
+    margin-left: 3%;  
+}
+
+.sharingOptionsContainer {
+    display: inline;
+}
+
+.inlineToolDisplayContainer 
+{
+    padding: 10px;
+    width: 30%;
+    float: left;
+}
+
+.displayRadioButtonContainer 
+{
+    padding: 5px;
+    float: left;
+}
+
+.popupHeightAndWidthInputContainer {
+    clear: left;    
+}
+
+.popupSizeInputContainer {
+    display: inline;
+    padding: 5px 15px 5px 0px;
+}
+
+.popupToolDisplayContainer 
+{
+    padding: 10px;
+    width: 60%;
+    display: inline-block;
+}
+
+.popupToolDisplayContentContainer {
+    display: inline-block;
+}
+
+.fieldAndDescriptionContatiner {
+    margin-left: 15%;    
+}
+
+.fieldDescriptionContainer {
+    padding: 5px 0px 5px 0px;
+}
+
+.featuredToolsListContainer
+{    
+    width: 350px;
+    display: block;
+    margin: 10px 0px 10px 0px;
+    vertical-align: top;       
+	background-color: #EFFFC3;
+	padding: 10px 20px 20px 20px;
+}
+
+.sharedLearningToolsListContainer {
+    margin: 20px 0px 20px 0px;
+}
+
+.mainScreenLearningTool
+{
+	padding: 15px 0px 15px 0px;
+}
+
+.toolsListRepeaterItemContainer
+{
+	padding: 7px 3px 7px 3px;
+	border: 1px solid transparent;
+	width: 355px;
+	
+}
+.sharedToolsListRepeaterItemContainer
+{
+	padding: 7px 3px 7px 3px;
+	border: 1px solid transparent;
+	width:auto;
+	float:left;
+	clear:left;
+	display:block;
+}
+.sharedToolsListRepeaterItemContainer:hover 
+{
+    cursor: pointer;
+    background-color: #E5EEFE;
+    border: 1px solid #29567C;
+}
+.sharedToolsListRepeaterItemContainer:hover .repeaterMoreDetailsContainer {
+    display: inline;
+    height: 20px;
+    padding-left: 20px;
+    margin-right:5px;
+    margin-left: 20px;
+    background:url('../../../ui/common/images/portletimages/icons/16/info_rhombus.png') no-repeat;    
+}
+
+.toolsListRepeaterItemContainer:hover 
+{
+    cursor: pointer;
+    background-color: #E5EEFE;
+    border: 1px solid #29567C;
+}
+
+.toolsListRepeaterItemContainer:hover .repeaterMoreDetailsContainer {
+    display: inline;
+    float:right;
+    height: 20px;
+    padding-left: 20px;
+    margin-right:5px;
+    background:url('../../../ui/common/images/portletimages/icons/16/info_rhombus.png') no-repeat;    
+}
+.toolListTitle
+{
+    width:245px;
+    display:inline-block;
+    white-space:normal;
+}
+.featuredToolsListRepeaterItemContainer {
+    padding: 7px 3px 7px 3px;
+	border: 1px solid transparent;
+	width:100%;
+}
+
+.featuredToolsListRepeaterItemContainer:hover {
+    cursor: pointer;
+    background-color: #E5EEFE;
+    border: 1px solid #29567C;
+}
+
+.featuredToolsListRepeaterItemContainer:hover .repeaterMoreDetailsContainer {
+    display:inline-block;
+    float: right;
+    height: 20px;
+    padding-left: 20px;
+    background:url('../../../ui/common/images/portletimages/icons/16/info_rhombus.png') no-repeat;   
+}
+
+.editRemoveLinksContainer
+{
+	padding: 5px 0px 5px 0px;
+}
+
+.editLink
+{
+	display: inline-block;
+	height: 20px;
+	padding-left: 20px;
+	background: url('../../../ui/common/images/portletimages/icons/edit.gif') no-repeat;
+	vertical-align: middle;
+}
+
+.backToMainScreenLinkContainer
+{
+	padding: 20px 0px 20px 0px;
+}
+
+.backLink
+{
+	display: inline-block;
+	height: 20px;
+	padding-left: 20px;
+	background: url('../../../ui/common/images/portletimages/icons/arrow-left.png') no-repeat;
+}
+
+.learningToolScreenHeaderContainer {
+    padding: 10px 0px 20px 0px;
+}
+
+.learningToolsIconContainer 
+{
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: inline-block;
+    background:transparent url('../../../ui/common/images/portletimages/icons/portleticon-learningtools.png') no-repeat top left;
+}
+
+.controlContainer
+{
+	padding: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px; 
+}
+
+.toolDescriptionContainer 
+{
+    padding: 7px 0px 7px 0px;    
+}
+
+.toolDescriptionTextBoxEditorContainer 
+{
+    padding: 5px 0px 5px 0px;
+    display: inline-block;        
+    width: 75%;
+}
+
+.textEditorPadding 
+{
+    display: inline;
+    margin-left: 15%;
+}
+
+.yourLearningToolsRepeaterContainer {
+    display: block;
+    margin: 10px 0px 10px 0px;
+    vertical-align: top;
+}
+
+.repeaterMoreDetailsContainer {
+    display: none;
+    
+}
+
+.linkContainer
+{
+	display: inline-block;
+	padding: 10px 10px 10px 0;	
+	vertical-align: middle;
+}
+
+.customParametersDirectionsContainer {
+    padding: 0px 5px 5px 5px;
+    margin: 0px 10px 10px 10px; 
+    display: inline-block;    
+}
+
+.textContainer
+{
+	padding: 5px 0px 5px 0px;
+}
+
+
+.addToolLinkContainer
+{
+	display: inline-block;
+	padding: 10px;
+	background-color: #E5EEFE;
+	border-color: #3A6486;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px 10px 10px 0px;
+	font-weight: bold;
+	width: 240px;
+}
+
+.deleteLink
+{
+	display: inline-block;
+	height: 20px;
+	padding-left: 20px;
+	background:url('../../../ui/common/images/portletimages/icons/delete.gif') no-repeat;
+	vertical-align: middle;
+}
+
+.disabledDeleteButton 
+{
+    color: #7D7D7D;
+    display: inline-block;
+	height: 20px;
+	padding-left: 20px;
+	background:url('../../../ui/common/images/portletimages/icons/delete.gif') no-repeat;
+	vertical-align: middle;
+}
+
+.disabledDeleteButton a:link {
+    color: #822528;
+}
+
+.addLink
+{
+	display: inline-block;
+	height: 16px;
+	padding-left: 20px;
+	background:url('../../../ui/common/images/portletimages/icons/add.gif') no-repeat;
+    vertical-align: text-bottom;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.previewLink {
+    display: inline-block;
+	height: 16px;
+	padding-left: 25px;
+	background:url('../../../ui/common/images/portletimages/icons/16/magnifier.png') no-repeat;
+    vertical-align: middle;
+}
+
+.personalToolIcon
+{
+    vertical-align: text-bottom;
+	display: inline-block;
+	height: 16px;
+	width: 20px;
+	background:url('../../../ui/common/images/portletimages/icons/16/user.png') no-repeat center;
+}
+
+.featuredToolIcon
+{
+    vertical-align: text-bottom;
+	display: inline-block;
+	height: 16px;
+	width: 20px;
+	background:url('../../../ui/common/images/portletimages/icons/blti-featured.gif') no-repeat center;
+}
+
+.sharedToolIcon
+{
+    vertical-align: text-bottom;
+	display: inline-block;
+	height: 16px;
+	width: 20px;
+	background:url('../../../ui/common/images/portletimages/icons/16/world.png') no-repeat center;
+}
+
+.adminToolsGridView
+{
+    width: 90%;
+}
+
+.adminToolsGridView td {
+    padding: 3px;
+}
+
+.adminToolsGridView th {
+    padding: 5px;
+}
+
+.adminToolsGridViewAltRow {
+    background-color: #EFEFEF;
+    padding: 5px;
+}
+
+.adminToolsGridViewHeader {
+    padding: 5px;
+    background-color: #DEDFDE;
+}
+
+.toolPopupDisplayIcon {
+    padding: 5px;
+    display: inline-block;
+    float: left;
+	height: 32px;
+	width: 32px;
+	background:url('../../../ui/common/images/portletimages/icons/blti-display_popup.png') no-repeat;
+}
+
+.toolInlineDisplayIcon {
+    padding: 5px;
+    display: inline-block;
+    float: left;
+	height: 32px;
+	width: 32px;
+	background:url('../../../ui/common/images/portletimages/icons/blti-display_inline.png') no-repeat;    
+}
+
+.securityKeyAndPasswordContainer 
+{
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+.securityNoteContainer {
+    margin: 0px 20px 0px 20px; 
+    width: 30%; 
+    display: inline-block;
+}
+
+.securityTextBoxField {
+    display: inline; 
+    float: right;
+}
+
+.customParametersTextBoxContainer {
+    display: inline-block; 
+    float: left;
+}
+
+.shareToolCheckBoxContainer {
+    float: left;
+}
+
+.saveCancelButtonContainer {
+    padding: 35px 0px 35px 0px;
+}
+
+.saveButtonContainer 
+{    
+    display: inline;
+    background-color: #D6E2FB;
+    padding: 15px;
+    border: 1px solid #39527B;
+}
+
+.cancelButtonContainer 
+{    
+    display: inline;
+    background-color: #EFEFEF;
+    padding: 15px;
+    border-top: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+    border-bottom: 1px solid #CACACA;
+}
+
+.editDeleteToolSettingsContainer 
+{
+    display: inline-block;
+    border: 1px solid #CCCBCA;
+    background-color: #D6E2FB;
+    padding: 7px 10px 7px 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.editToolSettingsContainer 
+{    
+    display: inline;
+    padding: 0px 100px 0px 0px;
+}
+
+.deleteToolSettingsContainer 
+{    
+    display: inline;
+    padding: 0px 30px 0px 0px;    
+}
+
+.deleteToolSettingsContainer a:link {
+    color: #822528;
+}
+
+.toolDetailsDisplayValueContainer {
+    float: left;
+    width: 30%;
+    display: inline;
+    padding: 0px 20px 0px 0px;    
+}
+
+.toolDetialsPreviewContainer {
+    display: inline;
+}
+
+.toolDetialsDisplayAndPreviewContainer {
+    padding: 10px 0px 10px 0px;
+}
+
+.toolDetailsToolDisplayContainer {
+    display: inline;
+}
+
+.toolDetailsSharingContainer {
+    padding: 10px 0px 10px 0px;
+}
+
+.toolDetailsKeyContainer {
+    display: inline-block;
+    padding: 5px 100px 20px 0px;
+}
+
+.toolDetailsSecretContainer {
+    display: inline-block;
+    padding: 5px 0px 20px 0px;
+}
+
+.clearThisIntroductionLinkButtonContainer 
+{
+    display: inline-block;
+    padding-left: 100px;    
+}
+
+.storeLearningOutcomesLabelContainer 
+{   
+    display: inline;
+    margin: 5px 0px 5px 5px;    
+}
+
+.formCheckBoxContainer {
+    float: left;
+    display: inline;    
+}
+
+/* Modal Popup Control */
+.modalPopup{
+    background-color: #BABABA;
+	filter: Alpha(Opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+}
+.modalDiv{
+    background-color:#FFF;
+    padding:3px;
+    border:1px solid black;
+}
+.modalHeading .modalHeadingImg{
+    float:right;
+    margin-left:10px;
+    padding:0px;
+}
+.modalHeading{
+    font-weight:bold;
+    padding:3px;
+    background-color:#E2E2E2;
+
+}
+.innerModal{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+    max-width:400px;
+}
+
+div.modalButtons
+{
+    margin:5px;
+    padding:5px;
+}
+
+.modalAddEdit
+{
+    padding: 10px;
+}
+
+/* GridView */
+
+table.assignmentGrid>*>tr>td,
+table.assignmentGrid>tr>td
+{
+	padding: 2px 5px 3px 5px;
+}
+
+table.assignmentGrid>*>tr>th,
+table.assignmentGrid>tr>th
+{
+	padding: 2px 5px 3px 5px;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+table.assignmentGrid.itemHover tr:hover,
+table.assignmentGrid.itemHover tr:hover td{
+	border:1px solid #1851AD;
+	background-color:#D6E2FC; 
+}
+table.assignmentGrid.itemHover tr:hover .modalDiv tr:hover,
+table.assignmentGrid.itemHover tr:hover td .modalDiv td{
+	border: inherit;
+	background-color:inherit;
+}
+table.assignmentGrid.itemHover tr.headerAssignmentGrid:hover{
+	border:0px;
+	cursor: default;
+}
+
+table.assignmentGrid{
+	border: 1px solid #BABABA;
+}
+table.assignmentGrid th{
+    border: 1px solid #BABABA;
+	background-color:#DEDFDE;
+	white-space:nowrap;
+	font-weight:normal;
+}
+table.assignmentGrid th{
+	padding:3px 3px 3px 7px;
+    border-bottom-width: 0px;
+}
+
+table.assignmentGrid td{    
+    border: 1px solid #BABABA;
+	padding:0px 3px 0px 7px;
+    border-bottom-width: 0px;
+	height:26px;
+}
+.altAssignmentGrid, .altRow {
+	background-color:#EFEFEF;
+}
+table.assignmentGrid .gridGradeColumn{
+	width:215px;
+	vertical-align:middle;
+}
+table.assignmentGride .gridStudentColumn{
+	width:250px;
+}
+table.assignmentGrid a.inactiveAssignment{
+	color:black;
+	font-style:italic;
+}
+table.assignmentGrid td.formatType, table.reorderAssignment td.formatType{
+	padding-left:30px;
+    background-repeat:no-repeat;
+    background-position:5px;
+}
+table.assignmentGrid span.requiredType{
+    font-style:italic;
+}
+table.assignmentGrid span.requiredType img{
+    margin-bottom:-3px;
+}
+
+table.assignmentGrid{
+	width:auto;
+}
+
+table.headerAssignmentGrid{
+	height:auto;
+}
+
+.inlinkLinkContainer
+{
+    background-color: #efefef;
+}
+.inlineLink
+{
+    padding: 5px;
+    border-width: 1px;
+    border-color: #efefef;
+    border-style: solid;
+}
+.inlineLink:hover
+{
+    border-width: 1px;
+    border-color: #2f5b80;
+    border-style: solid;
+}
+
+.CustomUrl
+{
+    padding: 15px 0px 0px 50px;
+}

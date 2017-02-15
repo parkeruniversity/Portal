@@ -1,0 +1,1 @@
+<%@ WebService Language="c#" Codebehind="Browse_View.asmx.cs" Class="Jenzabar.LMS.Portlets.CoursepackPortlet.Views.Browse_AJAX" %>

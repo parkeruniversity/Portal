@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<configuration>
+	<links>
+		<footer>
+			<link url="ClientConfig/HtmlContent/Privacy.html" text="TXT_PRIVACY_POLICY" title="TXT_PRIVACY_POLICY_TITLE" />
+			<link url="ClientConfig/HtmlContent/AboutUs.html" text="TXT_ABOUT_US" title="TXT_ABOUT_US_TITLE" />
+			<link url="ClientConfig/HtmlContent/ContactUs.html" text="TXT_CONTACT_US" title="TXT_CONTACT_US_TITLE" />
+		</footer>
+	</links>
+</configuration>

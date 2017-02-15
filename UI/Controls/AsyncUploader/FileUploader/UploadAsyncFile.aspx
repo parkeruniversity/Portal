@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UploadAsyncFile.aspx.cs" Inherits="Jenzabar.Portal.Web.UI.Controls.AsyncUploader.FileUploader.UploadAsyncFile" %> 

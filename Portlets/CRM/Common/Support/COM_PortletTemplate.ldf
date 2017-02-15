@@ -1,0 +1,21 @@
+# START - [CRM] PaymentsPortlet
+dn: CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: HT2qkjTyPEiWGVb2SlsXDQ==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Payment Administration
+jenzabar-ICSNET-PortletPath:
+ Portlet.Payments,Jenzabar.CRM.Common.Web.Portlets.PaymentsPortlet.PaymentsPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] PaymentsPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] PaymentsPortlet

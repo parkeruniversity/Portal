@@ -1,0 +1,14 @@
+<singleSignOnTemplate name="IMail" description="IMail" enabled="true">
+<![CDATA[
+<HTML>
+<body onload="document.forms[0].submit()">
+<form method="post" action="https://www.google.com/accounts/LoginAuth">
+<INPUT type="hidden" name="continue" value="http://gmail.google.com/gmail">
+<INPUT type="hidden" name="service" value="mail">
+<INPUT type="hidden" name="Email" value="%USERNAME%@gmail.com">
+<INPUT type="hidden" name="Passwd" value="%PASSWORD%">
+</form>
+</body>
+</html>
+]]>
+</singleSignOnTemplate>

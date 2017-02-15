@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>Portlet Specific Payment Configuration</title>
+<link rel="StyleSheet" href="Jenzabar.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+function printpage() {
+        window.print()
+        }
+//]]></script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show full table of contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("Wlc_Key_terms.htm", "", ">", "Home", "Announcements.htm");
+document.write("Portlet Specific Payment Configuration<\/p>");
+
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Wlc_Key_terms.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+//-->
+//]]></script>
+<script src="./ehlpdhtm.js" type="text/javascript" language="JavaScript1.2"></script>
+<h2>Portlet Specific Payment Configuration</h2>
+<p class="body">This screen opens when you use the option labeled <span 
+	 style="font-weight: bold;"><b>Work with portlet specific payment configurations</b></span> 
+ in the Payment Administration portlet. You can enter the following specific 
+ configuration settings for each type of payment.</p>
+<h3>Configure Payment Information</h3>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a1">Payment 
+ Config Description</a></p>
+<div class="droptext" id="POPUP321935985" style="display: none;">
+	<p>Enter a description of this payment configuration.</p>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a2">Transaction 
+ code</a></p>
+<div class="droptext" id="POPUP321884513" style="display: none;">
+	<p>This value is defined by the ERP system used to record fees in Business 
+	 Office and enables communication between the Payments portlet and 
+	 the ERP.&#160;It is generally an ERP-specific code that may be needed 
+	 in order to record the payment in the proper general ledger accounts.</p>
+	<p>For EX, this is a receipt code that is used to determine the debit 
+	 and credit accounts to use to record a payment transaction. The receipt 
+	 codes are defined on the <span style="font-weight: bold;"><b>Receipt 
+	 Code Control</b></span> window in the Accounts Receivable Administration 
+	 module.</p>
+	<p>For CX, general ledger account numbers would be entered directly 
+	 in the <span style="font-weight: bold;"><b>Transaction Code</b></span> column.</p>
+	<p>For PX, please refer to the <span style="font-style: italic;"><i>PX 
+	 Admissions System Reference Manual</i></span>, &quot;Appendix D, PX Admissions 
+	 System and JICS.&quot;</p>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a3">Authorize 
+ payments</a></p>
+<div class="droptext" id="POPUP270402774" style="display: none;">
+	<p>This radio button indicates whether the payment is actually charged 
+	 to the person's credit card account immediately through an Authorize.net 
+	 merchant account (<span style="font-weight: bold;"><b>Online</b></span>) 
+	 or if the payments are to be requested later in a batch process not 
+	 using Authorize.net (<span style="font-weight: bold;"><b>Offline</b></span>).</p>
+	<p>For EX, the option that is selected here must also be selected in 
+	 the Accounts Receivable Configuration window.&#160;If not, you will 
+	 receive a warning message on the <span style="font-weight: bold;"><b>Payment 
+	 Administration</b></span> portlet.</p>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a4">Allow 
+ the following payment option</a></p>
+<div class="droptext" id="POPUP323808944" style="display: none;">
+	<p class="body">Select Credit Card and/or e-check. Payments by e-check (electronic check) are not allowed if payments 
+	 are being authorized <span style="font-weight: bold;"><b>Offline</b></span>.</p>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a5">Payment 
+ not Authorized email address (online only)</a></p>
+<div class="droptext" id="POPUP271833110" style="display: none;">
+	<p>Enter the e-mail address of the person at your institution who should 
+	 be notified when an unauthorized payment is received. The e-mail address 
+	 is only applicable for <span style="font-weight: bold;"><b>Online</b></span> 
+	 authorization.</p>
+</div>
+<h3>Payment Method Message</h3>
+<p class="Bullet2">+ <a class="dropspot" href="javascript:TextPopup(this)" 
+						 id="a6">Message Template Name</a></p>
+<div class="droptext" id="POPUP321889140" style="display: none;">
+	<p>This drop-down list is populated with message templates available 
+	 for making a payment type for this portlet type. The template consists 
+	 of a name and a message. The following options are available:</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Select 
+	 a previously created template from the list.</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Modify 
+	 a template by selecting it from the list and clicking the <span style="font-weight: bold;"><b>Modify</b></span> 
+	 button. This opens the <span style="font-weight: bold;"><b>Edit Message</b></span> 
+	 screen, where the template name and/or message can be edited and saved.</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Create 
+	 a new template and message by clicking the <span style="font-weight: bold;"><b>New</b></span> 
+	 button and entering the name and message on the <span style="font-weight: bold;"><b>Add 
+	 Message</b></span> screen.</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Remove 
+	 a template by selecting the appropriate template in the list and clicking 
+	 the <span style="font-weight: bold;"><b>Delete</b></span> button.</p>
+</div>
+<p class="Bullet2">+ <a class="dropspot" href="javascript:TextPopup(this)" 
+						 id="a7">Message that will display when the Payments 
+ Selection screen appears</a></p>
+<div class="droptext" id="POPUP322427713" style="display: none;">
+	<p>This message should be portlet-specific.&#160;It 
+	 can only be created, modified, or deleted via the use of the <span 
+	 style="font-weight: bold;"><b>Modify</b></span>, <span style="font-weight: bold;"><b>New</b></span>, 
+	 and/or <span style="font-weight: bold;"><b>Delete</b></span> buttons beside 
+	 the <span style="font-weight: bold;"><b>Message Template Nam</b></span>e 
+	 drop-down. When the person making the payment in the <span style="font-weight: bold;"><b>Payments</b></span> 
+	 portlet clicks the <span style="font-weight: bold;"><b>Confirm and Submit</b></span> 
+	 button, this message is used for instructing the payor during the 
+	 selection of a payment type.</p>
+</div>
+<h3>Make a Payment Message</h3>
+<p class="Bullet2">+ <a class="dropspot" href="javascript:TextPopup(this)" 
+						 id="a8">Message Template Name</a></p>
+<div class="droptext" id="POPUP321799789" style="display: none;">
+	<p>This drop-down list is populated with message templates available 
+	 for making a payment type for this portlet type. The template consists 
+	 of a name and a message. The following options are available:</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Select 
+	 a previously created template from the list.</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Modify 
+	 a template by selecting it from the list and clicking the <span style="font-weight: bold;"><b>Modify</b></span> 
+	 button. This opens the <span style="font-weight: bold;"><b>Edit Message</b></span> 
+	 screen, where the template name and/or message can be edited and saved.</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Create 
+	 a new template and message by clicking the <span style="font-weight: bold;"><b>New</b></span> 
+	 button and entering the name and message on the <span style="font-weight: bold;"><b>Add 
+	 Message</b></span> screen.</p>
+	<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Remove 
+	 a template by selecting the appropriate template in the list and clicking 
+	 the <span style="font-weight: bold;"><b>Delete</b></span> button.</p>
+</div>
+<p class="body">+ <a class="dropspot" href="javascript:TextPopup(this)" 
+					 id="a9">Message that will display when the Make a 
+ Payment screen appears</a></p>
+<div class="droptext" id="POPUP271228604" style="display: none;">
+	<p>This message should be portlet-specific 
+	 and can only be created, modified or deleted via the use of the <span 
+	 style="font-weight: bold;"><b>Modify</b></span>, <span style="font-weight: bold;"><b>New</b></span>, 
+	 and/or <span style="font-weight: bold;"><b>Delete</b></span> buttons beside 
+	 the <span style="font-weight: bold;"><b>Message Template Name</b></span> 
+	 drop-down. When the person making the payment selects the payment 
+	 method, this message displays on the <span style="font-weight: bold;"><b>Enter 
+	 Payment Information</b></span> page of the <span style="font-weight: bold;"><b>Payments</b></span> 
+	 portlet to describe what has taken place.</p>
+</div>
+<p class="Bullet2">&#160;</p>
+
+
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a1','POPUP321935985');
+	TextPopupInit('a2','POPUP321884513');
+	TextPopupInit('a3','POPUP270402774');
+	TextPopupInit('a4','POPUP323808944');
+	TextPopupInit('a5','POPUP271833110');
+	TextPopupInit('a6','POPUP321889140');
+	TextPopupInit('a7','POPUP322427713');
+	TextPopupInit('a8','POPUP321799789');
+	TextPopupInit('a9','POPUP271228604');
+//]]></script>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

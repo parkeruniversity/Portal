@@ -1,0 +1,35 @@
+<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="AddCoursesDataSet">
+	<xs:element name="AddCourses">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="StudentID" type="xs:string" minOccurs="0"/>
+				<xs:element name="MustPayUpdate" type="xs:string" minOccurs="0"/>
+				<xs:element name="AdvisorApprovalUpdate" type="xs:string" minOccurs="0"/>
+				<xs:element name="AdvisorID" type="xs:string" minOccurs="0"/>
+				<xs:element name="RequisiteCourse" type="xs:string" minOccurs="0"/>
+				<xs:element name="SwapCreditHours" type="xs:string" minOccurs="0"/>
+				<xs:element name="SwapERPCourseKey" type="xs:string" minOccurs="0"/>
+				<xs:element name="SwapERPStudentCourseKey" type="xs:string" minOccurs="0"/>
+				<xs:element name="CourseInfo" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ERPCourseKey" type="xs:string" minOccurs="0"/>
+              <xs:element name="VariableGradingTypeCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ERPStudentCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="Status" type="xs:string" minOccurs="0"/>
+							<xs:element name="AdvisorApproved" type="xs:string" minOccurs="0"/>
+							<xs:element name="Paid" type="xs:string" minOccurs="0"/>
+							<xs:element name="ERPFeeKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="AddToWaitlist" type="xs:string" minOccurs="0"/>
+							<xs:element name="CapacityOverride" type="xs:string" minOccurs="0"/>
+							<xs:element name="ScheduleConflictOverride" type="xs:string" minOccurs="0"/>
+							<xs:element name="SectionRequirementOverride" type="xs:string" minOccurs="0"/>
+							<xs:element name="RequisiteOverride" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

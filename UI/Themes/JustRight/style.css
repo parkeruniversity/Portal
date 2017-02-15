@@ -1,0 +1,1488 @@
+/*
+  JICS Theme Just Right
+  Copyright Jenzabar Inc
+*/
+ 
+@import "icons.css";
+@import "colors.css";
+/* =Body
+------------------------------------------*/
+html {
+}
+body {
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	line-height: 150%;
+}
+body * {
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	line-height: 150%;
+}
+/* =Headings
+------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	cursor: default;
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+}
+/* =Text Elements
+------------------------------------------*/
+p {
+	font-family: "Lucida Grande", Tahoma, sans-serif;
+	font-size: 90%;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+a:link, a:visited {
+	outline: none;
+	text-decoration: none;
+}
+a:focus, a:hover {
+	text-decoration: underline;
+}
+blockquote {
+	border-left: 3px solid transparent;
+	font-style: italic;
+	margin: 20px 0px;
+	padding-left: 40px;
+}
+blockquote p {
+	font-style: italic;
+}
+strong {
+}
+em, dfn {
+}
+dfn {
+}
+sup, sub {
+}
+abbr, acronym {
+}
+address {
+}
+del {
+}
+pre {
+}
+pre, code, tt {
+}
+/* =Lists
+------------------------------------------*/
+li ul, li ol {
+}
+ul, ol {
+	line-height: 110%;
+	list-style-position: inside;
+	list-style: square;
+}
+ul {
+}
+dl {
+}
+dl dt {
+}
+dd {
+}
+/* =Tables
+------------------------------------------*/
+table {
+}
+th {
+}
+th, td, caption {
+}
+tfoot {
+}
+caption {
+}
+/* =Forms
+------------------------------------------*/
+label {
+}
+fieldset {
+}
+legend {
+}
+textarea {
+}
+/* =Header
+------------------------------------------*/
+#siteWrapper {
+}
+.accessibility {
+}
+#masthead {
+	border-bottom: 1px solid transparent;
+	height: 70px;
+	overflow: hidden;
+	width: 100%;
+}
+#masthead h1 {
+	background: none;
+	margin: 0 auto;
+	width: auto;
+	max-width: 1200px;
+	min-width: 960px;
+	display: block;
+}
+#masthead h1 a {
+	background: url(images/JenzabarLogo.png) 0 50% no-repeat;
+	display: block;
+	height: 60px!important;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 400px;
+	z-index: 999;
+}
+#headerTabs {
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px;
+	min-width: 960px;
+	visibility: hidden;
+}
+#headerTabs ul {
+	margin: 0 0 0 400px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	max-width: 800px;
+	min-width: 560px;
+	z-index: 990;
+}
+#headerTabs ul li {
+	background: none;
+	border: none;
+	float: left;
+	list-style: none;
+	margin: 0 0 0 1px;
+	padding: 0;
+}
+#headerTabs ul li.firstTab {
+	margin: 0;
+}
+#headerTabs ul li a {
+	display: block;
+	font: bold 14px Arial;
+	letter-spacing: 0;
+	margin: 0;
+	outline: none;
+	padding: 25px 30px 20px 30px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
+#headerTabs ul li a:hover {
+	text-decoration: none;
+}
+#headerTabs ul li.selected {
+	background-image: none;
+	padding: 0;
+	margin-top: -1px;
+}
+#headerTabs ul li.selected a {
+	padding: 25px 30px 20px 30px;
+}
+#headerTabs ul li.selected a:hover {
+	color: #fff;
+}
+#more {
+	cursor: pointer;
+	font: bold 14px Arial;
+	letter-spacing: 0;
+	margin: 0 0 0 0;
+	outline: none;
+	padding: 25px 30px 20px 30px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	top: 0;
+	z-index: 999;
+}
+#moreList {
+	position: absolute;
+	z-index: 999;
+	width: 200px!important;
+	max-width: 200px!important;
+	min-width: 200px!important;
+	padding: 10px 0 0 0!important;
+	display: none;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 60px 0 0 -134px!important;
+ //margin: 60px 0 0 -174px!important;
+}
+#moreList li {
+	background: none;
+	border: none;
+	display: block;
+	width: 100%;
+	clear:both;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+#moreList li a {
+	margin: 0;
+	text-align: right!important;
+	padding: 10px 17px 10px 5px!important;
+	white-space: nowrap!important;
+	display: block!important;
+	width:180px!important;
+	float: right!important;
+}
+#moreList li a:hover {
+	margin: 0;
+}
+#moreList li.selected a, a#more.moreSelected {
+}
+/* =Dialoge Popup (timeout)
+------------------------------------------*/
+.DialogWindow_Title {
+	color: #000;
+}
+.DialogWindow_Body {
+	color: #000;
+}
+/* =TargetedMessage
+------------------------------------------*/
+#TargetedMessage {
+	background: none;
+	border: none;
+	margin: 0;
+	overflow: hidden;
+	margin-bottom:0px;
+	padding:0px 0px 0px 20px;
+	min-height:55px;
+	font-size:20px;
+}
+#TargetedMessage .wysiwygtext {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-width: 960px;
+	padding: 10px 0;
+}
+#TargetedMessage img {
+	display: block;
+	margin: 0 auto;
+}
+/* =Breadcrumbs
+------------------------------------------*/
+#mainCrumbs {
+	border: none;
+	background: none;
+	clear: both;
+	font-size: 87.5%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#mainCrumbs a:hover {
+}
+#youAreHere {
+	padding: 0;
+	clear:both;
+}
+.crumbs {
+
+	display: block;
+	margin: 0px auto 0 auto;
+	max-width: 1180px;
+	min-width: 940px;
+	padding: 5px 10px 5px 10px;
+}
+.crumbs a, .crumbs a:link, .crumbs a:visited {
+	text-decoration: none;
+}
+.crumbs a:focus, .crumbs a:hover {
+	text-decoration: underline;
+}
+#mainCrumbs #emulation
+{
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-color:#060;
+	display: block;
+	margin: 10px auto 0 auto;
+	max-width: 1180px;
+	min-width: 940px;
+	padding: 5px 10px 5px 10px;
+	float:none;
+	background:#fff;
+	color:#060;
+}
+/* =WelcomeBack
+------------------------------------------*/
+#welcomeBackBar {
+	display: none;
+	background: none;
+}
+#sideBar #welcomeBackBar {
+	display: block;
+	clear: both;
+}
+#userLogin, #userWelcome {
+}
+#userWelcome {
+	padding: 5px 5px 10px 5px;
+}
+#userWelcome a {
+}
+#welcomeBackBar .searchControls {
+	float: none;
+}
+#userWelcome strong {
+	display: block;
+	clear: both;
+}
+#userWelcome ul{
+display: block;
+}
+#userWelcome ul:before,
+#userWelcome ul:after
+{
+    content: "";
+}
+#userWelcome li ~ li
+{
+    border-left: 0;
+}
+#userLogin label {
+}
+#userName, #password {
+	padding: 2px 4px;
+	width: 90%;
+	margin: 0 0 10px 0!important;
+	display: block;
+	border-width: 3px!important;
+	border-style: solid!important;
+}
+#btnLogin {
+	float: right;
+	border-width: 1px;
+	border-style:  solid;
+	display: block;
+	padding: 3px 6px;
+	clear: both;
+}
+#btnLogin:hover, #btnLogin:focus {
+	cursor: pointer;
+}
+#lnkForgot {
+	clear: both;
+	margin: 10px 0 0 0!important;
+	display: block;
+}
+#accountInfo {
+}
+#logout {
+}
+/* =MainLayout
+------------------------------------------*/
+#MAINFORM {
+	padding: 0;
+}
+#mainLayout {
+	margin: 0 auto;
+	width: auto;
+	max-width: 1200px;
+	min-height: 480px;
+	min-width: 960px!important;
+	padding: 0;
+	border-bottom-width: 20px;
+	border-bottom-style: solid;
+}
+/* =Sidebar
+------------------------------------------*/
+#sideBar {
+	float: right;
+	margin: 0 10px 0 1%;
+	padding: 0 1% 0 0;
+	width: 22%;
+	max-width:300px;
+}
+#sideBar ul {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	margin: 0 0 0 15px;
+ //margin: 0 0 0 0px;
+	padding: 0;
+}
+#sideBar ul li {
+	background: none;
+}
+#sideBar a {
+}
+#sideBar a:focus, #sideBar a:hover {
+}
+#sideBar img {
+	float: right;
+	height: 16px;
+	margin: 0;
+	padding: 0;
+	width: 16px;
+}
+#sideBar .sidebar-icon {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+#sideBar .sidebar-icon-search, .e404 input.sidebar-icon-search {
+	background: url(/ics/ui/common/images/portletimages/icons/16/magnifier.png) no-repeat;
+	border: none;
+	float: right;
+	height: 24px;
+	margin: 0px 0px 0px 20px;
+	width: 24px;
+}
+#manageLinks li {
+	clear: both;
+	display: block!important;
+}
+#manageLinks li.manageContext, #manageLinks li.usageStats {
+	border-top: 1px solid transparent!important;
+	width: 100%!important;
+	padding:2px;
+}
+#manageLinks .manageContext a, #manageLinks .manageContext a:link, #manageLinks .manageContext a:visited {
+	background: transparent url(/ics/ui/common/images/portletimages/icons/16/folder_add.png) 100% 2px no-repeat!important;
+	display: block;
+	font-style: normal;
+	margin: 0!important;
+	padding: 0 10% 2px 8%;
+ *padding: 0 0 2px 0;
+	width: 78%;
+ *width: 86%;
+}
+#manageLinks li.manageGroup {
+	border-top: 1px solid transparent!important;
+	padding: 2px 0;
+}
+#manageLinks .manageGroup a, #manageLinks .manageGroup a:link, #manageLinks .manageGroup a:visited {
+	background: url(/ics/ui/common/images/portletimages/icons/16/group_edit.png) 100% 2px no-repeat!important;
+	display: block;
+	font-style: normal;
+	margin: 0!important;
+	padding: 0 10% 2px 8%;
+ *padding:0 0 2px 7%;
+	width: 78%;
+ *width: 86%;
+}
+#manageLinks .usageStats a, #manageLinks .usageStats a:link, #manageLinks .usageStats a:visited {
+	background: url(/ics/ui/common/images/portletimages/icons/16/chart_bar.png) 100% 2px no-repeat!important;
+	display: block;
+	font-style: normal;
+	margin: 0!important;
+	padding: 0 10% 2px 8%;
+ *padding:0 0 2px 0;
+	width: 78%;
+ *width:86%;
+}
+#sideBar #subContexts a {
+	background: transparent url(/ics/ui/common/images/portletimages/icons/16/folder.png) 5% 5px no-repeat;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 110%;
+	padding: 5px 0 5px 17%;
+	font-size: 117.65%!important;
+}
+#sideBar #subContexts li {
+	font-weight: normal;
+	width: 100%;
+	display: block;
+}
+#sideBar #otherPages a, #sideBar #otherPages a:link, #sideBar #otherPages a:visited {
+	background: transparent url(/ics/ui/common/images/portletimages/icons/16/page_white.png) 5px 0 no-repeat;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	line-height: 110%;
+	padding-left: 24px;
+}
+/* =ThisContext
+------------------------------------------*/
+#sideBar div.sideSection, #sideBar div#quickLinks {
+	border: 1px solid transparent;
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 0 10px 0!important;
+	padding-bottom: 10px;
+	width: 100%;
+}
+#sideBar div.sideSection h2, #sideBar div#quickLinks h3 {
+	background: none;
+	border-bottom: 1px solid transparent;
+	font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	margin: 5px 5%;
+	padding: 0;
+}
+#sideBar div.sideSection h2 a {
+	background: none;
+	font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 110%;
+}
+#sideBar div.sideSection ul {
+	margin-left: 0!important;
+}
+#sideBar li {
+	position: relative!important;
+}
+#thisContext ul li a {
+	float: left;
+	width: 100%;
+}
+#contextPages li {
+	border: none;
+	clear: both;
+	margin: 0 5%;
+	padding: 5px 0;
+}
+#contextPages li a {
+	display: block;
+	padding: 0 0 0 4%;
+	text-decoration: none;
+	font-size: 117.65%;
+}
+#contextPages li a:hover {
+}
+#contextPages li.currentPage {
+	margin-left: 5%;
+ //margin-left: -2.5%;
+	display: block;
+	min-height: 20px;
+	padding: 0 .5% 0 0;
+}
+#contextPages li.currentPage a {
+	width: auto;
+}
+.currentPage #pagePortlets {
+	margin: 0;
+	padding: 0;
+}
+#pagePortlets li {
+	border: none;
+	list-style-type: none;
+	text-indent: 0;
+	padding: 0;
+}
+#contextPages #pagePortlets li a {
+	clear: both;
+	float: none;
+	padding: 4px 0;
+	text-decoration: none;
+}
+#contextPages #pagePortlets li a:hover {
+	text-decoration: underline;
+}
+#contextPages #pagePortlets li a.selected {
+	background: none;
+	font-weight: bold;
+}
+#contextPages #pagePortlets li a.selected:hover {
+	text-decoration: underline;
+}
+#pagePortlets {
+}
+#pagePortlets li {
+}
+#xpndPrtlts {
+	background: url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_plus.png) 2px 2px no-repeat;
+	display: block;
+	float: right!important;
+	height: 16px!important;
+	overflow: hidden!important;
+	text-indent: 1000px;
+	width: 16px!important;
+}
+#xpndPrtlts.expanded {
+	background: url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_minus.png) 2px 2px no-repeat;
+}
+#sideBar li.addPage {
+	background: none;
+	width: 100%!important;
+	margin: 0 0 20px 0;
+}
+#sideBar .addPage a, #sideBar .addPage a:link, #sideBar .addPage a:visited {
+	background: url(/ics/ui/common/images/portletimages/icons/16/page_add.png) 93% 0 no-repeat!important;
+	font-style: normal;
+	font-size: 100%;
+	padding: 0 10% 0 10%;
+ *padding: 0 0 0 3%;
+	width: 80%;
+ *width: 88%
+}
+/* =QuickLinks*/
+------------------------------------------
+#sideBar div#quickLinks {
+}
+#quickLinks h3 {
+}
+#sideBar #globalLinks {
+}
+#sideBar #globalLinks li {
+	padding: 0 2.5%;
+    *padding: 0 2.5%;
+	display: block;
+	width:95%;
+	*width:85%;
+}
+#sideBar .globalLinks li {
+	padding: 0 2.5%;
+    *padding: 0 2.5%;
+	display: block;
+}
+.globalLinks img {
+	display: none!important;
+}
+#sideBar #globalLinks li a, #sideBar .globalLinks li a {
+	display: block;
+	margin: 0;
+	font-size: 100%!important;
+	background-position: 100% 4px;
+	background-repeat: no-repeat;
+	line-height: 100%;
+}
+#sideBar #globalLinks li a:hover, #sideBar .globalLinks li a:hover {
+	text-decoration: underline;
+}
+#quickLinks a {
+}
+#quickLinks dl dt, #quickLinks dl dt:link, #quickLinks dl dt:visited {
+}
+#quickLinks dl a {
+	float: none;
+	color: #333!important;
+}
+#quickLinks dl
+{
+	clear:both;
+}
+#quickLinks dl ul li
+{
+	
+}
+#quickLinks dl.closed dt {
+	background: url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_plus.png) 98% 3px no-repeat;
+	margin: 0 2% 0 3%;
+	padding: 0 0 0 5%;
+}
+#quickLinks dl.open dt {
+	background: url(/ics/ui/common/images/portletimages/icons/16/bullet_toggle_minus.png) 98% 3px no-repeat!important;
+	margin: 0 2% 0 3%;
+	padding: 0 0 0 5%;
+}
+#quickLinks dl.open ul {
+   *margin-left: 5%;
+	padding: 0;
+	width:89%;
+   *width:90%;
+   clear:both;
+ 
+
+}
+#quickLinks dl.open ul li {
+	display: block;
+	margin: 0;
+	padding: 4px 0 4px 8%;
+    *padding: 4px 0 4px 2%;
+	display:block;
+	float:left;
+	clear:both;	
+	line-height:100%;
+}
+#quickLinks dl.open ul li a {
+}
+/* =MainContent
+------------------------------------------*/
+#mainContent {
+}
+/* =Feature
+------------------------------------------*/
+#errorMessage {
+	display: block!important;
+	font-weight: bold;
+	line-height: 2;
+	margin: 0 auto!important;
+	padding: 0 10px!important;
+}
+#feature {
+}
+#feature .portlet {
+}
+#feature .portlet .pHead {
+}
+#feature .portlet .pHead h3 {
+}
+#feature .portlet .pHead h3 a {
+}
+#feature .portlet .pHead h3 a:focus, #feature .portlet .pHead h3 a:hover {
+}
+#feature .portlet .pContent {
+}
+#feature .portlet .pContent .pSection {
+}
+#feature .portlet .pContent .ccSection {
+}
+/* =PageTitle
+------------------------------------------*/
+#pageTitle {
+}
+#pageTitle h2 {
+}
+#pageTitle h2 #contextName {
+}
+#pageTitle h2 #pageName {
+}
+#pageTitle h2 a {
+}
+#pageTitle h2 a:focus, #pageTitle h2 a:hover {
+}
+#pageTitleButtons {
+//margin: 0 0 -20px 0;
+}
+#pageTitleButtons .editPage, #pageTitleButtons .printPage {
+}
+#pageTitleButtons .editPage a {
+}
+#pageTitleButtons .printPage a {
+}
+#pageTitleButtons img {
+}
+#printModeButtons {
+}
+#printModeButtons a {
+}
+#printModeButtons input {
+}
+#btnPrintView
+{
+	margin-right:15px;
+}
+a.imageAndText span
+{
+	text-decoration:none;
+}
+a.imageAndText span:hover
+{
+	color:#000;
+}
+/* =PortletGrid
+------------------------------------------*/
+#PORTLETGRID {
+	clear: both;
+	padding: 0;
+	width: 100%;
+}
+#portlets {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 1%;
+	width: 73%;
+}
+.adminPortlet {
+	width: 130%;
+}
+/* =Portlet
+------------------------------------------*/
+.portlet {
+	background: none;
+	border: none;
+	margin: 0 0 3% 0;
+}
+.pHead {
+	background: none;
+	border-bottom-width: 2px;
+	border-bottom-style:  solid;
+}
+.pHead h3 {
+}
+.portlet div.pHead h3 a {
+	font-size: 110%;
+	text-decoration: none;
+}
+.pHead h3 a:focus, .pHead a:hover {
+}
+.pHead .a {
+}
+.pHead img {
+}
+.pShortcut {
+}
+.pShortcut a {
+}
+.pShortcut a:focus, .pShortcut a:hover {
+}
+.pContent {
+}
+.pFieldHint {
+}
+.pFoot {
+}
+.pFoot .crumbs {
+}
+.pFoot .crumbs a {
+}
+.assignmentFormatInfo span
+{
+	width:400px;
+	display:block;
+	whitespace:normal;
+}
+.gradebookPortlet .fullGradebookScreen .missingWeightsMessage
+{
+	margin-right:10px;
+	}
+/* =Portlet:Toolbar
+------------------------------------------*/
+.pToolbar {
+}
+.pToolbar .menu {
+}
+.pToolbar ul {
+}
+.pToolbar ul li {
+}
+.pToolbar li.off a, .pToolbar li.off a:focus, .pToolbar li.off a:hover, .pToolbar li.off a.active, .pToolbar .pTool li.off a:focus, .pToolbar .pTool li.off a:hover, .pToolbar .pTool li.off a.active {
+}
+.pToolbar li ul {
+}
+.pToolbar a {
+}
+.pToolbar a:focus, .pToolbar a:hover, .pToolbar a.active, .pToolbar .pTool a:focus, .pToolbar .pTool a:hover, .pToolbar .pTool a.active {
+}
+.pToolbar .menu a {
+}
+.pToolbar .menu a.hasKids {
+}
+.pTool {
+}
+.pTool a:focus, .pTool a:hover, .pTool a.active {
+}
+/* =Portlet:Content
+------------------------------------------*/
+.wysiwygtext ul li {
+}
+.wysiwygtext ul {
+}
+.pSection.ccSection ul li, .postBody ul li {
+}
+.pSection.ccSection ol li, .pSection ol li {
+}
+.psection.ccSection ul, .psection.ccSection ol, .psection ol {
+}
+/* =Portlet:Content Tabs
+------------------------------------------*/
+.contentTabs {
+}
+.contentTabs ul {
+}
+.contentTabs li {
+}
+.contentTabs li a {
+}
+.contentTabs li a:focus, .contentTabs li a:hover {
+}
+.contentTabs li.selected {
+}
+.contentTabs li.selected a {
+}
+.contentTabs li.selected a:focus, .contentTabs li.selected a:hover {
+}
+.tabbox {
+}
+.scrollAll {
+}
+/* =Portlet:Navigation
+------------------------------------------*/
+.portletnavtabs {
+}
+.portletSectionJump {
+}
+.portletSectionJump dt {
+}
+.portletSectionJump dd {
+}
+.portletSectionJump dd.selected {
+}
+.portletSectionJump dd a {
+}
+.portletSectionJump dd.selected a {
+}
+.portletSectionJump dd a:focus, .portletSectionJump dd a:hover {
+}
+.portletSectionJump dd.selected a:focus, .portletSectionJump dd.selected a:hover {
+}
+/* =Footer
+------------------------------------------*/
+#foot {
+	background: none;
+	text-align: center;
+	border: none;
+	padding: 0 0 40px 0;
+	margin: 0;
+}
+#foot a {
+}
+#foot a:focus, #foot a:hover {
+}
+#copyright {
+	margin: -56px auto 0 auto;
+	max-width: 1180px;
+	min-width: 940px;
+	padding: 20px 10px;
+	text-align: right;
+}
+#policies {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	padding:  20px 10px;
+	max-width: 1180px;
+	min-width: 940px;
+	text-align: left;
+	border-top-width: 1px;
+	border-top-style:  solid;
+}
+/* =Messages
+------------------------------------------*/
+.hint {
+}
+.largehint {
+}
+.notice {
+}
+.note {
+}
+.info {
+}
+.download {
+}
+.working {
+}
+.loading {
+}
+.feedbackMessage {
+}
+.feedbackError {
+}
+.PortletError {
+}
+.ApplicationError {
+}
+#errorMessage {
+}
+.errorMessage {
+}
+.alert, .notFound {
+}
+.notFound p, .notFound p a {
+}
+.fieldHint {
+}
+.oops {
+}
+.oops h6 {
+}
+.oops pre {
+}
+/* =Messages:ASP.NET Compile Errors
+------------------------------------------*/
+.compileError {
+}
+.compileError p {
+}
+.compileError b {
+}
+.compileError H1 {
+}
+.compileError H2 {
+}
+.compileError pre {
+}
+.compileError .marker {
+}
+.compileError .version {
+}
+.compileError .error {
+}
+.compileError .expandable {
+}
+/* =Misc
+------------------------------------------*/
+.alt {
+}
+.highlighted {
+}
+.selected {
+}
+.WhiteLinks {
+}
+.linkBorder {
+}
+.hiddenText {
+}
+/* =Controls:Multi-File Upload
+------------------------------------------*/
+.multiUp p {
+}
+.multiUp table {
+}
+.multiUp table thead {
+}
+.multiUp th {
+}
+.multiUp table tfoot {
+}
+.multiUp table tfoot a {
+}
+/* =Controls:Calendar
+------------------------------------------*/
+.cal {
+}
+ .cal . {
+}
+.cal span {
+}
+.cal img {
+}
+.cal iframe {
+}
+.cal .time {
+}
+.cal select {
+}
+ul.dayOfWeek, ul.dayOfWeek li {
+}
+#calSideBar {
+	background: none;
+}
+#calSideBar li {
+	background: none;
+	clear: both;
+	display: block;
+	margin: 10px 0;
+}
+#calSideBar h3 {
+	background: none;
+	border-bottom: 1px solid transparent;
+	text-align: left;
+}
+#calSideBar hr {
+	border-bottom: 1px solid transparent;
+	border: none;
+	padding: 0;
+}
+#calEventListView p {
+	font-weight: bold;
+	padding: 0 10px;
+}
+#calWeekView a, #calDayView a, #calMonthView a, #calEventListView a {
+	display: block;
+	font-weight: normal;
+	padding: 0 10px 10px 10px;
+	text-decoration: none!important;
+}
+#calWeekView a:hover, #calDayView a:hover, #calMonthView a:hover, #calEventListView a:hover {
+	text-decoration: underline!important;
+}
+#calWeekView table {
+	border: none;
+}
+#calWeekView td {
+	border: none;
+	padding: 5px;
+	width: 50%;
+}
+#calEventListView a {
+	padding: 0 0 10px 0;
+}
+.calDayNumber {
+}
+.calBlankDay {
+	background: none!important;
+}
+#calMonthView ul, #calMonthView li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+.evHeader a {
+	border-bottom: 1px solid transparent;
+	padding-bottom: 0!important;
+}
+.hourHead, .allDayHead {
+	border: none!important;
+	padding: 10px;
+}
+.allDay {
+	-khtml-border-radius: 4px!important;
+	-moz-border-radius: 4px!important;
+	-o-border-radius: 4px!important;
+	-webkit-border-radius: 4px!important;
+	border-radius: 4px!important;
+	border: none!important;
+}
+.allDay a {
+	font-size: 80%;
+}
+.topHour {
+}
+.bottomHour {
+}
+#calHeader a {
+	display: inline!important;
+}
+#calDefaultView a {
+	padding: 0
+}
+#calDefaultView {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 3px;
+}
+ table[id*=calMain], #pg0_V_calMain {
+ background: none!important;
+ border: none!important;
+}
+td.calDayStyle {
+	background: none;
+	padding: 2px;
+}
+.calTitleStyle td {
+	background: none;
+}
+/* =Controls:Grouped Grid
+------------------------------------------*/
+.groupedGrid {
+}
+.groupedGrid thead, .groupedGrid .ghead, .header, .footer {
+}
+.groupedGrid th {
+}
+.groupedGrid td {
+}
+.groupedGrid tfoot, .subheader, .subfooter {
+}
+.groupedGrid tr.subGroup td {
+}
+.groupedGrid tr.subItem td {
+}
+.groupedGrid tr.subItem td td {
+}
+.groupedGrid th a {
+}
+.groupedGrid th a:focus, .groupedGrid th a:hover {
+}
+.groupedGrid tbody tr td.highlight {
+}
+.groupedGrid tbody tr.alt td.highlight {
+}
+.groupedGrid tbody tr.highlight {
+}
+.groupedGrid tbody tr td.alt {
+}
+.groupedGrid tbody tr.alt td.alt {
+}
+.groupedGrid thead tr th.highlight {
+}
+.groupedGrid .error {
+}
+.groupedGrid .disable {
+}
+.groupedGrid .disable td input {
+}
+.groupedGrid .disable td a {
+}
+/* =Controls:Date Range Edit
+------------------------------------------*/
+.dateRangeEdit label {
+}
+.dateRangeEdit .val {
+}
+.dateRangeEdit .start, .dateRangeEdit .end, .dateRangeEdit .action {
+}
+.dateRangeEdit .action {
+}
+.dateRangeEdit {
+}
+.dateRangeEdit .opt a {
+}
+.dateRangeEdit .opt a:focus, .dateRangeEdit .opt a:hover {
+}
+.dateRangeEdit .opt label {
+}
+.dateRangeEdit .opt label:hover {
+}
+/* =Controls:Tabbed Panel
+------------------------------------------*/
+.tabGroup {
+	margin: -1px 0 0 0;
+}
+.tabGroup ul.tabHeaders {
+	background: none!important;
+	border-bottom: 1px solid transparent;
+	height: 28px;
+	margin: -1px 0 10px 0;
+}
+.tabGroup ul.tabHeaders li {
+	border: none!important;
+	float: left;
+	padding: 0!important;
+}
+.tabGroup ul.tabHeaders a {
+	background: none!important;
+	display: block;
+	font-size: 90%!important;
+	font-weight: normal!important;
+	margin: 0!important;
+	padding: 5px 20px!important;
+}
+.tabGroup ul.tabHeaders a.selected {
+}
+.tabGroup ul.tabHeaders a.selected:hover {
+}
+.tabGroup ul.tabHeaders a:hover {
+}
+.tabGroup .tabContent {
+}
+.reorder {
+}
+/* =Controls:Collapsible Panel
+------------------------------------------*/
+.cp {
+}
+.cpHead {
+}
+.cpHead input {
+}
+.cpContent {
+}
+.cpHeader {
+}
+.cpBody {
+}
+.cpLbl {
+}
+.cpTxt {
+}
+/* =Controls:Security Grid
+------------------------------------------*/
+.securityGrid {
+}
+.securityGrid h5 {
+}
+.securityGrid table {
+}
+.securityGrid table td {
+}
+.securityGrid table thead th {
+}
+.securityGrid table thead th.role {
+}
+.securityGrid table thead th.kids {
+}
+.securityGrid table th.admin {
+}
+.securityGrid table tbody th {
+}
+.securityGrid table tbody tr {
+}
+.securityGrid table tbody tr td {
+}
+.securityGrid table tbody tr td img {
+}
+.securityGrid table tbody td.admin {
+}
+.securityGrid table tbody .alt td.admin {
+}
+.securityGrid table tbody tr th {
+}
+.securityGrid table tbody tr th span.role {
+}
+.securityGrid table tbody tr th dl span.role {
+}
+.securityGrid table tbody dl {
+}
+.securityGrid table tbody dd {
+}
+.securityGrid p.addRole {
+}
+/* =Controls:Principal Selector Remix
+------------------------------------------*/
+.principalSelector {
+	width: 100%;
+}
+.principalSelector table {
+	width: 100%;
+}
+.psTitleCell {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.psCell {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+}
+/* =Controls:Role Selector
+------------------------------------------*/
+#tblContextRoleSelector {
+}
+.RoleColumn {
+}
+#ShowAllMyContexts {
+}
+#tblBaseRoleSelector {
+}
+#tblBaseRoleSelector .AllUsersCell {
+}
+#tblBaseRoleSelector .RoleColumn {
+}
+/* =Controls:User Selector
+------------------------------------------*/
+#tblUserSelector {
+}
+#tblUserSelector .ContextSelectCell {
+}
+#tblUserSelector .SearchCell {
+}
+#tblUserSelector .UserListCell {
+}
+#tblUserSelector .AddRemoveCell {
+}
+#tblUserSelector .AddRemoveButton {
+}
+#tblUserSelector .OkCancelCell {
+}
+#userSelectorCell {
+}
+#tblUserSelector .userlistTitleCell {
+}
+#tblUserSelector .UserSelectorListBox {
+}
+#tblUserSelector .LastNameTextBox {
+}
+#tblUserSelector .FirstNameTextBox {
+}
+/* =Controls:Content Box
+------------------------------------------*/
+.contentBox {
+}
+.contentBox h4 {
+}
+.contentbox .psection {
+}
+/* =Controls:Sideways Table
+------------------------------------------*/
+.sidewaysTable {
+}
+.sidewaysTable th {
+}
+.sidewaysTable th strong {
+}
+.sidewaysTable td {
+}
+/* =Controls:Order List box
+------------------------------------------*/
+.orderListBox td {
+}
+.orderListBox td#upButton {
+}
+.orderListBox td#downButton {
+}
+.pageNavigator {
+}
+.pageNavigator .prevPage {
+}
+.pageNavigator .nextPage {
+}
+.letterNavigator {
+}
+.letterNavigator table {
+}
+.letterSelector {
+}
+/* =Controls:Message Box
+------------------------------------------*/
+#messageBoxMask {
+}
+#messageBoxContainer {
+}
+#messageBoxInner {
+}
+#messageBoxTitle {
+}
+#messageBoxTitleControls {
+}
+#messageBoxText {
+}
+#messageBoxMainControls {
+}
+#keepWorkingBtn, #logoutBtn {
+}
+ 
+
+ 
+/* =Misc
+------------------------------------------*/ 
+span[id*=lblRedirect] {
+ float: left;
+}
+ a[id*=lnkEditRedirect] {
+ float: left;
+ margin: 0 0 0 10px;
+ //margin: -10px 0 0 10px;
+}
+.pSection>div, .pSection p, .pSection ul, .pSection ol, .pSection .hint, .pSection table {
+	margin: 0 0 10px 0;
+}
+.pActions {
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+.pActionsTransp {
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+.pActionsTransp input, .pActionsTransp input {
+	margin: 0 .5em;
+}
+.buttonBar {
+	background: none;
+	padding: 5px;
+}
+.buttonBarCentered {
+	background: none;
+	padding: 5px;
+	text-align: center;
+}
+.CuteEditorFrame {
+	display: block;
+}
+.slideshow {
+	display: none;
+}
+.clear {
+	clear: both;
+}

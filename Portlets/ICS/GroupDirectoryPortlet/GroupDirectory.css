@@ -1,0 +1,21 @@
+
+.GD {}
+.GD .clearer { CLEAR: left; LINE-HEIGHT: 0; HEIGHT: 1% }
+.GD	.PhotoImage{text-align:center; padding:10px 25px 10px 25px;width:133px;}
+.GD	.Info { DISPLAY: block; FLOAT: left; MARGIN: 10px; }
+.GD	.WithPhoto { WIDTH: 180px; height: auto; }
+.GD	.WithNoPhoto { WIDTH: 150px; height: 100px; }
+.GD	.Highlighted { BACKGROUND: #ffc; }
+.GD	.HLRoleItem { BACKGROUND: #eee; }
+.GD .RolesOn
+{
+	background: white; 
+	font-size: 80%;
+	text-align:left;
+	overflow: auto;
+	WIDTH: 140px;
+	height: 50px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin: 0.1em 0.5em 0.5em 0.5em;
+}

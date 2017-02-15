@@ -1,0 +1,1 @@
+<%@ Page language="c#" Codebehind="GetFile.aspx.cs" AutoEventWireup="false" Inherits="Jenzabar.Portal.Web.StaticPages.GetFile" %>

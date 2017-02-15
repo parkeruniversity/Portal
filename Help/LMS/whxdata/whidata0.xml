@@ -1,0 +1,125 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<indexdata>
+<key name="About This Course portlet" >
+  <topic name="About This Course" url="about_this_course.htm" />
+</key>
+<key name="All My Courses portlet" >
+  <topic name="All My Courses" url="all_my_courses.htm" />
+  <key name="understanding the main view" >
+    <topic name="Understanding the main view" url="all_my_courses/amc_understanding_the_main_view.htm" />
+  </key>
+</key>
+<key name="context" >
+  <key name="defined" >
+    <topic name="Key terms" url="welcome/wlc_key_terms.htm" />
+  </key>
+</key>
+<key name="contexts" >
+  <key name="for courses, navigating to" >
+    <topic name="Understanding the main view" url="all_my_courses/amc_understanding_the_main_view.htm" />
+  </key>
+</key>
+<key name="Course Information portlet" >
+  <topic name="Course Information" url="course_information_portlet.htm" />
+</key>
+<key name="Course Search portlet" >
+  <topic name="Course Search" url="course_search_portlet.htm" />
+</key>
+<key name="Course Syllabus portlet" >
+  <topic name="Course Syllabus" url="course_syllabus.htm" />
+</key>
+<key name="Coursemates portlet" >
+  <topic name="Coursemates" url="coursemates.htm" />
+</key>
+<key name="documentation, additional" >
+  <topic name="For more information" url="welcome/wlc_for_more_information.htm" />
+</key>
+<key name="Downloadable Version portlet" >
+  <topic name="Downloadable Version" url="downloadable_version.htm" />
+</key>
+<key name="e-Racer" >
+  <key name="Faculty Guide, finding" >
+    <topic name="For more information" url="welcome/wlc_for_more_information.htm" />
+  </key>
+  <key name="overview of" >
+    <topic name="Overview" url="welcome/wlc_overview.htm" />
+  </key>
+</key>
+<key name="faculty" >
+  <key name="e-mailing" >
+    <topic name="Coursemates" url="coursemates.htm" />
+  </key>
+  <key name="resources for" >
+    <topic name="For more information" url="welcome/wlc_for_more_information.htm" />
+  </key>
+  <key name="viewing details about instructors" >
+    <topic name="Course Information" url="course_information_portlet.htm" />
+  </key>
+</key>
+<key name="FatCow icons" >
+  <topic name="Legal disclaimer" url="welcome/wlc_legal_disclaimer.htm" />
+</key>
+<key name="for more information" >
+  <topic name="For more information" url="welcome/wlc_for_more_information.htm" />
+</key>
+<key name="Gradebook portlet" >
+  <topic name="Gradebook" url="gradebook_portlet.htm" />
+</key>
+<key name="Group Directory portlet" >
+  <topic name="Coursemates" url="coursemates.htm" />
+</key>
+<key name="key terms" >
+  <topic name="Key terms" url="welcome/wlc_key_terms.htm" />
+</key>
+<key name="legal disclaimer" >
+  <topic name="Legal disclaimer" url="welcome/wlc_legal_disclaimer.htm" />
+</key>
+<key name="My Pages" >
+  <topic name="For more information" url="welcome/wlc_for_more_information.htm" />
+</key>
+<key name="navigating to a course" >
+  <key name="from All My Courses" >
+    <topic name="Understanding the main view" url="all_my_courses/amc_understanding_the_main_view.htm" />
+  </key>
+</key>
+<key name="portlet instance" >
+  <key name="defined" >
+    <topic name="Key terms" url="welcome/wlc_key_terms.htm" />
+  </key>
+</key>
+<key name="portlets" >
+  <key name="defined" >
+    <topic name="Key terms" url="welcome/wlc_key_terms.htm" />
+  </key>
+  <key name="in base JICS, list of" >
+    <topic name="For more information" url="welcome/wlc_for_more_information.htm" />
+  </key>
+  <key name="in e-Racer, for students" >
+    <topic name="eRacer Portlets" url="eracer_portlets.htm" />
+  </key>
+</key>
+<key name="searching for courses" >
+  <topic name="Course Search" url="course_search_portlet.htm" />
+</key>
+<key name="viewing" >
+  <key name="other members of a course" >
+    <topic name="Coursemates" url="coursemates.htm" />
+  </key>
+  <key name="your attendance record" >
+    <topic name="Attendance" url="attendance_portlet.htm" />
+  </key>
+  <key name="your course schedule" >
+    <topic name="Understanding the main view" url="all_my_courses/amc_understanding_the_main_view.htm" />
+  </key>
+  <key name="your courses" >
+    <topic name="All My Courses" url="all_my_courses.htm" />
+  </key>
+  <key name="your grades for assigments" >
+    <topic name="Coursework" url="coursework_portlet.htm" />
+  </key>
+  <key name="your grades for the term" >
+    <topic name="Gradebook" url="gradebook_portlet.htm" />
+  </key>
+</key>
+
+</indexdata>

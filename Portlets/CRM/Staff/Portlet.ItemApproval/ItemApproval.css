@@ -1,0 +1,32 @@
+.BottomLeft { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid }
+.maroonitalicbold { FONT-WEIGHT: bold; COLOR: #790000; FONT-STYLE: italic }
+.blackbold { FONT-WEIGHT: bold }
+.maroon { COLOR: #790000 }
+.green { COLOR: #007236 }
+.white { COLOR: #ffffff }
+.hand { CURSOR: hand }
+.GreenItalics{color: #008700;font-style: italic;}
+.MaroonItalics{color: #790000;font-style: italic;}
+
+.BottomLeftDarkGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#dddddd }
+.BottomLeftDarkerGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#bababa }
+.BottomLeftLightGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#efefef }
+.BottomLeftDarkBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#0d004c }
+.BottomLeftLightBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#E5F2FF }
+.BottomLeftMediumBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#CBDCEE }
+.BottomLeftMediumLightBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#D6E2FB }
+.BottomLeftVeryLightBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#e7fff2 }
+.TableStyle{BORDER-RIGHT: #b2b2b2 1px solid; BORDER-TOP: #b2b2b2 1px solid; MARGIN: 1px; BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; BORDER-COLLAPSE: collapse}
+.GreenTableStyle{BORDER-RIGHT: #008700 1px solid; BORDER-TOP: #008700 1px solid; MARGIN: 1px; BORDER-LEFT: #008700 1px solid; BORDER-BOTTOM: #008700 1px solid; BORDER-COLLAPSE: collapse}
+.MaroonTableStyle{BORDER-RIGHT: #790000 1px solid; BORDER-TOP: #790000 1px solid; MARGIN: 1px; BORDER-LEFT: #790000 1px solid; BORDER-BOTTOM: #790000 1px solid; BORDER-COLLAPSE: collapse}
+
+.BottomLeftGreen { BORDER-LEFT: #008700 1px solid; BORDER-BOTTOM: #008700 1px solid; background-color:#008700 }
+.BottomLeftMaroon { BORDER-LEFT: #790000 1px solid; BORDER-BOTTOM: #790000 1px solid; background-color:#790000 }
+
+.BottomLeftMediumGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#dedfde }
+.BottomMediumGray { BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#dedfde }
+.MediumGray { BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#dedfde }
+
+.Bottom{ BORDER-BOTTOM: #b2b2b2 1px solid }
+.BottomLightGray{ BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#efefef }
+.LightGray{ background-color:#efefef }

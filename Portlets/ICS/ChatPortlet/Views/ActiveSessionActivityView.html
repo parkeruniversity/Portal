@@ -1,0 +1,27 @@
+﻿
+{{#if activity.IsSessionInfo}}
+    <tr data-activityType="{{activity.type}}" class="session-info" data-IsSessionInfo="true">
+        <td data-id="user" class="empty">
+            &nbsp;
+        </td>
+    <td class="session-message wysiwygtext">
+        {{activity.ChatUserDisplayName}} {{activity.Message}}
+    </td>
+{{else}}
+    <tr data-activityType="{{activity.type}}" class="message-info {{#if activity.IsSameUser}} repeat{{/if}}" data-IsSessionInfo="false">
+        <td data-id="user" data-value="{{activity.ChatUserDisplayName}}" class="name">
+            {{#unless  activity.IsSameUser}}
+                {{activity.ChatUserDisplayName}}
+            {{/unless}}
+        </td>
+        <td class="message wysiwygtext">
+            <span>
+                {{{activity.Message}}}
+            </span>
+        </td>
+{{/if}}
+
+    <td class="time-stamp">
+        <span>{{activity.TimeStamp}}</span>
+    </td>
+</tr>

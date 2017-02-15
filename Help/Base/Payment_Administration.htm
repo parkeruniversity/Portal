@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>Payment Administration</title>
+<link rel="StyleSheet" href="Jenzabar.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+function printpage() {
+        window.print()
+        }
+//]]></script>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show table of contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("Welcome.htm", "", ">", "Home", "Welcome/Wlc_Overview.htm");
+document.write("Payment Administration<\/p>");
+
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Welcome.htm");
+
+		autoSync(0);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+//-->
+//]]></script>
+<script src="./ehlpdhtm.js" type="text/javascript" language="JavaScript1.2"></script>
+<h2>Payment Administration</h2>
+<p class="body">If appropriate, you can use the Payment Administration 
+ portlet to set up your portal to allow payments to be made through certain 
+ portlets (which typically are available only if you have purchased certain 
+ CRMs). When you do this, these portlets direct the user to a Payments 
+ portlet at certain points. For example, this might be happen in any of 
+ the following situations:</p>
+<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>When 
+ a constituent needs to submit payment for a gift or pledge.</p>
+<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>When 
+ a candidate needs to pay an application fee.</p>
+<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>When 
+ a student needs to make a payment. &#160;</p>
+<p class="body">Additional configuration settings within a specific CRM 
+ may be required to allow the following functionality:</p>
+<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Allow 
+ the user to pay by credit card or electronic check, which creates financial 
+ transactions in the ERP system.</p>
+<p style=" margin-left: 40px; text-indent: -20px;"><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Allow 
+ the portal to interact with Authorize.net to verify payments and update 
+ financial transactions in the ERP system. Authorize.net is a third-party 
+ software provider that interfaces with JICS. </p>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a1">To give 
+ a role permission to access the Payment Administration portlet</a></p>
+<div class="droptext" id="POPUP545487049" style="display: none;">
+	<p style=" margin-left: 30px; text-indent: -30px;">1.<span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Click 
+	 the wrench icon from the <span style="font-weight: bold;"><b>Payment 
+	 Administration</b></span> portlet.</p>
+	<p style=" margin-left: 30px; text-indent: -30px;">2.<span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span 
+	 style="text-indent: -20px;">Click the </span><span style="text-indent: -20px; 
+														 font-weight: bold;"><b>Permissions</b></span><span 
+	 style="text-indent: -20px;"> tab.</span></p>
+	<p style=" margin-left: 30px; text-indent: -30px;">3.<span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>For 
+	 any role that should access to the Payment Administration portlet, 
+	 select the <span style="font-weight: bold;"><b>Can Administer Payments</b></span> 
+	 checkbox.</p>
+	<p style=" margin-left: 30px; text-indent: -30px;">4.<span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Click 
+	 <span style="font-weight: bold;"><b>Save</b></span>.</p>
+</div>
+<p class="body">&#160;</p>
+<h3>Managing payments</h3>
+<p class="body">To manage payments, navigate to the Payment Administration 
+ portlet and c<span style="text-indent: -30px;">lick the link labeled </span><span 
+	 style="text-indent: -30px; font-weight: bold;"><b>Click here to administer 
+ the Payments Portlet</b></span><span style="text-indent: -30px;"> link. The 
+ portlet will display a form.</span></p>
+<p><img src="Payments/payment_admin.gif" alt="payment_admin.gif" style="border-left-style: Solid; 
+		 border-left-width: 2px; border-right-style: Solid; border-right-width: 2px; 
+		 border-top-style: Solid; border-top-width: 2px; border-bottom-style: Solid; 
+		 border-bottom-width: 2px;" width="528" height="240" border="2" /></p>
+<p class="body">Each of the form's options is explained more below. </p>
+<p class="body">&#160;</p>
+<h4><span style="font-weight: bold;"><b>Work with Credit Card</b></span> </h4>
+<p class="body">Clicking this link displays the <span style="font-weight: bold;"><b>Credit 
+ Card Configuration</b></span> screen. On this screen, you can add, modify, 
+ or remove credit cards, as follows:</p>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a2">Add 
+ a credit card to the system</a></p>
+<div class="droptext" id="POPUP322713197" style="display: none;">
+	<p style="margin-left: 0px;">The <span style="font-weight: bold;"><b>Add 
+	 a Credit Card</b></span> screen allows you to add credit cards available 
+	 for processing by the <span style="font-weight: bold;"><b>Payments</b></span> 
+	 portlet.</p>
+	<ul type="disc">
+		<li class="p"><p>From the <span style="font-weight: bold;"><b>Credit 
+		 Card Configuration</b></span> screen, click the <span style="text-decoration: underline; "><u>Add 
+		 a credit card to the system</u></span> link.</p></li>
+		<li class="p"><p>Enter the name of the credit card you want to 
+		 add.</p></li>
+		<li class="p"><p>Enter the description of the credit card you want 
+		 to add.</p></li>
+		<li class="p"><p>Click the <span style="font-weight: bold;"><b>Add</b></span> 
+		 button.</p></li>
+		<li class="p"><p>If the addition of the credit card was successful, 
+		 the <span style="font-weight: bold;"><b>Credit Card Configuration</b></span> 
+		 screen reappears and displays the following message: &#160;&quot;The 
+		 insert of the credit card was successful.&quot;</p></li>
+	</ul>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a3">Modify 
+ an existing credit card's properties</a></p>
+<div class="droptext" id="POPUP270253566" style="display: none;">
+	<p>The <span style="font-weight: bold;"><b>Select Credit Card</b></span> screen 
+	 allows you to select and modify credit cards available for processing 
+	 by the <span style="font-weight: bold;"><b>Payments</b></span> portlet.</p>
+	<ul type="disc">
+		<li class="p"><p>From the <span style="font-weight: bold;"><b>Credit 
+		 Card Configuration</b></span> screen, click the <span style="text-decoration: underline; "><u>Modify 
+		 and existing credit card's properties</u></span> link.</p></li>
+		<li class="p"><p>Select the credit card you want to modify.</p></li>
+		<li class="p"><p>Enter any modifications you want to make in the 
+		 <span style="font-weight: bold;"><b>Credit Card</b></span> and <span 
+		 style="font-weight: bold;"><b>Credit Card Descriptions</b></span> fields.</p></li>
+		<li class="p"><p>Click the <span style="font-weight: bold;"><b>OK</b></span> 
+		 <span>button</span>.</p></li>
+		<li class="p"><p>If the modification of the credit card was successful, 
+		 the <span style="font-weight: bold;"><b>Credit Card Configuration</b></span> 
+		 screen reappears and displays the following message: &#160;&quot;The 
+		 modification of the credit card was successful.&quot;</p></li>
+	</ul>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a4">Remove 
+ a credit card from the system</a></p>
+<div class="droptext" id="POPUP270441121" style="display: none;">
+	<p>The <span style="font-weight: bold;"><b>Select Credit Card</b></span> screen 
+	 allows you to select and remove credit cards available for processing 
+	 by the <span style="font-weight: bold;"><b>Payments</b></span> portlet.</p>
+	<ul type="disc">
+		<li class="p"><p>From the <span style="font-weight: bold;"><b>Credit 
+		 Card Configuration</b></span> screen, click the <span style="text-decoration: underline; "><u>Remove 
+		 a credit card from the system</u></span> link.</p></li>
+		<li class="p"><p>Select the credit card you want to remove.</p></li>
+		<li class="p"><p>Click the <span style="font-weight: bold;"><b>OK</b></span> 
+		 <span>button</span>.</p></li>
+		<li class="p"><p>If the removal of the credit card was successful, 
+		 the <span style="font-weight: bold;"><b>Credit Card Configuration</b></span> 
+		 screen reappears and displays the following message: &#160;&quot;The 
+		 removal of the credit card was successful.&quot;</p></li>
+	</ul>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a5">Exit 
+ credit card administration</a></p>
+<div class="droptext" id="POPUP270441720" style="display: none;">
+	<p>This link returns you to the <span style="font-weight: bold;"><b>Payment 
+	 Administration</b></span> screen.</p>
+</div>
+<p>&#160;</p>
+<h4>Work with portlet specific payment configurations</h4>
+<p>Click <a href="Portlet_Specific_Payment_Configuration.htm" style="font-weight: normal;">here</a> 
+ to view a topic with more details on these configurations.</p>
+<p>&#160;</p>
+<h4>Additional options</h4>
+<p class="body">You also have the following options:</p>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a7">Is the 
+ Payment Portlet in testing mode?</a></p>
+<div class="droptext" id="POPUP323985211" style="display: none;">
+	<ul type="disc">
+		<li class="p"><p>In order to verify its functionality, we recommend 
+		 that you select the testing mode (select <span style="font-weight: bold;"><b>Yes</b></span> 
+		 radio button) prior to making this portlet available to your entire 
+		 Internet campus community. &#160;However, it is important to note 
+		 that Authorize.net does not allow electronic checks to be tested.</p></li>
+		<li class="p"><p>After you have tested and verified the payment 
+		 process, you can select the <span style="font-weight: bold;"><b>No</b></span> 
+		 radio button to deactivate the testing mode and confirm your Authorize.net 
+		 required data.</p></li>
+	</ul>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a8">What 
+ is your Authorize.net login ID?</a></p>
+<div class="droptext" id="POPUP271298488" style="display: none;">
+	<ul type="disc">
+		<li class="p"><p>This Login ID is provided by Authorize.net to 
+		 establish the working relationship between your organization and 
+		 Authorize.net</p></li>
+	</ul>
+</div>
+<p>+ <a class="dropspot" href="javascript:TextPopup(this)" id="a9">What 
+ is your Authorize.net Transkey?</a></p>
+<div class="droptext" id="POPUP323860396" style="display: none;">
+	<ul type="disc">
+		<li class="p"><p>This value is provided by Authorize.net to ensure 
+		 your organization's proper setup.</p></li>
+	</ul>
+	<p>&#160;</p>
+</div>
+<p>&#160;</p>
+<h4>Additional notes</h4>
+<p class="Bullet2">If you have purchased CRM Constituent and would like 
+ to configure your online giving payments, select <span style="font-weight: bold;"><b>Online 
+ Giving</b></span> from the drop-down and follow the instructions in <span 
+	 style="font-weight: bold; font-style: italic;"><i><b>Getting Started with 
+ Constituent</b></i></span>.</p>
+<p class="Bullet2">If you have purchased CRM Student and would like to 
+ configure your student payments, select <span style="font-weight: bold;"><b>My 
+ Account Info</b></span> from the drop-down and follow the instructions in 
+ <span style="font-weight: bold; font-style: italic;"><i><b>Getting Started with 
+ Student</b></i></span>.</p>
+<p class="Bullet2">If you have purchased CRM Candidate and would like to 
+ assign a fee and enter fee-related information for online forms, follow 
+ tinstructions in <span style="font-weight: bold; font-style: italic;"><i><b>Getting 
+ Started with Candidate</b></i></span>.</p>
+
+
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a1','POPUP545487049');
+	TextPopupInit('a2','POPUP322713197');
+	TextPopupInit('a3','POPUP270253566');
+	TextPopupInit('a4','POPUP270441121');
+	TextPopupInit('a5','POPUP270441720');
+	TextPopupInit('a7','POPUP323985211');
+	TextPopupInit('a8','POPUP271298488');
+	TextPopupInit('a9','POPUP323860396');
+//]]></script>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

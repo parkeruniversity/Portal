@@ -1,0 +1,1 @@
+<%@ webhandler class="Jenzabar.Portal.Web.StaticPages.LongRunningProcessStatusCheckingHandler" %>

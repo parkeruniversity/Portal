@@ -1,0 +1,28 @@
+﻿<div class="usersInSession" data-container="activeUsers">
+    <div class="usersInSessionHeader">
+        {{globalizer.usersInSessionText}}
+    </div>
+    <div class="scrollable">
+        <table class="table users" >
+            <tbody>
+                {{#each inSessionUsers}}
+                <tr data-container="activeUser">
+                    <td>
+                        {{#if HasImage}}
+                        <img id="userInSessionImage" class="userIcon" src="{{ImageUrl}}" alt="The portal user image">
+                        {{else}}
+                        <span class="glyphicon glyphicon-picture"></span>
+                        {{/if}}
+                    </td>
+                    <td>
+                        {{this.UserDisplayName}}
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,113 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="CourseList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Message" type="xs:string" minOccurs="0"/>
+				<xs:element name="CourseInfo" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ERPCourseKey" type="xs:string"/>
+							<xs:element name="TermKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="TermDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="DivisionCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="DivisionDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="DisplayedCourseCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="Title" type="xs:string" minOccurs="0"/>
+							<xs:element name="ReferenceNumber" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditFixedVariable" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="MinCreditHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="MaxCreditHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="ClockHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="CourseStatus" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanRegister" type="xs:string" minOccurs="0"/>
+							<xs:element name="MustPay" type="xs:string" minOccurs="0"/>
+							<xs:element name="PublicRegistration" type="xs:string" minOccurs="0"/>
+							<xs:element name="TotalSeats" type="xs:string" minOccurs="0"/>
+							<xs:element name="AvailableSeats" type="xs:string" minOccurs="0"/>
+							<xs:element name="WaitlistedSeats" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanWaitlist" type="xs:string" minOccurs="0"/>
+							<xs:element name="CourseRequisites" type="xs:string" minOccurs="0"/>
+							<xs:element name="CourseTextbooks" type="xs:string" minOccurs="0"/>
+							<xs:element name="CourseCampusCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="CourseCampusDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="MethodCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="MethodDescription" type="xs:string" minOccurs="0"/>
+							<xs:element name="DepartmentCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogText" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogUrl" type="xs:string" minOccurs="0"/>
+							<xs:element name="Notes" type="xs:string" minOccurs="0"/>
+							<xs:element name="CourseDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="CrossListedSumCapacity" type="xs:string" minOccurs="0"/>
+							<xs:element name="CrossListedSumEnrollment" type="xs:string" minOccurs="0"/>
+							<xs:element name="CrossListedSumWaitlisted" type="xs:string" minOccurs="0"/>
+							<xs:element name="FirstBeginDate" type="xs:string" minOccurs="0"/>
+							<xs:element name="LastEndDate" type="xs:string" minOccurs="0"/>
+              <xs:element name="VariableGradingType" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Yes/No value to identify if Variable Grading Type should be indicated</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="SelectedVariableGradingType" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Indicates the selected Variable Grading Type if present</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="AvailableVariableGradingTypes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" minOccurs="0"/>
+                    <xs:element name="Default" type="xs:string" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>Yes/No if this should be the default selection</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+							<xs:element name="CrossListedCourse" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ERPCrossListedCourseKey" type="xs:string" minOccurs="0"/>
+										<xs:element name="CrosslistedDisplayedCourseCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="CrossListedCourseType" type="xs:string" minOccurs="0"/>
+										<xs:element name="CrossListedCourseTitle" type="xs:string" minOccurs="0"/>
+										<xs:element name="CrossListedCourseCapacity" type="xs:string" minOccurs="0"/>
+										<xs:element name="CrossListedCourseEnrollment" type="xs:string" minOccurs="0"/>
+										<xs:element name="CrossListedCourseWaitlisted" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="FacultyList" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="FacultyID" type="xs:string"/>
+										<xs:element name="FacultyName" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Schedules" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Weekdays" type="xs:string" minOccurs="0"/>
+										<xs:element name="BeginDate" type="xs:string" minOccurs="0"/>
+										<xs:element name="EndDate" type="xs:string" minOccurs="0"/>
+										<xs:element name="MeetTime" type="xs:string" minOccurs="0"/>
+										<xs:element name="CampusCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="CampusDesc" type="xs:string" minOccurs="0"/>
+										<xs:element name="BuildingCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="BuildingDesc" type="xs:string" minOccurs="0"/>
+										<xs:element name="RoomCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="RoomDesc" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+<singleSignOnTemplate name="Yahoo" description="Hotmail.com email provider" enabled="true">
+<![CDATA[
+<html>
+<body onload="document.getElementsByTagName('form')[0].submit()">
+<form name="login_form" action="http://login.yahoo.com/config/login?7c42q06v17g39" method="post">
+<input type=hidden name=".done" value="http://mail.yahoo.com" >
+<input type="hidden" name="login" value="%USERNAME%">
+<input type="hidden" name="passwd" value="%PASSWORD%">
+</form>
+</body>
+</html>
+]]>
+</singleSignOnTemplate>

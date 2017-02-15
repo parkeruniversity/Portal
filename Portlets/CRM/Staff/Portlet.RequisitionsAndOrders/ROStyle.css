@@ -1,0 +1,803 @@
+﻿/*GridView*/
+.RequisitionsAndOrders .ROGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.RequisitionsAndOrders .ROGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color: #fff;
+}
+
+.RequisitionsAndOrders .ROGridView th, .ROGridViewHeader th  
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color:#D4D4D4;
+    color:#464646;    
+}  
+
+.RequisitionsAndOrders .ROGridViewHeader a 
+{ 
+    color:#464646;    
+    margin-right: 5px;
+}
+
+.RequisitionsAndOrders .ROGridView th.ROCentered  
+{ 
+    text-align:center;
+}
+
+.RequisitionsAndOrders tr.alt td    
+{
+    background-color: #efefef;   
+}  
+
+.RequisitionsAndOrders .ROGridView .GridviewScrollPager  
+{ 
+    border-top: 1px solid #AAAAAA; 
+    background-color: #FFFFFF; 
+} 
+.RequisitionsAndOrders .ROGridView .GridviewScrollPager TD 
+{ 
+    border: none;
+    padding-top: 3px; 
+    font-size: 14px; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+} 
+.RequisitionsAndOrders .ROGridView .GridviewScrollPager A 
+{ 
+    color: #666666; 
+}
+.RequisitionsAndOrders .ROGridView .GridviewScrollPager SPAN
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+/*END GridView*/
+
+/*Margin & Padding*/
+.RequisitionsAndOrders .RONoMarginPadding { 
+     padding:0px;
+     margin:0px;
+     border-collapse: collapse;     
+}
+
+.RequisitionsAndOrders .ROMarginPadding{
+    margin:5px;
+    padding:5px
+}
+
+.RequisitionsAndOrders .ROPadding5{
+    padding:5px
+}
+
+.RequisitionsAndOrders .ROPaddingLeft5{
+    padding-left:5px
+}
+
+.RequisitionsAndOrders .ROPadding{
+    padding:10px
+}
+
+.RequisitionsAndOrders .ROPaddingBottom{
+    padding-bottom:15px
+}
+
+.RequisitionsAndOrders .ROPaddingBottom5{
+    padding-bottom:5px
+}
+
+.RequisitionsAndOrders .ROSectionMarginBottom{
+    margin-bottom:15px;
+}
+
+.RequisitionsAndOrders .ROMarginBottom{
+    margin-bottom:5px;
+}
+
+.RequisitionsAndOrders .ROMarginTop{
+    margin-top:5px;
+}
+
+.RequisitionsAndOrders .ROMarginTop3{
+    margin-top:3px;
+}
+
+.RequisitionsAndOrders .ROMarginTop10{
+    margin-top:10px;
+}
+
+.RequisitionsAndOrders .ROMarginRight{
+    margin-right:5px;
+}
+
+.RequisitionsAndOrders .ROMarginLeft{
+    margin-left:10px;
+}
+
+.RequisitionsAndOrders .ROIndentMargin
+{
+    margin-left: 15px;
+}
+
+.RequisitionsAndOrders .ROSpace
+{      
+    margin-left: 5px;
+}
+
+.RequisitionsAndOrders .ROMarginLeftDouble{
+    margin-left:20px;
+}
+/*END Margin & Padding*/
+
+/*Text Styles*/
+/*Font-weight: 400 is the same as normal, and 700 is the same as bold*/
+
+.RequisitionsAndOrders .ROInformativeSubText 
+{
+    color:#707070;
+    font-size:11px;
+}
+
+.RequisitionsAndOrders .ROInformativeText 
+{
+    color:#707070;
+    font-size:12px;
+}
+
+.RequisitionsAndOrders .ROInformativeRedText 
+{
+    font-size:12px;
+    color: #953630;
+}
+
+.RequisitionsAndOrders .ROInformativeHeaderText 
+{
+    color:#707070;
+    font-size:14px;
+}
+
+.RequisitionsAndOrders .ROHeaderText 
+{
+    font-size:14px;
+}
+
+.RequisitionsAndOrders .ROInformativeGridText 
+{
+    color:#464646;
+    font-size:12px;
+}
+
+.RequisitionsAndOrders .ROLabelText 
+{
+    color:#000;
+    font-size:12px;
+}
+
+.RequisitionsAndOrders .ROErrorText 
+{
+    color:red;
+    font-size:12px;
+}
+
+.RequisitionsAndOrders .ROOverSpentSubText 
+{
+    color:#880000;
+    font-size:11px;    
+}
+
+.RequisitionsAndOrders .ROBoldText 
+{
+    font-weight: 600;
+}
+
+.RequisitionsAndOrders .ROItalicText 
+{
+    font-style: italic;
+}
+
+.RequisitionsAndOrders .ROAvailableText 
+{
+    color: #003663;
+}
+
+.RequisitionsAndOrders .ROHeaderText 
+{
+    font-size:14px;
+}
+
+.RequisitionsAndOrders .ROHeader1Text 
+{
+    font-size:16px;
+}
+
+.RequisitionsAndOrders .ROHighlightText 
+{
+    color: #005AA0;
+    font-size:14px;    
+}
+
+/*END Text Styles*/
+
+/*Align*/
+.RequisitionsAndOrders .ROCentered  
+{ 
+    text-align:center;
+}
+
+.RequisitionsAndOrders .RORight 
+{ 
+    text-align:right;       
+}
+
+.RequisitionsAndOrders .ROVerticalAlignTop
+{      
+    vertical-align: top;
+}
+
+.RequisitionsAndOrders .ROVerticalAlignCenter
+{
+    vertical-align:middle;
+}
+
+.RequisitionsAndOrders .ROFloatLeft 
+{      
+    float: left;
+}
+
+.RequisitionsAndOrders .ROFloatRight
+{      
+    float: right;
+}
+
+.RequisitionsAndOrders .ROClearRight
+{      
+    clear:right;
+}
+
+.RequisitionsAndOrders .RONoWrap
+{
+    white-space:nowrap;
+}
+
+.RequisitionsAndOrders .ROWrapText
+{
+    white-space:normal;
+}
+/*END - Align*/
+
+/*Links*/
+.RequisitionsAndOrders a.ROHoverBlackLink:link 
+{
+    color: #000;
+    text-decoration:none;
+}
+.RequisitionsAndOrders a.ROHoverBlackLink:visited 
+{
+    color: #000;
+    text-decoration:none;
+}   
+.RequisitionsAndOrders a.ROHoverBlackLink:hover 
+{
+    color: #000;
+    text-decoration:underline;
+}
+.RequisitionsAndOrders a.ROHoverBlackLink:active 
+{
+    color: #000;
+    text-decoration:underline;    
+}
+
+
+.RequisitionsAndOrders a.ROHoverInformativeLink:link 
+{
+    color: #707070;
+    text-decoration:none;
+}
+.RequisitionsAndOrders a.ROHoverInformativeLink:visited 
+{
+    color: #707070;
+    text-decoration:none;
+}   
+.RequisitionsAndOrders a.ROHoverInformativeLink:hover 
+{
+    color: #707070;
+    text-decoration:underline;
+}
+.RequisitionsAndOrders a.ROHoverInformativeLink:active 
+{
+    color: #707070;
+    text-decoration:underline;    
+}
+
+
+.RequisitionsAndOrders a.ROInformativeLink:link 
+{
+    color: #707070;
+}
+.RequisitionsAndOrders a.ROInformativeLink:visited 
+{
+    color: #707070;
+}   
+.RequisitionsAndOrders a.ROInformativeLink:hover 
+{
+    color: #707070;
+}
+.RequisitionsAndOrders a.ROInformativeLink:active 
+{
+    color: #707070;
+}
+/*Links*/
+
+/*DefaultView*/
+.RequisitionsAndOrders .ROOrderSummaryBox {   
+    background-color: #efefef;
+    padding: 2px; 
+    margin: 5px;
+    border-style: solid;
+    border-color: #003663;
+    border-top-width: 10px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    color: #003663;
+} 
+
+.RequisitionsAndOrders a.ROOrderSummaryLink:link 
+{
+    color: #003663;
+}
+.RequisitionsAndOrders a.ROOrderSummaryLink:visited 
+{
+    color: #003663;
+}   
+.RequisitionsAndOrders a.ROOrderSummaryLink:hover 
+{
+    color: #003663;
+}
+.RequisitionsAndOrders a.ROOrderSummaryLink:active 
+{
+    color: #003663;
+}
+/*END - DefaultView*/
+
+/*MainView*/
+.RequisitionsAndOrders .SectionBox {  
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+    border-top: 10px solid #003663;
+    border-left: 1px solid #C6C6C6;
+    border-right: 1px solid #C6C6C6;
+    border-bottom: 1px solid #C6C6C6;    
+} 
+
+.RequisitionsAndOrders .ROCellPadding
+ {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.RequisitionsAndOrders .ROCellPadding td    
+{
+    font-size:12px;
+    padding: 5px 10px 5px 0px;
+}
+
+.RequisitionsAndOrders .ROSeparator
+{
+    border-bottom: 2px solid #efefef;
+    margin: 5px;
+}
+
+.RequisitionsAndOrders .ROGridView td.ROOverBudget
+{
+    background-color: #ffffe4;
+}
+
+.RequisitionsAndOrders .ROGridView td.ROUnderBudget
+{
+    background-color: #effee1;
+}
+
+/*END - MainView*/
+
+/*RequestLineItemsView*/
+
+.RequisitionsAndOrders .ROStretchWidth {   
+    width: 100%;   
+}
+
+.RequisitionsAndOrders .ROBlueButtonBox
+{
+    border: 1px solid #003663;
+    background: #d6e2fb;
+    padding: 5px 30px 5px 20px;
+    margin: 0px;
+}
+
+.RequisitionsAndOrders .ROBlueButtonBoxWidth
+{
+    width: 250px;
+}
+
+.RequisitionsAndOrders .ROGreyButtonBox
+{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+
+.RequisitionsAndOrders table.ROLayoutTable { 
+    width:100%;
+    border-collapse:collapse;     
+     padding:0px;
+     margin:0px;
+}
+
+.RequisitionsAndOrders .ROBackToMain{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+    width: 100%;
+}
+
+.RequisitionsAndOrders .ROSupportingDocArea{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+    width:auto;
+    margin-left:10px; 
+    margin-right:10px;      
+    padding:5px;
+}
+/*END - RequestLineItemsView*/
+
+/*RequestSummary*/
+.RequisitionsAndOrders .ROOutlineGridView {   
+    width:auto;
+    border-collapse:collapse;
+}  
+
+.RequisitionsAndOrders .ROOutlineGridView td    
+{
+    font-size:12px;
+    padding: 3px 7px 2px 7px;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOutlineRowTop td
+{  
+    border-top: 1px solid #C6C6C6;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOutlineRowBottom td
+{  
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOutlineRowLeft td:first-child
+{  
+    border-left: 1px solid #C6C6C6;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOutlineRowRight td:last-child
+{  
+    border-right: 1px solid #C6C6C6;
+}
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOverBudgetRowTop td
+{  
+    border-top: 1px solid #790000;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOverBudgetRowBottom td
+{  
+    border-bottom: 1px solid #790000;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOverBudgetBackground td
+{  
+    background: #ffffe4;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOverBudgetRowLeft td:first-child
+{  
+    border-left: 1px solid #790000;
+}
+
+.RequisitionsAndOrders .ROOutlineGridView tr.ROOverBudgetRowRight td:last-child
+{  
+    border-right: 1px solid #790000;
+}
+
+.RequisitionsAndOrders a.ROOverLink:link 
+{
+    color: #880000; /*Brick Red*/   
+}
+.RequisitionsAndOrders a.ROOverLink:visited 
+{
+    color: #880000; /*Brick Red*/   
+}   
+.RequisitionsAndOrders a.ROOverLink:hover 
+{
+    color: #880000; /*Brick Red*/   
+}
+.RequisitionsAndOrders a.ROOverLink:active 
+{
+    color: #880000; /*Brick Red*/   
+}
+
+.RequisitionsAndOrders .RONameSearch
+{
+    width: 300px;    
+}
+/*END - RequestSummary*/
+
+/*SubmitRequest Popup*/
+.RequisitionsAndOrders td.ROApprovalTrackBG  {   
+    background-color: #d6e2fb;
+}
+
+.RequisitionsAndOrders td.ROSectionPadding  {   
+    padding: 5px;
+}
+
+.RequisitionsAndOrders td.ROHeaderPadding  {   
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.RequisitionsAndOrders .RODottedLine  {   
+    border-bottom: 1px dashed #6272A8;
+}
+
+.RequisitionsAndOrders div.RORequisitions{
+    overflow: auto;
+    max-height: 500px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.RequisitionsAndOrders .RONotSplitText 
+{
+    color: #880000; /*Brick Red*/    
+}
+
+.RequisitionsAndOrders .RORequisitionWidthHeight{
+    max-width: 550px;
+    max-height: 650px;
+}
+
+/*END - SubmitRequest Popup*/
+
+/*RequestAndOrderSearch*/
+.RequisitionsAndOrders .ROHeaderInstructions{
+    border-bottom:1px solid #C6C6C6;
+    width: 100%;
+}
+
+.RequisitionsAndOrders .RODropDownMinWidth
+{
+    min-width: 300px;
+}
+
+/*END - RequestAndOrderSearch*/
+
+/*MarkItemsReceived*/
+.RequisitionsAndOrders .ROGreyBox{
+    border:1px solid #C6C6C6;
+    padding: 5px;
+    margin: 5px;
+}
+
+.RequisitionsAndOrders .ROGreyBackground{    
+    background-color:#EFEFEF;
+}
+
+.RequisitionsAndOrders a.ROBlackLink:link 
+{
+    color: black;
+}
+.RequisitionsAndOrders a.ROBlackLink:visited 
+{
+    color: black;
+}   
+.RequisitionsAndOrders a.ROBlackLink:hover 
+{
+    color: black;
+}
+.RequisitionsAndOrders a.ROBlackLink:active 
+{
+    color: black;
+}
+
+.RequisitionsAndOrders .ROAltRow td
+{
+    background-color: #efefef;   
+}
+
+.RequisitionsAndOrders td.ROActionWidth
+{
+    min-width: 210px;   
+}
+
+.RequisitionsAndOrders .RORepeaterBorder    
+{
+    border:1px solid #C6C6C6;
+}
+
+.RequisitionsAndOrders table.RORowPadding td    
+{
+    padding: 5px 0px 0px 0px;
+}
+/*END - MarkItemsReceived*/
+
+/*ViewRequest*/
+.RequisitionsAndOrders .ROReadOnlyField{
+    border:1px solid #C6C6C6;
+    padding: 1px 3px 1px 3px;
+    margin: 5px;
+    background-color:#EFEFEF;
+    min-width: 70px;
+}
+/*END - ViewRequest */
+
+
+/*Modal*/
+.RequisitionsAndOrders .ROModalPopup
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.RequisitionsAndOrders .ROModalDiv{
+    background-color:#FFF;
+    padding:3px;
+    border:1px solid black;
+    width:auto;
+}
+.RequisitionsAndOrders .ROModalHeadingImg{
+    float:right;
+    margin-left:10px;
+    padding:0px;
+}
+.RequisitionsAndOrders .ROModalHeading{
+    padding:3px;
+    background-color:#E2E2E2;
+    float:none;
+}
+.RequisitionsAndOrders .ROInnerModal{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+.RequisitionsAndOrders .ROModalButtons{
+    margin:5px;
+    padding:5px;
+}
+
+.RequisitionsAndOrders .ROMessageWidthHeight{
+    max-width: 600px;
+    max-height: 800px;
+    min-width: 300px;
+}
+/*END Modal*/
+
+
+
+/********Requisition Approval Portlet*************************************/
+
+
+.RequisitionsAndOrders p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.RequisitionsAndOrders .RASummaryBox
+{   
+    background-color: #efefef;
+    padding: 2px; 
+    margin: 5px;
+    border-style: solid;
+    border-color: #003663;
+    border-top-width: 10px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    color: #003663;
+    display: inline-block;
+}
+
+.RequisitionsAndOrders .RAInformativeHeaderText 
+{
+    color:#707070;
+    font-size:14px;
+    margin-right: 3px;
+}
+
+.RequisitionsAndOrders .RAHeaderText 
+{
+    font-size:14px;    
+    margin-right: 3px;
+}
+
+/*GridView*/
+.RequisitionsAndOrders .RAGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.RequisitionsAndOrders .RAGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color: #fff;
+}
+
+.RequisitionsAndOrders .RAGridView th, .RAGridViewHeader th  
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color:#D4D4D4;
+    color:#464646;    
+}  
+
+.RequisitionsAndOrders .RAGridViewHeader a 
+{ 
+    color:#464646;    
+    margin-right: 5px;
+}
+
+.RequisitionsAndOrders .RAGridView th.RACentered  
+{ 
+    text-align:center;
+}
+
+.RequisitionsAndOrders tr.alt td    
+{
+    background-color: #efefef;   
+}  
+/*END GridView*/
+
+/*Modal*/
+.RequisitionsAndOrders .RAModalPopup
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.RequisitionsAndOrders .RAModalDiv{
+    background-color:#FFF;
+    padding:3px;
+    border:1px solid black;
+    width:auto;
+}
+.RequisitionsAndOrders .RAModalHeadingImg{
+    float:right;
+    margin-left:10px;
+    padding:0px;
+}
+.RequisitionsAndOrders .RAModalHeading{
+    padding:3px;
+    background-color:#E2E2E2;
+    float:none;
+}
+.RequisitionsAndOrders .RAInnerModal{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+.RequisitionsAndOrders .RAModalButtons{
+    margin:5px;
+    padding:5px;
+}
+
+.RequisitionsAndOrders .RAMessageWidthHeight{
+    max-width: 600px;
+    max-height: 800px;
+}
+/*END Modal*/
+
+/********End Requisition Approval Portlet*************************************/

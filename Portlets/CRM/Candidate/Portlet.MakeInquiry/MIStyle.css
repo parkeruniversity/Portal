@@ -1,0 +1,20 @@
+.MakeInquiry .GrayBordered { background-color: #EFEFEF; border: 1px solid #B2B2B2; padding: 10px;   }
+.MakeInquiry .BlueBordered { background-color: #EFEFEF; border: 1px solid #0034A5; padding: 10px;   }
+.MakeInquiry .WhiteBordered { border: 1px solid #B2B2B2; padding: 10px }
+.MakeInquiry .YellowBordered { background-color: #FFFFE7; border: 1px solid #0034A5; padding: 10px;   }
+.MakeInquiry .RedErrorText { color: #AD0000; }
+.MakeInquiry .TableBorder { border: 1px solid #B2B2B2;   }
+.MakeInquiry .Bullet { list-style-type: disc;}
+.MakeInquiry .BorderLeftBottom { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2 }
+.MakeInquiry .BorderTopLeftBottomRight { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; border-top:1px solid #B2B2B2; border-right: 1px solid #B2B2B2 }
+.MakeInquiry .BorderLeftRightBottom { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2 }
+.MakeInquiry .BorderLeftRightTop { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-top:1px solid #B2B2B2 }
+
+.MakeInquiry .BorderLeft { border-left:1px solid #B2B2B2;  }
+.MakeInquiry .BorderLeftRight { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; }
+.MakeInquiry #Layer2 {position:absolute; width: 200px; z-index:2;border-right: 1px solid #C3C3C3;border-left: 1px solid #C3C3C3;  background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible;}
+.MakeInquiry .GrayBase {border: 1px solid #C3C3C3; background-color: #EBEBEB; layer-background-color: #EBEBEB; visibility: visible; padding: .45em; padding/*\**/: 2em; /*IE8 hack */}
+.MakeInquiry .GrayBorderBottom {border-top: 1px solid #C3C3C3; border-bottom: 1px solid #C3C3C3;}
+.MakeInquiry .GrayBorderSides {border: 1px solid #C3C3C3;}
+.MakeInquiry .QuestionColumnWidth {width: 30%;}
+

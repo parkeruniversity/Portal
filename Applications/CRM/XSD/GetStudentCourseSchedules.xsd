@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="" id="StudentCoursesDataSet">
+	<xs:element name="StudentCourses">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="StudentName" type="xs:string" minOccurs="0"/>
+				<xs:element name="TermKey" type="xs:string" minOccurs="0"/>
+				<xs:element name="TermDesc" type="xs:string" minOccurs="0"/>
+				<xs:element name="SelectedDivisionCode" type="xs:string" minOccurs="0"/>
+				<xs:element name="SelectedDivisionDesc" type="xs:string" minOccurs="0"/>
+				<xs:element name="AddOpen" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Y or N</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DropOpen" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Y or N</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="RegistrationMessage" type="xs:string" minOccurs="0"/>
+				<xs:element name="StudentAlert" type="xs:string" minOccurs="0"/>
+				<xs:element name="NeedsRegistrationAgreement" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Y or N</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="NeedsPersonalInfoUpdate" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>Y or N</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="CourseInfo" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ERPCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="ERPStudentCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="DivisionCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="DivisionDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="CatalogDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="DisplayedCourseCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="Title" type="xs:string" minOccurs="0"/>
+							<xs:element name="CourseRegistrationStatus" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>"Current", "Reserved", "Preregistered", "Waitlisted", "Dropped", "History"</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CreditHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditFixedVariable" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditTypeCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditTypeDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanDropCourse" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Yes No flag that indicates whether or not the student can drop the course.  If Yes the Drop checkbox displays on the screen.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CanChangeWaitlistToCurrent" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>This is a Yes No flag.  It is set to Yes by the plug in when a student registration has a waitlisted status AND has been authorized for a Capacity override for the course.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CourseCampusCode" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The campus with which the course is associated.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="CourseCampusDesc" type="xs:string" minOccurs="0"/>
+							<xs:element name="HasTextbooks" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Yes No flag indicating whether or not there are textbooks associated with the course.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="MustPay" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Yes No flag indicating is this is a course which must be paid before the status can become "Current."</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Paid" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Yes No flag indicating if this MustPay course has been paid.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="AdvisorApprovalReq" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Yes No flag indicating is this is a course which requires Advisor Approval before the status can become "Current."</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="AdvisorApproved" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>Yes No flag indicating if this course that requires Advisor Approval has been approved.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="FacultyList" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="FacultyID" type="xs:string" minOccurs="0"/>
+										<xs:element name="FacultyName" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Schedules" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Weekdays" type="xs:string" minOccurs="0"/>
+										<xs:element name="BeginDate" type="xs:string" minOccurs="0"/>
+										<xs:element name="EndDate" type="xs:string" minOccurs="0"/>
+										<xs:element name="MeetTime" type="xs:string" minOccurs="0"/>
+										<xs:element name="CampusCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="CampusDesc" type="xs:string" minOccurs="0"/>
+										<xs:element name="BuildingCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="BuildingDesc" type="xs:string" minOccurs="0"/>
+										<xs:element name="RoomCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="RoomDesc" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Textbook" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="TextbookCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="TextbookTitle" type="xs:string" minOccurs="0"/>
+										<xs:element name="Authors" type="xs:string" minOccurs="0"/>
+										<xs:element name="TextbookPrice" type="xs:string" minOccurs="0"/>
+										<xs:element name="TextbookFee" type="xs:string" minOccurs="0"/>
+										<xs:element name="TextbookISBN" type="xs:string" minOccurs="0"/>
+										<xs:element name="TextbookPublisher" type="xs:string" minOccurs="0"/>
+										<xs:element name="TextbookDescription" type="xs:string" minOccurs="0"/>
+										<xs:element name="TextbookLocation" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

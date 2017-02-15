@@ -1,0 +1,117 @@
+﻿
+.OptionBox {
+  display: block;
+  width: auto;
+  background: #eee;
+  border: 0;
+  margin: 20px;
+  padding: 15px;
+  overflow: visible;
+  z-index: 0;
+  }
+  
+  .InvalidTotalValue
+  {
+	Margin: 3px 7px 3px 7px;
+	font-family: Arial,sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: Red;
+  }
+  
+  .GradebookDropped
+  {
+	color:Red;
+  }
+  
+  .GrayedBox
+  {
+	background:#eee;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+  }
+  .GradebookMenu 
+  {
+	  background: #eee;
+	  margin:10px;
+  }
+  .GradebookMenu TR TD
+  {
+	padding-left:10px;
+	padding-right:10px; 
+	white-space: nowrap;
+  }
+  .GradebookMenu TR TD.TabCell
+  {
+	padding-left:10px;
+	padding-right:10px;
+	border-right:solid 2px #d5d5d5;
+	white-space: nowrap;
+  }
+  .GradebookMenu DL DD
+  {
+	text-align:left;
+	margin-left:0px;
+	padding-top:10px;
+	vertical-align:middle;
+  }
+  .GradebookMenu DL.CurrentPage
+  {
+	 font-weight: bold;
+  }
+
+  .GradebookFloatingTables TD
+  {
+	vertical-align:top;
+	padding: 20px;
+  }
+  
+  .FloatingGradebookMenu
+  {
+	margin:10px;	
+  }
+    .FloatingGradebookMenu li
+  {
+	margin-bottom:10px;	
+  }
+  
+  .ListItemBreak
+  {
+	margin-top:10px;
+  }
+  
+  table.gradebookDetailsGrid td 
+  {
+	white-space:nowrap;
+  }
+  
+  div#divFinalGradeAndOverview{
+  float:left;
+ }
+ 
+  div#Gradesheet{
+  overflow:auto;
+ }
+ 
+.BorderLeftBottom { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2 }
+.BorderTopLeftBottomRight { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; border-top:1px solid #B2B2B2; border-right: 1px solid #B2B2B2 }
+.BorderLeftRightBottom { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2 }
+ 
+.BottomLeft { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid }
+.BottomLeftDarkGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#dddddd }
+.BottomLeftDarkerGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#bababa }
+.BottomLeftLightGray { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#efefef }
+.BottomLeftDarkBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#0d004c }
+.BottomLeftLightBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#E5F2FF }
+.BottomLeftMediumBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#CBDCEE }
+.BottomLeftVeryLightBlue { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; background-color:#e7fff2 }
+.BackgroundDarkGray{background-color:#dddddd }
+.BackgroundLightGray {background-color:#efefef}
+.TableStyle{BORDER-RIGHT: #b2b2b2 1px solid; BORDER-TOP: #b2b2b2 1px solid; MARGIN: 1px; BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; BORDER-COLLAPSE: collapse}
+.divStyle { BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: #000 1px solid; DISPLAY: none; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; MARGIN: 3em; BORDER-LEFT: #000 1px solid; PADDING-TOP: 1em; BORDER-BOTTOM: #000 1px solid;  BACKGROUND-COLOR: #fffde7 }
+.divStyleGreen { BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 1em; BORDER-TOP: #000 1px solid; DISPLAY: none; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; MARGIN: 3em; BORDER-LEFT: #000 1px solid; PADDING-TOP: 1em; BORDER-BOTTOM: #000 1px solid; BACKGROUND-COLOR: #ddffdd }
+.nocss { DISPLAY: none }
+.hand { CURSOR: hand }
+.redback { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; BACKGROUND-COLOR: #ff6565 }
+.yellowback { BORDER-LEFT: #b2b2b2 1px solid; BORDER-BOTTOM: #b2b2b2 1px solid; BACKGROUND-COLOR: #f6f300 }

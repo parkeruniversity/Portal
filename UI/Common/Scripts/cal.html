@@ -1,0 +1,262 @@
+<html>
+<head>
+<title>DateTest</title>
+<style>
+body {
+	border: solid 1px #000;
+	padding:1px;
+	margin:0;
+	overflow: hidden;
+	background: #fff;
+	width: auto;
+	font-family: arial, sans-serif;
+	height: 18em;
+	font-size: .7em;
+}
+table {
+	font-family: arial, sans-serif;
+	width: 100%;
+}
+th {
+	font-family: arial, sans-serif;
+	font-size: .7em;
+	color: #000;
+	background: #ddd;
+}
+td {
+	font-size: .7em;
+	width: 14%;
+	height: 10%;
+}
+
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+	padding: 1px;
+	color: blue;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+td a,
+td a:link,
+td a:visited,
+th a,
+th a:link,
+th a:visited {
+	display: block;
+	_width: 100%;
+	background: #ddd;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	font-family: arial, sans-serif;
+}
+td a:hover,
+th a:hover {
+  background: #eee;
+  text-decoration: none;
+}
+
+td a.weekend,
+td a.weekend:link,
+td a.weekend:visited {
+  background: #ccc;
+}
+td a.weekend:hover {
+  background: #eee;
+}
+
+td a.otherMonth,
+td a.otherMonth:link,
+td a.otherMonth:visited {
+  color: #888;
+}
+
+td a.today,
+td a.today:link,
+td a.today:visited {
+	background: #bbb;
+}
+td a.today:hover {
+  background: #eee;
+}
+
+td a.selected,
+td a.selected:link,
+td a.selected:visited {
+	font-weight: bold;
+	background: yellow;
+}
+td a.selected:hover {
+	font-weight: bold;
+	background: #fff;
+}
+#close {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+#now a {
+	padding: 0 5px;
+}
+
+</style>
+<script>
+
+Date.prototype.addDays = function(days) {
+	return new Date(this.setFullYear( this.getFullYear(), this.getMonth(), this.getDate() + days ));
+}
+Date.prototype.addYears = function(years) {
+	return new Date(this.setFullYear( this.getFullYear() + years, this.getMonth(), this.getDate() ));
+}
+Date.prototype.addMonths = function(months) {
+	return new Date(this.setFullYear( this.getFullYear(), this.getMonth() + months, this.getDate() ));
+}
+
+function getQueryStringParameter(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.search);
+    if (results == null)
+        return "";
+    else
+        return decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var selectedDate = new Date();
+var curMonth = selectedDate.getMonth();
+//alert(getQueryStringParameter("dateFormat"));
+var dayFirst = (getQueryStringParameter("dateFormat").substring(0,2).toLowerCase() == "dd");
+var destObj;
+
+function makeCal(year, month) {
+    //alert("makeCal y" + year + "m" + month);
+	var d = new Date( year, month, 1 );
+	year = d.getFullYear();
+	month = d.getMonth();
+	curMonth = month;
+	
+	var s = '<select onchange="makeCal(' + year + ',this.value)">';
+	for(m=0;m<months.length;m++)
+		s += '<option value="'+m+'"'+(m==month?' selected="selected"':'')+'>'+months[m]+'</option>';
+	s += '</select>';
+	
+	s += '<select onchange="makeCal(this.value,' + month + ')">';
+	var yMax = parseFloat(new Date().getFullYear())+5;
+	yMax=yMax<d.getFullYear()+5?d.getFullYear()+5:yMax;
+	for(y=year-60;y<yMax;y++)
+		s += '<option value="'+y+'"'+(y==year?' selected="selected"':'')+'>'+y+'</option>';
+	s += '</select>';
+	
+	s += '<a id="close" title="Close This Calendar" href="#" onclick="closeCal();">Close</a>';
+
+	s += '<table cellspacing="1" cellpadding="0"><tr><th>' + makeNavLink( year - 1, month, '-Year' ) + '</th><th>' + makeNavLink( year, month - 1, '-Month' ) + '</th><th>' + makeNavLink( year, month + 1, 'Month+' ) + '</th><th>' + makeNavLink( year + 1, month, 'Year+' ) + '</th><tr></table>';
+	while( d.getDay() > 0 )
+		d.addDays(-1);
+
+	s += '<table cellspacing="1" cellpadding="0"><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thr</th><th>Fri</th><th>Sat</th></tr>';
+	while( ( d.getMonth() <= month & d.getFullYear() == year ) | d.getFullYear() < year ) {
+		s += "<tr>";
+		for( i = d.getDay() ; i < 7 ; i++ ) {
+			s += "<td>" + makeLink(d) + "</td>";
+			d=new Date(d.setFullYear( d.getFullYear(), d.getMonth(), d.getDate() + 1 ));
+		}
+		s += "</tr>";
+		if( s.length > 50000 )
+			break;
+	}
+	s += '</table><div id="now">';
+	
+	var now=new Date();
+	s += makeLink( new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1 ), 'Yesterday' );
+	s += makeLink( new Date(), 'Today' );
+	s += makeLink( new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1 ), 'Tomorrow' );
+	s += '</div>'
+
+	document.body.innerHTML = s;
+}
+
+function makeLink(d) {
+	var cls = new Array();
+	if( d.toDateString() == new Date().toDateString() )
+		cls[cls.length] = "today";
+	if( d.toDateString() == selectedDate.toDateString() )
+		cls[cls.length] = "selected";
+	if( d.getDay() == 0 || d.getDay() == 6 )
+		cls[cls.length] = "weekend";
+	if( d.getMonth() != curMonth )
+		cls[cls.length] = "otherMonth";
+	return '<a href="#" class="'+cls.join(' ')+'" title="' + d.toDateString() + '" onclick="setDate(\'' + d.toDateString() + '\');preventDefaultEvent(event);">' + ( arguments[1] ? arguments[1] : d.getDate() ) + '</a>';
+}
+
+function makeNavLink( y, m, t ) {
+	return '<a href="#" onclick="makeCal(' + y + ',' + m + ');preventDefaultEvent(event);">' + t + '</a>';
+}
+
+function closeCal() {
+	destObj.nextSibling.nextSibling.style.visibility='hidden';
+}
+
+function preventDefaultEvent(event, value) {
+	
+	if ((event != null && typeof (event.type) === "string") && (value === false || value == null)) {
+		if (event.preventDefault) {
+			event.preventDefault();
+		}
+		else if ("returnValue" in event) {
+			event.returnValue = false;
+		}
+		else {
+			throw new Error("The browser does not support known DOM Level II event cancellation.");
+		}
+	}
+
+	return value;
+}
+
+function setDate(d) {
+    date = new Date(d);
+    if (dayFirst) {
+        destObj.value = date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear();
+    }
+    else {
+        destObj.value = (date.getMonth() + 1) + '/' + date.getDate() + '/' + date.getFullYear();
+    }
+    if (destObj.onchange != null)
+		destObj.onchange();
+	selectedDate = date;
+	if (window.parent.document.getElementById("pg0_V_PostBackLinkButton"))
+        window.parent.__doPostBack('pg0$V$PostBackLinkButton',''); 
+	//makeCal( selectedDate.getFullYear(), selectedDate.getMonth() );
+	closeCal();
+}
+
+function show_calendar(o) {
+    destObj = o;
+    //alert(dayFirst);
+    if (dayFirst && o && o.value && o.value.length > 0) {
+        //alert("usingdayfirst");
+        var dateParts = o.value.split("/");
+        if (dateParts.length != 3) selectedDate = new Date();
+        selectedDate = new Date(dateParts[1] + '/' + dateParts[0] + '/' + dateParts[2]);
+    }
+    else {
+        selectedDate = new Date(o.value);
+    }
+
+    if( selectedDate && ! isNaN(selectedDate.getDate()) )
+		makeCal( selectedDate.getFullYear(), selectedDate.getMonth() );
+	else
+		makeCal( new Date().getFullYear(), new Date().getMonth() );
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,168 @@
+.rssWelcomeHeader
+{
+	background-color: #bacbdd;  
+	color: #000;  
+	position: relative; 
+	margin: 0px 0 0 0; 
+	padding: 3px 10px; 
+	border-bottom: 1px solid #b2b2b2;
+	font-weight: bold;
+}
+.rssSideBarAddFeed
+{
+	padding-left: 20px;
+}
+.rssSideBarAddCategory
+{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.rssDefaultViewSideBarCell
+{
+	width: 100%;
+	vertical-align: top;
+}
+
+.rssSideBarCell
+{
+	background-color: #efefef;
+	border-right: 1px solid #b2b2b2;
+	width: 25%;
+	vertical-align: top;
+}
+
+.rssMainViewRightCell
+{
+	width: 75%;
+	vertical-align: top;
+}
+
+.rssTable
+{
+	padding: 0; 
+	margin: 0; 
+	border: 0; 
+	border-width: 0; 
+	border-collapse: collapse;
+}
+
+.rssFeedError
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.rssLightText
+{
+	color: #a3a3a3;
+}
+
+.rssCopyText
+{
+	color: #505050;
+}
+
+.rssSideBarHighlight
+{
+	background-color: #01277C;
+}
+.rssSideBarRefresh
+{
+	border-top: #b2b2b2 1px solid; 
+	padding-bottom: 5px; 
+	width: 100%; 
+	padding-top: 5px; 
+	border-bottom: #b2b2b2 1px solid; 
+	background-color: #d8e3f0; 
+	text-align: center;
+}
+
+.rssOpenCloseAll
+{
+	color: #0000FF; 
+	font-size: 11px; 
+	text-decoration: underline; 
+}
+
+.rssViewAllFeeds
+{
+	font-style: italic;	
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+
+
+.rssSidebarItemDiv
+{
+	display: inline;
+}
+
+.rssSidebarItemLink
+{
+	color: #000000; 
+	text-decoration: none
+}
+
+.rssViewCategoryFeedItemsRow
+{
+	border-top: 1px solid #b2b2b2;
+	border-bottom: 1px solid #b2b2b2;
+	padding: 5px 10px 5px 10px;	
+}
+
+.rssViewCategoryFeedItemsAltRow
+{
+	background-color: #efefef;
+	padding: 5px 10px 5px 10px;		
+}
+
+.rssViewFeedRow
+{
+	border-bottom: 1px solid #b2b2b2;
+	padding: 5px 10px 5px 10px;	
+}
+
+.rssViewFeedAltRow
+{	
+	background-color: #efefef;	
+	border-bottom: 1px solid #b2b2b2;	 
+	padding: 5px 10px 5px 10px;
+}
+
+.rssViewCategoryItemHeader
+{
+	background-color: #dcdcdc;
+	font-weight: bold;
+	padding: 3px;
+	border-top: 1px solid #b2b2b2;
+}
+
+.rssViewFeedHeader
+{
+	background-color: #bdcfdd;
+	border-color: #808080;
+	border-width: thick;
+	font-weight: bold;
+	height: 20px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	border-bottom: 1px solid #b2b2b2; 
+	margin: 0;
+}
+
+.rssViewCategoryHeader
+{
+	background-color: #bdcfdd; 
+	font-weight: bold;
+	height:20px;
+	padding: 2px;
+}
+
+.rssSideBarFeedRepeaterItem
+{
+	width: 100%;
+	display: block;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}

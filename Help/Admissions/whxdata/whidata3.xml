@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<indexdata>
+<key name="Enter" >
+  <topic name="Forms" url="Forms.htm" />
+  <topic name="Make an Inquiry" url="Make_an_Inquiry.htm" />
+  <topic name="Financial Aid Estimator - CX" url="Financial_Aid_Estimator_-_CX.htm" />
+  <topic name="Apply for Admissions" url="Apply_for_Admissions.htm" />
+  <topic name="Initiate Contact" url="Initiate_Contact.htm" />
+  <topic name="Admissions Status" url="Admissions_Status.htm" />
+  <topic name="Folder Items" url="Folder_Items.htm" />
+  <topic name="View Candidate" url="View_Candidate.htm" />
+  <key name="Complete SQL Statement" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="Display Column" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="email" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="Header" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="XML Tag Description" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="XML Tag Name" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="Enter billing" >
+  <topic name="Apply for Admissions" url="Apply_for_Admissions.htm" />
+</key>
+<key name="Enter Payment Information" >
+  <topic name="Apply for Admissions" url="Apply_for_Admissions.htm" />
+</key>
+<key name="Entry Term" >
+  <topic name="Admissions Status" url="Admissions_Status.htm" />
+</key>
+<key name="ERP" >
+  <topic name="Division and Major Assignment" url="Division_and_Major_Assignment.htm" />
+  <topic name="View Activity" url="View_Activity.htm" />
+  <topic name="Admissions Status" url="Admissions_Status.htm" />
+  <topic name="View Candidate" url="View_Candidate.htm" />
+  <topic name="Forms" url="Forms.htm" />
+  <key name="reduce display time" >
+    <topic name="View Activity" url="View_Activity.htm" />
+  </key>
+</key>
+<key name="es" >
+  <topic name="Division and Major Assignment" url="Division_and_Major_Assignment.htm" />
+</key>
+<key name="ESTIMATED" >
+  <topic name="Financial Aid Estimator - CX" url="Financial_Aid_Estimator_-_CX.htm" />
+</key>
+<key name="ESTIMATED aid" >
+  <topic name="Financial Aid Estimator - CX" url="Financial_Aid_Estimator_-_CX.htm" />
+  <key name="Candidate" >
+    <topic name="Financial Aid Estimator - CX" url="Financial_Aid_Estimator_-_CX.htm" />
+  </key>
+</key>
+<key name="Ethnic Heritage" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="EthnicGroup" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="EX" >
+  <topic name="Academic Information" url="Academic_Information.htm" />
+</key>
+<key name="Exemption" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Exemption on Another's Tax Return" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="ExemptionName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="expected/scheduled" >
+  <topic name="View Candidate" url="View_Candidate.htm" />
+</key>
+<key name="Faculty" >
+  <topic name="Academic Information" url="Academic_Information.htm" />
+  <key name="displays names" >
+    <topic name="Academic Information" url="Academic_Information.htm" />
+  </key>
+  <key name="Meet" >
+    <topic name="Academic Information" url="Academic_Information.htm" />
+  </key>
+</key>
+<key name="Faculty Roster" >
+  <topic name="Academic Information" url="Academic_Information.htm" />
+  <key name="opens" >
+    <topic name="Academic Information" url="Academic_Information.htm" />
+  </key>
+</key>
+<key name="Father First Name" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father Home Phone" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father Last Name" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father Middle Name" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father State" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father Work Phone" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father Zip" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father's City" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father's Country" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father's Employer's Name" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Father's Zip Code" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherAddrLine1" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherAddrLine2" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherCity" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherCountry" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherEmployerName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherFName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherHPhone" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherLName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherMName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherState" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherWPhone" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FatherZip" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="FAX" >
+  <topic name="Overview" url="default_1.htm" />
+</key>
+<key name="Field" >
+  <topic name="Make an Inquiry" url="Make_an_Inquiry.htm" />
+  <topic name="Apply for Admissions" url="Apply_for_Admissions.htm" />
+  <topic name="Initiate Contact" url="Initiate_Contact.htm" />
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="field indicates" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="Filed" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+  <key name="State Tax Return" >
+    <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+  </key>
+</key>
+<key name="Filter Column" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="Filter Criteria" >
+  <topic name="Forms" url="Forms.htm" />
+  <key name="Simple SQL" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="Filter Operator" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="Financial Aid" >
+  <topic name="Financial Aid Estimator - CX" url="Financial_Aid_Estimator_-_CX.htm" />
+  <topic name="Overview" url="Overview_Admissions_Officer.htm" />
+</key>
+<key name="Financial Aid Estimator" >
+  <topic name="Financial Aid Estimator - CX" url="Financial_Aid_Estimator_-_CX.htm" />
+  <topic name="Overview" url="Overview_Admissions_Officer.htm" />
+</key>
+<key name="Find Candidate screen" >
+  <topic name="Admissions Status" url="Admissions_Status.htm" />
+  <topic name="Folder Items" url="Folder_Items.htm" />
+  <key name="View Admissions Status link opens" >
+    <topic name="Admissions Status" url="Admissions_Status.htm" />
+  </key>
+</key>
+<key name="Find Candidates" >
+  <topic name="Folder Items" url="Folder_Items.htm" />
+  <topic name="Admissions Status" url="Admissions_Status.htm" />
+  <key name="opens" >
+    <topic name="Folder Items" url="Folder_Items.htm" />
+  </key>
+</key>
+<key name="First Name" >
+  <topic name="Make an Inquiry" url="Make_an_Inquiry.htm" />
+  <topic name="View Candidate" url="View_Candidate.htm" />
+  <topic name="Forms" url="Forms.htm" />
+  <topic name="Division and Major Assignment" url="Division_and_Major_Assignment.htm" />
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+  <topic name="Admissions Officer and Counselor Assignments" url="Admissions_Officer_and_Counselor_Assignments.htm" />
+</key>
+<key name="FirstName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Folder Items" >
+  <topic name="Folder Items" url="Folder_Items.htm" />
+  <topic name="Overview" url="Overview_Candidate.htm" />
+  <topic name="Overview" url="Overview_Admissions_Officer.htm" />
+  <topic name="View Candidate" url="View_Candidate.htm" />
+</key>
+<key name="Folder Items portlet" >
+  <topic name="Folder Items" url="Folder_Items.htm" />
+  <topic name="View Candidate" url="View_Candidate.htm" />
+  <key name="opens" >
+    <topic name="View Candidate" url="View_Candidate.htm" />
+  </key>
+</key>
+<key name="Following State" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="form" >
+  <topic name="Make an Inquiry" url="Make_an_Inquiry.htm" />
+  <topic name="Apply for Admissions" url="Apply_for_Admissions.htm" />
+  <topic name="Forms" url="Forms.htm" />
+  <topic name="Travel Assistant" url="Travel_Assistant.htm" />
+  <topic name="View Candidate" url="View_Candidate.htm" />
+  <key name="Assign" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="automatically populate" >
+    <topic name="Make an Inquiry" url="Make_an_Inquiry.htm" />
+    <topic name="Apply for Admissions" url="Apply_for_Admissions.htm" />
+  </key>
+  <key name="Headers" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="form addressed" >
+  <topic name="View Candidate" url="View_Candidate.htm" />
+</key>
+<key name="Form Grouping" >
+  <topic name="Forms" url="Forms.htm" />
+  <key name="Add" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="Delete" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="Edit" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="opens" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="Form Messages" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="Form Payment Information" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="Form Question" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="form requ ired" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="Form Setup Checklist" >
+  <topic name="Forms" url="Forms.htm" />
+  <key name="open" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+  <key name="Return" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="Form Submission Data" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="FormBuilder" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="found" >
+  <topic name="Admissions Status" url="Admissions_Status.htm" />
+  <topic name="Folder Items" url="Folder_Items.htm" />
+  <key name="ID Number" >
+    <topic name="Admissions Status" url="Admissions_Status.htm" />
+    <topic name="Folder Items" url="Folder_Items.htm" />
+  </key>
+</key>
+<key name="GED" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+  <key name="You Have" >
+    <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+  </key>
+</key>
+<key name="GED Testing Center" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+  <key name="Name" >
+    <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+  </key>
+</key>
+<key name="GED Testing Center City" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GED Testing Center State" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GED Testing Center Zip" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GED Was Taken" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GEDCity" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GEDDateTaken" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GEDState" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GEDTaken" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GEDTestCenter" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GEDZip" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="General Ledger" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="Getting Started" >
+  <topic name="Travel Assistant" url="Travel_Assistant.htm" />
+  <topic name="Forms" url="Forms.htm" />
+  <key name="refer" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="gives" >
+  <topic name="Forms" url="Forms.htm" />
+  <key name="Admissions Administrator" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="Global Operations" >
+  <topic name="Division and Major Assignment" url="Division_and_Major_Assignment.htm" />
+</key>
+<key name="Go button" >
+  <topic name="Forms" url="Forms.htm" />
+  <key name="clicking" >
+    <topic name="Forms" url="Forms.htm" />
+  </key>
+</key>
+<key name="Graduate" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="group" >
+  <topic name="Forms" url="Forms.htm" />
+</key>
+<key name="GuardAddrLine1" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GuardAddrLine2" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GuardCity" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GuardCountry" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GuardEmplName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GuardFName" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="GuardHPhone" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Guardian City" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Guardian First Name" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Guardian Home Phone" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Guardian Last Name" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+<key name="Guardian Middle Name" >
+  <topic name="Using Tags in Email" url="Using_Tags_in_Email.htm" />
+</key>
+
+</indexdata>

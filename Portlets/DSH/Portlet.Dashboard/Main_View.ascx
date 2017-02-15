@@ -1,0 +1,1 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="Main_View.ascx.cs" Inherits="Jenzabar.DSH.Web.Portlets.DashboardPortlet.Main_View" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>

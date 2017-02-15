@@ -1,0 +1,79 @@
+﻿<div id="addApptEmailTemplate">
+    <div id="tokenInfo" class="tokenInfo" style="display: none;">
+        <div>
+            <span class="inactiveItem">{{{g11n.addTokenDescrip}}}</span>
+        </div>
+        <div class='tokenArea'>
+            <div>
+                {{{g11n.tokenDate}}}
+                <span class="inactiveItem">{{{g11n.tokenDateInfo}}}</span>
+            </div>
+            <div>
+                {{{g11n.tokenStart}}}
+                <span class='inactiveItem'>{{{g11n.tokenStartInfo}}}</span>
+            </div>
+            <div>
+                {{{g11n.tokenEnd}}}
+                <span class='inactiveItem'>{{{g11n.tokenEndInfo}}}</span>
+            </div>
+        </div>
+        <div class='tokenArea'>
+            <div id="tokenHost">
+                {{{g11n.tokenHost}}}
+                <span class="inactiveItem">{{{g11n.tokenHostInfo}}}</span>
+            </div>
+            <div id="tokenAttendee">
+                {{{g11n.tokenAttendees}}}
+                <span class="inactiveItem">{{{g11n.tokenAttendeesInfo}}}</span>
+            </div>
+            <div>
+                {{{g11n.tokenRecipient}}}
+                <span class='inactiveItem'>{{{g11n.tokenRecipientInfo}}}</span>
+            </div>
+        </div>
+        <div class='tokenArea'>
+            <div>
+                {{{g11n.tokenLocation}}}
+                <span class="inactiveItem">{{{g11n.tokenLocationInfo}}}</span>
+            </div>
+            <div>
+                {{{g11n.tokenName}}}
+                <span class='inactiveItem'>{{{g11n.tokenNameInfo}}}</span>
+            </div>
+            <div>
+                {{{g11n.tokenDescrip}}}
+                <span class='inactiveItem'>{{{g11n.tokenDescripInfo}}}</span>
+            </div>
+            <div>
+                {{{g11n.tokenComments}}}
+                <span class='inactiveItem'>{{{g11n.tokenCommentsInfo}}}</span>
+            </div>
+            <div>
+                {{{g11n.tokenLink}}}
+                <span class='inactiveItem'>{{{g11n.tokenLinkInfo}}}</span>
+            </div>
+        </div>
+    </div>
+    <div id="templateInfo" >
+        <div class="templateArea">
+            <a id="hypToken" href='#' class='activeItem' style="float: right;"><i class='fa fa-question-circle'></i> {{{g11n.templateTokenInfo}}}</a>
+        </div>
+        <div class="templateArea">
+            <span class="addEditAppt"></span>
+        </div>
+        <div class="templateArea">
+            <span class="inactiveItem">{{{g11n.subject}}}:</span>
+            <textarea id="txtSubject" class="templateSubject" maxlength="255"></textarea>
+        </div>
+        <div class="templateArea">
+            <span class="inactiveItem">Body:</span>
+            <textarea id="emailBody"></textarea>
+            <div class="apptDetailAction">
+                <button id="btnSingle" class="activeAction">{{{g11n.applyToAppt}}}</button>
+                <button id="btnTemplate" class="activeAction">{{{g11n.saveForFuture}}}</button>
+                <a class="activeItem" href="">{{{g11n.noThanks}}}</a>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>

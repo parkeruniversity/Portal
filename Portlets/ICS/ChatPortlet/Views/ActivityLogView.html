@@ -1,0 +1,6 @@
+﻿
+<div class="sessionActivityLog {{#if this.isSessionInfo}} session-info {{else}} message-info {{/if}}">
+    <span class="left">({{timeStamp}})&nbsp;</span>
+    <span class="left">{{chatUserDisplayName}}{{#if this.isSessionInfo}} {{else}}: {{/if}}&nbsp;</span>
+    <span class="left">{{{message}}}</span>
+</div>

@@ -1,0 +1,7 @@
+
+.TaskManager {}
+.TaskManager .High { BACKGROUND: yellow; }
+.TaskManager .PastDueDate { color: #f00; }
+.TaskManager .TaskStatusHeader { background-color: #eee; }
+.TaskManager .TaskStatusTable { border: 1px solid #eee; }
+

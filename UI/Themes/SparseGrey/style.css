@@ -1,0 +1,347 @@
+/* SparseTablelessGray - depends on divStyle.css */
+
+html, body {
+height: 100%;
+}
+#MAINFORM {
+position: relative;
+min-height: 100%;
+}
+body {
+background-color:#FFFFFF;
+color:#000000;
+}
+body * {
+font-family:verdana,arial,sans-serif;
+}
+a, a:link, a:visited {
+color:#0000FF;
+}
+a:hover {
+}
+#masthead {
+background:#FFFFFF none no-repeat scroll right top;
+height:45px;
+margin:0;
+min-width:760px;
+padding:0;
+}
+#masthead a, #masthead a:link, #masthead a:visited {
+cursor:pointer;
+display:block;
+height:100%;
+width:400px;
+}
+#masthead h1 {
+background:transparent url(images/logo.jpg) no-repeat scroll left top;
+height:45px;
+margin:3px 0 0;
+padding:0;
+position:relative;
+text-indent:-9999px;
+width:760px;
+z-index:1;
+}
+#welcomeBackBar {
+background-color:white;
+color:black;
+position:absolute;
+right:5px;
+top:5px;
+z-index:3;
+}
+#welcomeBackBar a, #welcomeBackBar a:link, #welcomeBackBar a:visited {
+color:black;
+font-style:italic;
+text-decoration:none;
+}
+#welcomeBackBar a:hover {
+text-decoration:underline;
+}
+#welcomeBackBar input {
+background-color:#FFFFFF;
+height: auto;
+border: 1px solid black;
+}
+#welcomeBackBar #btnLogin {
+background-color:#DDDDDD;
+}
+
+#welcomeBackBar #userLogin,
+#welcomeBackBar #userWelcome 
+{
+	display: block; 
+	clear: both;
+}
+
+#headerTabs
+{
+	margin-top: 20px;
+}
+
+#TargetedMessage {
+border:1px solid #e3e3e3;
+margin:6px 40px 0 40px;
+padding:2px;
+}
+
+h4 {
+background-color:#EEEEEE;
+color:#000000;
+}
+.pActions {
+background-color:#DDDDDD;
+}
+.hint {
+background-color:#EEEEEE;
+}
+.alt {
+background-color:#EFEFEF;
+}
+.highlighted {
+background-color:#FFFED8;
+}
+.selected {
+background-color:#FFFED8;
+}
+div.oops {
+background-color:#FFCCCC;
+border:1px solid red;
+}
+div.cp div.cpHead {
+background-color:#DDDDDD;
+}
+#headerTabs li {
+background:#FFFFFF none repeat scroll 0 0;
+border-color:#e3e3e3;
+border-style:none none none solid;
+border-width:1px;
+color:black;
+margin: 0;
+font-size: 120%;
+}
+#headerTabs li.selected {
+background:#EEEEEE none repeat scroll 0 0;
+border-color:#e0e0e0;
+border-style: solid none none solid;
+}
+#headerTabs li a {
+color:black;
+font-weight:normal;
+text-decoration:none;
+}
+#headerTabs .selected a {
+color:#000000;
+text-decoration:none;
+}
+#headerTabs li:hover {
+background:#EEEEEE
+}
+#headerTabs li a:hover {
+background:#EEEEEE none repeat scroll 0 0;
+color:black;
+text-decoration:underline;
+}
+#headerTabs li.selected a:hover {
+color:#000000;
+text-decoration:none;
+}
+#mainCrumbs {
+background:#EEEEEE none repeat scroll 0 0;
+border:1px solid #e0e0e0;
+border-right: none;
+border-left: none;
+}
+
+.portlet { margin: 0 15px 15px 0; }
+
+#sideBar div.sideSection, #sideBar div#quickLinks {
+background-color:#F3F3F3;
+padding: 0 0 0 5px;
+border: none;
+margin: 0 auto 0 0;
+}
+
+ul#contextPages {
+margin-bottom: 0px;
+}
+#contextPages li, #sideBar li.addPage, div.contexts, #sideBar h2, dl#myPages, dl#myGroups, dl#myCourses, ul.globalLinks, ul#globalLinks, #sideBar h3 {
+background: #f3f3f3 none;
+border: none;
+border-right: 1px solid #e3e3e3;
+margin: 0;
+}
+#sideBar li.addPage {
+padding: 5px;
+}
+
+#contextPages li a, #contextPages li a:link, #contextPages li a:visited {
+color:#555555;
+text-decoration:none;
+}
+#contextPages li a:hover {
+text-decoration:underline;
+}
+
+#contextPages li.currentPage {
+background: #FFFFFF none repeat-x scroll 0 0;
+border: 1px solid #e3e3e3;
+border-right: none;
+}
+
+ul#manageLinks {
+font-size:85%;
+margin:0 0 10px;
+padding:2px 0;
+}
+
+#pagePortlets li {
+border: none;
+background: none;
+list-style-type: none;
+}
+#pagePortlets li a, #pagePortlets li a:link, #pagePortlets li a:visited {
+color:#000000;
+text-decoration:none;
+}
+
+#quickLinks li {
+padding: 0 0 5px 5px;
+margin: 0;
+}
+
+#quickLinks dl {
+padding: 0 0 0 5px;
+}
+
+#quickLinks dl dd ul { margin: 0;}
+
+#quickLinks h3 {
+font-size: 105%;
+}
+
+#sideBar h2, #sideBar h3 {
+padding: 10px 5px;
+}
+
+#sideBar h2, #sideBar h2 a, #sideBar h2 a:link, #sideBar h2 a:visited, #sideBar div#quickLinks h3 {
+background: transparent none;
+color:#888888;
+text-decoration:none;
+}
+#sideBar h2 a:hover, #sideBar li a:hover {
+text-decoration:underline;
+}
+#sideBar h3, #sideBar h3 a, #sideBar h3 a:link, #sideBar h3 a:visited {
+background-color:#D2D2D2;
+color:#000000;
+text-decoration:none;
+}
+#sideBar h3 a:hover {
+text-decoration:underline;
+}
+#sideBar a, #sideBar a:link, #sideBar a:visited {
+color:#000000;
+text-decoration:none;
+}
+#sideBar a:hover {
+text-decoration:underline;
+}
+
+#foot {
+background-color:#EEEEEE;
+border-color:#e0e0e0;
+color:#000000;
+}
+#foot a, #foot a:link, #foot a:visited {
+color:#000000;
+text-decoration:none;
+}
+#foot a:hover {
+text-decoration:underline;
+}
+.pHead {
+background:transparent none repeat scroll 0 0;
+}
+.pHead h3 {
+color:black;
+}
+.pHead a, .pHead a:link, .pHead a:visited {
+color:black;
+text-decoration:none;
+}
+.pHead a:hover {
+text-decoration:underline;
+}
+.pShortcut {
+border-color:#000000;
+}
+.pShortcut a, .pShortcut a:link, .pShortcut a:visited {
+color:#000000;
+text-decoration:none;
+}
+.pShortcut a:hover {
+text-decoration:underline;
+}
+.portlet {
+background:#FFFFFF none repeat scroll 0 0;
+border: 1px solid #E3E3E3;
+border-right: 1px solid #FFFFFF;
+border-bottom: 1px solid #FFFFFF;
+line-height:1.2;
+}
+.portlet:hover {
+border-color: #333333;
+}
+
+div.tabGroup ul.tabHeaders li, .securityGrid table thead th, .groupedGrid thead td, .groupedGrid thead th, .groupedGrid tbody.ghead tr td, .groupedGrid tbody.gfoot tr td {
+border-color:#FFFFFF !important;
+}
+div.tabGroup ul.tabHeaders, div.tabGroup ul.tabHeaders a, div.tabGroup ul.tabHeaders a:link, div.tabGroup ul.tabHeaders a:visited {
+background-color:#DDDDDD;
+color:#000000;
+}
+div.tabGroup ul.tabHeaders li.selected a, div.tabGroup ul.tabHeaders li.selected a:link, div.tabGroup ul.tabHeaders li.selected a:visited, div.tabGroup ul.tabHeaders li.selected a:hover {
+background-color:#FFFFFF;
+}
+div.tabGroup ul.tabHeaders a:hover {
+background-color:#EEEEEE;
+}
+.securityGrid h5 {
+background-color:#DDDDDD;
+}
+.securityGrid table thead th {
+background-color:#DDDDDD;
+}
+.securityGrid table thead th.kids {
+background-color:#888888;
+color:#FFFFFF;
+}
+.securityGrid table th.admin {
+background-color:#000000;
+color:#FFFFFF;
+}
+.securityGrid table tbody td.admin {
+background-color:#dddddd;
+}
+.securityGrid table tbody .alt td.admin {
+background-color:#cccccc;
+}
+.principalSelector .roles tbody th, .principalSelector .users tbody th {
+background-color:#DDDDDD;
+}
+.principalSelector td.contextTree {
+background-color:#DDDDDD;
+}
+.pToolbar, .pToolbar ul, .pToolbar a, .pToolbar a:link, .pToolbar a:visited, .pToolbar .pTool, .pToolbar .menu a.hasKids, .pToolbar .menu a, .pToolbar .menu a:link, .pToolbar .menu a:visited {
+background-color:#dddddd;
+border-color:#FFFFFF;
+color:#000000;
+}
+.pToolbar a:hover, .pToolbar a.active, .pToolbar .pTool a:hover, .pToolbar .pTool a.active {
+background-color:#cccccc !important;
+color:#000000 !important;
+}
+.buttonBar, .buttonBarCentered {
+background-color:#EFEFEF;
+}

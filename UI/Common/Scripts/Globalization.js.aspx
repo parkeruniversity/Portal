@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" ContentType="application/javascript" AutoEventWireup="true" CodeBehind="Globalization.js.aspx.cs" Inherits="Jenzabar.Portal.Web.UI.Common.Scripts.ClientGlobalization" %>

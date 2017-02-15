@@ -1,0 +1,586 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="generator" content="Adobe RoboHelp - www.adobe.com">
+<title>Setup Steps for CX Faculty</title>
+<link rel="stylesheet" href="Jenzabar_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='Jenzabar.css'>");}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript1.2">function printpage() {
+	window.print()
+	}</script>
+
+<style type="text/css">
+<!--
+img_whs1 { border:none; width:17px; height:16px; border-style:none; }
+p.whs2 { margin-left:40px; }
+p.whs3 { margin-left:80px; }
+img_whs4 { border:none; width:15px; height:14px; float:none; border-style:none; }
+-->
+</style><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if(1)
+	{
+	
+	}
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("default.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="./ehlpdhtm.js" name="EHELP_DHTM"></script>
+<script type="text/javascript" language=JavaScript1.2>
+<!-- 
+if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+ //-->
+</script>
+
+
+
+<h1>Setup Steps for CX Faculty</h1>
+<p>In order to successfully implement <span style="font-weight: bold;"><B>Faculty</B></span>, 
+ the following steps should be performed in the order in which they are 
+ listed. &nbsp;Some steps are performed in CX, and other 
+ steps are performed in the specific JICS Faculty portlet.</p>
+<p class=NOTE><span style="font-weight: bold;"><B>NOTE: &nbsp;</B></span>Your 
+ JICS Administrator has already defined roles that have access to individual 
+ portlets via the <span style="font-weight: bold;"><B>Allow Access</B></span> 
+ check box (<span style=" text-decoration: underline; "><U>Site Manager</U></span> 
+ link, Global Portlet Operations <span style=" text-decoration: underline; "><U>Edit</U></span> 
+ link). &nbsp;For more information about the <span style="font-weight: bold;"><B>Allow 
+ Access</B></span> global operation, see the <span style="font-style: italic;"><I>Getting 
+ Started with JICS</I></span>.</p>
+<p><span class=dropspot><a class="dropspot" href="javascript:TextPopup(this)" id="a6">Step 1: Apply SMOs 12819, 12830</a></span></p>
+<div class="droptext" id="POPUP321237422" style="display: 'none'; " x-ss-type="dropdown">
+ <p>To prepare for JICS 6.4 SP1 for CX, you must apply <span style="font-weight: bold;"><B>SMO12819</B></span>. 
+ Follow the steps in the <span style="font-weight: bold;"><B>README</B></span> 
+ for SMO12819 to apply this SMO.</p>
+ <p>To prepare for JICS 6.4 SP2 for CX, you must apply <span style="font-weight: bold;"><B>SMO12830</B></span>. 
+ &nbsp;Follow the steps in the <span style="font-weight: bold;"><B>README</B></span> 
+ &nbsp;to apply SMO12830.</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a1">Step 2: &nbsp;In 
+ CX, set up Student Administrator and Advisor Administrator JICS accounts.</a></p>
+<div class="droptext" id="POPUP271802656" style="display: 'none'; " x-ss-type="dropdown">
+ <ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Select the individual who will 
+ have Student Administrator privileges and add their ID Number to that 
+ role.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Select the individual who will 
+ have Advisor Administrator privileges and add their ID Number to that 
+ role.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Retrieve from CX the login and 
+ password for these individuals, and provide these individuals with this 
+ information.</p></li>
+ </ul>
+ <p>&nbsp;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a8">Step 3: &nbsp;In 
+ CX, run macros to configure the class list display</a></p>
+<div class="droptext" id="POPUP329059234" style="display: 'none'; " x-ss-type="dropdown">
+ <p>Two macros in the CX config table control who appears on the class lists:</p>
+ <p>ENABLE_FEAT_CONFCLR, if enabled, lists students on the class list who 
+ have a student academic status of &quot;C&quot;onfirmed and a financial 
+ lclearance flag of &quot;Y&quot; (both from stu_acad_rec).</p>
+ <p>ENABLE_FEAT_FINCLR, if enabled, checks the financial clearance flag 
+ only in the student academic record to determine if the student appears 
+ on the class list.</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a9">Step 4: &nbsp;In 
+ CX, set up faculty to perform course authorizations</a></p>
+<div class="droptext" id="POPUP272650509" style="display: 'none'; " x-ss-type="dropdown">
+ <p>Course authorizations require that a faculty member have a FACID, an 
+ assigned DEPT, and COND entries in CX's permctgry_table.</p>
+ <p>The COND entry contains whatever conditions the individual is allowed 
+ to waive - NOSEATS, PREREQ, SECREQ, CONFLICT. &nbsp;</p>
+ <p>All must be of type &quot;I&quot; for the web.</p>
+ <p>The system also supports the ENABLE_CRSAUTH_ALLREQ macro in the config 
+ table. &nbsp;If this macro is set to &quot;Y&quot;, then 
+ the only required entries for the faculty are FACID, DEPT, and ALLREQ. 
+ &nbsp;Please be sure to delete the COND entry in the 
+ permctgry_table if specific conditions are not used. &nbsp;This 
+ is required to make ALLREQ work.</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a10">Step 5: &nbsp;In 
+ CX, set up advisors to view absolute holds on transcripts</a></p>
+<div class="droptext" id="POPUP271880167" style="display: 'none'; " x-ss-type="dropdown">
+ <p>Advisor viewing of absolute holds on transcripts can be enabled or disabled 
+ by the macro in the CX config table. &nbsp;If you do 
+ not want your advisors to see student academic history for students with 
+ an absolute hold on transcripts, then set the value to &quot;N&quot;.</p>
+ <p>m4_define('ENABLE_FEAT_ADV_TRANSRPTS','N')</p>
+ <p>When the value is set to &quot;N&quot;, the advisor does not see student 
+ acadmic records (course history or unofficial transcript) for students 
+ with an absolute hold on transcripts.</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a11">Step 6: &nbsp;In 
+ CX, set up surrogates to enter grades for faculty members</a></p>
+<div class="droptext" id="POPUP321847784" style="display: 'none'; " x-ss-type="dropdown">
+ <p>In the OPRDEPT_TABLE, make sure that <span style="font-weight: bold;"><B>View 
+ grades</B></span>, <span style="font-weight: bold;"><B>Enter grades</B></span> and 
+ <span style="font-weight: bold;"><B>Update grades</B></span> are all set to 'Y' 
+ for the surrogate operator. &nbsp;Set the Faculty ID 
+ to the faculty member(s) that the surrogate operator can enter grades 
+ for.</p>
+ <p>The surrogate can now enter grades for the faculty member through the 
+ Faculty Course Control portlet.</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a12">Step 7: &nbsp;In 
+ CX, set up a macro to configure the course search results display</a></p>
+<div class="droptext" id="POPUP322286983" style="display: 'none'; " x-ss-type="dropdown">
+ <p>The course search can be configured to display the number of registrations 
+ for a given course. &nbsp;By default the number of seats 
+ open is returned from CX. &nbsp;</p>
+ <p>To return the number registered, the following macro must be configured 
+ in the CX config table:</p>
+ <p>m4_define('ENABLE_FEAT_REG_SEATS','Y')</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a13">Step 8: &nbsp;In 
+ JICS, change the header for course search results</a></p>
+<div class="droptext" id="POPUP322226902" style="display: 'none'; " x-ss-type="dropdown">
+ <p>In Step 7 if you configured CX to return the number of registrations, 
+ you need to change the header in the course search results portlet. &nbsp;</p>
+ <p>Edit the FWK_Globalization table in the JICS database. &nbsp;Search 
+ for TXT_SEATS_OPEN and change the text from &quot;Seats Open&quot; to 
+ &quot;Registered&quot;.</p>
+ <p>&nbsp;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a3">Step 9: &nbsp;In 
+ JICS, set permissions to global operations for the Course Authorization, 
+ Grade Entry, and Faculty Course Control portlets.</a></p>
+<div class="droptext" id="POPUP323140683" style="display: 'none'; " x-ss-type="dropdown">
+ <ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>After you log in as the JICS administrator, 
+ click on the <span style=" font-style: italic; text-decoration: underline; "><U><I>Site 
+ Manager</I></U></span> link.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>On the <span style="font-weight: bold;"><B>Site 
+ Settings</B></span> tab of the <span style="font-weight: bold;"><B>Site Manager</B></span> 
+ screen, locate the <span style="font-weight: bold;"><B>Global Portlet Operations</B></span> 
+ option.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Click the <span style=" text-decoration: underline; "><U>Edit</U></span> 
+ link or icon (<img src="image10.gif" width="17px" height="16px" border="0" class="img_whs1">) 
+ to display the list of portlets. &nbsp;Portlets that 
+ have global operations are displayed as links; portlets with no global 
+ operations will be displayed in plain text.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Click on the following portlet 
+ links to select the roles who will have the <span style="font-weight: bold;"><B>Can 
+ Admin Global Settings</B></span> permission:</p></li>
+  <ul>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Course Authorization</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Grade Entry</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Faculty Course Control</p></li>
+  </ul>
+ </ul>
+ <p class="whs2">When you select check boxes for particular 
+ roles, the <span style="font-weight: bold;"><B>Setup</B></span> menu will be 
+ available for persons with these roles. &nbsp;Typically, 
+ this permission would be given to the Advisor Administrator role; however, 
+ you can give access for the global settings to any role.</p>
+ <p class="whs2">&nbsp;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a5">Step 10: &nbsp;In 
+ JICS, set permissions to global operations for the Advisor Meetings portlet.</a></p>
+<div class="droptext" id="POPUP271687564" style="display: 'none'; " x-ss-type="dropdown">
+ <ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>After you log in as the JICS administrator, 
+ click on the <span style=" font-style: italic; text-decoration: underline; "><U><I>Site 
+ Manager</I></U></span> link.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>On the <span style="font-weight: bold;"><B>Site 
+ Settings</B></span> tab of the <span style="font-weight: bold;"><B>Site Manager</B></span> 
+ screen, locate the <span style="font-weight: bold;"><B>Global Portlet Operations</B></span> 
+ option.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Click the <span style=" text-decoration: underline; "><U>Edit</U></span> 
+ link or icon (<img src="image10.gif" width="17px" height="16px" border="0" class="img_whs1">) 
+ to display the list of portlets. &nbsp;Portlets that 
+ have global operations are displayed as links; portlets with no global 
+ operations will be displayed in plain text.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Locate and click on the <span 
+ style=" text-decoration: underline; "><U>Advisor Meetings</U></span> portlet 
+ link.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1><span style="margin-left: 40px;">Select 
+ the </span><span style="margin-left: 40px; font-weight: bold;"><B>Can the 
+ user change the global settings</B></span><span style="margin-left: 40px;"> 
+ check box for each role that will be able to make changes to the global 
+ settings.</span></p></li>
+  <ul>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Select the <span style="font-weight: bold;"><B>Is 
+ Advisor</B></span> column for each role that will operate in the capacity 
+ of an Advisor. &nbsp;Only these users will be able to 
+ set up meetings with advisees.</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Click the <span style="font-weight: bold;"><B>Save</B></span> 
+ button.</p></li>
+  </ul>
+ </ul>
+ <p class="whs2">&nbsp;</p>
+ <p>&nbsp;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a20">Step 11: &nbsp;In 
+ JICS, set the Allow Access global operation for all portlets you want 
+ to be available through the Advisee Roster portlet for the Advisor role.</a></p>
+<div class="droptext" id="POPUP325835481" style="display: 'none'; " x-ss-type="dropdown">
+ <ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>After you log in as the JICS administrator, 
+ click on the <span style=" font-style: italic; text-decoration: underline; "><U><I>Site 
+ Manager</I></U></span> link.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>On the <span style="font-weight: bold;"><B>Site 
+ Settings</B></span> tab of the <span style="font-weight: bold;"><B>Site Manager</B></span> 
+ screen, locate the <span style="font-weight: bold;"><B>Global Portlet Operations</B></span> 
+ option.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Click the <span style=" text-decoration: underline; "><U>Edit</U></span> 
+ link or icon (<img src="image10.gif" width="17px" height="16px" border="0" class="img_whs1">) 
+ to display the list of portlets.</p></li>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Click on the following portlet 
+ links to select the <span style="font-weight: bold;"><B>Allow Access </B></span>check 
+ box for the Advisor role if you want the Advisor role to have access to 
+ information in the portlets:</p></li>
+ </ul>
+ <p class=NOTE><span style="font-weight: bold;"><B>NOTE:</B></span> &nbsp;See 
+ the <span style="font-style: italic;"><I>Getting Started for Student</I></span> 
+ for details on how to set up these portlets.</p>
+ <ol>
+  <ul>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Course History</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Course Needs</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Course Schedule</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Degree Audit</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Financial Aid Awards</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Financial Aid Document Tracking</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>GPA Projection</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Grade Report</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Major Exploration and What 
+ If Scenarios</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Resident Information</p></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Unofficial Transcript</p></li>
+  </ul>
+ </ol>
+ <p class="whs2">If the Advisor role does not have the <span 
+ style="font-weight: bold;"><B>Allow Access</B></span> granted to one of the above 
+ portlets, the portlet link will not display in <span style="font-weight: bold;"><B>Advisee 
+ Roster</B></span>.</p>
+ <p class="whs2">&nbsp;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a24">Step 12: &nbsp;In 
+ JICS, set portlet-specific global settings.</a></p>
+<div class="droptext" id="POPUP321218765" style="display: 'none'; " x-ss-type="dropdown">
+ <p>These settings can be done by the Student Administrator and/or Advisor 
+ Administrator, depending on which role does the setup. &nbsp;These 
+ settings will be applied to all instances (copies) of the portlet, regardless 
+ of which page the portlet is on.</p>
+ <ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Grade Entry</p></li>
+  <ul>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Click the <span style="font-weight: bold;"><B>Setup</B></span> 
+ menu link from the <a href="Grade_Entry.htm"><span style="font-weight: bold;"><B>Grade 
+ Entry</B></span> portlet</a> and set the following options:</p></li>
+  </ul>
+ </ul>
+ <p class="whs3"><a class="dropspot" href="javascript:TextPopup(this)" id="a28">Use Midterms</a></p>
+ <div class="droptext" id="POPUP272431877" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs3">Select the <span style="font-weight: bold;"><B>Use 
+ Midterms</B></span> check box if your institution allows faculty to enter 
+ and display midterm grade information. &nbsp;This allows 
+ a <span style="font-weight: bold;"><B>Midterm Grade</B></span> column to display 
+ on the <span style="font-weight: bold;"><B><a href="update_student_grades.htm">Update 
+ Student Grades</a></B></span> screen.</p>
+  <p class="whs3">Clear the <span style="font-weight: bold;"><B>Use 
+ Midterms</B></span> check box if your institution does not allow faculty to 
+ enter and display midterm grade information. &nbsp;If 
+ this check box is cleared, columns and text related to midterm grades 
+ will not be displayed on the <span style="font-weight: bold;"><B><a href="update_student_grades.htm">Update 
+ Student Grades</a></B></span> screen.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:TextPopup(this)" id="a29">Allow Absence 
+ Entry</a></p>
+ <div class="droptext" id="POPUP322687746" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs3">Select the <span style="font-weight: bold;"><B>Allow 
+ Absence Entry</B></span> check box if your institution allows faculty to enter 
+ and display the number of absences for students. &nbsp;This 
+ allows an <span style="font-weight: bold;"><B>Absences</B></span> column to display 
+ on the <span style="font-weight: bold;"><B><a href="update_student_grades.htm">Update 
+ Student Grades</a></B></span> screen.</p>
+  <p class="whs3">Clear the <span style="font-weight: bold;"><B>Allow 
+ Absence Entry</B></span> check box if your institution does not allow faculty 
+ to enter and display the number of absences for students. &nbsp;If 
+ this check box is cleared, columns and text related to absences will not 
+ be displayed on the <span style="font-weight: bold;"><B><a href="update_student_grades.htm">Update 
+ Student Grades</a></B></span> screen.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:TextPopup(this)" id="a31">Allow Clock 
+ Hours Entry</a></p>
+ <div class="droptext" id="POPUP75730445" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs3">Select the <span style="font-weight: bold;"><B>Clock 
+ Hours Entry </B></span>check box if your institution allows faculty to enter 
+ and display the number of clock hours that students attend class. &nbsp;This 
+ allows a <span style="font-weight: bold;"><B>Clock Hrs</B></span> column to display 
+ on the <span style="font-weight: bold;"><B><a href="update_student_grades.htm">Update 
+ Student Grades</a></B></span> screen.</p>
+  <p class="whs3">Clear the <span style="font-weight: bold;"><B>Clock 
+ Hours Entry </B></span>check box if your institution does not allow faculty 
+ to enter and display the number of clock hours that students attend class. 
+ &nbsp;If this check box is cleared, columns and text 
+ related to clock hours will not be displayed on the <span style="font-weight: bold;"><B><a href="update_student_grades.htm">Update Student Grades</a></B></span> screen.</p>
+ </div>
+ <ol>
+  <ul>
+   <li class=p-Bullet2>
+   <p class=Bullet2>Click the <span style="font-weight: bold;"><B>Save</B></span> 
+ button.</p></li>
+  </ul>
+ </ol>
+ <p class=Bullet1>&nbsp;</p>
+ <ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Facility Schedules</p></li>
+  <ul>
+   <li class=p-Bullet2>
+   <p class=Bullet2>From the <span style="font-weight: bold;"><B>Course 
+ Facilities Search</B></span> window, click the <span style="font-weight: bold;"><B>Setup</B></span> 
+ menu option.</p></li>
+   <li class=p>
+   <p>In the <span style="font-weight: bold;"><B>Default 
+ Campus</B></span> drop-down list, select the campus you would like to use 
+ as your default when you are searching course facilities.</p></li>
+   <li class=p>
+   <p>Click the <span style="font-weight: bold;"><B>Save</B></span> 
+ button.</p></li>
+   <li class=p>
+   <p>This default value will display in the <span style="font-weight: bold;"><B>Campus</B></span> 
+ drop-down as the default when you perform a course facilities search.</p></li>
+  </ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>Course Authorization</p></li>
+ </ul>
+ <p class="whs2">Indicate which of the following authorization 
+ options you wish to include in your Course Authorization processing:</p>
+ <ul>
+  <ul>
+   <li class=p-Bullet2>
+   <p class=Bullet2><a class="dropspot" href="javascript:TextPopup(this)" id="a2">Allow Schedule 
+ Conflict Authorizations</a></p>
+   <div class="droptext" id="POPUP321295196" style="display: 'none'; " x-ss-type="dropdown">
+    <p>Select this check box if you want to allow faculty or other staff to 
+ authorize that selected students can register for a course in spite of 
+ the schedule conflict error at the time registration occurs. </p>
+    <p>If the <span style="font-weight: bold;"><B>Allow Schedule Conflict Authorization</B></span> 
+ check box is selected, then <span style="font-weight: bold;"><B>Schedule 
+ Conflicts</B></span> will appear as an option in the <span style="font-weight: bold;"><B>Conditions</B></span> 
+ drop-down if the faculty/staff has rights to maintain schedule conflicts 
+ and the <span style="font-weight: bold;"><B>Schedule Conflict</B></span> column 
+ will appear on the <a href="Course_Authorization.htm" style="font-weight: bold;">Course 
+ Authorization</a> and <a href="add_new_authorizations.htm" style="font-weight: bold;">Add 
+ New Authorizations</a> screens.</p>
+   </div></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2><a class="dropspot" href="javascript:TextPopup(this)" id="a64">Allow Requisite 
+ Authorizations</a></p>
+   <div class="droptext" id="POPUP322639216" style="display: 'none'; " x-ss-type="dropdown">
+    <p>Select this check box if you want to allow faculty or other staff to 
+ authorize that selected students can register for a course in spite of 
+ the requisite error at the time registration occurs. </p>
+    <p>If the <span style="font-weight: bold;"><B>Allow Requisite Authorization</B></span> 
+ check box is selected, then <span style="font-weight: bold;"><B>Requisites</B></span> 
+ will appear as an option in the <span style="font-weight: bold;"><B>Conditions</B></span> 
+ drop-down if the faculty/staff has rights to maintain requisites and the 
+ <span style="font-weight: bold;"><B>Requisite</B></span> column will appear on 
+ the <span style="font-weight: bold;"><B><a href="Course_Authorization.htm">Course 
+ Authorization</a></B></span> and <span style="font-weight: bold;"><B><a href="add_new_authorizations.htm">Add 
+ New Authorizations</a></B></span> screens.</p>
+   </div></li>
+   <li class=p-Bullet2>
+   <p class=Bullet2><a class="dropspot" href="javascript:TextPopup(this)" id="a4">Allow Capacity 
+ Authorizations</a></p>
+   <div class="droptext" id="POPUP327082990" style="display: 'none'; " x-ss-type="dropdown">
+    <p>Select this check box if you want to allow faculty or other staff to 
+ authorize that selected students can register for a course in spite of 
+ the Course Capacity error at the time registration occurs. </p>
+    <p>If the <span style="font-weight: bold;"><B>Allow Capacity Authorization</B></span> 
+ check box is selected, then <span style="font-weight: bold;"><B>Capacity</B></span> 
+ will appear as an option in the <span style="font-weight: bold;"><B>Conditions</B></span> 
+ drop-down if the faculty/staff has rights to maintain capacity and the 
+ <span style="font-weight: bold;"><B>Capacity</B></span> column will appear on 
+ the <span style="font-weight: bold;"><B><a href="Course_Authorization.htm">Course 
+ Authorization</a></B></span> and <span style="font-weight: bold;"><B><a href="add_new_authorizations.htm">Add 
+ New Authorizations</a></B></span> screens.</p>
+   </div></li>
+  </ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1>*Course Schedules</p></li>
+ </ul>
+ <p class=Bullet1 style="margin-left: 40px;">If your school is using <span 
+ style="font-weight: bold;"><B>Student</B></span> and wishes to use the Registration 
+ Clearance functionality, the Student Administrator will need to enable 
+ the Registration Clearance functionality by selecting the <span style="font-weight: bold;"><B>Use 
+ the Registration Clearance Process for Selected Students</B></span> check 
+ box. &nbsp;See the <span style="font-style: italic;"><I>Getting 
+ Started for Student</I></span> for more details.</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a15">Step 13: &nbsp;In 
+ JICS, set portlet instance-specific operations and settings.</a></p>
+<div class="droptext" id="POPUP322211844" style="display: 'none'; " x-ss-type="dropdown">
+ <p>These settings can be done by the Student Administrator and/or the Advisor 
+ Administrator, depending on which role you want to do the setup. &nbsp;These 
+ settings and permissions will affect only the specific instance (copy) 
+ of the portlet being changed. &nbsp;Different settings 
+ and permissions can be defined for copies of the portlets on other portal 
+ pages.</p>
+ <ul>
+  <li class=p-Bullet1>
+  <p class=Bullet1><a class="dropspot" href="javascript:TextPopup(this)" id="a7">Advisee 
+ Roster</a></p>
+  <div class="droptext" id="POPUP327072355" style="display: 'none'; " x-ss-type="dropdown">
+   <ul>
+    <li class=p-Bullet2>
+    <p class=Bullet2>From the <span style="font-weight: bold;"><B>Advisee 
+ Roster</B></span> portlet, click the wrench icon (<img src="image03.gif" x-maintain-ratio="TRUE" width="15px" height="14px" border="0" class="img_whs4">).</p></li>
+    <li class=p-Bullet2>
+    <p class=Bullet2>Click the <span style="font-weight: bold;"><B>Settings</B></span> 
+ tab.</p></li>
+    <li class=p-Bullet2>
+    <p class=Bullet2>Select the Student Life Term to 
+ be used when viewing an advisee's residence information through the <span 
+ style="font-weight: bold;"><B>Advisee Roster</B></span> portlet.</p></li>
+    <li class=p-Bullet2>
+    <p class=Bullet2>Click the <span style="font-weight: bold;"><B>Save</B></span> 
+ button.</p></li>
+   </ul>
+  </div></li>
+ </ul>
+</div><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a6','POPUP321237422');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a1','POPUP271802656');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a8','POPUP329059234');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a9','POPUP272650509');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a10','POPUP271880167');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a11','POPUP321847784');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a12','POPUP322286983');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a13','POPUP322226902');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a3','POPUP323140683');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a5','POPUP271687564');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a20','POPUP325835481');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a24','POPUP321218765');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a28','POPUP272431877');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a29','POPUP322687746');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a31','POPUP75730445');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a2','POPUP321295196');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a64','POPUP322639216');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a4','POPUP327082990');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a15','POPUP322211844');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+TextPopupInit('a7','POPUP327072355');
+//--></script><script type="text/javascript" language="javascript1.2">
+<!--
+highlightSearch();
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+if(0)
+{
+
+}
+//-->
+</script>
+</body>
+</html>

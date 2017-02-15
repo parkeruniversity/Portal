@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<tocdata>
+<item name="CRM Faculty and CRM Student" url="default_1.htm" />
+<book name="Getting Started with Faculty" >
+  <item name="Faculty Overview" url="faculty_overview.htm" />
+  <book name="CX" >
+    <item name="Overview for Faculty for CX" url="getting_started_for_faculty_for_cx_overview.htm" />
+    <item name="Setup Steps for CX Faculty" url="setup_steps_for_cx_faculty.htm" />
+  </book>
+  <book name="EX" >
+    <item name="Overview for Faculty for EX" url="getting_started_for_faculty_overview.htm" />
+    <item name="Setup Steps for EX Faculty" url="setup_steps_for_ex_faculty.htm" />
+    <item name="New Functionality for EX" url="new_functionality_for_ex_faculty.htm" />
+  </book>
+  <book name="TE" >
+    <item name="Overview for Faculty for TE" url="getting_started_for_faculty_for_te_overview.htm" />
+    <item name="Setup Steps for TE Faculty" url="setup_steps_for_te_faculty.htm" />
+    <item name="New Functionality for TE" url="new_functionality_for_te_faculty.htm" />
+  </book>
+</book>
+<book name="Getting Started with Student" >
+  <item name="Student Overview" url="student_overview.htm" />
+  <book name="CX" >
+    <item name="Getting Started Overview" url="Getting_Started_Overview_CX.htm" />
+    <item name="Setup Steps for CX" url="Setup_Steps_for_CX.htm" />
+  </book>
+  <book name="EX" >
+    <item name="Getting Started Overview" url="getting_started_overview_ex.htm" />
+    <item name="Setup Steps for EX" url="setup_steps_for_ex.htm" />
+    <item name="EX Functionality" url="ex_functionality.htm" />
+  </book>
+  <book name="TE" >
+    <item name="Getting Started Overview" url="Getting_Started_Overview_TE.htm" />
+    <item name="Setup Steps for TE Student" url="setup_steps_for_te.htm" />
+    <item name="TE Functionality" url="TE_Functionality.htm" />
+  </book>
+</book>
+<book name="Faculty Only Portlets" >
+  <item name="Faculty Overview" url="Faculty_Overview_for_Help.htm" />
+  <book name="Advisee Roster" >
+    <item name="Advisee Roster" url="Advisee_Roster.htm" />
+    <item name="Advisee Roster Advanced Search" url="Advisee_Roster_Advanced_Search.htm" />
+    <item name="Advisee Details" url="Advisee_Details.htm" />
+    <item name="Academic History" url="academic_history.htm" />
+  </book>
+  <book name="Advisor Meetings" >
+    <item name="Advisor Meetings" url="advisor_meetings.htm" />
+    <item name="Meeting Details" url="Meeting_Details.htm" />
+  </book>
+  <book name="Course Authorization" >
+    <item name="Course Authorization" url="Course_Authorization.htm" />
+    <item name="Course Authorization Details" url="Course_Authorization_Details.htm" />
+    <item name="Course Authorization Course List" url="Course_Authorization_Course_List.htm" />
+    <item name="Add New Authorizations" url="add_new_authorizations.htm" />
+    <item name="Advanced Name Search" url="Advanced_Name_Search.htm" />
+    <item name="Student Search Results" url="Student_Search_Results.htm" />
+  </book>
+  <book name="Facility Schedules" >
+    <item name="Facility Schedules" url="Facility_Schedules.htm" />
+    <item name="Course Facilities Search" url="course_facilities_search.htm" />
+    <item name="Search Results" url="Search_Results_(Course_Facilities).htm" />
+  </book>
+  <book name="Faculty Course Control" >
+    <item name="Faculty Course Control" url="Faculty_Course_Control.htm" />
+    <item name="Faculty Schedule" url="Faculty_Schedule.htm" />
+    <item name="Course Details" url="Course_Details.htm" />
+    <item name="Class List" url="class_list.htm" />
+    <item name="Grade Entry" url="Grade_Entry.htm" />
+    <item name="Textbook Entry" url="Textbook_Entry.htm" />
+    <item name="Textbook Search" url="Textbook_Search.htm" />
+  </book>
+  <book name="Grade Entry" >
+    <item name="Grade Entry" url="Grade_Entry.htm" />
+    <item name="Grading Course List" url="Grading_Course_List.htm" />
+    <item name="Update Student Grades" url="update_student_grades.htm" />
+    <item name="Current Student Grade List" url="Current_Student_Grade_List.htm" />
+    <item name="Unsuccessful Save" url="Unsuccessful_Save.htm" />
+  </book>
+</book>
+<book name="Student Only Portlets" >
+  <item name="Student Overview" url="Student_Overview_for_Help.htm" />
+  <book name="Academic Info" >
+    <item name="Academic Information" url="academic_information.htm" />
+  </book>
+  <book name="Course History" >
+    <item name="Course History" url="course_history.htm" />
+  </book>
+  <book name="Course Needs" >
+    <item name="Course Needs" url="course_needs.htm" />
+    <item name="Course Requirements" url="Course_Requirements.htm" />
+  </book>
+  <book name="Degree Audit" >
+    <item name="Degree Audit" url="degree_audit.htm" />
+    <item name="Degree Audit Summary" url="Degree_Audit_Summary.htm" />
+    <item name="Degree Audit Detail" url="Degree_Audit_Detail.htm" />
+  </book>
+  <book name="Financial Aid Administration" >
+    <item name="Financial Aid Administration" url="Financial_Aid_Administration.htm" />
+  </book>
+  <book name="Financial Aid Awards" >
+    <item name="Financial Aid Awards" url="financial_aid_awards.htm" />
+    <item name="Accept/Decline Aid" url="Accept_Decline_Aid.htm" />
+    <item name="Confirm Aid Selections" url="Confirm_Aid_Selections.htm" />
+    <item name="Award Change Results" url="Award_Change_Results.htm" />
+  </book>
+  <book name="Financial Aid Document Tracking" >
+    <item name="Financial Aid Document Tracking" url="financial_aid_doc_tracking.htm" />
+  </book>
+  <book name="GPA Projection" >
+    <item name="GPA Projection" url="gpa_projection.htm" />
+  </book>
+  <book name="Grade Report" >
+    <item name="Grade Report" url="grade_report.htm" />
+  </book>
+  <book name="Major Exploration" >
+    <item name="Major Exploration and What If Scenarios" url="major_exploration.htm" />
+  </book>
+  <book name="My 1098-T Info" >
+    <item name="My 1098-T Info" url="my_1098-t_info.htm" />
+    <item name="1098-T Tuition Statement Box" url="1098-T_Tuition_Statement_Box.htm" />
+  </book>
+  <book name="My Account Info" >
+    <item name="My Account Info" url="my_account_info.htm" />
+    <item name="My Account Balances" url="My_Account_Balances.htm" />
+    <item name="View Transactions" url="View_Transactions.htm" />
+    <item name="Pay on My Account" url="Pay_on_My_Account.htm" />
+  </book>
+  <book name="Public Registration" >
+    <item name="Public Registration" url="public_registration.htm" />
+  </book>
+  <book name="Residence Info" >
+    <item name="Residence Info" url="residence_info.htm" />
+  </book>
+  <book name="Room &amp; Roommate Preferences" >
+    <item name="Room &amp; Roommate Preferences" url="room_and_roomate_pref.htm" />
+    <item name="Preference Choices" url="Preference_Choices.htm" />
+    <item name="Room Preferences" url="Room_Preferences.htm" />
+    <item name="Roommate Preferences" url="Rommate_Preferences.htm" />
+    <item name="Advanced Name Search" url="Advanced_Name_Search.htm" />
+  </book>
+  <book name="Student Survey" >
+    <item name="Student Survey" url="student_survey.htm" />
+  </book>
+  <book name="Unofficial Transcripts" >
+    <item name="Unofficial Transcripts" url="unofficial_transcripts.htm" />
+  </book>
+  <book name="Vehicle Info" >
+    <item name="Vehicle Info" url="vehicle_info.htm" />
+  </book>
+</book>
+<book name="Faculty and Student Portlets" >
+  <book name="Course Schedules" >
+    <item name="Course Schedules" url="course_schedules.htm" />
+    <item name="Course Search" url="Basic_Course_Search.htm" />
+    <item name="Course Search Results" url="Course_Search_Results.htm" />
+    <item name="Add/Drop Courses" url="Add_Drop_Courses.htm" />
+    <item name="Course Details" url="Course_Details.htm" />
+    <item name="Course Requisites" url="Course_Requisites.htm" />
+    <item name="Course Textbooks" url="Course_Textbooks.htm" />
+  </book>
+  <book name="Student Schedule" >
+    <item name="Student Schedule" url="student_schedule.htm" />
+  </book>
+</book>
+<book name="Form Administration" >
+  <item name="Forms Overview" url="forms.htm" />
+  <book name="Creating a New Form" >
+    <item name="Form Setup Checklist" url="Form_Setup_Checklist.htm" />
+    <item name="Step 1: Define Form" url="Step_1__Define_Form.htm" />
+    <item name="Step 2: Questions and Headers" url="Step_2__Assign_Questions_and_Headers_to_Form.htm" />
+    <item name="Step 3: Form Messages" url="Step_3__Assign_form_instructions,_successful_and_unsuccessful_submission_messages.htm" />
+    <item name="Step 4: Form Email Templates" url="Step_4__Assign_form_successful_and_unsuccessful_submission_email_templates.htm" />
+    <item name="Step 5: Groups" url="Step_5__Assign_form_to_a_group.htm" />
+    <item name="Step 6: Submission data" url="Step_6__Add_form_required_submission_data.htm" />
+    <item name="Using tags in Emails" url="using_tags_in_emails.htm" />
+  </book>
+</book>
+
+</tocdata>

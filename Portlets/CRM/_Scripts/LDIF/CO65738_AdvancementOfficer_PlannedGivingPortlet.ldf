@@ -1,0 +1,21 @@
+# START - [CRM] PlannedGivingPortlet
+dn: CN=[CRM] PlannedGivingPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: K9hJYHUu5kyf8rMoNDvbng==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Planned Giving
+jenzabar-ICSNET-PortletPath:
+ Portlet.PlannedGiving,Jenzabar.CRM.AdvancementOfficer.Web.Portlets.PlannedGivingPortlet.PlannedGivingPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portal-User,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] PlannedGivingPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] PlannedGivingPortlet

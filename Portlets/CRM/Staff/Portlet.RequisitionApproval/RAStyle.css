@@ -1,0 +1,197 @@
+﻿
+.RequisitionApproval p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.RequisitionApproval .RASummaryBox
+{   
+    background-color: #efefef;
+    padding: 2px; 
+    margin: 5px;
+    border-style: solid;
+    border-color: #003663;
+    border-top-width: 10px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    color: #003663;
+    display: inline-block;
+}
+
+.RequisitionApproval .RAInformativeHeaderText 
+{
+    color:#707070;
+    font-size:14px;
+    margin-right: 3px;
+}
+
+.RequisitionApproval .RAHeaderText 
+{
+    font-size:14px;    
+    margin-right: 3px;
+}
+
+/*GridView*/
+.RequisitionApproval .RAGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.RequisitionApproval .RAGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color: #fff;
+}
+
+.RequisitionApproval .RAGridView th, .RAGridViewHeader th  
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color:#D4D4D4;
+    color:#464646;    
+}  
+
+.RequisitionApproval .RAGridViewHeader a 
+{ 
+    color:#464646;    
+    margin-right: 5px;
+}
+
+.RequisitionApproval .RAGridView th.RACentered  
+{ 
+    text-align:center;
+}
+
+.RequisitionApproval tr.alt td    
+{
+    background-color: #efefef;   
+}  
+/*END GridView*/
+
+/*GridView*/
+.RequisitionApproval .ROGridView {   
+    width:100%;
+    border-collapse:collapse;
+}  
+.RequisitionApproval .ROGridView td    
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color: #fff;
+}
+
+.RequisitionApproval .ROGridView th, .ROGridViewHeader th  
+{
+    font-size:12px;
+    border:1px solid #C6C6C6;
+    padding: 3px 7px 2px 7px;
+    background-color:#D4D4D4;
+    color:#464646;    
+}  
+
+.RequisitionApproval .ROGridViewHeader a 
+{ 
+    color:#464646;    
+    margin-right: 5px;
+}
+
+.RequisitionApproval .ROGridView th.ROCentered  
+{ 
+    text-align:center;
+}
+
+.RequisitionApproval tr.alt td    
+{
+    background-color: #efefef;   
+}  
+
+.RequisitionApproval .RANoWrap
+{
+    white-space:nowrap;
+}
+/*END GridView*/
+
+
+/*Links*/
+.RequisitionsAndOrders a.ROHoverInformativeLink:link 
+{
+    color: #707070;
+    text-decoration:none;
+}
+.RequisitionsAndOrders a.ROHoverInformativeLink:visited 
+{
+    color: #707070;
+    text-decoration:none;
+}   
+.RequisitionsAndOrders a.ROHoverInformativeLink:hover 
+{
+    color: #707070;
+    text-decoration:underline;
+}
+.RequisitionsAndOrders a.ROHoverInformativeLink:active 
+{
+    color: #707070;
+    text-decoration:underline;    
+}
+
+
+.RequisitionsAndOrders a.ROInformativeLink:link 
+{
+    color: #707070;
+}
+.RequisitionsAndOrders a.ROInformativeLink:visited 
+{
+    color: #707070;
+}   
+.RequisitionsAndOrders a.ROInformativeLink:hover 
+{
+    color: #707070;
+}
+.RequisitionsAndOrders a.ROInformativeLink:active 
+{
+    color: #707070;
+}
+/*END Links*/
+
+/*Modal*/
+.RequisitionApproval .RAModalPopup
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.RequisitionApproval .RAModalDiv{
+    background-color:#FFF;
+    padding:3px;
+    border:1px solid black;
+    width:auto;
+}
+.RequisitionApproval .RAModalHeadingImg{
+    float:right;
+    margin-left:10px;
+    padding:0px;
+}
+.RequisitionApproval .RAModalHeading{
+    padding:3px;
+    background-color:#E2E2E2;
+    float:none;
+}
+.RequisitionApproval .RAInnerModal{
+    border:1px solid #B2B2B2;
+    background-color:#EFEFEF;
+}
+.RequisitionApproval .RAModalButtons{
+    margin:5px;
+    padding:5px;
+}
+
+.RequisitionApproval .RAMessageWidthHeight{
+    max-width: 600px;
+    max-height: 800px;
+}
+/*END Modal*/

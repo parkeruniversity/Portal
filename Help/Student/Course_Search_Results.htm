@@ -1,0 +1,147 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="generator" content="Adobe RoboHelp - www.adobe.com">
+<title>Course Search Results</title>
+<link rel="stylesheet" href="Jenzabar_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='Jenzabar.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+p.whs1 { text-align:center; }
+img_whs2 { border:none; width:468px; height:325px; border-style:none; }
+img_whs3 { border:none; width:468px; height:323px; border-style:none; }
+img_whs4 { border:none; width:19px; height:19px; float:none; border-style:none; }
+p.whs5 { x-condition:CX; }
+-->
+</style><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Faculty and Student Portlets\nCourse Schedules\nCourse Search Results");
+addButton("show",BTN_TEXT,"Show contents","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if(1)
+	{
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("default.htm", "", ">", "Home", "default_1.htm");
+document.write("<a href=\"course_schedules.htm\">Faculty and Student Portlets</a> > <a href=\"course_schedules.htm\">Course Schedules</a> > Course Search Results</p>");
+
+	}
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("default.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+//-->
+</script>
+<h1>Course Search Results</h1>
+<p>The <span style="font-weight: bold;"><B>Course Search Results</B></span> screen 
+ displays the information returned by conducting a <a href="Basic_Course_Search.htm" 
+ style="font-weight: bold;">Course Search</a>.</p>
+<p align="center" class="whs1"><img src="image52.gif" width="468px" height="325px" border="0" class="img_whs2"></p>
+<p align="center" class="whs1"><img src="image51.gif" width="468px" height="323px" border="0" class="img_whs3"></p>
+<p>Drop-down list boxes are provided to conduct another search with the 
+ same criteria using a different <span style="font-weight: bold;"><B>Term</B></span> 
+ and <span style="font-weight: bold;"><B>Division </B></span>at the top of the 
+ screen.</p>
+<p>For each course returned, the <span style="font-weight: bold;"><B>Course 
+ Code</B></span>, <span style="font-weight: bold;"><B>Name</B></span>, <span style="font-weight: bold;"><B>Faculty</B></span>, 
+ <span style="font-weight: bold;"><B>Seats Open</B></span>, <span style="font-weight: bold;"><B>Status 
+ (O=open)</B></span>, <span style="font-weight: bold;"><B>Schedule, </B></span>and<span 
+ style="font-weight: bold;"><B> Credits </B></span>are displayed in the results 
+ table. &nbsp;Courses with requirements will display an 
+ icon (<img src="image70.gif" x-maintain-ratio="TRUE" width="19px" height="19px" border="0" class="img_whs4">) in the <span style="font-weight: bold;"><B>Req</B></span> column that 
+ is a link to the <span style="font-weight: bold;"><B><a href="Course_Requisites.htm">Course 
+ Requisites</a></B></span> screen for that course. &nbsp;To 
+ register for a course, click its check box in the <span style="font-weight: bold;"><B>Add</B></span> 
+ column. &nbsp;After all desired courses are checked, 
+ click the <span style="font-weight: bold;"><B>Add Courses</B></span> button.</p>
+<p><span style="x-condition: CX;">For CX clients: &nbsp;The 
+ user has the ability to configure the manner in which the available seats 
+ are displayed in the course search results and course details screens 
+ by running a macro on the CX side (read the CX Registration Implementation 
+ Guide). &nbsp;Seats can display as the number &quot;Open&quot; 
+ or &quot;Registered&quot; out of the total number available (# / total 
+ #). &nbsp;To change the display in JICS to say “Registered”, 
+ your administrator must edit the FWK_Globilization table in the JICS database. 
+ &nbsp;&nbsp;Search for TXT_SEATS_OPEN and change the 
+ text from “Seats Open” to “Registered”.</span> &nbsp;</p>
+<p class="whs5"><span style="font-weight: bold;"><B>For CX clients:</B></span> 
+ &nbsp;A value of &quot;N&quot; in the print field of 
+ the section record in the CX database prevents a course from being found 
+ during a course search. &nbsp;However, faculty class 
+ lists and student schedules still display the course to correctly reflect 
+ registration activity. &nbsp;The print schedule flag 
+ in the meeting record of the CX database is now honored. &nbsp;If 
+ the flag is set to &quot;N&quot; for any scheduled meeting, the student 
+ does not see the meeting in the student schedule or course search results. 
+ &nbsp;Faculty sees all meetings, regardless of this setting.</p>
+<p>For additional information on a found course, click the <a href="Course_Details.htm" 
+ style="font-weight: bold;">Course</a> link in the Course Code column. 
+ &nbsp;From the course details screen, you can register 
+ for that course by clicking <span style="font-weight: bold;"><B>+ Add this 
+ course</B></span>. &nbsp;</p>
+<script type="text/javascript" language="javascript1.2">
+<!--
+highlightSearch();
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+if(0)
+{
+document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("default.htm", "", ">", "Home", "default_1.htm");
+document.write("<a href=\"course_schedules.htm\">Faculty and Student Portlets</a> > <a href=\"course_schedules.htm\">Course Schedules</a> > Course Search Results</p>");
+
+}
+//-->
+</script>
+</body>
+</html>

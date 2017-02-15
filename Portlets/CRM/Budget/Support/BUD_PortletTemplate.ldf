@@ -1,0 +1,27 @@
+# START - Prepare Budget
+dn: CN=[CRM] PrepareBudget,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: S0qyo9XcSUWEkC8D8r9f0A==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Budget
+jenzabar-ICSNET-PortletPath: Portlet.PrepareBudget,Jenzabar.CRM.Budget.Web.Portlets.PrepareBudgetPortlet.PrepareBudgetPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] PrepareBudget,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Prepare Budget
+
+# START - Update Prepare Budget display name to Budget
+dn: CN=[CRM] PrepareBudget,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: modify
+replace: displayName
+displayName: Budget
+-
+# END - Update Prepare Budget display name to Budget

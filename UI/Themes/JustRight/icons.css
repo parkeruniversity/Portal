@@ -1,0 +1,338 @@
+/*
+  JICS THEME - ICONS
+*/
+
+.link { display: inline; }
+ 
+a[id*=lnk], .TaskManager a[id*=lnkAddNewTask], .buttonBar a, tfoot a {
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	color: #0A3872!important;
+	 /* Typically right-aligned */
+	margin: 2px 0 0 5px;
+	padding: 2px 24px 2px 2px;
+	text-decoration: none!important;
+	/*white-space: nowrap; */}
+ 
+a[id*=lnk]:hover, .buttonBar a:hover {
+	color: #000!important;
+	text-decoration: underline!important; }
+ 
+.pSection a[id*=lnk] {
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding: 2px 2px 2px 24px; /* Typically left-aligned */ }
+ 
+a[id*=lnkAddEvent] img {display: none;}
+a[id*=lnkAddEvent] { background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar_add.png); float: right; }
+ 
+a[id*=lnkFullSize] img {display: none;}
+a[id*=lnkFullSize] { background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png); }
+ 
+a[id*=lnkAddBookmark] img {display: none;}
+a[id*=lnkAddBookmark] { background-image: url(/ics/ui/common/images/portletimages/icons/16/book_add.png); }
+ 
+a[id*=lnkAddNewHandout] img {display: none;}
+a[id*=lnkAddNewHandout] { background-image: url(/ics/ui/common/images/portletimages/icons/16/page_add.png); }
+ 
+a[id*=lnkName] img {display: none;}
+a[id*=lnkName] { background-image: url(/ics/ui/common/images/portletimages/icons/16/vcard.png); }
+ 
+a[id*=lnkDept] img {display: none;}
+a[id*=lnkDept] { background-image: url(/ics/ui/common/images/portletimages/icons/16/group.png); }
+ 
+a[id*=lnkAddDrop] img {display: none;}
+a[id*=lnkAddDrop] { background-image: url(/ics/ui/common/images/portletimages/icons/16/page_refresh.png); }
+ 
+a[id*=lnkAdd] img {display: none;}
+a[id*=lnkAdd] { background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png); }
+ 
+a[id*=lnkUpdate] img {display: none;}
+a[id*=lnkUpdate] { background-image: url(/ics/ui/common/images/portletimages/icons/16/application_go.png); }
+ 
+a[id*=lnkAdvancedSearch] img {display: none;}
+a[id*=lnkAdvancedSearch] { background-image: url(/ics/ui/common/images/portletimages/icons/16/magnifier.png); }
+ 
+a[id*=lnkAdvanceSearch] img {display: none;}
+a[id*=lnkAdvanceSearch] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/magnifier.png);
+	background-position: 0 0;
+	padding-left: 20px; }
+ 
+a[id*=lnkSetup] img {display: none;}
+a[id*=lnkSetup] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/wand.png);
+	background-position: 0 0;
+	padding-left: 20px; }
+ 
+a[id*=ShowAllButton] img {display: none;}
+a[id*=ShowAllButton] { background-image: url(/ics/ui/common/images/portletimages/icons/16/comment.png); }
+ 
+a[id*=lnkViewAll] img {display: none;}
+a[id*=lnkViewAll] {
+	background-image: none;
+	padding: 0!important; }
+ 
+a[id*=lnkGoToMain] img {display: none;}
+a[id*=lnkGoToMain] { background-image: url(/ics/ui/common/images/portletimages/icons/16/application_go.png); }
+ 
+a[id*=lnkToMainView] img {display: none;}
+a[id*=lnkToMainView] { background-image: url(/ics/ui/common/images/portletimages/icons/16/application_go.png); }
+ 
+a[id*=lnkGroupMembership] img {display: none;}
+a[id*=lnkGroupMembership] { background-image: url(/ics/ui/common/images/portletimages/icons/16/arrow_refresh.png); }
+ 
+a[id*=lnkClear] img {display: none;}
+a[id*=lnkClear] { background-image: url(/ics/ui/common/images/portletimages/icons/16/bin.png); }
+ 
+a[id*=lnkAdvSettings] img {display: none;}
+a[id*=lnkAdvSettings] { background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png); }
+ 
+a[id*=lnkFwkSettings] img {display: none;}
+a[id*=lnkFwkSettings] { background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png); }
+ 
+a[id*=lnkPortalAccount] img {display: none;}
+a[id*=lnkPortalAccount] { background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png); }
+ 
+a[id*=lnkReorder] img {display: none;}
+a[id*=lnkReorder] { background-image: url(/ics/ui/common/images/portletimages/icons/16/arrow_switch.png); }
+ 
+a[id*=lnkCreateItem] img {display: none;}
+a[id*=lnkCreateItem] { background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png); }
+ 
+input[id*=imbCreateItem] { display: none; }
+ 
+a[id*=lnkViewDetails] img {display: none;}
+a[id*=lnkViewDetails] { background-image: url(/ics/ui/common/images/portletimages/icons/16/magnifier.png); }
+ 
+a[id*=lnkFacultySchedule] img {display: none;}
+a[id*=lnkFacultySchedule] { background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png); }
+ 
+a[id*=lnkLoadFromFile] img {display: none;}
+a[id*=lnkLoadFromFile] { background-image: url(/ics/ui/common/images/portletimages/icons/16/drive_add.png); }
+ 
+a[id*=lnkRemoteContent] img {display: none;}
+a[id*=lnkRemoteContent] { background-image: url(/ics/ui/common/images/portletimages/icons/16/link.png); }
+ 
+a[id*=lnkCreateContent] img {display: none;}
+a[id*=lnkCreateContent] { background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png); }
+ 
+a[id*=lnkEdit] img {display: none;}
+a[id*=lnkEdit] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+	display: block;
+	height: 16px;
+	margin: -5px 5px 0 5px;
+} 
+  
+.pHead a[id*=lnkEdit] img {display: none;}
+.pHead a[id*=lnkEdit] {
+  overflow:hidden;  /* hide text - only show icon */
+  padding-left:16px !important;  /*padding takes care of the width*/
+  text-indent: 1000px;
+  width:0;
+  margin: -5px 0 0 0;
+}
+ 
+a[id*=lnkAddNewTask] img {display: none;}
+a[id*=lnkAddNewTask] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png);
+	float: right; }
+ 
+input[id*=imbAddNewTask] { display: none; }
+ 
+div[id*=divEditOrAdd] img {display: none;}
+div[id*=divEditOrAdd] {
+	display: none;
+	float: right;
+	margin: -2px 12px 0 0;
+	padding: 0;
+	width: 16px; }
+ 
+a[id*=Subscribe] img {display: none;}
+a[id*=Subscribe] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/rss.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding-left: 24px; }
+ 
+div[id*=AvailLinks] img { display: none; }
+ 
+a[id*=Archive] img {display: none;}
+a[id*=Archive] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/clock.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding-left: 24px; }
+ 
+a.help img { display: none; } 
+a.help {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/help.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	float: right;
+	margin: 0 5px;
+	padding: 8px 0 8px 16px; }
+ 
+a img[src*='print.gif'] { display:none; }
+a[href*="btnPrintView"] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/printer.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	height: 16px;
+	margin: 0;
+	padding: 0 20px 0 0;
+}
+ 
+a[href*=".pdf"] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_acrobat.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	padding: 2px 20px 2px 2px; }
+ 
+a[href*=".xls"], a[href*=".xlsx"] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_excel.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	padding: 2px 20px 2px 2px; }
+ 
+a[href*=".doc"], a[href*=".docx"] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_word.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	padding: 2px 20px 2px 2px; }
+ 
+a[href*=".ppt"], a[href*=".pptx"] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/page_white_powerpoint.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	padding: 2px 20px 2px 2px; }
+ 
+.customize img { display: none!important; }
+.customize {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/wrench.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	height: 16px;
+	margin: 0;
+	width: 16px; }
+ 
+#lnkCustomize img {display: none;}
+#lnkCustomize {
+	_background: none;
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/page_edit.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	height: 16px;
+	margin: 0;
+	padding: 0 20px 0 0; }
+ 
+#sideBar a[href*="http://"] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/link.png);
+	background-position: 100% 50%;
+	background-repeat: no-repeat; }
+ 
+input[src*='edit.gif'] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/pencil.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	height: 16px;
+	margin: 0 4px;
+	overflow: hidden;
+	padding: 2px 0 2px 16px;
+	width: 0; }
+ 
+input[src*='delete.gif'] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/bin.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	height: 16px;
+	margin: 0 4px;
+	overflow: hidden;
+	padding: 2px 0 2px 16px;
+	width: 0; }
+ 
+a img[src*='add.gif'] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/add.png);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	height: 16px;
+	margin: 0 4px;
+	overflow: hidden;
+	padding: 2px 0 2px 16px;
+	width: 0; }
+
+a[href*="courseCopy"] {
+	background-position: 95% 50%;
+	background-repeat: no-repeat;
+	padding: 0; }
+ 
+a[id*=lbThemes] img { display: none!important; }
+a[id*=lbThemes] {
+	background: url(/ics/ui/common/images/portletimages/icons/16/pencil.png) 0 50% no-repeat;
+	margin: 2px 0 0 5px;
+	padding: 2px 0 2px 24px; }
+ 
+a[id*=BrowseGroups] img {display: none;}
+a[id*=BrowseGroups] {
+  background: url(/ics/ui/common/images/portletimages/icons/16/group.png) 0 50% no-repeat;
+	margin: 2px 0 0 0;
+	padding: 2px 0 2px 24px; }
+ 
+ 
+a[id*=CreateNewGroup] img {display: none;}
+a[id*=CreateNewGroup] { 
+  background: url(/ics/ui/common/images/portletimages/icons/16/group_add.png) 0 50% no-repeat;
+	margin: 2px 0 0 0;
+	padding: 2px 0 2px 24px; }
+ 
+ 
+a[id*=lnkAddBookmark] img {display: none;}
+a[id*=lnkAddBookmark] { background-image: url(/ics/ui/common/images/portletimages/icons/16/link_add.png); }
+ 
+a[id*=lnkAddEvent] img {display: none;}
+a[id*=lnkAddEvent] { background-image: url(/ics/ui/common/images/portletimages/icons/16/date_add.png); }
+ 
+a[id*=lnkDeleteEvent] img {display: none;}
+a[id*=lnkDeleteEvent] { background-image: url(/ics/ui/common/images/portletimages/icons/16/date_delete.png); }
+ 
+a[id*=lnkBackToCal] img {display: none;}
+a[id*=lnkBackToCal] { background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png); }
+ 
+a[id*=lnkAddCalendar] img {display: none;}
+a[id*=lnkAddCalendar] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar_add.png);
+	background-position: 0 50%;
+	display: block;
+	margin-left: 0;
+	padding-left: 20px; }
+ 
+a[id*=lnkBrowseShared] img {display: none;}
+a[id*=lnkBrowseShared] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar.png);
+	background-position: 0 50%;
+	display: block;
+	margin-left: 0;
+	padding-left: 20px; }
+ 
+a[id*=lnkManage] img {display: none;}
+a[id*=lnkManage] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/calendar_edit.png);
+	background-position: 0 50%;
+	display: block;
+	margin-left: 0;
+	padding-left: 20px; }
+ 
+a[id*=lnkExport] img {display: none;}
+a[id*=lnkExport] {
+	background-image: url(/ics/ui/common/images/portletimages/icons/16/date_go.png);
+	background-position: 0 50%;
+	display: block;
+	margin-left: 0;
+	padding-left: 20px; }

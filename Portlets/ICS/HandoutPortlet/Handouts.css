@@ -1,0 +1,83 @@
+﻿table.assignmentGrid>*>tr>td,
+table.assignmentGrid>tr>td
+{
+	padding: 2px 5px 3px 5px;
+}
+
+table.assignmentGrid>*>tr>th,
+table.assignmentGrid>tr>th
+{
+	padding: 2px 5px 3px 5px;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+table.assignmentGrid.itemHover tr:hover,
+table.assignmentGrid.itemHover tr:hover td{
+	border:1px solid #1851AD;
+	background-color:#D6E2FC; 
+}
+table.assignmentGrid.itemHover tr:hover .modalDiv tr:hover,
+table.assignmentGrid.itemHover tr:hover td .modalDiv td{
+	border: inherit;
+	background-color:inherit;
+}
+table.assignmentGrid.itemHover tr.headerAssignmentGrid:hover{
+	border:0px;
+	cursor: default;
+}
+
+table.assignmentGrid{
+	border: 1px solid #BABABA;
+}
+table.assignmentGrid th{
+    border: 1px solid #BABABA;
+	background-color:#DEDFDE;
+	white-space:nowrap;
+	font-weight:normal;
+}
+table.assignmentGrid th{
+	padding:3px 3px 3px 7px;
+    border-bottom-width: 0px;
+}
+
+table.assignmentGrid td{    
+    border: 1px solid #BABABA;
+	padding:0px 3px 0px 7px;
+    border-bottom-width: 0px;
+	height:26px;
+}
+.altAssignmentGrid, .altRow {
+	background-color:#EFEFEF;
+}
+table.assignmentGrid .gridGradeColumn{
+	width:215px;
+	vertical-align:middle;
+}
+table.assignmentGride .gridStudentColumn{
+	width:250px;
+}
+table.assignmentGrid a.inactiveAssignment{
+	color:black;
+	font-style:italic;
+}
+table.assignmentGrid td.formatType, table.reorderAssignment td.formatType{
+	padding-left:30px;
+    background-repeat:no-repeat;
+    background-position:5px;
+}
+table.assignmentGrid span.requiredType{
+    font-style:italic;
+}
+table.assignmentGrid span.requiredType img{
+    margin-bottom:-3px;
+}
+
+table.assignmentGrid{
+	width:auto;
+}
+
+table.headerAssignmentGrid{
+	height:auto;
+}
+

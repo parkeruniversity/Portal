@@ -1,0 +1,181 @@
+﻿
+/*
+Common
+*/
+
+div.CCI__portlet_body
+{
+	background-color:	white;
+}
+
+td.CCI__ItemAdmin_devider
+{
+	border-right:		2px solid silver;
+}
+
+
+/*
+UPLOAD
+*/
+
+div.CCI__UploadView_body
+{
+	border:				1px solid #BACBDD;
+	background:			#DDDDDD;
+}
+
+
+/*
+BROWSE
+*/
+
+td.CCI__toc_item
+{
+	padding-top:		5px;
+	white-space:		nowrap;
+}
+
+.CCI__toc
+{
+	background-color:	#DADEEA;
+}
+
+span.CCI__toc_organization
+{
+	font-size:			90%;
+}
+
+img.CCI__toc_node_shrink
+{
+	cursor:				pointer;
+	margin-right:		2px;
+}
+
+span.CCI__toc_item_identifier
+{
+	display:			inline-block;
+	text-align:			right;
+	width:				30px;
+	padding-right:		5px;
+	font-size:			8px;
+	font-family:		tahoma;
+}
+
+span.CCI__toc_item
+{
+	
+	font-size:			90%;
+	padding-left:		5px;
+}
+
+span.CCI__toc_item_file
+{
+	
+	font-size:			90%;
+	color:				Gray;
+}
+
+span.CCI__toc_item_resource
+{
+	font-size:			90%;
+	margin-left:		5px;
+	margin-right:		5px;
+}
+
+span.CCI__toc_item_selectable
+{
+	cursor:				pointer;
+	color:				#0000FF;
+}
+
+div.CCI__pane_sizer
+{
+	background-color:	silver;
+	width:				5px;
+}
+
+div.CCI__pane_sizer_blink
+{
+	background-color:	purple;
+	width:				5px;
+}
+
+
+div.CCI__banner
+{
+	background-color:	#1D50AA;
+}
+
+
+/*
+ADMIN
+*/
+
+div.CCI__content_body
+{
+	padding-left:		20px;
+	height:				500px;
+	overflow:			auto;
+	border-top:			1px solid gray;
+	border-bottom:		1px solid gray;
+}
+
+span.CCI__pack_info
+{
+	display:			block;
+	margin:				5px;
+	font-size:			9px;
+	color:				gray;
+}
+
+td.CCI__line_devider
+{
+	height:				7px;
+	background-color:	#D3D3D3;
+}
+
+span.CCI__item_identifier
+{
+	display:			inline-block;
+	text-align:			right;
+	width:				30px;
+	padding-right:		5px;
+	font-size:			8px;
+}
+
+span.CCI__resource_identifier
+{
+	display:			inline-block;
+	text-align:			right;
+	width:				50px;
+	padding-right:		5px;
+	font-size:			8px;
+}
+
+span.CCI__item_checkbox
+{
+	display:			inline-block;
+	width:				20px;
+}
+
+span.CCI__item
+{
+	cursor:				pointer; 
+}
+
+span.CCI__item_file
+{
+	color:				Gray;
+}
+
+span.CCI__item_modifier
+{
+	padding-left:		2px;
+	font-family:		tahoma;
+	font-size:			9px;
+}
+
+div.CCI__progress_bar
+{
+	color:				green;
+}

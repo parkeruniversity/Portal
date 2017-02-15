@@ -1,0 +1,28 @@
+/* This file can be used to apply custom CSS after default JICS CSS is loaded. */
+/* However, the JICS theme system is now the preferred method of updating CSS. */
+
+/***********************************************************  Masthead (hooks up to custom HTML from siteheader.htm) ******************************************************/
+#masthead {
+  background: #3A5695 url(images/mast_right.gif) top right no-repeat;
+  height: 65px; /* match image hight */
+  margin: 0;
+  padding: 0;
+  min-width: 760px;
+  }
+#masthead a,
+#masthead a:link,
+#masthead a:visited {
+  display: block;
+  cursor: pointer;
+  height: 100%;
+  width: 400px;
+  }
+#masthead h1 {
+  text-indent: -9999px;
+  background: transparent url(images/mast_left.gif) top left no-repeat;
+  height: 65px; /* match image height */
+  width: 760px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }

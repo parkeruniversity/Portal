@@ -1,0 +1,239 @@
+# START - [CRM] ItemApprovalPortlet
+dn: CN=[CRM] ItemApprovalPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: iYVWnbLhD0O4osS/lYdNMw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Item Approval
+jenzabar-ICSNET-PortletPath:
+ Portlet.ItemApproval,Jenzabar.CRM.Staff.Web.Portlets.ItemApprovalPortlet.ItemApprovalPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] ItemApprovalPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] ItemApprovalPortlet
+
+# START - [CRM] EmployeeInformationPortlet
+dn: CN=[CRM] EmployeeInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: K6SaW4FxPkeylzr5bVzfkw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Employee Information
+jenzabar-ICSNET-PortletPath:
+ Portlet.StaffPortlet,Jenzabar.CRM.Staff.Web.Portlets.StaffPortletPortlet.StaffPortletPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] EmployeeInformationPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [CRM] EmployeeInformationPortlet
+
+
+# START - [CRM] GLAccountLookupPortlet
+dn: CN=[CRM] GLAccountLookupPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: spAkFLMJZkKDe+oSYJ6Hnw==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: GL Account Lookup
+jenzabar-ICSNET-PortletPath:
+ Portlet.GLAccountLookup,Jenzabar.CRM.Staff.Web.Portlets.GLAccountLookupPortlet.GLAccountLookupPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] GLAccountLookupPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [ICS] GLAccountLookupPortlet
+
+
+# START - [CRM] TimecardPortlet
+dn: CN=[CRM] TimecardPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: xOaY/N7RyUO17MZSef8H7A==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Timecard
+jenzabar-ICSNET-PortletPath:
+ Portlet.Timecard,Jenzabar.CRM.Staff.Web.Portlets.TimecardPortlet.TimecardPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] TimecardPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [ICS] TimecardPortlet
+
+# START - [CRM] Timecard Approval
+dn: CN=[CRM] TimecardApprovalPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: cEY8veiSSkSCurK1TF6d3w==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Timecard Approval
+jenzabar-ICSNET-PortletPath: 
+ Portlet.TimecardApproval,Jenzabar.CRM.Staff.Web.Portlets.TimecardApprovalPortlet.TimecardApprovalPortlet
+jenzabar-ICSNET-ApplicationPointer: 
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] TimecardApprovalPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Timecard Approval
+
+# START - [CRM] RequisitionEntryPortlet
+dn: CN=[CRM] RequisitionEntryPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: Qz/P4zLhgUyM1KrwGQH2Sg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Requisition Entry
+jenzabar-ICSNET-PortletPath:
+ Portlet.RequisitionEntry,Jenzabar.CRM.Staff.Web.Portlets.RequisitionEntryPortlet.RequisitionEntryPortlet
+jenzabar-ICSNET-ApplicationPointer:
+ CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] RequisitionEntryPortlet,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - [ICS] RequisitionEntryPortlet
+
+# START - Employment Position Application
+dn: CN=[CRM] EmploymentApplication,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: AxRSNGctmEiWBrNJRvNG2A==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Employment Position Application
+jenzabar-ICSNET-PortletPath: Portlet.EmploymentApplication,Jenzabar.CRM.Staff.Web.Portlets.EmploymentApplicationPortlet.EmploymentApplicationPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] EmploymentApplication,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Employment Position Application
+
+# START - Employment Position Management
+dn: CN=[CRM] EmploymentManagement,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: GH1XHfKdqUq7zG9HN6BFgg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Employment Position Management
+jenzabar-ICSNET-PortletPath: Portlet.EmploymentManagement,Jenzabar.CRM.Staff.Web.Portlets.EmploymentManagementPortlet.EmploymentManagementPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] EmploymentManagement,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Employment Position Management
+
+# START - Employment Applicant Group
+dn: CN=Employment Applicant,OU=Groups,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: sEhyla+YUUuTfSXHFUYQXg==
+jenzabar-ICSNET-GenericFlags: 1
+description: EAP
+objectClass: top
+objectClass: group
+objectClass: jenzabar-ICSNET-SecurityGroup
+instanceType: 4
+groupType: -2147483646
+objectCategory: CN=Security-Group,CN=Schema,CN=Configuration,CN=X
+
+dn: CN=Readers,CN=Roles,O=Jenzabar,C=US
+changetype: modify
+replace: jenzabar-ICSNET-GUID
+jenzabar-ICSNET-GUID:: sEhyla+YUUuTfSXHFUYQXg==
+-
+
+dn: CN=Employment Applicant,OU=Groups,CN=Portal,O=Jenzabar,C=US
+changetype: modify
+add: jenzabar-ICSNET-GenericFlags
+jenzabar-ICSNET-GenericFlags: 1
+-
+# END - Employment Applicant Group
+
+# START - Requisitions And Orders
+dn: CN=[CRM] RequisitionsAndOrders,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: GrHKTiwz/EeA0llAHMivjg==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Requisitions And Orders
+jenzabar-ICSNET-PortletPath: Portlet.RequisitionsAndOrders,Jenzabar.CRM.Staff.Web.Portlets.RequisitionsAndOrders.RequisitionsAndOrdersPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] RequisitionsAndOrders,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Requisitions And Orders
+
+# START - Requisition Approval
+dn: CN=[CRM] RequisitionApproval,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: lNwPRWYunU2syCS7LQL14A==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: Requisition Approval
+jenzabar-ICSNET-PortletPath: Portlet.RequisitionApproval,Jenzabar.CRM.Staff.Web.Portlets.RequisitionApproval.RequisitionApprovalPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CRM,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CRM] RequisitionApproval,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+# END - Requisition Approval

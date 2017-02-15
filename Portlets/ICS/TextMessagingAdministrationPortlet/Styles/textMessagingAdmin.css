@@ -1,0 +1,52 @@
+﻿.text-messaging-admin-portlet {
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.text-messaging-admin-portlet .manage-phone-number-type-container {
+    padding: 10px 8px;
+}
+
+.text-messaging-admin-portlet .glyphicon.glyphicon-plus-sign.large {
+    color: green;
+    font-size: 2em;
+}
+
+.text-messaging-admin-portlet .glyphicon.glyphicon-minus-sign.large {
+    color: red;
+    font-size: 2em;
+    padding-right: .5em;
+}
+
+.text-messaging-admin-portlet .glyphicon.glyphicon-remove.large {
+    font-size: 2em;
+    padding-right: .5em;
+}
+
+.text-messaging-admin-portlet .glyphicon.glyphicon-ok-sign.large {
+    color: green;
+    font-size: 2em;
+}
+
+.text-messaging-admin-portlet .glyphicon.glyphicon-pencil.large {
+    font-size: 2em;
+}
+
+.text-messaging-admin-portlet .add-phone-number-type-container {
+    padding: 10px 0;
+}
+
+.text-messaging-admin-portlet .buttons-container-right {
+    float: right;
+}
+
+.text-messaging-admin-portlet .manage-phone-number-type-container {
+    padding: 10px 0;
+}
+
+.text-messaging-admin-portlet .manage-phone-number-type {
+    max-width: 800px;
+    border: 1px solid grey;
+    padding: 10px 8px;
+}

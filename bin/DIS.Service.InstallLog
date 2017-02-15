@@ -1,0 +1,15 @@
+﻿Installing assembly 'C:\Program Files\Jenzabar\ICS.NET\Portal\bin\DIS.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   name = DIS
+   assemblypath = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\DIS.Service.exe
+   logfile = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\DIS.Service.InstallLog
+Installing service DIS...
+Creating EventLog source DIS in log Application...
+Rolling back assembly 'C:\Program Files\Jenzabar\ICS.NET\Portal\bin\DIS.Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   name = DIS
+   assemblypath = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\DIS.Service.exe
+   logfile = C:\Program Files\Jenzabar\ICS.NET\Portal\bin\DIS.Service.InstallLog
+Restoring event log to previous state for source DIS.

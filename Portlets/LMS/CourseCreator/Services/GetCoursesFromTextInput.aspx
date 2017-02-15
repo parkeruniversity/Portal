@@ -1,0 +1,1 @@
+<%@ Page Language="c#" AutoEventWireup="false" Codebehind="GetCoursesFromTextInput.aspx.cs" Inherits="Jenzabar.LMS.Portlets.CourseCreatorPortlet.GetCoursesFromTextInput" %> 

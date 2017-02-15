@@ -1,0 +1,157 @@
+﻿@import url("../Common/Style/LmsCommonStyle.aspx");
+
+.unitName {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+/*.coDropDown 
+{
+    border:0;
+    background: url(/ics/ui/common/images/PortletImages/Icons/16/bullet_arrow_down.png) right 3px no-repeat;
+    color: #787878;
+    padding:2px 10px; 
+    width:378px;
+    *width:350px; 
+    *background:#58B14C; 
+    -webkit-appearance: none;  
+ }*/
+.coDropDown {
+    color: #787878;
+}
+ 
+.coSectionHeader {
+    font-size: 14px;
+    color: #787878;
+    margin-bottom: 5px;
+}
+.coSectionHeaderOverview 
+{
+    float: left;
+    cursor: pointer;
+    
+}
+.coSectionHeaderText {
+    float: left;
+    
+}
+.coOverviewArrow {
+     background: transparent url('../../../ui/common/images/PortletImages/Icons/16/bullet_arrow_down.png') no-repeat;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-left: 5px;
+}
+.coHeaderIcon {
+    float: left;
+    margin: 0px 10px;
+}
+.coItemGroup {
+    margin-bottom: 10px;
+}
+.coOverviewContainer1 {
+    width: 100%;
+    clear: both;
+    margin-bottom: 5px;
+    min-height: 100px;
+  
+}
+.coOverviewContainer2 {
+    
+}
+.coOverviewLeft {
+    float: left;
+    width: 48%;
+    border-right: 1px solid #ccc;
+    min-height: 90px;
+    padding-right: 5px;
+    
+}
+.coOverviewRight {
+    float: left;
+    width: 48%;
+    padding-left: 5px;
+
+}
+.coOverviewContainer1 .coOverviewChild{
+    padding: 5px;
+    padding-left: 43px;
+    margin-bottom: 5px;
+}
+.coSectionContainer {
+    margin-top: 25px;
+}
+.coOverviewChild {
+    margin-bottom: 5px;
+}
+.coOverviewNextDueDate {
+    background:transparent url('../../../ui/common/images/PortletImages/Icons/32/book.png') 5px 5px no-repeat;
+}
+.coOverviewNextEvent {
+    background:transparent url('../../../ui/common/images/PortletImages/Icons/32/calendar.png') 5px 5px no-repeat;
+    border-bottom: 1px solid #ccc;
+}
+.coOverviewLastNews {
+    background:transparent url('../../../ui/common/images/PortletImages/Icons/32/newspaper.png') 5px 5px no-repeat;
+}
+.coOverviewStatus {
+    background:transparent url('../../../ui/common/images/PortletImages/Icons/32/user.png') 5px 5px no-repeat;
+     border-bottom: 1px solid #ccc;
+}
+.coOverviewContainer2 .coOverviewChild {
+    width: 30%;
+    float: left;
+}
+.coOverviewHeader {
+    font-size: 14px;
+    color: #787878;
+    float: left;
+}
+.coOverviewName {
+    clear: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+.coUnitDetailContainer {
+    clear: both;
+}
+.coOverviewDateTitle {
+    float: right;
+    font-weight: bold;
+}
+.coOverviewLink {
+    float: right;
+    clear: both;
+}
+.coOverviewByLine {
+    clear: both;
+    color: #787878;
+    margin: 2px 0 2px 0;
+}
+
+.orgUnitModal{
+	min-width: 600px;
+	padding-right: 5px;
+}
+.orgUnitModal #innerModal{
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+.addUnitOrTypePopup {
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+
+.courseOrganizerAlert {
+    background-color: #feffd3;
+    border: 1px solid #efe543;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.coListResourcesHidden {
+    display: none;
+}
+.coListShowAll {
+    cursor: pointer;
+}

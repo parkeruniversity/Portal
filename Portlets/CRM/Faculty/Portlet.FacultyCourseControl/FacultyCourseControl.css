@@ -1,0 +1,51 @@
+.FCC {}
+.FCC .RedText { color: #ad0000 }
+.FCC .GreenText { color: #008700; }
+.FCC .GrayBordered { background-color: #EFEFEF; border: 1px solid #B2B2B2; padding: 10px;   }
+.FCC .WhiteBordered { border: 1px solid #B2B2B2; padding: 10px }
+.FCC .RedErrorText { color: #AD0000; }
+.FCC .TableBorder { border: 1px solid #B2B2B2;  }
+.FCC .Bullet { list-style-type: disc;}
+.FCC .BorderLeftBottom { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2 }
+.FCC .BorderTopLeftBottomRight { border-left:1px solid #B2B2B2; border-bottom: 1px solid #B2B2B2; border-top:1px solid #B2B2B2; border-right: 1px solid #B2B2B2 }
+.FCC .BorderLeftRightBottom { border-left:1px solid #B2B2B2; border-right:1px solid #B2B2B2; border-bottom:1px solid #B2B2B2 }
+
+.groupedGrid tr.subItem td.body {
+  padding-left: 0em;
+  font-size: 100%;
+  }
+
+.FCC .DisplayNone { display:none; }
+.GE .DisplayNone { display:none; }
+
+.FCC .floatLeft { float:left; }
+.GE .floatLeft { float:left; }
+
+.GE .floatRight { float:right; }
+.GE .BoldText { font-weight: 600; }
+.GE .textAlignCenter { text-align: center; }
+.GE .textAlignRight { text-align: right; }
+.GE .VerticalAlignMiddle { vertical-align: middle; }
+.GE .ClearLeft { clear: left; }
+.GE .ClearRight { clear: right; }
+.GE .InfoButton { background-color: #3A87AD; color: white; }
+.GE .NoWrap { white-space: nowrap; }
+.GE .WidthHalf { width: 48%; }
+
+.GE .btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;    
+    text-decoration: none;
+}

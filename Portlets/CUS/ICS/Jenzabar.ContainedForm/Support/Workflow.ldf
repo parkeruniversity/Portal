@@ -1,0 +1,25 @@
+# START - Jenzabar Workflow
+dn: CN=[CUS] JenzabarWorkflow,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+jenzabar-ICSNET-GUID:: Fz9Q1+UVwky13LwVRgUYNA==
+objectClass: top
+objectClass: jenzabar-ICSNET-PortletTemplate
+displayName: EX FormFlow - Workflow
+jenzabar-ICSNET-PortletPath: Jenzabar.Workflow,Jenzabar.Workflow.WorkflowPortlet
+jenzabar-ICSNET-ApplicationPointer: CN=CUS,OU=PortalApplications,CN=Portal,O=Jenzabar,C=US
+instanceType: 4
+objectCategory: CN=Portlet-Template,CN=Schema,cn=configuration,cn=x
+
+dn: OU=Operations,CN=[CUS] JenzabarWorkflow,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: add
+objectClass: top
+objectClass: organizationalUnit
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,CN=X
+
+dn: CN=[CUS] JenzabarWorkflow,OU=PortletTemplates,CN=Portal,O=Jenzabar,C=US
+changetype: modify
+replace: displayName
+displayName: EX FormFlow - Workflow
+-
+# END - Jenzabar Workflow

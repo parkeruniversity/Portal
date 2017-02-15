@@ -1,0 +1,132 @@
+
+.CopyCoursePortlet .ccSubContent
+{
+	padding: 0px 40px 10px 40px;
+}
+
+.CopyCoursePortlet ul.ccAlternateLayout
+{
+	padding-right: 0px;
+}
+
+.CopyCoursePortlet ul.ccAlternateLayout li
+{
+	display: inline;
+	padding-right: 40px;
+}
+
+.CopyCoursePortlet .ccCopyContentParent
+{
+	padding: 10px 0px 0px 0px;
+	font-weight: bold;
+}
+
+.CopyCoursePortlet .ccCopyContentChild
+{
+	padding: 2px 20px 3px 0px;
+}
+
+.CopyCoursePortlet .ccTipLabel
+{
+	font-size: .8em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.CopyCoursePortlet .ccTipText
+{
+	font-size: .8em;
+	color: #999999;
+}
+
+.CopyCoursePortlet .ccWarning
+{
+	margin-top: 30px;
+}
+
+.CopyCoursePortlet .ccWarningLabel
+{
+	color: Red;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.CopyCoursePortlet .ccWarningText
+{
+	color: #999999;
+}
+
+.CopyCoursePortlet .ccButtons
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.CopyCoursePortlet .ccButtons input
+{
+	margin-right: 20px;
+}
+
+.CopyCoursePortlet .ccButtons a
+{
+	margin-right: 20px;
+}
+
+.CopyCoursePortlet .ccListBoxLabel
+{
+	font-weight: bold;
+}
+
+.CopyCoursePortlet .ccSidebar
+{
+	clear:both;
+	float:right;
+	width:300px;
+	padding: 10px 30px 10px 30px;
+}
+
+.CopyCoursePortlet .ccRadioButtonTable td
+{
+	padding-top:8px;
+}
+
+.CopyCoursePortlet .ccRadioButtonTable .labelColumn
+{
+	padding-left:5px;
+}
+
+.CopyCoursePortlet .ccCheckBoxListRow
+{
+	clear: left;
+	display: table;
+}
+
+.CopyCoursePortlet .ccCheckBoxListRow img
+{
+	margin-right: 5px;
+}
+
+.CopyCoursePortlet .ccCheckboxListCheck
+{
+	margin-right: 5px;
+	display: table-cell;
+}
+
+.CopyCoursePortlet .ccCheckboxListText
+{
+	display: table-cell;
+}
+
+.CopyCoursePortlet .ccCheckboxListSubheader
+{
+	clear: left;
+	color: #999999;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.CopyCoursePortlet .ccHintText
+{
+	color: #999999;
+}
+

@@ -1,0 +1,537 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<head>
+<title>PX Setup Steps</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHelp by eHelp Corporation www.ehelp.com">
+<link rel="stylesheet" href="jenzabar_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='jenzabar.css'>");}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" x-save-method="compute-relative" src="./showhide.js"></script>
+
+<style type="text/css">
+<!--
+p.whs1 { font-size:small; }
+p.whs2 { margin-left:0px; }
+p.whs3 { margin-left:40px; }
+h2.whs4 { font-size:small; }
+ul.whs5 { list-style:circle; }
+-->
+</style><script type="text/javascript" language="JavaScript">
+<!--
+if ((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) == 4))
+{
+  var strNSS = "<style type='text/css'>";
+  strNSS += "p.whs1 {font-size:medium; }";
+  strNSS += "p.whs2 {margin-left:1pt; }";
+  strNSS += "h2.whs4 {font-size:medium; }";
+  strNSS +="</style>";
+  document.write(strNSS);
+}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Getting Started\nPX\nSetup Steps for PX");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("default.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script><script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="./ehlpdhtm.js" name="EHELP_DHTM"></script>
+<script type="text/javascript"
+		language=JavaScript1.2>
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+
+<h1>Setup Steps for PX</h1>
+
+<p class="whs1">In order to successfully implement <span style="font-weight: bold;"><B>Staff</B></span>, 
+ the following steps should be performed in the order in which they are 
+ listed.</p>
+
+<p class=NOTE
+	style="font-size: small;"><span style="font-weight: bold;"><B>NOTE:</B></span> 
+ &nbsp;Your JICS 
+ Administrator has already defined roles that have access to individual 
+ portlets via the <span style="font-weight: bold;"><B>Allow Access</B></span> 
+ check box (<span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Site 
+ Manager</U></span> link, Global Portlet Operations <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Edit</U></span> 
+ link). &nbsp;For 
+ more information about the Allow Access global operation, see <span style="font-style: italic;"><I>Getting 
+ Started with JICS</I></span>.</p>
+
+<h2><span style="font-size: small;"><font size=3 style="font-size: small;">Step 1: In PX Systems, check that the 
+ following has occurred</font></span></h2>
+
+<ul>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">In the Fiscal 
+ System, execute the STATUS_SECURITY to create the STATUS_nnnn pointer 
+ files for the JICS IDs. &nbsp;The 
+ pointers may be revised in the future and additional pointers can be added.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">In the Payroll 
+ System, update the PAYCODE GRP records and enter a unique name into the 
+ new field, ICPGRPNAME. The Payroll Menu path is Maintain, Table, and Translate.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">In the Payroll 
+ System, update the active wage records in PAYREG and enter a position 
+ code into the POSITION field. Only wage records with position information 
+ will not be available in time card entry. &nbsp;Payroll 
+ Menu path is Maintain then Wage. When selecting the wage record to update 
+ use /FULL to access the full screen.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">In the DPS 
+ System, update the authorization records in DPS_AUTHORIZE and enter JICS 
+ IDs. &nbsp;Only 
+ authorization records that have a JICS ID will be able to process requisitions 
+ and approvals. DPS Manager Menu path is Manager and &nbsp;Master.</p></li>
+</ul>
+
+<p class=NOTE><span style="font-weight: bold;"><B>Optional</B></span> Enter catalog 
+ information in the file defined in the CAT_FILE logical. This data can 
+ and probably will be added and expanded after the system is established. 
+ The option can be turned on at a later date.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<h2><span style="font-size: small;"><font size=3 style="font-size: small;">Step 2: &nbsp;Set 
+ Security Permissions by role for each portlet</font></span></h2>
+
+<p class=Bullet1
+	style="font-size: small;"><span style="font-size: small;"><font size=3 style="font-size: small;"><span style="font-size: small;"><font size=3 style="font-size: small;">F</font></span>rom 
+ each portlet, click the <span style="font-weight: bold;"><B>wrench</B></span> 
+ icon to access customizable features. &nbsp;Use 
+ the <span style="font-weight: bold;"><B>Security</B></span> tab to assign operations 
+ to roles by selecting the corresponding check box where applicable. &nbsp;Below 
+ are the portlets for which role security permission must be set.</font></span></p>
+
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a32"><span style="font-size: small;"><font size=3 style="font-size: small;">Account Notification</font></span></a></p>
+
+<div class="droptext" id="POPUP209700996" style="display: 'none'; " x-ss-type="dropdown">
+ <ul>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>From the <span style="font-weight: bold;"><B>Account 
+ Notification</B></span> portlet, click the wrench icon to open the <span style="font-weight: bold;"><B>Portlet 
+ Settings and Preferences</B></span> screen.</p></li>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>Click the <span style="font-weight: bold;"><B>Security</B></span> 
+ tab.</p></li>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>Select the appropriate 
+ <span style="font-weight: bold;"><B>Operations</B></span> check boxes for each 
+ role or select the <span style="font-weight: bold;"><B>All Operations</B></span> 
+ check box.</p></li>
+ </ul>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a38"><span style="font-size: small;"><font size=3 style="font-size: small;">Cancel 
+ Notification</font></span></a></p>
+ <div class="droptext" id="POPUP208591330" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs1">Selecting this check box for a role allows 
+ persons with that role to cancel an account notification for a JICS user 
+ via the <span style="font-weight: bold;"><B>Held Notifications</B></span> tab 
+ on the <span style="font-weight: bold;"><B>View New Accounts</B></span> screen.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a39"><span style="font-size: small;"><font size=3 style="font-size: small;">Send 
+ Email</font></span></a></p>
+ <div class="droptext" id="POPUP227323091" style="display: 'none'; " x-ss-type="dropdown">
+  <p>Selecting this check box for a role allows persons with that role to 
+ send an email with login and password information to a JICS user via the<span 
+ style="font-weight: bold;"><B> View New Accounts</B></span> screen.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a40"><span style="font-size: small;"><font size=3 style="font-size: small;">Can 
+ Set Up Portlet</font></span></a></p>
+ <div class="droptext" id="POPUP224725982" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs1">Selecting this check box for a role allows 
+ persons with that role to see the <span style="font-weight: bold;"><B>Setup</B></span> 
+ link in the <span style="font-weight: bold;"><B>Account Notification</B></span> 
+ toolbar.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a41"><span style="font-size: small;"><font size=3 style="font-size: small;">Create 
+ Email Template</font></span></a></p>
+ <div class="droptext" id="POPUP220771835" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs1">Selecting this check box for a role allows 
+ persons with that role to create a new email template to use when sending 
+ email with login and password information to a JICS user via the <span 
+ style="font-weight: bold;"><B>View New Accounts</B></span> screen. &nbsp;When 
+ this permission in given, the add template button is available on the 
+ <span style="font-weight: bold;"><B>Setup</B></span> screen.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a42"><span style="font-size: small;"><font size=3 style="font-size: small;">Modify 
+ Email Template</font></span></a></p>
+ <div class="droptext" id="POPUP208070647" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs1">Selecting this check box for a role allows 
+ persons with that role to edit an existing email template. &nbsp;This 
+ template is used when sending email with login and password information 
+ to a JICS user via the <span style="font-weight: bold;"><B>View New Accounts</B></span> 
+ screen. &nbsp;When 
+ this permission is given, the edit template button is available on the 
+ <span style="font-weight: bold;"><B>Setup</B></span> screen.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a43"><span style="font-size: small;"><font size=3 style="font-size: small;">Move 
+ to Active</font></span></a></p>
+ <div class="droptext" id="POPUP208027800" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs1">Selecting this check box for a role allows 
+ persons with that role to move an account notification from <span style="font-weight: bold;"><B>Held</B></span> 
+ to <span style="font-weight: bold;"><B>Active</B></span> status on the <span 
+ style="font-weight: bold;"><B>View New Accounts</B></span> screen.</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a44"><span style="font-size: small;"><font size=3 style="font-size: small;">Move 
+ to Held</font></span></a></p>
+ <div class="droptext" id="POPUP209581801" style="display: 'none'; " x-ss-type="dropdown">
+  <p class="whs1">Selecting this check box for a role allows 
+ persons with that role to move an account notification from <span style="font-weight: bold;"><B>Active</B></span> 
+ to <span style="font-weight: bold;"><B>Held</B></span> status on the <span style="font-weight: bold;"><B>View 
+ New Accounts</B></span> screen.</p>
+ </div>
+ <ul>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>Save.</p></li>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>If you need to add a role, 
+ click the <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Add 
+ a Role</U></span> link. &nbsp;See 
+ <span style="font-style: italic;"><I>Getting Started with JICS</I></span> for 
+ more information about adding a role.</p></li>
+ </ul>
+</div>
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a36"><span style="font-size: small;"><font size=3 style="font-size: small;">Requisition Entry</font></span></a></p>
+
+<div class="droptext" id="POPUP221759839" style="display: 'none'; " x-ss-type="dropdown">
+ <ul>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>From the <span style="font-weight: bold;"><B>Requisition 
+ Entry</B></span> portlet, click the wrench icon to open the <span style="font-weight: bold;"><B>Portlet 
+ Settings and Preferences</B></span> screen.</p></li>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>Click the <span style="font-weight: bold;"><B>Security</B></span> 
+ tab.</p></li>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>Select the appropriate 
+ <span style="font-weight: bold;"><B>Operations</B></span> check boxes for each 
+ role or select the <span style="font-weight: bold;"><B>All Operations</B></span> 
+ check box.</p></li>
+ </ul>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a45"><span style="font-size: small;"><font size=3 style="font-size: small;">Can 
+ Check Requisitions</font></span></a></p>
+ <div class="droptext" id="POPUP209606664" style="display: 'none'; " x-ss-type="dropdown">
+  <p>Selecting this check box for a role allows persons with that role to 
+ access the <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Check 
+ Requisition Status</U></span> link on the <span style="font-weight: bold;"><B>Requisition 
+ Entry</B></span> portlet. &nbsp;Follow 
+ this link to conduct a search on requisitions in the PX database. &nbsp;</p>
+ </div>
+ <p class="whs3"><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a46"><span style="font-size: small;"><font size=3 style="font-size: small;">Can 
+ Enter Requisitions</font></span></a></p>
+ <div class="droptext" id="POPUP208013668" style="display: 'none'; " x-ss-type="dropdown">
+  <p>Selecting this check box for a role allows persons with that role to 
+ access the <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Enter 
+ Requisitions</U></span> link on the <span style="font-weight: bold;"><B>Requisition 
+ Entry</B></span> portlet. &nbsp;Follow 
+ this link to create a purchase order request for one or more items. &nbsp;The 
+ data you enter is stored in the PX database when you save the requisition. 
+ </p>
+ </div>
+ <ul>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>Save.</p></li>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>If you need to add a role, 
+ click the <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Add 
+ a Role</U></span> link. &nbsp;See 
+ <span style="font-style: italic;"><I>Getting Started with JICS</I></span> for 
+ more information about adding a role.</p></li>
+ </ul>
+</div>
+<p><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a37" style="background-color: Transparent; font-size: small;">Timecard</a></p>
+
+<div class="droptext" id="POPUP209938860" style="display: 'none'; " x-ss-type="dropdown">
+ <ul>
+  <li class=kadov-p-CBullet1>
+  <p class=Bullet1>Security is set by the 
+ JICS administrator on the <span style="font-weight: bold;"><B>Global Portlet 
+ Operations</B></span> screen. &nbsp;See 
+ <span style="font-style: italic;"><I>Getting Started with JICS</I></span> for 
+ more information on setting global permissions.</p></li>
+ </ul>
+</div>
+<h2><span style="font-size: small;"><font size=3 style="font-size: small;">Step 3: &nbsp;Assign 
+ Staff Administrators responsible for Account Notification</font></span></h2>
+
+<p class="whs2">Request the Administrator to assign the Staff 
+ Administrators who will be responsible for sending account notifications.</p>
+
+<h2><span style="font-size: small;"><font size=3 style="font-size: small;">Step 4: &nbsp;Configure 
+ the Account Notification Portlet</font></span></h2>
+
+<ul>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">From the 
+ <span style="font-weight: bold;"><B>Account Notification</B></span> portlet, 
+ click the <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Site 
+ Manager</U></span> link in the upper right corner of the screen.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Click the 
+ <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Edit</U></span> 
+ link for <span style="font-weight: bold;"><B>Global Portlet Operations</B></span>.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Scroll down 
+ to locate <span style="font-weight: bold;"><B>Global Operations for Account 
+ Notification</B></span>.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Select the 
+ appropriate roles for each of the following operation:</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2><a class="dropspot" href="javascript:kadovTextPopup(this)" id="a23"><span style="font-size: small;"><font size=3 style="font-size: small;">Can 
+ Receive Account Notification?</font></span></a></p>
+<div class="droptext" id="POPUP207824278" style="display: 'none'; " x-ss-type="dropdown">
+ <p class="whs1">Users in the selected groups will receive 
+ account notifications. &nbsp;The 
+ following link may display on the <span style="font-weight: bold;"><B>Account 
+ Notification</B></span> portlet when they log in to JICS: &nbsp;<span 
+ style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>View 
+ Active and Held Account Notifications to Send</U></span>.</p>
+</div></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Save.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Exit</p></li>
+</ul>
+
+<p class=Bullet1>Only <span style="font-weight: bold;"><B>ONE</B></span> person, 
+ who has been assigned the account notification responsibility, will need 
+ to configure the <span style="font-weight: bold;"><B>Account Notification</B></span> 
+ portlet.</p>
+
+<ul>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Click the 
+ <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Setup 
+ is required before account notification will perform properly</U></span> link 
+ on the Main screen, which opens the <span style="font-weight: bold;"><B>Setup</B></span> 
+ screen. &nbsp;Enter 
+ the following configuration information:</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>From the <span style="font-weight: bold;"><B>Security 
+ Groups to Send Account Notifications to</B></span> drop-down list, select 
+ the appropriate security group to which to send account notifications. 
+ &nbsp;Security 
+ groups in this list have been given the <span style="font-weight: bold;"><B>Can 
+ Receive Account Notification</B></span> global operation and have not already 
+ been assigned to another instance of the portlet. &nbsp;For 
+ more information, see the <span style="font-weight: bold;"><B>Account Notification</B></span> 
+ topic in <span style="font-style: italic;"><I>Getting Started with JICS</I></span>.</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>Select the <span style="font-weight: bold;"><B>Default 
+ Email Template for Account Notifications</B></span>. &nbsp;Displayed 
+ are the email templates available for the security group selected above 
+ in the <span style="font-weight: bold;"><B>Security Groups to Send Account 
+ Notifications to</B></span> list. You can also create new or edit existing 
+ email templates that will be used by the <span style="font-weight: bold;"><B>Account 
+ Notification</B></span> portlet. &nbsp;These 
+ templates should include the cc, bcc, subject, and body of the email and 
+ can be customized to include the user's name, major, login, and password. 
+ &nbsp;The options 
+ to create or modify email templates are available if <span style="font-weight: bold;"><B>Modify 
+ Email Template</B></span> and <span style="font-weight: bold;"><B>Create Email 
+ Template</B></span> check boxes were selected as operations for the security 
+ group. &nbsp;For 
+ more information, see the <span style="font-weight: bold;"><B>Email Templates</B></span> 
+ topic in <span style="font-style: italic;"><I>Getting Started with JICS</I></span>.</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>In <span style="font-weight: bold;"><B>Account 
+ Notification Delivery Method</B></span>, decide if staff will be notified 
+ by automatic email or manual email that an account has been created for 
+ them.</p></li>
+</ul>
+
+<p class="whs3">If <span style="font-weight: bold;"><B>Automatic 
+ Email Notification</B></span> is selected, an email will be automatically 
+ sent without any intervention required by the Staff Administrator. &nbsp;This 
+ option is <span style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U><B>not</B></U></span> 
+ recommended for the initial batch account notification.</p>
+
+<p class="whs3">If <span style="font-weight: bold;"><B>Manual 
+ Email Notification</B></span> is selected, a temp table in JICS will collect 
+ the new accounts and the Staff Administrator will review and send emails 
+ through the <span style="font-weight: bold;"><B>Account Notification</B></span> 
+ portlet. &nbsp;This 
+ option <span style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U><B>is</B></U></span> 
+ recommended for the initial batch account notification.</p>
+
+<p class=NOTE><span style="font-weight: bold;"><B>Note:</B></span> For more information 
+ on the <span style="font-weight: bold;"><B>Account Notification</B></span> portlet, 
+ see <span style="font-style: italic;"><I>Getting Started for JICS</I></span>.</p>
+
+<p class="whs2">&nbsp;</p>
+
+<h2 class="whs4">Step 5: &nbsp;Configure 
+ the Timecard Portlet</h2>
+
+<p class="whs1"><span style="font-size: small;"><font size=3 style="font-size: small;">After defining 
+ the pay period/group combinations, you can enter hours worked along with 
+ personal, vacation and sick time. &nbsp;The 
+ timecards can then be uploaded to the PX system.</font></span></p>
+
+<ul>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Log into 
+ JICS and open the <span style="font-weight: bold;"><B>Timecard</B></span> portlet.</p></li>
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Click the 
+ <span style="font-weight: bold;"><B>Pay Period Administration</B></span> link 
+ to create pay period/group combinations and make a pay period active by 
+ selecting it as the default.</p></li>
+</ul>
+
+<ul>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>click add</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>enter a description to 
+ identify the pay period</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>use the calendar to select 
+ the Pay Period Begin, End, and Check Dates</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>select a Pay Group</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>click Save. &nbsp;</p></li>
+</ul>
+
+<p class=NOTE
+	style="margin-left: 64px; font-size: small;">The Pay Group drop-down 
+ menu is populated using values from the PX database.</p>
+
+<ul>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>Use the appropriate check 
+ box to mark the default pay period and click Save. &nbsp;Now 
+ when employees click the <span style="x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><U>Enter 
+ Time link</U></span>, they will be able to record their payroll information 
+ for the default pay period.</p></li>
+</ul>
+
+<p class=Bullet1
+	style="font-size: small;">&nbsp;</p>
+
+<ul type="circle" class="whs5">
+	
+	<li class=kadov-p-CBullet1><p class=Bullet1
+									style="font-size: small;">Upload the 
+ Timecard information for a pay period/group combination to PX for Payroll 
+ Processing.</p></li>
+</ul>
+
+<ul>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>Identify the Timecards 
+ to upload by selecting the appropriate Pay Group from the drop-down menu. 
+ &nbsp;</p></li>
+	
+	<li class=kadov-p-CBullet2><p class=Bullet2>Update the Payroll information 
+ in the PX database by clicking the <span style="font-weight: bold;"><B>Update 
+ Timecards</B></span> button, which uploads the Timecard information for the 
+ Pay Group selected.</p></li>
+</ul>
+
+<script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a32','POPUP209700996');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a38','POPUP208591330');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a39','POPUP227323091');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a40','POPUP224725982');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a41','POPUP220771835');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a42','POPUP208070647');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a43','POPUP208027800');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a44','POPUP209581801');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a36','POPUP221759839');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a45','POPUP209606664');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a46','POPUP208013668');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a37','POPUP209938860');
+//--></script><script language="javascript1.2" type="text/javascript"><!--
+kadovTextPopupInit('a23','POPUP207824278');
+//--></script><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

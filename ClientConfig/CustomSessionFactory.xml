@@ -1,0 +1,5 @@
+﻿<!-- Class must implement  ICustomSessionFactory -->
+<NHibernateSessionFactories>
+    <SessionFactory>CUS.ICS.SimpleQuery.NHibernateFactory, Portlet.SimpleQuery</SessionFactory>
+</NHibernateSessionFactories>
+

@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calendar</title>
+
+        <!-- If your JICS app root is not /ICS/, modify this. -->
+        <base href="/ICS/">
+
+        <script type="text/javascript">
+            window.jenzabar = {};
+            window.userSettings = {
+                culture: 'en-US',
+                language: 'en',
+                dateFormat: 'm/d/yy'
+            };
+            jenzabar.userSettings = window.userSettings;
+        </script>
+
+        <!-- BEGIN Html Head Elements -->
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="UI/Common/Styles/jQuery/jquery-ui.custom.css" />
+        <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="UI/Common/Scripts/Plugins/moment.min.js?v=8.2"></script>
+        <script type="text/javascript" src="UI/Common/Scripts/fullcalendar/fullcalendar.min.js?v=8.2"></script>
+        <link rel="stylesheet" type="text/css" href="UI/Common/Scripts/fullcalendar/fullcalendar.min.css?v=8.2">
+        <script type="text/javascript" src="UI/Common/Scripts/Plugins/jquery.timepicker.min.js?v=8.2"></script>
+        <script type="text/javascript" src="UI/Common/Scripts/Framework.js"></script>
+        <!-- END Html Head Elements -->
+
+        <link href="/ICS/UI/Common/Styles/siteStyle.css" rel="stylesheet" />
+        <link href="/ICS/UI/Common/Styles/plugin.css" rel="stylesheet"/>
+
+        <script type="text/javascript" src="UI/Common/Scripts/tinymce/jquery.tinymce.min.js"></script>
+        <script type="text/javascript" src="UI/Common/Scripts/TextEditor.js"></script>
+        <script type="text/javascript" src="ClientConfig/HtmlContent/CustomTextEditor.js"></script>
+        <link rel="stylesheet" type="text/css" href="UI/Common/Styles/TextEditor.css">
+        <link rel="stylesheet" type="text/css" href="ClientConfig/HtmlContent/CustomTextEditor.css">
+
+
+        <link href="/ICS/Portlets/ICS/CalendarPortlet/styles/vendor.css" type="text/css" rel="stylesheet" />
+        <link href="/ICS/Portlets/ICS/CalendarPortlet/styles/calendar.css" type="text/css" rel="stylesheet" />
+
+        <!-- Start of Calendar Main View content -->
+        <link href="/ICS/UI/Common/Styles/BootstrapGlyphIcons.css" rel="styleshe et" />
+        <script src="/ICS/Portlets/ICS/CalendarPortlet/Scripts/vendor.js"></script>
+		 <script src="/ICS/UI/Common/Scripts/jquery.blockui.js"></script>
+
+        <script type="text/javascript">
+            jenzabar.calendar = jenzabar.calendar || {};
+
+            (function (cal, $) {
+                'use strict';
+
+                // If uncommented out, shows all deprecation warnings
+                //Ember.ENV.RAISE_ON_DEPRECATION = true;
+
+                var rootUrl = jenzabar.framework.portalSettings.webApiRootUrl;
+
+                cal.settings = {
+                    emberDataNamespace: rootUrl.substring(1, rootUrl.length - 1),
+                    calendarServiceUrl: rootUrl + 'calendars',
+                    calendarEventServiceUrl: rootUrl + 'calendarevents/',
+                    globWebServiceUrl: rootUrl + 'calendarglobalization/',
+                    calendarValidationWebServiceUrl: rootUrl + 'calendarvalidation/',
+                    calendarEventValidationWebServiceUrl: rootUrl + 'calendareventvalidation',
+                    calendarRecurrenceWebServiceUrl: rootUrl + 'calendarrecurrenceoptions/',
+                    currentFullCalendarDate: moment(),
+                    isMyPages: false,
+                    isGuest: false
+                };
+
+                function getQueryStringElement (el) {
+                    var href = window.location.href;
+                    var reg = new RegExp('[?&]' + el + '=([^&#]*)', 'i');
+                    var string = reg.exec(href);
+                    return string ? string[1] : null;
+                };
+
+                // Portlet ID is an important key for web service communication.
+                cal.settingsPortletId = getQueryStringElement('portletid');
+                cal.portletId = getQueryStringElement('portletid');
+
+                if (cal.portletId === null) {
+                    alert('No portlet id set.');
+                }
+            }(jenzabar.calendar, jQuery));
+        </script>
+
+        <script src="/ICS/Portlets/ICS/CalendarPortlet/Scripts/calendar.js"></script>
+    </head>
+    <body>
+        <div class="calendar-portlet">
+            <div id="view-container"></div>
+        </div>
+    </body>
+</html>

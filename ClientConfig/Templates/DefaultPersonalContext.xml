@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Context Name="Replaced by system" DisplayName="Personal" Type="Personal" DefaultPage="Main Page" Grant="Context Owner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Role Name="Context Owner" IsSystemObject="true"/>
+	<Page Name="Main Page">
+		<Portlet Name="My Bookmarks" Column="1" Order="1" Template="[ICS] BookmarkPortlet"/>
+		<Portlet Name="My Calendar" Column="1" Order="2" Template="[ICS] CalendarPortlet"/>
+		<Portlet Name="Announcements" Column="2" Order="1" Template="[ICS] AnnouncementPortlet"/>
+		<Portlet Name="My Groups" Column="2" Order="2" Template="[ICS] CampusGroupPortlet"/>
+	</Page>
+	<Page Name="Message Center" IsSystemObject="true">
+		<Portlet Name="Message Center" IsSystemObject="true" Column="1" Order="1" Template="[ICS] MessageCenterPortlet"/>
+	</Page>
+</Context>

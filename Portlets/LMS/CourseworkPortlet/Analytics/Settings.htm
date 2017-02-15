@@ -1,0 +1,80 @@
+﻿
+
+<div style="margin-left:20px;">
+	<div data-id="DIV_warnings">
+		<span style="font-weight:bold;" data-globalization="TXT_DIFFICULTY_RATING_WARNINGS"></span>
+		<span>(<a data-id="LNK_bkmk_difficulty_rating" data-bkmk="difficulty_rating" href="javascript:" data-globalization="TXT_ABOUT_DIFFICULTY_RATINGS"></a>)</span>
+		<br />
+		<br />
+		<div data-globalization="MSG_CWK_USE_ADJUST_RATING:"></div>
+		<br />
+		<div style="margin-left:18px;">
+			<table>
+				<colgroup>
+					<col style="text-align:right; padding-top:6px;" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<td style="font-weight:bold;" data-globalization="TXT_HIGH_DIFFICULTY_WARNING:"></td>
+						<td>
+							<span data-globalization="TXT_DIFFICULTY_RATING_HIGHER_THAN"></span>
+							<input data-id="TXT_difficulty_rating_high" type="text" maxlength="3" data-d1="setting" data-validator_key="^[0-1]$|^\.(?:[0-9][1-9]|[1-9][0-9]?)$" data-validator_msg="Required format: between 0 and 1" style="width:25px;" />
+						</td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;" data-globalization="TXT_LOW_DIFFICULTY_WARNING:"></td>
+						<td>
+							<span data-globalization="TXT_DIFFICULTY_RAITNG_LOWER_THAN"></span>
+							<input data-id="TXT_difficulty_rating_low" type="text" maxlength="3" data-d1="setting" data-validator_key="^[0-1]$|^\.(?:[0-9][1-9]|[1-9][0-9]?)$" data-validator_msg="Required format: between 0 and 1" style="width:25px;" />
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<br />
+		<br />
+		<br />
+		<span style="font-weight:bold;" data-globalization="TXT_DISCRIMINATION_INDEX_WARNING"></span>
+		<span>(<a data-id="LNK_bkmk_discrimination_indices" data-bkmk="discrimination_index" href="javascript:" data-globalization="TXT_CWK_ABOUT_DISCRIMINATION"></a>)</span>
+		<br />
+		<br />
+		<div data-globalization="MSG_CWK_USE_TO_ADJUST_DISCRIMINATION:"></div>
+		<br />
+		<span style="margin-left:18px; font-weight:bold;" data-globalization="TXT_LOW_DISCRIMINATION:"></span>
+		<span data-globalization="TXT_DISCRIMINATION_INDEX_LOWER_THAN"></span>
+		<input data-id="TXT_discrimination_index" type="text" maxlength="4" data-d1="setting" data-validator_key="^-{0,1}(?:[0-1]|1.0{0,2}|\.[0-9]{1,2})$" data-validator_msg="Required format: between -1 and 1" style="width:30px;" />
+		<br />
+		<br />
+		<br />
+		<br />
+		<span style="font-weight:bold;" data-globalization="TXT_DISTRACTOR_PERFORMANCE_WARNING"></span>
+		<span>(<a data-id="LNK_bkmk_distractor_performance" data-bkmk="distractor_performance" href="javascript:" data-globalization="TXT_ABOUT_DISTRACTOR_PERFORMANCE"></a>)</span>
+		<br />
+		<br />
+		<div data-globalization="MSG_CWK_TO_ADJUST_DISTRACTOR_WARNING"></div>
+		<br />
+		<span style="margin-left:18px; font-weight:bold;" data-globalization="TXT_POOR_DISTRACTOR_PERFORMANCE_WARNING:"></span>
+		<span data-globalization="MSG_CWK_RANGE_PERCENT_STUDENTS_DISTRACTOR"></span>
+		<input data-id="TXT_distractor_performance" type="text" maxlength="2" data-d1="setting" data-validator_key="^(100|[1-9][0-9]|[0-9])$" data-validator_msg="Required format: between 0 and 100" data-validator_renderer="JCSL.element.insert_after_next" style="width:25px;" />
+		<span>%</span>
+		<br />
+		<div style="margin-top:40px">
+			<table cellpadding="0px" cellspacing="0px">
+				<tbody>
+					<tr>
+						<td style="padding-right:5px;">
+							<input data-id="BTN_save" data-s1="true" type="button" value="Save" />
+						</td>
+						<td style="padding-right:50px;">
+							<input data-id="BTN_cancel" data-s1="true" type="button" value="Cancel" />
+						</td>
+						<td>
+							<img src="" alt="" data-src="PortletImages/Menu/icon_reset.gif" />
+							<a data-id="LNK_reset" data-s1="true" href="javascript:" data-globalization="MSG_CWK_RESET_DEFAULT_ANALYTICS_CONFIG"></a>
+						</td>
+					</tr>
+				</tbody>				
+			</table>				
+		</div>
+	</div>
+</div>

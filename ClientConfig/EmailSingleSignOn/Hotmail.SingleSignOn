@@ -1,0 +1,12 @@
+<singleSignOnTemplate name="Hotmail" description="Hotmail.com email provider" enabled="true">
+<![CDATA[
+<html>
+<body onload="document.getElementsByTagName('form')[0].submit()">
+<form target="_top" name="form1" action="https://login.passport.com/ppsecure/post.srf?lc=1033&id=2&tw=20&fs=1&cbid=24325&da=passport.com&kpp=2&svc=mail&msppjph=1" method="post" id="Form1">
+<input type="hidden" name="login" value="%USERNAME%">
+<input type="hidden" name="passwd" value="%PASSWORD%">
+</form>
+</body>
+</html>
+]]>
+</singleSignOnTemplate>

@@ -1,0 +1,33 @@
+﻿.tcTotalsDisplay>ul
+{
+	width: 300px;
+}
+
+.tcTotalsDisplay li
+{
+	display: block;
+	clear: both;
+	padding: 0px 5px;
+	margin: 0px;
+}
+
+.tcTotalsDisplay .tcLabel
+{
+	float: left;
+}
+
+.tcTotalsDisplay .tcValue
+{
+	float: right;
+}
+
+.tcTotalsDisplay .tcGrandTotal
+{
+	font-weight: bold;
+	border-top: solid 1px #CCCCCC;
+}
+
+.tcTotalsDisplay>ul>li>hr
+{
+	display: none;
+}

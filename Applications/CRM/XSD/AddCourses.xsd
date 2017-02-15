@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="AddCoursesDataSet">
+	<xs:element name="AddCourses">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ValidationsText" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>display all successfully saved CourseInfo tag ' ' + Section tag  separated by commas plus the static text as shown here.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="CourseInfo" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DisplayedCourseCode" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanDoCapacity" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanDoRequirements" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanDoRequisites" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanDoScheduleConflicts" type="xs:string" minOccurs="0"/>
+							<xs:element name="ERPStudentCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="ERPCourseKey" type="xs:string" minOccurs="0"/>
+							<xs:element name="Status" type="xs:string" minOccurs="0"/>
+							<xs:element name="Title" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditFixedVariable" type="xs:string" minOccurs="0"/>
+							<xs:element name="CreditHours" type="xs:string" minOccurs="0"/>
+							<xs:element name="CanWaitlist" type="xs:string" minOccurs="0"/>
+							<xs:element name="MustPay" type="xs:string" minOccurs="0"/>
+							<xs:element name="Paid" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>This is populated by the return of storeAddDropPay</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Amount" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>This is populated by the return of storeAddDropPay</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+              <xs:element name="UseVariableGrading" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Y/N value to identify if Variable Grading Type should be indicated. Null indicates N</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="SelectedVariableGradingType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Indicates the selected Variable Grading Type if present</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="GradeTypeCode" type="xs:string" minOccurs="0"/>
+                    <xs:element name="GradeTypeDesc" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DefaultVariableGradingType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Indicates the grading type that should be used if SelectedVariableGradingType is null</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="GradeTypeCode" type="xs:string" minOccurs="0"/>
+                    <xs:element name="GradeTypeDesc" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="AvailableVariableGradingTypes" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="GradeTypeCode" type="xs:string" minOccurs="0"/>
+                    <xs:element name="GradeTypeDesc" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+							<xs:element name="AdvisorApprovalReq" type="xs:string" minOccurs="0"/>
+							<xs:element name="AdvisorApproved" type="xs:string" minOccurs="0"/>
+							<xs:element name="FacultyList" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="FacultyID" type="xs:string" minOccurs="0"/>
+										<xs:element name="FacultyName" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Schedules" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ScheduleFacultyID" type="xs:string" minOccurs="0"/>
+										<xs:element name="ScheduleFacultyName" type="xs:string" minOccurs="0"/>
+										<xs:element name="Weekdays" type="xs:string" minOccurs="0"/>
+										<xs:element name="BeginDate" type="xs:string" minOccurs="0"/>
+										<xs:element name="EndDate" type="xs:string" minOccurs="0"/>
+										<xs:element name="MeetTime" type="xs:string" minOccurs="0"/>
+										<xs:element name="CampusCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="CampusDesc" type="xs:string" minOccurs="0"/>
+										<xs:element name="BuildingCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="BuildingDesc" type="xs:string" minOccurs="0"/>
+										<xs:element name="RoomCode" type="xs:string" minOccurs="0"/>
+										<xs:element name="RoomDesc" type="xs:string" minOccurs="0"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ErrorText" type="xs:string" minOccurs="0"/>
+							<xs:element name="Errors" type="xs:string" minOccurs="0"/>
+              <xs:element name="ConflictedCourses" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Title" type="xs:string" minOccurs="0"/>
+                    <xs:element name="ERPCourseKey" type="xs:string" minOccurs="0"/>
+                    <xs:element name="ScheduleFacultyName" type="xs:string" minOccurs="0"/>
+                    <xs:element name="Weekdays" type="xs:string" minOccurs="0"/>
+                    <xs:element name="BeginDate" type="xs:string" minOccurs="0"/>
+                    <xs:element name="EndDate" type="xs:string" minOccurs="0"/>
+                    <xs:element name="MeetTime" type="xs:string" minOccurs="0"/>                    
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

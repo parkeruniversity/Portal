@@ -1,0 +1,1 @@
+<%@ Page language="c#" Codebehind="GetFile_tester.aspx.cs" AutoEventWireup="false" Inherits="Jenzabar.Common.GetFile_tester" %>

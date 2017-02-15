@@ -1,0 +1,11 @@
+
+*.filecabinet.assignmentInfoLabel
+{
+	vertical-align:	top;
+	text-align:		right;
+}
+
+*.filecabinet.assignmentInfoBoldValue
+{
+	font-weight:	bold;
+}

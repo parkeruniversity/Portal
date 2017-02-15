@@ -1,0 +1,14 @@
+﻿<div id="eventInfo-content" class="chat-portlet chat-availability" title="{{#if mode.isEdit}}{{globalizer.editAvailability}}{{else}}{{globalizer.addAvailability}}{{/if}}">
+    <div class="content{{#if timeSlot.allDay}} allday{{/if}}">
+        <span>{{globalizer.when}}</span>
+        <span class="dayOfTheWeek">{{timeSlot.dayOfTheWeekText}}</span>
+        {{#unless timeSlot.allDay}}
+             <label for="startTime" class="label">Start time for the time slot</label>
+            <input id="startTime" data-id="startTime" value="{{startTime}}" maxlength="8" size="8" type="text" class="" autocomplete="off" tabindex="-1">
+        <span>{{globalizer.until}}</span>
+        <label for="endTime" class="label">End time for the time slot</label>
+            <input id="endTime" data-id="endTime" value="{{endTime}}" maxlength="8" size="8" type="text" class="" autocomplete="off" tabindex="-1">
+        {{/unless}}
+        
+    </div>
+</div>

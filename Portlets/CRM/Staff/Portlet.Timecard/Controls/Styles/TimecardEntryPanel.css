@@ -1,0 +1,217 @@
+﻿.tcHoursEntry
+{
+	background-color: #EEEEEE;
+	padding: 15px 5px 15px 5px;
+    width: 100%;	
+}
+
+.tcHoursEntry .tcHeader
+{
+	font-weight: bold;
+}
+
+.tcHoursEntry li
+{
+	margin: 0px;
+}
+
+.tcHoursEntry ul.tcEntryPanel
+{
+	display: table;
+	margin: 15px auto 15px auto;
+    width: 100%;	
+}
+
+.tcHoursEntry ul.tcEntryPanel>li
+{
+	display: table-row;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li>*
+{
+	display: table-cell;
+	white-space: nowrap;
+	padding: 5px;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li>hr
+{
+	padding: 0px;
+	margin: 0px;
+	border-top: solid 1px #C1C1C1;
+	border-bottom: solid 1px #FFFFFF;
+	border-left: none;
+	border-right: none;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li.tcFooter>*
+{
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li>*.tcLabel
+{
+	text-align: right;
+	padding-right: 5px;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li>*.tcHighlight
+{
+	font-weight: bold;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li>*.tcValue
+{
+	text-align: right;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li>*.tcValue input
+{
+	text-align: right;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li.tcHeadings>*
+{
+	text-align: center;
+	font-size: 80%;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li.tcHeadings>*>*
+{
+	display: block;
+	padding: 3px 10px;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li.tcHeadings>*.tcValue
+{
+	text-align: center;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li.tcHeadings>*>hr
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #C1C1C1;
+	height: 1px;
+	border: none;
+}
+
+.tcHoursEntry ul.tcSingleDay>li>*:first-child
+{
+	display: none;
+	visibility: hidden;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>*
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>*.tcLabel
+{
+	padding-left: 0px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>*.tcValue
+{
+	padding-right: 0px;
+}
+
+.tcHoursEntry .tcTime
+{
+	text-align: right;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.tcHoursEntry ul.tcEntryPanel>li ul>li
+{
+	margin: 5px;
+}
+
+.tcEntryPanel .tcDayOff
+{
+	background-color: #D0D0D0;
+}
+
+.tcEntryPanel .tcToday
+{
+	background-color: #F1F1F1;
+}
+
+.tcEntryPanel .tcToday>*.tcDay
+{
+	font-weight: bold;
+}
+
+.tcHoursEntry ul.tcHideOtherHours>li>*.tcOtherHoursColumn
+{
+	display: none;
+}
+
+.tcHoursEntry ul.tcHideTimeOffHours>li>*.tcTimeOffHoursColumn
+{
+	display: none;
+}
+
+.tcHoursEntry .tcComments>*
+{
+	padding: 2px 0px;
+	margin: 0px;
+}
+
+.tcHoursEntry .tcComments .tcLabel
+{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.tcHoursEntry .tcComments .tcNote
+{
+	font-size: 80%;
+	color: #666666;
+}
+
+.tcHoursEntry .tcComments textarea
+{
+	width: 100%;
+	height: 3.5em;
+	font-size: 80%;
+}
+
+.tcHoursEntry .tcComments .tcValue
+{
+	font-size: 80%;
+}
+
+.tcHoursEntryPopup div.tcTimeEntries
+{
+    overflow: auto;
+    max-height: 500px;   
+}
+
+.tcEntryPanel .tcFloatRight
+{
+    float: right;
+}
+
+.tcEntryPanel .tcFloatLeft
+{
+    float: left;
+}
+
+.tcEntryPanel .tcPadLeft20
+{
+    padding-left: 20px;
+}
+
+.tcHoursEntry ul.tcHourlyEntry>li>*.tcPadRightNone
+{
+    padding-right: 0px;
+}

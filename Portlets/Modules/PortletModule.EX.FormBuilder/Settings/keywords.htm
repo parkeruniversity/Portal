@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Using Dependencies</title>
+<style type="text/css" media="all">@import url( ../../../../UI/Common/Styles/siteStyle.css );</style>
+<style>
+	ul{
+		list-style-type: disc;
+		margin: 20px;
+	}
+	li{
+		list-style-type: disc;
+	}
+</style>
+</head>
+
+<body onload="window.focus();">
+<h4>Personalizing Completion Messages</h4>
+<table cellpadding="5" cellspacing="5" ID="Table1">
+	<tr>
+		<td>
+			You can include information provided by the user when filling out the form in the completion message that is displayed after the submission to personalize the message (for instance, with his or her name). To do this, simply put a variable in the text of your message that refers to the question whose data you want to use. This variable should be in the format:
+			{S#Q#} with the "#" replaced by the section and question number
+			(respectively) of the question to which you want to refer.
+			<p/>
+			For instance, if "FirstName" and "LastName" are the first two questions in the first section of your form, you could start your message with something
+			like:
+			<p/>
+			"Dear {S1Q1} {S1Q2}, Thank you for completing our application..."
+			<p/>
+			If a candidate named John Smith submits the application, his completion message would read:
+			<p/>
+			"Dear John Smith, Thank you for completing our application..."
+			<p/>
+			You can use the response to any question on your form in this way, but there are a few notes to consider:
+			<ul>
+			<li>If you use a variable that refers to an optional (i.e. Not required) question, be sure it's formatted in a way that will still make sense to the user if the answer is not provided (and therefore, nothing will be shown in place of the variable). When in doubt, make a question required if the response is important for your completion message.
+			<li>Because the variable references the specific order of the questions within a section, if you reorder your questions (or add new questions earlier in the section) you may have to change your variables. (For example, if you added a new question at the start of your hypothetical section above for "Title", you would need to adjust the reference to the FirstName and LastName questions to be {S1Q2} & {S1Q3})
+			<li>Be sure to reference an existing question. If the variable doesn't correspond to an exising question, the token will display as static text in the message.
+			</ul>
+			<br/><br/>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

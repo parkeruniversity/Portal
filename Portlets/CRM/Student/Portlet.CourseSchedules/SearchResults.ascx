@@ -1,0 +1,97 @@
+<%@ Control Language="c#" AutoEventWireup="false" Codebehind="SearchResults.ascx.cs" Inherits="Jenzabar.CRM.Student.Web.Portlets.CourseSchedulesPortlet.SearchResults" %>
+<%@ Register TagPrefix="jenzabar" namespace="Jenzabar.Common.Web.UI.Controls" assembly="Jenzabar.Common" %>
+<div class="pSection" id="divMain" runat="server" visible="true">
+	<jenzabar:errordisplay id="errDisplay" Runat="server"></jenzabar:errordisplay>
+	<jenzabar:GlobalizedNote ID="lblStatus" Runat="server"></jenzabar:GlobalizedNote>
+	<h4><jenzabar:globalizedliteral id="glitResults" runat="server" TextKey="TXT_SEARCH_RESULTS"></jenzabar:globalizedliteral></h4>
+	<table cellSpacing="2" cellPadding="0" width="100%" border="0">
+		<TBODY>
+			<tr>
+			<td colspan=1><jenzabar:globalizedlinkbutton TextKey="TXT_SEARCH_AGAIN" id="glbSearchAgain" runat="server"></jenzabar:globalizedlinkbutton></td>
+				<td noWrap align="right">
+					<jenzabar:GlobalizedLiteral TextKey="TXT_TERM" id="LitTerm" Runat="server"></jenzabar:GlobalizedLiteral>:</td>
+				<td noWrap><asp:dropdownlist id="ddlTerm" Runat="server" DataValueField="Key" DataTextField="Description"></asp:dropdownlist></td>
+				<td noWrap align="right">
+					<asp:label id="lblDivision" Runat="server"></asp:label></td>
+				<td noWrap colspan="3"><asp:dropdownlist id="ddlDivision" Runat="server" DataValueField="Code" DataTextField="Description"></asp:dropdownlist></td>
+				<td noWrap><jenzabar:GlobalizedButton id="btnSearch" TextKey="TXT_SEARCH" Runat="server"></jenzabar:GlobalizedButton></td>
+				<td><jenzabar:hint id="hntSearch" TextKey="TXT_CS_SEARCH_RESULTS_HINT" runat="server"></jenzabar:hint></td>
+			</tr>
+			<tr>
+				<td colspan="6">
+					<jenzabar:Hint id="hntLoginRequest" runat="server">
+						<jenzabar:GlobalizedLiteral id="litLoginRequest" runat="server"></jenzabar:GlobalizedLiteral>
+						<BR>
+						<jenzabar:GlobalizedLinkButton id="lnkRequestLogin" runat="server" TextKey="TXT_CS_REQUEST_LOGIN_PASSWORD"></jenzabar:GlobalizedLinkButton>
+					</jenzabar:Hint>
+				</td>
+			</tr>
+		</TBODY>
+	</table>
+	<jenzabar:groupedgrid id="dgCourses" runat="server" DataKeyField="ERPCourseKey" RenderTableHeaders="true"
+		ShowHeader="true" CollapseSubItems="true">
+		<EmptyTableTemplate>
+			<jenzabar:GlobalizedLiteral id="glitNoRecords" runat="server" TextKey="TXT_CS_NO_MATCHING_RECORDS"></jenzabar:GlobalizedLiteral>
+		</EmptyTableTemplate>
+		<Columns>
+			<jenzabar:GlobalizedTemplateColumn HeaderTextKey="TXT_ADD" ItemStyle-Width="1%" ItemStyle-VerticalAlign="Top">
+				<ItemTemplate>
+					<asp:CheckBox ID="chkInclude" Runat="server"></asp:CheckBox>
+					<asp:Label ID="lblPublicReg" Runat="server"></asp:Label>
+				</ItemTemplate>
+			</jenzabar:GlobalizedTemplateColumn>
+			<jenzabar:GlobalizedTemplateColumn HeaderTextKey="TXT_COURSE_CODE" ItemStyle-VerticalAlign="Top">
+				<ItemTemplate>
+					<asp:LinkButton id="lnkCourse" CommandName="CourseDetails" Runat="server">
+					<%#DataBinder.Eval(Container.DataItem, "DisplayedCourseCode")%>
+				</asp:LinkButton>
+				</ItemTemplate>
+			</jenzabar:GlobalizedTemplateColumn>
+			<jenzabar:GlobalizedBoundColumn HeaderTextKey="TXT_NAME" DataField="Title" ItemStyle-VerticalAlign="Top"></jenzabar:GlobalizedBoundColumn>
+			<jenzabar:GlobalizedTemplateColumn HeaderTextKey="TXT_FACULTY" ItemStyle-VerticalAlign="Top">
+				<ItemTemplate>
+					<ul>
+						<asp:Repeater DataSource='<%#DataBinder.Eval(Container.DataItem, "FacultyList")%>' ID="rptFaculty" Runat="server">
+							<ItemTemplate>
+								<li>
+									<%#DataBinder.Eval(Container.DataItem, "FacultyName")%>
+								</li>
+							</ItemTemplate>
+						</asp:Repeater>
+					</ul>
+				</ItemTemplate>
+			</jenzabar:GlobalizedTemplateColumn>
+			<jenzabar:GlobalizedTemplateColumn HeaderTextKey="TXT_SEATS_OPEN" ItemStyle-VerticalAlign="Top" ItemStyle-Wrap="False">
+				<ItemTemplate><%# DataBinder.Eval( Container.DataItem, "AvailableSeats" )%>/<%# DataBinder.Eval( Container.DataItem, "TotalSeats" )%></ItemTemplate>
+			</jenzabar:GlobalizedTemplateColumn>
+			<jenzabar:GlobalizedBoundColumn HeaderTextKey="TXT_STATUS" DataField="CourseStatus" ItemStyle-VerticalAlign="Top"></jenzabar:GlobalizedBoundColumn>
+			<jenzabar:GlobalizedTemplateColumn HeaderTextKey="TXT_SCHEDULE" ItemStyle-VerticalAlign="Top">
+				<ItemTemplate>
+					<ul>
+						<asp:Repeater DataSource='<%#DataBinder.Eval(Container.DataItem, "Schedules")%>' ID="rptMeets" Runat="server">
+							<ItemTemplate>
+								<li>
+									<%#DataBinder.Eval(Container.DataItem, "Weekdays")%>
+									&nbsp;<%#DataBinder.Eval(Container.DataItem, "MeetTime")%></li>
+							</ItemTemplate>
+						</asp:Repeater>
+					</ul>
+				</ItemTemplate>
+			</jenzabar:GlobalizedTemplateColumn>
+			<jenzabar:GlobalizedBoundColumn HeaderTextKey="TXT_CS_CREDITS" DataField="CreditHours" ItemStyle-VerticalAlign="Top"></jenzabar:GlobalizedBoundColumn>
+			<jenzabar:GlobalizedBoundColumn HeaderTextKey="TXT_BEGIN_DATE" DataField="FirstBeginDate" ItemStyle-VerticalAlign="Top" />
+			<jenzabar:GlobalizedBoundColumn HeaderTextKey="TXT_END_DATE" DataField="LastEndDate" ItemStyle-VerticalAlign="Top" />
+		</Columns>
+	</jenzabar:groupedgrid>
+	<table width=100%>
+	    <tbody>
+	<tr>
+		<td>
+			<jenzabar:GlobalizedButton ID="btnAddCourse" TextKey="TXT_CS_ADD_COURSES" Runat="server"></jenzabar:GlobalizedButton>
+		</td>
+		</tr>
+		<tr>
+		<td align="right"><jenzabar:LetterNavigator id="ltrNav" runat="server" AutoBind="False"></jenzabar:LetterNavigator></td>
+	</tr>
+	</tbody></table></div>
+</BODY></HTML>

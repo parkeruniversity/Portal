@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<ftstdata>
+<topic name="1098-T Tuition Statement Box" url="1098-T_Tuition_Statement_Box.htm" />
+<topic name="Academic History" url="academic_history.htm" />
+<topic name="Academic Information" url="academic_information.htm" />
+<topic name="Accept/Decline Aid" url="Accept_Decline_Aid.htm" />
+<topic name="Add Corequisite Courses" url="Add_Corequisite_Courses.htm" />
+<topic name="Add/Drop Courses" url="Add_Drop_Courses.htm" />
+<topic name="Add/Edit a Textbook" url="add_edit_a_textbook.htm" />
+<topic name="Add New Authorizations" url="add_new_authorizations.htm" />
+<topic name="Advanced Name Search" url="Advanced_Name_Search.htm" />
+<topic name="Advisee Details" url="Advisee_Details.htm" />
+<topic name="Advisee Roster" url="Advisee_Roster.htm" />
+<topic name="Advisee Roster Advanced Search" url="Advisee_Roster_Advanced_Search.htm" />
+<topic name="Advisor Meetings" url="advisor_meetings.htm" />
+<topic name="Application Administration" url="Application_Administration.htm" />
+<topic name="Award Change Results" url="Award_Change_Results.htm" />
+<topic name="Course Search" url="Basic_Course_Search.htm" />
+<topic name="Class List" url="class_list.htm" />
+<topic name="Class List Options" url="class_list_options.htm" />
+<topic name="Confirm Aid Selections" url="Confirm_Aid_Selections.htm" />
+<topic name="Course and Fee Statement" url="Course_and_Fee_Statement.htm" />
+<topic name="Course Authorization" url="Course_Authorization.htm" />
+<topic name="Course Authorization Course List" url="Course_Authorization_Course_List.htm" />
+<topic name="Course Authorization Details" url="Course_Authorization_Details.htm" />
+<topic name="Course Authorization List" url="course_authorization_list.htm" />
+<topic name="Course Details" url="Course_Details.htm" />
+<topic name="Course Facilities Search" url="course_facilities_search.htm" />
+<topic name="Course History" url="course_history.htm" />
+<topic name="Course Needs" url="course_needs.htm" />
+<topic name="Course Requirements" url="Course_Requirements.htm" />
+<topic name="Course Requisites" url="Course_Requisites.htm" />
+<topic name="Course Schedules" url="course_schedules.htm" />
+<topic name="Course Search Results" url="Course_Search_Results.htm" />
+<topic name="Course Textbooks" url="Course_Textbooks.htm" />
+<topic name="Current Student Grade List" url="Current_Student_Grade_List.htm" />
+<topic name="CX Functionality" url="CX_Functionality.htm" />
+<topic name="default" url="default_1.htm" />
+<topic name="Degree Audit" url="degree_audit.htm" />
+<topic name="Degree Audit Detail" url="Degree_Audit_Detail.htm" />
+<topic name="Degree Audit Summary" url="Degree_Audit_Summary.htm" />
+<topic name="EX Functionality" url="ex_functionality.htm" />
+<topic name="Facility Schedules" url="Facility_Schedules.htm" />
+<topic name="Faculty Course Control" url="Faculty_Course_Control.htm" />
+<topic name="Faculty Overview" url="faculty_overview.htm" />
+<topic name="Faculty Overview" url="Faculty_Overview_for_Help.htm" />
+<topic name="Faculty Schedule" url="Faculty_Schedule.htm" />
+<topic name="Financial Aid Administration" url="Financial_Aid_Administration.htm" />
+<topic name="Financial Aid Awards" url="financial_aid_awards.htm" />
+<topic name="Financial Aid Document Tracking" url="financial_aid_doc_tracking.htm" />
+<topic name="Form Setup Checklist" url="Form_Setup_Checklist.htm" />
+<topic name="forms" url="forms.htm" />
+<topic name="Overview for Faculty for CX" url="getting_started_for_faculty_for_cx_overview.htm" />
+<topic name="Overview for Faculty for TE" url="getting_started_for_faculty_for_te_overview.htm" />
+<topic name="Overview for Faculty for EX" url="getting_started_for_faculty_overview.htm" />
+<topic name="Getting Started Overview" url="Getting_Started_Overview_CX.htm" />
+<topic name="Getting Started Overview" url="getting_started_overview_ex.htm" />
+<topic name="Getting Started Overview" url="Getting_Started_Overview_TE.htm" />
+<topic name="GPA Projection" url="gpa_projection.htm" />
+<topic name="Grade Entry" url="Grade_Entry.htm" />
+<topic name="Grade Entry" url="Grade_Entry_Faculty_Course_Control.htm" />
+<topic name="Grade Entry Setup" url="grade_entry_setup.htm" />
+<topic name="Grade Report" url="grade_report.htm" />
+<topic name="Grading Course List" url="Grading_Course_List.htm" />
+<topic name="Inquiry Administration" url="Inquiry_Administration.htm" />
+<topic name="Major Exploration and What If Scenarios" url="major_exploration.htm" />
+<topic name="Meeting Details" url="Meeting_Details.htm" />
+<topic name="Move Waitlisted to Current" url="Move_Waitlisted_to_Current.htm" />
+<topic name="My 1098-T Info" url="my_1098-t_info.htm" />
+<topic name="My Account Balances" url="My_Account_Balances.htm" />
+<topic name="My Account Info" url="my_account_info.htm" />
+<topic name="New Functionality for CX" url="new_functionality_for_ex.htm" />
+<topic name="New Functionality for EX" url="new_functionality_for_ex_faculty.htm" />
+<topic name="New Functionality for TE" url="new_functionality_for_te_faculty.htm" />
+<topic name="Pay Must Pay Courses" url="Pay_Must_Pay_Courses.htm" />
+<topic name="Pay on My Account" url="Pay_on_My_Account.htm" />
+<topic name="Preference Choices" url="Preference_Choices.htm" />
+<topic name="Public Registration" url="public_registration.htm" />
+<topic name="Residence Info" url="residence_info.htm" />
+<topic name="Rommate Preferences" url="Rommate_Preferences.htm" />
+<topic name="Room &amp; Roomate Preferences" url="room_and_roomate_pref.htm" />
+<topic name="Room Preferences" url="Room_Preferences.htm" />
+<topic name="Search Results" url="Search_Results_(Course_Facilities).htm" />
+<topic name="Set Options (Course Authorization)" url="Set_Options_(Course_Authorization).htm" />
+<topic name="Set Options" url="set_options_(course_facilities_search).htm" />
+<topic name="Setup (Course Authorization)" url="Setup_(Course_Authorization).htm" />
+<topic name="Setup Steps for CX Student" url="Setup_Steps_for_CX.htm" />
+<topic name="Setup Steps for CX Faculty" url="setup_steps_for_cx_faculty.htm" />
+<topic name="Setup Steps for EX Student" url="setup_steps_for_ex.htm" />
+<topic name="Setup Steps for EX Faculty" url="setup_steps_for_ex_faculty.htm" />
+<topic name="Setup Steps for TE Student" url="setup_steps_for_te.htm" />
+<topic name="Setup Steps for TE Faculty" url="setup_steps_for_te_faculty.htm" />
+<topic name="Step 1: Define Form" url="Step_1__Define_Form.htm" />
+<topic name="Step 2: Questions and Headers" url="Step_2__Assign_Questions_and_Headers_to_Form.htm" />
+<topic name="Step 3: Form Messages" url="Step_3__Assign_form_instructions,_successful_and_unsuccessful_submission_messages.htm" />
+<topic name="Step 4: Form Email Templates" url="Step_4__Assign_form_successful_and_unsuccessful_submission_email_templates.htm" />
+<topic name="Step 5: Groups" url="Step_5__Assign_form_to_a_group.htm" />
+<topic name="Step 6: Submission data" url="Step_6__Add_form_required_submission_data.htm" />
+<topic name="Student Overview" url="student_overview.htm" />
+<topic name="Student Overview" url="Student_Overview_for_Help.htm" />
+<topic name="Student Schedule" url="student_schedule.htm" />
+<topic name="Student Search Results" url="Student_Search_Results.htm" />
+<topic name="Student Survey" url="student_survey.htm" />
+<topic name="TE Functionality" url="TE_Functionality.htm" />
+<topic name="Textbook Entry" url="Textbook_Entry.htm" />
+<topic name="Textbook Search" url="Textbook_Search.htm" />
+<topic name="Unofficial Transcripts" url="unofficial_transcripts.htm" />
+<topic name="Unsuccessful Save" url="Unsuccessful_Save.htm" />
+<topic name="Update Student Grades" url="update_student_grades.htm" />
+<topic name="Using tags in Emails" url="using_tags_in_emails.htm" />
+<topic name="Vehicle Info" url="vehicle_info.htm" />
+<topic name="View Transactions" url="View_Transactions.htm" />
+<topic name="Waitlisted Course" url="Waitlisted_Course.htm" />
+
+</ftstdata>  

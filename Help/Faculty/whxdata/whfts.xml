@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<fts>
+<chunkinfo url="whfwdata0.xml" first="0" last="awar"/>
+<chunkinfo url="whfwdata1.xml" first="award" last="copi"/>
+<chunkinfo url="whfwdata2.xml" first="copy" last="ensur"/>
+<chunkinfo url="whfwdata3.xml" first="ent" last="html"/>
+<chunkinfo url="whfwdata4.xml" first="hyperlink" last="mothercity"/>
+<chunkinfo url="whfwdata5.xml" first="mothercountry" last="prioritiz"/>
+<chunkinfo url="whfwdata6.xml" first="priority" last="section_mstr_web_reg"/>
+<chunkinfo url="whfwdata7.xml" first="security" last="txt"/>
+<chunkinfo url="whfwdata8.xml" first="typ" last="zip"/>
+
+<tchunkinfo first="0" last="110" url="whftdata0.xml" />
+
+</fts>

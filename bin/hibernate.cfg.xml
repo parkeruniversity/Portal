@@ -1,0 +1,13 @@
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+	<session-factory>
+		<property name="dialect">NHibernate.Dialect.MsSql2008Dialect</property>
+		<property name="adonet.batch_size">500</property>
+		<property name="proxyfactory.factory_class">NHibernate.Bytecode.DefaultProxyFactoryFactory, NHibernate</property>
+		<mapping assembly="Jenzabar.Portal.Framework"/>
+		<mapping assembly="Jenzabar.Portal.Framework.Web"/>
+		<mapping assembly="LMS"/>
+		<mapping assembly="CRM"/>
+		<mapping assembly="Jenzabar.ICS"/>
+		<mapping assembly="FRM"/>
+		<mapping assembly="Jenzabar.ContainedForm"/><mapping assembly="Jenzabar.ContainedForm.EX"/><mapping assembly="Jenzabar.Workflow"/><mapping assembly="Portlet.AdminPDFReports"/></session-factory>
+</hibernate-configuration>

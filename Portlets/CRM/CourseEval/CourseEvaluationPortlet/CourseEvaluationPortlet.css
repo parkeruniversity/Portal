@@ -1,0 +1,45 @@
+.CourseEvaluation .ceSurveyBuilderHeader
+{
+	background-color: #ccccff;
+}
+
+.CourseEvaluation .ceSurveyBuilderTable
+{
+	background-color: #ccccff;
+}
+
+.CourseEvaluation .ceEditSectionTable
+{
+	background-color: #cccccc;
+}
+
+.CourseEvaluation .ceReportTableHeader
+{
+	background-color: #ccccff;
+}
+
+.CourseEvaluation .ceReportTableFooter
+{
+	background-color: #ccccff;
+}
+
+.CourseEvaluation .ceReportTableAltRow
+{
+	background-color: #efefef;
+}
+
+.CourseEvaluation .ceErrorMessage
+{
+	color: red;
+}
+
+.CourseEvaluation .ceWarningMessage
+{
+	color: red;
+}
+
+.CourseEvaluation .ceTextAreaNote
+{
+	color: blue;
+	font-size: x-small;
+}

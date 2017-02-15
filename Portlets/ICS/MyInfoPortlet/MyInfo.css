@@ -1,0 +1,42 @@
+
+/* overriding certain styles from the application Style css version of this class */
+.contentBox {
+    border: none;
+    margin-top: 10px;
+}
+
+#PersonalInformation h4 {
+    margin-bottom: 0px;
+}
+
+.groupedGrid th {
+    text-align: left;
+}
+
+.communication-preferences {
+    padding-top: 15px;
+}
+
+.communication-preferences .email-field-set {
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.communication-preferences .email-label {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.communication-preferences .email-field {
+    padding-left: 50px;
+    float: right;
+}
+
+.communication-preferences .save-cancel-buttons-container {
+    padding-left: 15px;
+}
+
+.communication-preferences .button-container {
+    padding-right: 15px;
+    display: inline-block;
+}

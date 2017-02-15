@@ -1,0 +1,90 @@
+﻿<div class='rg-wrapper'>
+    <div class='rg-edit' style="display: none;">
+        <div class="rg-create-header inactiveItem" style="display: none;">
+            {{{g11n.createResource}}}
+        </div>
+        <div class="rg-imageContainer">
+            <span class="inactiveItem">{{{g11n.resourceImg}}}</span>
+            <img class="rg-img-placeholder activeInput"></img>
+            <a href="#" id="lnkRgImg" class="activeItem">{{{g11n.changeImg}}}</a>
+            <div class="inactiveItem">{{{g11n.resourceImgInfo}}}</div>
+        </div>
+        <div class='rg-content'>
+            <button type="button" class='cancelAction' id="btnDeleteRG" style="float:right;display: none;"><i class='fa fa-dot-circle-o'></i> {{g11n.deleteResource}}</button>
+            <div class='rg-input-container resourceNameWrapper'>
+                <div class="inputDescrip">{{{g11n.whatResource}}}</div>
+                <input id="txtResourceName" type="text" class="activeInput" />
+            </div>
+            <div class="rg-input-container">
+                <div class="inputDescrip">{{{g11n.whereResource}}}</div>
+                <input id="txtResourceLocation" type="text" class="activeInput" />
+            </div>
+            <div class="rg-input-container">
+                <div>
+                    <span class="inputDescrip">{{{g11n.resourceManager}}}</span>
+                    <span id="managers"></span>
+                </div>
+                <div>
+                    <span class="inputDescrip">{{{g11n.hosts}}}</span>
+                    <span id="hosts" class='rg-host-holder'></span>
+                </div>
+            </div>
+            <div class="rg-input-container">
+                <div class="inputDescrip">{{{g11n.descripResource}}}</div>
+                <textarea id="txtDescrip" ></textarea>
+            </div>
+        </div>
+        <div class='apptDetailAction'>
+            <span class='requiredFilled inactiveItem'>{{{g11n.requiredFilled}}}</span>
+            <button type="button" class="activeAction" id="saveResource">{{{g11n.saveChanges}}}</button>
+            <a href='' class='activeItem' id="cancelResource">{{{g11n.noThanks}}}</a>
+        </div>
+    </div>
+    <div class='rg-render' style="display: none;">
+        <div class="rg-imageContainer">
+            <img class='rg-img'/>
+        </div>
+        <div class="rg-content">
+            <button type="button" id="btnEditRG" class="activeAction" style="float:right;display: none;"><i class='fa fa-pencil'></i>  {{{g11n.editDetails}}}</button>
+            <div class='rg-spacer'>
+                <span class="rg-name"></span>
+                <span class='rg-location'></span>
+            </div>
+            <div class="rg-spacer rg-managers-hosts">
+                <div>
+                    <span class="inputDescrip">{{{g11n.resourceManager}}}</span>
+                    <span id="managersRender"></span>
+                </div>
+                <div>
+                    <span class="inputDescrip">{{{g11n.hosts}}}</span>
+                    <span id="hostsRender"></span>
+                </div>
+                <div class='rg-manage-users'>
+                    <a href="#" id="manageHosts" class="activeItem"><i class="fa fa-group"></i> {{{g11n.editResourceUsers}}}</a>
+                </div>
+            </div>
+            <div class="rg-spacer rg-description"></div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class='confirmModal' style="display: none;">
+        <div class='confirmMesg'></div>
+        <div class='confirmInfo'></div>
+        <div class='apptDetailAction'>
+            <button type="button" class="activeAction"></button>
+            <a href='' class='activeItem'></a>
+        </div>
+    </div>
+    <div class="uploadModal" id="uploadImg" style="display:none;">
+        <form id="uploadImgForm" action="rpc/appointmentsSettings/AddTempImage" enctype="multipart/form-data" method="POST">
+            <div class='uploadInfo'>{{{g11n.uploadImgInfo}}}</div>
+            <div>
+                <span>{{{g11n.img}}}:</span> <input name="fileUpload" type="file" />
+            </div>
+            <div class='apptDetailAction'>
+                <button class="activeAction"><i class='fa fa-upload'></i> {{{g11n.uploadImg}}}</button>
+                <a href='' class='activeItem'>{{{g11n.noThanks}}}</a>
+            </div>
+        </form>
+    </div>
+</div>

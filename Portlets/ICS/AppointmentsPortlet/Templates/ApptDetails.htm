@@ -1,0 +1,88 @@
+﻿<div id="apptDetailPlugin" class="apptDetailPlugin" style="display:none;">
+    <div class="apptDetails">
+        <button class="editAppt activeAction activeActionInverse" style="display: none;"><i class='fa fa-pencil activeItem'></i> {{{g11n.editThisAppt}}}</button>
+        <img src='' class='userPhoto' />
+        <div class="apptOwnerWrapper">
+            <a href='' class='apptOwnerSchedule activeItem'></a>
+            <span class="apptOwnerName inactiveItem"></span>
+            <span class='apptTitle'></span>
+            <span class='apptDateLocation'></span>
+            &nbsp;<a href="#" class="activeItem apptIcs"><i class="fa fa-arrow-down"></i>{{{g11n.downloadIcs}}}</a>
+            <span class='apptOver'></span>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <div class="apptDetailContent">
+        <div class="apptDescription"></div>
+        <div id="detailLoading" style="text-align: center;"></div>
+        <div class="apptAttendees" style="display: none;">
+            <span class="whoThere">{{{g11n.whoAttending}}}</span>
+            <ul class='attendeesWrapper'></ul>
+        </div>
+        <div class="apptHostAttendees" style="display: none;">
+            <div class="notesWrapper">
+                <div>
+                    <span class='disTitle'>{{{g11n.yourNotes}}}</span>
+                    <span class='disInfo'>{{{g11n.seenByYou}}}</span>
+                </div>
+                <textarea id="txtNotes" class="activeInput" maxlength="5000"></textarea>
+                <div class='apptDetailAction'>
+                    <button id="saveNotes" class="activeAction"><i class="fa fa-check pull-left"></i>{{{g11n.saveNotes}}}</button>
+                    <button id="sendEmail" class="activeAction activeActionInverse"><i class="fa fa-envelope pull-left"></i>{{g11n.emailNotes}}</button>
+                </div>
+            </div>
+            <span class='disTitle'>{{{g11n.attendees}}}</span>
+            <ul class="hostAttendees"></ul>
+            <a href="" id="addAttendees" class="activeItem"><i class='fa fa-user'></i>{{{g11n.addAttendees}}}</a>
+    </div>
+        <div class='apptDiscussion'>
+            <div>
+                <span class='disTitle'>{{{g11n.discussion}}}</span>
+                <span class='disInfo'>{{{g11n.discussionInfo}}}</span>
+            </div>
+            <div class="discussionWrapper" style="display: none;"></div>
+            <div class="apptMainAction">
+                <img src='' class='discussionPhoto' />
+                <textarea id="txtDiscussion" class="activeInput" maxlength='1000'></textarea>
+                <div class='apptDetailAction'>
+                    <button id="postComment" class="activeAction"><i class="fa fa-comment pull-left"></i>{{{g11n.postComment}}}</button>
+                    <button id="postFile" class="activeAction activeActionInverse"><i class="fa fa-file pull-left"></i>{{g11n.postFile}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="addAttendeeChooser" style="display: none">
+        <div id="attPeopleChooser"></div>
+        <div class='apptDetailAction'>
+            <button id="savePeople" class="activeAction">{{{g11n.savePeople}}}</button>
+            <a id="cancelPeople" href='' class='activeItem'>{{{g11n.noThanks}}}</a>
+        </div>
+    </div>
+    <div class="editApptWrapper" style="display: none;"></div>
+    <div class='confirmModal' style="display: none;">
+        <div class='confirmMesg'></div>
+        <div class='confirmInfo'></div>
+        <div class='apptDetailAction'>
+            <button class="activeAction"></button>
+            <a href='' class='activeItem'></a>
+        </div>
+    </div>
+    <div class="uploadModal" id="uploadFileComment" style="display:none;">
+        <form id="uploadFileForm" action="rpc/appointmentsDetail/AddFile" enctype="multipart/form-data" method="POST">
+            <div class='uploadInfo'></div>
+            <div>
+                <span>{{{g11n.file}}}:</span> <input name="fileUpload" type="file" />
+            </div>
+            <div>
+                <span>{{{g11n.comment}}}:</span> <input name="comment" type="text" autocomplete="off" class="activeInput" maxlength="1000" />
+            </div>
+            <input name="apptId" type="hidden"/>
+            <input name="commentId" type="hidden"/>
+            <input name="portletId" type="hidden" />
+            <div class='apptDetailAction'>
+                <button class="activeAction"></button>
+                <a href='' class='activeItem'></a>
+            </div>
+        </form>
+    </div>
+</div>

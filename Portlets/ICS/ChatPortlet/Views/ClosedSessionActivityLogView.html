@@ -1,0 +1,42 @@
+﻿<html>
+<head>
+    <style>
+        body {
+            font-family: "Open Sans";
+        }
+         .sessionHeader {
+             font-weight: bold;
+             font-size: 18px;
+             margin-bottom: 20px;
+         }
+        .sessionHeader span {
+            display: block;
+        }
+        .sessionActivityLog {
+              clear: both;
+            font-size: 14px;
+        }
+        .sessionActivityLog.session-Info{
+            font-weight: bold;
+          
+        }
+        .sessionActivityLog span.left {
+                float: left;
+            }
+    </style>
+</head>
+<body>
+
+<div class="sessionHeader">
+        <span>{{session.sessionName}}</span>
+        <span>Date: {{session.dateCreated}}</span>  
+        <span>Start time: {{session.startTime}}</span>
+        <span>End time: {{session.endTime}}</span>
+</div>
+{{#each session.activities}}
+    {{> ActivityLogView}}
+    {{/each}}
+</body>
+</html>
+
+

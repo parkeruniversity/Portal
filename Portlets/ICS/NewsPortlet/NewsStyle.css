@@ -1,0 +1,703 @@
+
+/******   News Subscribe ******/
+div.newsSubscribe
+{
+	padding-left:20px;
+}
+.newsSubscribe div
+{
+	clear:both;
+}
+
+.newsSubscribe span.subInstruction
+{
+	font-style:italic;
+}
+
+.newsSubscribe div.subscribeOptions
+{
+	margin-top:20px;
+}
+.newsSubscribe .subscribeOptions span, .subscribeOptions div
+{
+	float:left;
+	clear:none;
+}
+
+.newsSubscribe .subscribeOptions .subCheckMesg
+{
+	clear:both;
+	margin-top:10px;
+}
+
+.newsSubscribe .subscribeOptions span
+{
+	display:block;
+	height:40px;
+}
+
+.newsSubscribe .subscribeOptions div
+{
+	margin-left:10px;
+}
+
+.newsSubscribe div.rssContainer
+{
+	float:left;
+	border:1px solid #AAAAAA;
+	min-width:900px;
+	background-color:#EFEFEF;
+	margin-bottom:40px;
+}
+
+.newsSubscribe div.rssContainer div.rssIconContainer
+{
+	float:left;
+	height:45px;
+	width:25px;
+	padding:5px 0px 0px 10px; 
+	border-right:1px solid #AAAAAA;
+	background-color:#DDDDDD
+}
+
+.newsSubscribe div.rssContainer div.rssLinkContainer
+{
+	float:left;
+	clear:none;
+	padding:5px 0px 0px 10px;
+	line-height:1.4em;
+}
+
+.newsSubscribe div.mySubInfo
+{
+	float:none;
+	padding-left:10px;
+	padding-top:5px;
+	font-style:italic;
+}
+
+
+/*****   Default  ****/
+div.postItem
+{
+
+	padding-left:7px;
+	padding-bottom:10px;
+	background-color:White;
+}
+
+div.postWrapper
+{
+	border-bottom:dotted black 1px; 
+	padding-bottom:10px;
+	float:left;	
+	clear:left;
+	width:100%;
+}
+
+div.postItem.noBorder 
+{
+	border:0px;
+}
+
+.postItem div.postTitle
+{
+	margin-bottom:3px;
+}
+
+.postItem div.postTitle img, .postItem div.postTitle input[type="image"]
+{
+	margin:0px 5px;
+}
+
+.postItem .postTitle a, .postItem .postTitle a:link, .postItem .postTitle a:visited ,  .postItem .postTitle span
+{
+	font-weight:bold;
+	color:Black;
+}
+
+.postItem .postTitle a.postPriority, .postItem .postTitle a.postPriority:link, .postItem .postTitle a.postPriority:visited, 
+.postItem .postTitle span.postPriority, #newsContent .newsPriority span.postPriority
+{
+	color:Red;
+}
+
+.postItem .postInfo
+{
+	font-style:italic;
+	font-size:85%;
+}
+
+.postItem div.postFrom
+{
+	padding:5px 0px;
+	font-size:85%;
+}
+
+.postItem img.imgLeft
+{
+	float:left;
+	padding-right:7px;
+}
+
+.postItem img.imgRight
+{
+	float:right;
+	padding-left:7px;
+}
+
+.postItem .postDiscuss
+{
+	font-weight:bold;
+}
+
+.postItem .postDiscuss .readMore
+{
+	font-weight:normal;
+}
+
+.postItem .postDiscussLink, .postComment
+{
+	text-decoration:none;
+	color:#aaaaaa;
+}
+
+.postItem a.postDiscussLink:hover
+{
+	color:#0000C4;
+}
+
+.postItem .postDiscussLink img
+{
+	padding-right:5px;
+}
+
+.postItem .postContent
+{
+	margin:10px 0px 10px 0px;
+}
+
+.postItem .postContent .additionalFiles
+{
+	margin:5px;
+}
+
+.postItem .postContent .additionalFiles a
+{
+	margin-right:5px;
+}
+
+.postItem div.postLinks
+{
+	clear:both;
+}
+
+.NewsPortlet .commentInfo, .NewsPortlet .addComment
+{
+	margin-top:20px;
+}
+
+.NewsPortlet .commentBox
+{
+	margin:8px 0px;
+}
+
+.NewsPortlet div.newsAdminSection, .NewsPortlet div.newsAdminSection table
+{
+	margin:0px;
+}
+
+.NewsPortlet div.newsAdminSection table td
+{
+	text-align:left;
+	vertical-align:middle;
+}
+
+.NewsPortlet .blogFontSize
+{
+    font-size:85%
+}
+
+.NewsPortlet div.viewMySubs
+{
+    margin-bottom:10px;
+}
+
+/*  ADD EDIT Post */
+.NewsPortlet #newsContent > div, .NewsPortlet #newsOptions div
+{
+	margin-top: 15px;
+	clear: left;
+}
+
+.NewsPortlet .textEditor {
+    float: left;
+}
+
+.NewsPortlet #newsContent div.newsImageUpload input
+{
+	font-size:0.85em;
+}
+
+.NewsPortlet div.principalSelector, .NewsPortlet #newsOptions div.principalSelector
+{
+	clear:none;
+	display:inline;
+}
+
+.NewsPortlet div.roleSelector
+{
+	width:800px;
+}
+
+.NewsPortlet div.principalSelector table, .NewsPortlet #newsOptions div.principalSelector table
+{
+	width:700px;
+}
+
+.NewsPortlet div.selComments div.principalSelector table
+{
+	width:600px;
+}
+
+/*Date selector*/
+.NewsPortlet #newsOptions div.dateRangeEdit div.val label
+{
+    display:inline;
+    float:none;
+    padding-right:2px;
+}
+
+
+.NewsPortlet #newsOptions div.val, .NewsPortlet #newsOptions div.opt
+{
+    clear:none;
+    margin:0px 0px 5px 0px;
+}
+
+
+.NewsPortlet #newsOptions div.startSpecific, .NewsPortlet #newsOptions div.endSpecific
+{
+    display:inline;
+}
+
+.NewsPortlet #newsOptions div.cal span
+{
+    padding-right:20px;
+}
+
+.NewsPortlet #newsContent .contentTitle, .NewsPortlet #newsOptions .contentTitle, .NewsPortlet #newsOptions div.dateRangeEdit label
+{
+	display:block;
+	float:left;
+	width:85px;
+	text-align:right;
+	padding-right:15px;
+	height:50px;
+}
+.NewsPortlet #newsContent .newsHeadline .contentTitle
+{
+	height:5px;
+}
+
+.NewsPortlet #newsContent td.imagesTitle
+{
+	width:85px;
+	padding:0px;
+	text-align:right;
+	vertical-align:top;
+}
+
+.NewsPortlet #newsContent .newsHeadline input[type="text"] 
+{
+	width:500px;
+}
+
+.NewsPortlet #newsContent div.newsPriority
+{
+	margin:3px 0px 25px 100px;
+}
+
+.NewsPortlet #newsContent div.newsPriority label
+{
+	font-weight:bold;
+}
+
+.NewsPortlet #newsContent div.newsPriority span
+{
+	padding-right:10px;
+}
+
+.NewsPortlet #newsContent .multiUp
+{
+	margin:0px;
+}
+
+.NewsPortlet table.newsAction
+{
+	margin:0px;
+	width: 100%; 
+}
+
+.NewsPortlet table.newsActionBorderTop
+{
+	border-top:1px solid #B2B2B2;
+	margin-top:5px;
+}
+
+.NewsPortlet table.newsActionBorderSideBottom
+{
+	margin-top:-10px;
+	border-right:1px solid #B2B2B2;
+	border-left:1px solid #B2B2B2;
+	border-bottom:1px solid #B2B2B2;
+}
+
+.NewsPortlet table.newsAction td
+{
+	background-color:#EAEAEA;
+}
+
+.NewsPortlet table.newsAction td.newsActionEdit
+{
+	text-align:center;
+	width:170px;
+	border-right:1px solid #B2B2B2;
+}
+
+.NewsPortlet table.newsAction td.newsActionSave
+{
+	text-align:center;
+	background:#D6E2FB;
+	width:100px;
+	border-right:1px solid #B2B2B2;
+}
+
+.NewsPortlet table.newsActionBorderTop  td.newsActionEdit
+{
+	border:0px;
+}
+
+.NewsPortlet #newsContent div.newsValidator
+{
+	margin-left:95px;
+}
+.NewsPortlet #newsContent div.newsValidator ul
+{
+	border:0px;
+}
+
+.NewsPortlet #newsContent div.newsValidator ul li
+{
+	background: #FCDFFF;
+	font-weight:bold;
+	border:0px;
+}
+
+
+/*************   Thumbnail Image boxes *****************/
+.NewsPortlet #newsContent div.feedbackError
+{
+	margin:0px 0px 10px 0px;
+}
+.NewsPortlet #newsContent div#swfu_container,
+.NewsPortlet #newsContent div#swfu_container .howTo,
+.NewsPortlet #newsContent div#swfu_container #swfu_div
+{
+	margin:0;
+	clear:none;
+}
+
+.NewsPortlet #newsContent div#action
+{
+	border:1px solid black;
+	background-color:#EAEAEA;
+	margin-top:5px;
+	padding:1px;
+	width:71px;
+}
+.NewsPortlet  #newsContent div#action a
+{
+	margin-left:15px;
+	border-width:0px;
+}
+
+.NewsPortlet #newsContent div#imgContainer
+{
+	float:left;
+	clear:none;
+	margin:2px;
+}
+
+    
+.NewsPortlet #newsContent div.thumbnailImages
+{
+	clear:none;
+	margin:2px 0px 2px 0px;
+}
+
+.NewsPortlet #newsContent div#imgContainer input
+{
+	float:left;
+	margin-right:5px;
+}
+
+.NewsPortlet #newsContent div#thumbnails
+{
+	clear:none;
+	margin-top:5px;
+}
+
+
+/*  PREVIEW  */
+.NewsPortlet #newsPreview
+{
+	border:1px solid #B2B2B2;
+}
+.NewsPortlet #newsPreview h4
+{
+	margin:0px;
+	border-top:1px solid #B2B2B2;
+	border-bottom:1px solid #B2B2B2;
+}
+.NewsPortlet #newsPreview .previewItem
+{
+	border:0px;
+	padding:10px;
+	float:none;
+	width:98%;
+}
+
+.NewsPortlet #newsPreview .previewUnderline
+{
+	text-decoration:underline;
+}
+
+
+.NewsPortlet #newsPreview a.newsEveryone
+{
+	font-weight:bold;
+	color:#006633;
+}
+
+.NewsPortlet #newsPreview a.newsRestricted
+{
+	font-weight:bold;
+}
+
+
+/*   SETUP  */
+
+.NewsPortlet .newsSetup .setupInfo
+{
+	font-style:italic;
+}
+
+.NewsPortlet .newsSetup div.section
+{
+	float:left;
+	clear:left;
+	margin:15px 10px 0px 10px;
+	padding-right:20px;
+	width:95%;
+}
+
+.NewsPortlet .newsSetup div.sectionTop
+{
+	margin-top:0px;
+}
+
+.NewsPortlet .newsSetup div.section h5
+{
+	margin-top:3px;
+}
+
+.NewsPortlet .newsSetup div.sectionContent
+{
+	margin-left:8px;
+}
+
+.NewsPortlet .newsSetup div.sectionContent div.selection
+{
+	margin:10px 0px;
+	clear:left;
+}
+
+.NewsPortlet .newsSetup div.sectionContent div.selection span
+{
+	display:block;
+	float:left;
+	height:35px;
+	padding-right:15px;
+	text-align:right;
+	text-align:right;
+	width:80px;
+}
+
+.NewsPortlet .newsSetup div.sectionContent div.selection.selComments span
+{
+	width:170px;
+}
+
+.NewsPortlet .newsSetup div.sectionContent div.itemList
+{
+	margin-top:15px;
+}
+.NewsPortlet .newsSetup div.sectionContent .itemList div
+{
+	float:left;
+	width:130px;
+	margin-left:10px;
+}
+
+.NewsPortlet .newsSetup div.sectionContent div.sectionRSS
+{
+	margin:10px 0px 0px 20px;
+}
+
+.NewsPortlet .newsSetup div.sectionContent div.sectionRSS span
+{
+	display:block;
+	float:left;
+	margin-right:15px;
+	vertical-align:bottom;
+}
+
+.NewsPortlet .newsSetup div.displayCount
+{
+    clear:left;
+    float:left;
+    margin-top:10px;
+}
+
+/*   Archive */
+.NewsPortlet .newsArchive h4
+{
+	margin-bottom:0px;
+}
+
+.NewsPortlet .newsArchiveItems div.mySubscriptions
+{
+	margin-bottom:15px;
+}
+
+
+.NewsPortlet .newsArchive div.postItem
+{
+	width:inherit;
+}
+
+.NewsPortlet .newsArchive div.newsArchiveSideBar, .NewsPortlet .newsArchive div.newsArchiveItems
+{
+	padding:10px;
+}
+
+.NewsPortlet .newsArchive td.sideBarColor
+{
+	background-color:#EFEFEF;
+	vertical-align:top;
+	width:160px;
+}
+
+.NewsPortlet .newsArchive div.newsArchiveSideBar ul
+{
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.NewsPortlet .newsArchive div.newsArchiveSideBar a.selectedMonth
+{
+	font-weight:bold;
+	color:Black;
+	text-decoration:none;
+}
+
+.NewsPortlet .newsArchive div.newsArchiveSideBar a.inactive
+{
+	font-style:italic;
+}
+
+/* Edit Subscription */
+div.newsEditSubscription
+{
+	margin-left:30px;
+	margin-top:30px;
+}
+.newsEditSubscription div
+{
+	clear:both;
+}
+.newsEditSubscription span
+{
+	display:block;
+	float:left;
+	width:150px;
+	text-align:left;
+	height:45px;
+}
+
+.newsEditSubscription input[type="text"]
+{
+	width:225px;
+	margin-right:10px;
+}
+
+.newsEditSubscription .subActions div
+{
+	float:left;
+	clear:none;
+}
+
+.newsEditSubscription .subActions div.subRemove
+{
+	margin-left:50px;
+}
+
+a.subRemoveLink, a.subRemoveLink:link,a.subRemoveLink:visited{
+	color:#663300
+}
+
+/* My Subscription */
+div.mySubscriptions
+{
+	border:1px solid #AAAAAA;
+}
+.pSection .mySubscriptions div.hint
+{
+	margin:0px;
+}
+
+div.mySubTitle
+{
+	background-color:#DDDDDD;
+	padding:5px;
+}
+
+div.mySubTitle span
+{
+	font-weight:bold;
+}
+
+div.mySubSelection select
+{
+	width:250px;
+}
+
+div.mySubSelection, div.mySubActions
+{
+	float:left;
+	margin-right:15px;
+}
+
+div.mySubActions div
+{
+	float:left;
+	clear:both;
+}
+
+div.mySubActions div.subActionIcon
+{
+	width:23px;
+	height:18px;
+}
+

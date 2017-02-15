@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>Inline Loading Demo</title>
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../UI/Common/Scripts/Framework.js"></script>
+	<link href="../../UI/Common/Styles/siteStyle.css" rel="stylesheet" />
+
+	<script type="text/javascript">
+		$(function () {
+			$('#normalLoadingButton').click(function () {
+
+				var loadingAnimation = $(this).inlineLoading();
+				loadingAnimation.start();
+
+				setTimeout(function () {
+					loadingAnimation.stop();
+
+					alert('ALL DONE');
+				}, 3000);
+			});
+
+			$('#quickLoadingButton').click(function () {
+
+				var loadingAnimation = $(this).inlineLoading();
+				loadingAnimation.start();
+
+				setTimeout(function () {
+					loadingAnimation.stop();
+
+					alert('ALL DONE');
+				}, 150);
+			});
+		});
+	</script>
+	
+	<style>
+		body {
+			padding: 15px;
+		}
+		hr {
+			margin-top: 20px;
+		}
+		pre {
+			font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+			font-size: 12px;
+			background: #f3f3f7;
+			border: 1px solid #dedee3;
+			padding: 11px;
+			line-height: 1.3em;
+			margin-bottom: 22px;
+			overflow: auto;
+		}
+	</style>
+</head>
+
+<body>
+	<h3>Inline Loading Demo</h3>
+	<hr />
+	<p>This button will pretend to fire off a process that takes <strong>a few seconds.</strong></p>
+	<button id="normalLoadingButton" type="button">Click me</button>
+	<hr />
+	<p>This button will pretend to fire off a process that takes <strong>a fraction of a second.</strong></p>
+	<button id="quickLoadingButton" type="button">Click me</button>
+	<hr />
+	<p>Here's the code:</p>
+
+<pre>
+$('#normalLoadingButton').click(function () {
+
+	var loadingAnimation = $(this).inlineLoading();
+	loadingAnimation.start();
+
+	setTimeout(function () {
+		loadingAnimation.stop();
+
+		alert('ALL DONE');
+	}, 4000);
+});</pre>
+
+</body>
+</html>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Jenzabar.Workflow" namespace="Jenzabar.Workflow" default-lazy="true" auto-import="false">
+  <class name="Jenzabar.Workflow.Entities.Track" table="WF_Track">
+    <id name="TrackID">
+      <generator class="guid"/>
+    </id>
+    <property name="Name" type="string"/>
+    <property name="Description" type="string"/>
+    <property name="IsPublic" type="bool"/>
+    <property name="FileStorePath" />
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="Owner" column="OwnerID"></many-to-one>
+    <bag name="Stages" cascade="all-delete-orphan" inverse="true">
+      <key column="TrackID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Stage" />
+    </bag>
+    <bag name="DataPoints" cascade="all-delete-orphan" lazy="false" inverse="true">
+      <key column="TrackID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.DataPoint" />
+    </bag>
+    <bag name="Documents" cascade="all-delete-orphan" inverse="true">
+      <key column="TrackID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Document"/>
+    </bag>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.DataPoint" table="WF_DataPoints">
+    <id name="DataPointID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Track" name="Parent" column="TrackID"></many-to-one>
+    <property name="TagName" type="string"/>
+    <property name="Description" type="string"/>
+    <property name="ShowInGrid" type="bool"/>
+    <bag name="DataPointMappings" cascade="all-delete-orphan" lazy="true" inverse="true">
+      <key column="DataPointID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.WFDataPointMapping"/>
+    </bag>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.DataPointValues" table="WF_DataPointValues">
+    <id name="DataPointValueID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Document" name="ParentDocument" column="DocumentID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.DataPoint" name="ParentDataPoint" column="DataPointID"></many-to-one>
+    <property name="Value" type="string"/>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Stage" table="WF_Stage">
+    <id name="StageID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one class="Jenzabar.Workflow.Entities.Track" name="Parent" column="TrackID"></many-to-one>
+    <property name="Name" type="string"/>
+    <property name="Description" type="string"/>
+    <property name="OrderNum" type="int"/>
+    <property name="ExecuteMapping" type="bool"/>
+    <property name="NumRequiredResponses" type="int"/>
+    <property name="LogEmailsToAudit" />
+    <bag name="Approvers" cascade="all-delete-orphan">
+      <key column="StageID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Approver" />
+    </bag>
+    <bag name="Procedures" cascade="all-delete-orphan" inverse="true">
+      <key column="StageID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.StoredProcedure" />
+    </bag>
+    <bag name="Emails" cascade="all-delete-orphan" inverse="true">
+      <key column="StageID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Email" />
+    </bag>
+    <bag name="Tasks" cascade="all-delete-orphan" inverse="true">
+      <key column="StageID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Task" />
+    </bag>
+    <bag name="Rules" cascade="all-delete-orphan" inverse="true">
+      <key column="StageID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Rule" />
+    </bag>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Task" table="WF_Task">
+    <id name="TaskID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one class="Jenzabar.Workflow.Entities.Stage" name="Stage" column="StageID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Approver" name="Approver" column="UserID"></many-to-one>
+    <property name="Description" type="string"/>
+    <property name="OrderNum" type="int"/>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Approver" table="WF_Approver">
+    <id name="ApproverID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one class="Jenzabar.Workflow.Entities.Stage" name="Parent" column="StageID"></many-to-one>
+    <property name="CanEdit" type="bool"/>
+    <property name="Required" type="bool"/>
+    <property name="CanReroute" type="bool"/>
+    <property name="IsDynamic" type="bool"/>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.DynamicApprover" name="DynamicApprover" column="QueryID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="User" column="UserID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Approver" name="AlternateFor" column="AlternateForID"></many-to-one>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.DynamicApprover" table="WF_DynamicApprover">
+    <id name="QueryID">
+      <generator class="guid"/>
+    </id>
+    <property name="Title" type="string"/>
+    <property name="Query" type="string"/>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Database" name="Database" column="DatabaseID"></many-to-one>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.DocumentDefinition" table="WF_DocumentDefinition">
+    <id name="DocumentDefID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Track" name="Track" column="TrackID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Database" name="Database" column="DatabaseID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="Owner" column="OwnerID"></many-to-one>
+    <property name="PortletID" type="guid"/>
+    <property name="Name" type="string"/>
+    <property name="Description" type="string"/>
+    <property name="StartDate" type="DateTime"/>
+    <property name="EndDate" type="DateTime"/>
+    <property name="AllowTrackChoice" type="bool"/>
+    <property name="ReportType" type="string"/>
+    <property name="Query" type="string"/>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Document" table="WF_Document">
+    <id name="DocumentID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Track" name="SubmittedToTrack" column="TrackID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Stage" name="CurrentStage" column="CurrentStageID"></many-to-one>
+    <many-to-one cascade="all-delete-orphan" class="Jenzabar.Workflow.Entities.Approver" name="AssignedTo" column="AssignToID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.DocumentDefinition" name="DocumentDef" column="DocumentDefID"></many-to-one>
+    <property name="AssignedToID" column="AssignToUserID" type="Guid"/>
+    <property name="CurrentStep" type="int"/>
+    <property name="AccessPath" type="string"/>
+    <property name="FilePath" type="string"/>
+    <property name="FileType" type="string"/>
+    <property name="SubmittedDate" type="DateTime"/>
+    <property name="SubmittedByEmail" type="string"/>
+    <property name="ReRouted" type="bool"/>
+    <bag name="AuditActions" cascade="all-delete-orphan" lazy="false" inverse="true">
+      <key column="DocumentID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Audit" />
+    </bag>
+    <bag name="Comments" cascade="all-delete-orphan" inverse="true">
+      <key column="DocumentID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.Comment" />
+    </bag>
+    <bag name="DocumentApprovers" cascade="all-delete-orphan" lazy="false" inverse="true">
+      <key column="DocumentID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.DocumentApprover" />
+    </bag>
+    <bag name="DataPointValues" cascade="all-delete-orphan" inverse="true">
+      <key column="DocumentID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.DataPointValues" />
+    </bag>
+    <bag name="DocumentVersions" cascade="all-delete-orphan" inverse="true">
+      <key column="DocumentID"/>
+      <one-to-many class="Jenzabar.Workflow.Entities.DocumentVersion" />
+    </bag>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="Owner" column="OwnerID"></many-to-one>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.DocumentVersion" table="WF_DocumentVersions">
+    <id name="VersionID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Document" name="Document" column="DocumentID"></many-to-one>
+    <property name="VersionNum"/>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="User" column="UserID"></many-to-one>
+    <property name="UploadDate"/>
+    <property name="FilePath"/>
+    <property name="CommitNotes"/>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.DocumentApprover" table="WF_DocumentApprover">
+    <id name="DocumentApproverID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Document" name="Document" column="DocumentID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Approver" name="Approver" column="ApproverID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="User" column="UserID"></many-to-one>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Audit" table="WF_Audit">
+    <id name="AuditID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Document" name="Document" column="DocumentID"></many-to-one>
+    <property name="ActionDate" type="datetime"/>
+    <property name="Message" type="string"/>
+    <property name="ActionType"/>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Stage" name="Stage" column="StageID"></many-to-one>
+    <property name="StepNumber" type="int"/>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="User" column="UserID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="OnBehalfOf" column="OnBehalfOfID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.DynamicApprover" name="DynamicApprover" column="DynamicApproverID"></many-to-one>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Email" table="WF_Email">
+    <id name="EmailID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Stage" name="Stage" column="StageID"></many-to-one>
+    <property name="EmailTo" type="string"/>
+    <property name="EmailFrom" type="string"/>
+    <property name="CC" type="string"/>
+    <property name="Bcc" type="string"/>
+    <property name="Subject" type="string"/>
+    <property name="Body" type="string"/>
+    <property name="OnEvent"/>
+    <property name="SendToSubmitter" type="bool"/>
+    <property name="SendToApprover" type="bool"/>
+    <property name="SendAfterUntouched" type="int"/>
+    <property name="ResendEvery" type="int"/>
+    <property name="AttachDocument" />
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Comment" table="WF_Comment">
+    <id name="CommentID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Document" name="Document" column="DocumentID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Portal.Framework.NHibernateFWK.Couplers.PortalUserCoupler, Jenzabar.Portal.Framework" name="User" column="CommentBy"></many-to-one>
+    <property name="Datestamp" type="datetime"/>
+    <property name="Message" type="string"/>
+    <property name="FilePath" type="string"/>
+    <many-to-one class="Jenzabar.Workflow.Entities.Stage" name="Stage" column="StageID"></many-to-one>
+    <property name="StepNum" type="int"/>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Database" table="CF_Databases">
+    <id name="DataBaseID">
+      <generator class="guid"/>
+    </id>
+    <property name="Name" type="string"/>
+    <property name="EncryptedConnectionString" column="ConnectionString" type="string"/>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.StoredProcedure" table="WF_StoredProcedures">
+    <id name="ProcedureID">
+      <generator class="guid"/>
+    </id>
+    <property name="ProcName" type="string"/>
+    <property name="OnEvent"/>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Track" name="Track" column="TrackID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Stage" name="Stage" column="StageID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Database" name="Database" column="DatabaseID"></many-to-one>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.Rule" table="WF_Rules">
+    <id name="RuleID">
+      <generator class="guid"/>
+    </id>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.Stage" name="Stage" column="StageID"></many-to-one>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.DataPoint" name="DataPoint" column="DataPointID"></many-to-one>
+    <property name="Event"/>
+    <property name="Action"/>
+    <property name="Conjunction"/>
+    <property name="Operator"/>
+    <property name="Value"/>
+    <property name="OrderNum"/>
+    <property name="Text"/>
+  </class>
+  <class name="Jenzabar.Workflow.Entities.WFDataPointMapping" table="CF_WF_DataPointMapping">
+    <id name="MappingID">
+      <generator class="guid"/>
+    </id>
+    <property name="FormID" column="FormID"/>
+    <property name="ItemID" column="ItemID"/>
+    <many-to-one cascade="none" class="Jenzabar.Workflow.Entities.DataPoint, Jenzabar.Workflow" name="DataPoint" column="DataPointID"></many-to-one>
+    <property name="IsEmail"/>
+  </class>
+</hibernate-mapping>

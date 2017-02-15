@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RssFeed.aspx.cs" Inherits="Jenzabar.Portal.Web.StaticPages.RssFeed" %>
